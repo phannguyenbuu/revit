@@ -1,0 +1,33 @@
+
+(vl-load-com)
+(setq f (open "D:/Dropbox/_Documents/RevitAI/scratch/lisp_sel_dump.txt" "w"))
+(setq ssi (ssget "_I"))
+(if ssi
+  (progn
+    (write-line (strcat "SSGET_I_COUNT=" (itoa (sslength ssi))) f)
+    (setq i 0)
+    (while (< i (sslength ssi))
+      (setq e (ssname ssi i))
+      (setq ed (entget e))
+      (write-line (strcat "I," (itoa i) "," (cdr (assoc 0 ed)) "," (cdr (assoc 8 ed)) "," (cdr (assoc 5 ed))) f)
+      (setq i (1+ i))
+    )
+  )
+  (write-line "SSGET_I_COUNT=0" f)
+)
+(setq ssp (ssget "_P"))
+(if ssp
+  (progn
+    (write-line (strcat "SSGET_P_COUNT=" (itoa (sslength ssp))) f)
+    (setq i 0)
+    (while (< i (sslength ssp))
+      (setq e (ssname ssp i))
+      (setq ed (entget e))
+      (write-line (strcat "P," (itoa i) "," (cdr (assoc 0 ed)) "," (cdr (assoc 8 ed)) "," (cdr (assoc 5 ed))) f)
+      (setq i (1+ i))
+    )
+  )
+  (write-line "SSGET_P_COUNT=0" f)
+)
+(close f)
+(princ)

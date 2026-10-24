@@ -1,0 +1,2 @@
+$res = Invoke-RestMethod -Uri 'http://127.0.0.1:8092/api/execute' -Method Post -ContentType 'application/json; charset=utf-8' -Body (@{action='execute_dynamic'; dllPath='D:\Dropbox\_Documents\RevitAI\bin\Release\net10.0-windows\DynamicConverter_DoorD7_v16.dll'; typeName='RevitScript.InspectDimensionsAndGrids'; methodName='Run'} | ConvertTo-Json)
+$res.dimTypes | Where-Object { $_.dimStyle -eq 'Linear' } | Format-Table -AutoSize

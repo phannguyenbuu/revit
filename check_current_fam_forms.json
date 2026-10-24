@@ -1,0 +1,50 @@
+﻿{
+    "familyName":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+    "formsCount":  4,
+    "forms":  [
+                  {
+                      "id":  2371506,
+                      "name":  "Extrusion",
+                      "type":  "Extrusion",
+                      "subCat":  "Frame/Mullion",
+                      "dx":  1549.9999999999998,
+                      "dy":  76,
+                      "dz":  1850.000000000011,
+                      "zMin":  724.9999999999997,
+                      "zMax":  2575.000000000011
+                  },
+                  {
+                      "id":  2371525,
+                      "name":  "Extrusion",
+                      "type":  "Extrusion",
+                      "subCat":  null,
+                      "dx":  750.0000000000003,
+                      "dy":  25,
+                      "dz":  1800.0000000000089,
+                      "zMin":  749.9999999999995,
+                      "zMax":  2550.000000000008
+                  },
+                  {
+                      "id":  2371550,
+                      "name":  "Extrusion",
+                      "type":  "Extrusion",
+                      "subCat":  null,
+                      "dx":  749.9999999999995,
+                      "dy":  25,
+                      "dz":  1799.9999999999905,
+                      "zMin":  750.0000000000069,
+                      "zMax":  2549.9999999999973
+                  },
+                  {
+                      "id":  2371620,
+                      "name":  "Extrusion",
+                      "type":  "Extrusion",
+                      "subCat":  "Glass",
+                      "dx":  1348.0000000000005,
+                      "dy":  4.999999999999997,
+                      "dz":  1648.0000000000196,
+                      "zMin":  825.9999999999995,
+                      "zMax":  2474.000000000019
+                  }
+              ]
+}

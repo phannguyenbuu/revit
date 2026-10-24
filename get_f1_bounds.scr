@@ -1,0 +1,10 @@
+ZOOM
+E
+(setq f (open "D:/Dropbox/_Documents/RevitAI/f1_bounds.txt" "w"))
+(setq p1 (getvar "EXTMIN"))
+(setq p2 (getvar "EXTMAX"))
+(write-line (strcat (rtos (car p1) 2 2) "," (rtos (cadr p1) 2 2)) f)
+(write-line (strcat (rtos (car p2) 2 2) "," (rtos (cadr p2) 2 2)) f)
+(close f)
+_.QUIT
+_Y

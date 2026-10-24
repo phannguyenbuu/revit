@@ -1,0 +1,81 @@
+{
+  "cad_handle": "4B7DA4",
+  "cad_layer": "NET HAT MONG",
+  "delta_x_mm": -53510.48,
+  "delta_y_mm": 1400405.9,
+  "rounding_step_mm": 50.0,
+  "vertices_revit_mm": [
+    {
+      "idx": 0,
+      "name": "West Stair Well East-Top",
+      "x": 4450.0,
+      "y": 13300.0
+    },
+    {
+      "idx": 1,
+      "name": "NW Corner (Wall 1 / Wall D)",
+      "x": 450.0,
+      "y": 13300.0
+    },
+    {
+      "idx": 2,
+      "name": "SW Corner (Wall 1 / Wall A)",
+      "x": 450.0,
+      "y": -100.0
+    },
+    {
+      "idx": 3,
+      "name": "SE Corner (Wall 11 / Wall A)",
+      "x": 37250.0,
+      "y": -100.0
+    },
+    {
+      "idx": 4,
+      "name": "NE Corner (Wall 11 / Wall D)",
+      "x": 37250.0,
+      "y": 13300.0
+    },
+    {
+      "idx": 5,
+      "name": "East Stair Well East-Top",
+      "x": 33250.0,
+      "y": 13300.0
+    },
+    {
+      "idx": 6,
+      "name": "East Stair Well SE notch",
+      "x": 33250.0,
+      "y": 10100.0
+    },
+    {
+      "idx": 7,
+      "name": "East Stair Well SW notch",
+      "x": 29750.0,
+      "y": 10100.0
+    },
+    {
+      "idx": 8,
+      "name": "East Stair Well West-Top",
+      "x": 29750.0,
+      "y": 13300.0
+    },
+    {
+      "idx": 9,
+      "name": "West Stair Well West-Top",
+      "x": 7950.0,
+      "y": 13300.0
+    },
+    {
+      "idx": 10,
+      "name": "West Stair Well SW notch",
+      "x": 7950.0,
+      "y": 10100.0
+    },
+    {
+      "idx": 11,
+      "name": "West Stair Well SE notch",
+      "x": 4450.0,
+      "y": 10100.0
+    }
+  ]
+}

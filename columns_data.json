@@ -1,0 +1,495 @@
+{
+  "count": 49,
+  "cols": [
+    {
+      "id": 2378830,
+      "name": "COT250X400",
+      "baseLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG 1",
+      "topLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG \u00C1P M\u00C1I",
+      "topElevM": 10.800000000000413,
+      "topOffsetMm": 1500,
+      "x": 550,
+      "y": 100
+    },
+    {
+      "id": 2361391,
+      "name": "COT250X400",
+      "baseLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG 1",
+      "topLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG TUM",
+      "topElevM": 14.4,
+      "topOffsetMm": 0,
+      "x": 550,
+      "y": 5300
+    },
+    {
+      "id": 2361401,
+      "name": "COT250X400",
+      "baseLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG 1",
+      "topLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG TUM",
+      "topElevM": 14.4,
+      "topOffsetMm": 0,
+      "x": 550,
+      "y": 7900
+    },
+    {
+      "id": 2378215,
+      "name": "COT250X400",
+      "baseLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG 1",
+      "topLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG \u00C1P M\u00C1I",
+      "topElevM": 10.800000000000413,
+      "topOffsetMm": 1500,
+      "x": 550,
+      "y": 13100
+    },
+    {
+      "id": 2361382,
+      "name": "COT250X400",
+      "baseLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG 1",
+      "topLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG 4",
+      "topElevM": 10.8,
+      "topOffsetMm": 0,
+      "x": 4350,
+      "y": 100
+    },
+    {
+      "id": 2361392,
+      "name": "COT250X400",
+      "baseLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG 1",
+      "topLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG TUM",
+      "topElevM": 14.4,
+      "topOffsetMm": 0,
+      "x": 4350,
+      "y": 5300
+    },
+    {
+      "id": 2361402,
+      "name": "COT250X400",
+      "baseLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG 1",
+      "topLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG TUM",
+      "topElevM": 14.4,
+      "topOffsetMm": 0,
+      "x": 4350,
+      "y": 7900
+    },
+    {
+      "id": 2361413,
+      "name": "COT250X400",
+      "baseLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG 1",
+      "topLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG TUM",
+      "topElevM": 14.4,
+      "topOffsetMm": 0,
+      "x": 4350,
+      "y": 13100
+    },
+    {
+      "id": 2361423,
+      "name": "COT200X200",
+      "baseLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG 1",
+      "topLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG TUM",
+      "topElevM": 14.4,
+      "topOffsetMm": 0,
+      "x": 4350,
+      "y": 14900
+    },
+    {
+      "id": 2361383,
+      "name": "COT250X400",
+      "baseLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG 1",
+      "topLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG 4",
+      "topElevM": 10.8,
+      "topOffsetMm": 0,
+      "x": 8050,
+      "y": 100
+    },
+    {
+      "id": 2361393,
+      "name": "COT250X400",
+      "baseLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG 1",
+      "topLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG TUM",
+      "topElevM": 14.4,
+      "topOffsetMm": 0,
+      "x": 8050,
+      "y": 5300
+    },
+    {
+      "id": 2361403,
+      "name": "COT250X400",
+      "baseLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG 1",
+      "topLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG TUM",
+      "topElevM": 14.4,
+      "topOffsetMm": 0,
+      "x": 8050,
+      "y": 7900
+    },
+    {
+      "id": 2361414,
+      "name": "COT250X400",
+      "baseLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG 1",
+      "topLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG TUM",
+      "topElevM": 14.4,
+      "topOffsetMm": 0,
+      "x": 8050,
+      "y": 13100
+    },
+    {
+      "id": 2361424,
+      "name": "COT200X200",
+      "baseLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG 1",
+      "topLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG TUM",
+      "topElevM": 14.4,
+      "topOffsetMm": 0,
+      "x": 8050,
+      "y": 14900
+    },
+    {
+      "id": 2361384,
+      "name": "COT250X400",
+      "baseLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG 1",
+      "topLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG TUM",
+      "topElevM": 14.4,
+      "topOffsetMm": 0,
+      "x": 11650,
+      "y": 100
+    },
+    {
+      "id": 2361394,
+      "name": "COT250X400",
+      "baseLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG 1",
+      "topLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG TUM",
+      "topElevM": 14.4,
+      "topOffsetMm": 0,
+      "x": 11650,
+      "y": 5300
+    },
+    {
+      "id": 2361404,
+      "name": "COT250X400",
+      "baseLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG 1",
+      "topLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG TUM",
+      "topElevM": 14.4,
+      "topOffsetMm": 0,
+      "x": 11650,
+      "y": 7900
+    },
+    {
+      "id": 2361415,
+      "name": "COT250X400",
+      "baseLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG 1",
+      "topLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG TUM",
+      "topElevM": 14.4,
+      "topOffsetMm": 0,
+      "x": 11650,
+      "y": 13100
+    },
+    {
+      "id": 2361385,
+      "name": "COT250X400",
+      "baseLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG 1",
+      "topLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG TUM",
+      "topElevM": 14.4,
+      "topOffsetMm": 0,
+      "x": 15250,
+      "y": 100
+    },
+    {
+      "id": 2361395,
+      "name": "COT250X400",
+      "baseLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG 1",
+      "topLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG TUM",
+      "topElevM": 14.4,
+      "topOffsetMm": 0,
+      "x": 15250,
+      "y": 5300
+    },
+    {
+      "id": 2361405,
+      "name": "COT250X400",
+      "baseLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG 1",
+      "topLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG TUM",
+      "topElevM": 14.4,
+      "topOffsetMm": 0,
+      "x": 15250,
+      "y": 7900
+    },
+    {
+      "id": 2361416,
+      "name": "COT250X400",
+      "baseLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG 1",
+      "topLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG TUM",
+      "topElevM": 14.4,
+      "topOffsetMm": 0,
+      "x": 15250,
+      "y": 13100
+    },
+    {
+      "id": 2361380,
+      "name": "COT200X200",
+      "baseLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG 1",
+      "topLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG TUM",
+      "topElevM": 14.4,
+      "topOffsetMm": 0,
+      "x": 18850,
+      "y": 0
+    },
+    {
+      "id": 2361446,
+      "name": "COT250X400",
+      "baseLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG 1",
+      "topLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG TUM",
+      "topElevM": 14.4,
+      "topOffsetMm": 0,
+      "x": 18850,
+      "y": 5300
+    },
+    {
+      "id": 2361406,
+      "name": "COT250X400",
+      "baseLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG 1",
+      "topLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG TUM",
+      "topElevM": 14.4,
+      "topOffsetMm": 0,
+      "x": 18850,
+      "y": 7900
+    },
+    {
+      "id": 2361417,
+      "name": "COT250X400",
+      "baseLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG 1",
+      "topLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG TUM",
+      "topElevM": 14.4,
+      "topOffsetMm": 0,
+      "x": 18850,
+      "y": 13100
+    },
+    {
+      "id": 2361386,
+      "name": "COT250X400",
+      "baseLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG 1",
+      "topLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG TUM",
+      "topElevM": 14.4,
+      "topOffsetMm": 0,
+      "x": 22450,
+      "y": 100
+    },
+    {
+      "id": 2361396,
+      "name": "COT250X400",
+      "baseLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG 1",
+      "topLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG TUM",
+      "topElevM": 14.4,
+      "topOffsetMm": 0,
+      "x": 22450,
+      "y": 5300
+    },
+    {
+      "id": 2361407,
+      "name": "COT250X400",
+      "baseLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG 1",
+      "topLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG TUM",
+      "topElevM": 14.4,
+      "topOffsetMm": 0,
+      "x": 22450,
+      "y": 7900
+    },
+    {
+      "id": 2361418,
+      "name": "COT250X400",
+      "baseLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG 1",
+      "topLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG TUM",
+      "topElevM": 14.4,
+      "topOffsetMm": 0,
+      "x": 22450,
+      "y": 13100
+    },
+    {
+      "id": 2361387,
+      "name": "COT250X400",
+      "baseLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG 1",
+      "topLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG TUM",
+      "topElevM": 14.4,
+      "topOffsetMm": 0,
+      "x": 26050,
+      "y": 100
+    },
+    {
+      "id": 2361397,
+      "name": "COT250X400",
+      "baseLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG 1",
+      "topLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG TUM",
+      "topElevM": 14.4,
+      "topOffsetMm": 0,
+      "x": 26050,
+      "y": 5300
+    },
+    {
+      "id": 2361408,
+      "name": "COT250X400",
+      "baseLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG 1",
+      "topLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG TUM",
+      "topElevM": 14.4,
+      "topOffsetMm": 0,
+      "x": 26050,
+      "y": 7900
+    },
+    {
+      "id": 2361419,
+      "name": "COT250X400",
+      "baseLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG 1",
+      "topLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG TUM",
+      "topElevM": 14.4,
+      "topOffsetMm": 0,
+      "x": 26050,
+      "y": 13100
+    },
+    {
+      "id": 2361388,
+      "name": "COT250X400",
+      "baseLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG 1",
+      "topLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG 4",
+      "topElevM": 10.8,
+      "topOffsetMm": 0,
+      "x": 29650,
+      "y": 100
+    },
+    {
+      "id": 2361398,
+      "name": "COT250X400",
+      "baseLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG 1",
+      "topLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG TUM",
+      "topElevM": 14.4,
+      "topOffsetMm": 0,
+      "x": 29650,
+      "y": 5300
+    },
+    {
+      "id": 2361409,
+      "name": "COT250X400",
+      "baseLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG 1",
+      "topLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG TUM",
+      "topElevM": 14.4,
+      "topOffsetMm": 0,
+      "x": 29650,
+      "y": 7900
+    },
+    {
+      "id": 2361420,
+      "name": "COT250X400",
+      "baseLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG 1",
+      "topLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG TUM",
+      "topElevM": 14.4,
+      "topOffsetMm": 0,
+      "x": 29650,
+      "y": 13100
+    },
+    {
+      "id": 2361425,
+      "name": "COT200X200",
+      "baseLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG 1",
+      "topLevel": "M\u1EB6T B\u1EB0NG M\u00C1I",
+      "topElevM": 17.200000000000003,
+      "topOffsetMm": 0,
+      "x": 29650,
+      "y": 14900
+    },
+    {
+      "id": 2361389,
+      "name": "COT250X400",
+      "baseLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG 1",
+      "topLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG 4",
+      "topElevM": 10.8,
+      "topOffsetMm": 0,
+      "x": 33350,
+      "y": 100
+    },
+    {
+      "id": 2361399,
+      "name": "COT250X400",
+      "baseLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG 1",
+      "topLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG TUM",
+      "topElevM": 14.4,
+      "topOffsetMm": 0,
+      "x": 33350,
+      "y": 5300
+    },
+    {
+      "id": 2361410,
+      "name": "COT250X400",
+      "baseLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG 1",
+      "topLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG TUM",
+      "topElevM": 14.4,
+      "topOffsetMm": 0,
+      "x": 33350,
+      "y": 7900
+    },
+    {
+      "id": 2361421,
+      "name": "COT250X400",
+      "baseLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG 1",
+      "topLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG TUM",
+      "topElevM": 14.4,
+      "topOffsetMm": 0,
+      "x": 33350,
+      "y": 13100
+    },
+    {
+      "id": 2361426,
+      "name": "COT200X200",
+      "baseLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG 1",
+      "topLevel": "M\u1EB6T B\u1EB0NG M\u00C1I",
+      "topElevM": 17.200000000000003,
+      "topOffsetMm": 0,
+      "x": 33350,
+      "y": 14900
+    },
+    {
+      "id": 2379835,
+      "name": "COT250X400",
+      "baseLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG 1",
+      "topLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG 4",
+      "topElevM": 10.8,
+      "topOffsetMm": 0,
+      "x": 37150,
+      "y": 100
+    },
+    {
+      "id": 2361400,
+      "name": "COT250X400",
+      "baseLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG 1",
+      "topLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG TUM",
+      "topElevM": 14.4,
+      "topOffsetMm": 0,
+      "x": 37150,
+      "y": 5300
+    },
+    {
+      "id": 2361411,
+      "name": "COT250X400",
+      "baseLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG 1",
+      "topLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG TUM",
+      "topElevM": 14.4,
+      "topOffsetMm": 0,
+      "x": 37150,
+      "y": 7900
+    },
+    {
+      "id": 2361422,
+      "name": "COT250X400",
+      "baseLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG 1",
+      "topLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG TUM",
+      "topElevM": 14.4,
+      "topOffsetMm": 0,
+      "x": 37150,
+      "y": 13100
+    },
+    {
+      "id": 2379808,
+      "name": "COT250X400",
+      "baseLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG 1",
+      "topLevel": "M\u1EB6T B\u1EB0NG T\u1EA6NG TUM",
+      "topElevM": 14.4,
+      "topOffsetMm": 0,
+      "x": 37150,
+      "y": 13100
+    }
+  ]
+}

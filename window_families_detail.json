@@ -1,0 +1,483 @@
+﻿{
+    "results":  [
+                    {
+                        "name":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+                        "types":  [
+                                      {
+                                          "typeName":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+                                          "paramDict":  {
+                                                            "TrimProjection":  "0.1",
+                                                            "Wall Closure":  "0",
+                                                            "Analytic Construction":  "\u003cNone\u003e",
+                                                            "CAO CÁNH":  "4.3",
+                                                            "Assembly Code":  "",
+                                                            "Width":  "3.9",
+                                                            "25":  "0.1",
+                                                            "76":  "0.2",
+                                                            "Type Comments":  "CỬA PA NÔ THÉP KÍNH (LÀM MỚI)",
+                                                            "Default Sill Height":  "2.6",
+                                                            "KINH":  "0.0",
+                                                            "Define Thermal Properties by":  "1",
+                                                            "Height":  "4.3"
+                                                        }
+                                      },
+                                      {
+                                          "typeName":  "K3_3100x2100",
+                                          "paramDict":  {
+                                                            "TrimProjection":  "0.1",
+                                                            "Wall Closure":  "0",
+                                                            "Analytic Construction":  "\u003cNone\u003e",
+                                                            "CAO CÁNH":  "4.3",
+                                                            "Assembly Code":  "",
+                                                            "Width":  "10.2",
+                                                            "25":  "0.1",
+                                                            "76":  "0.2",
+                                                            "Type Comments":  "",
+                                                            "Default Sill Height":  "2.6",
+                                                            "KINH":  "0.0",
+                                                            "Define Thermal Properties by":  "1",
+                                                            "Height":  "6.9"
+                                                        }
+                                      },
+                                      {
+                                          "typeName":  "S1_1500x1800",
+                                          "paramDict":  {
+                                                            "TrimProjection":  "0.1",
+                                                            "Wall Closure":  "0",
+                                                            "Analytic Construction":  "\u003cNone\u003e",
+                                                            "CAO CÁNH":  "5.9",
+                                                            "Assembly Code":  "",
+                                                            "Width":  "4.9",
+                                                            "25":  "0.1",
+                                                            "76":  "0.2",
+                                                            "Type Comments":  "",
+                                                            "Default Sill Height":  "2.5",
+                                                            "KINH":  "0.0",
+                                                            "Define Thermal Properties by":  "1",
+                                                            "Height":  "5.9"
+                                                        }
+                                      },
+                                      {
+                                          "typeName":  "CUA SO 2 CANH NHOM KINH O O THOANG 2",
+                                          "paramDict":  {
+                                                            "TrimProjection":  "0.1",
+                                                            "Wall Closure":  "0",
+                                                            "Analytic Construction":  "\u003cNone\u003e",
+                                                            "CAO CÁNH":  "4.9",
+                                                            "Assembly Code":  "",
+                                                            "Width":  "3.0",
+                                                            "25":  "0.1",
+                                                            "76":  "0.2",
+                                                            "Type Comments":  "CỬA PA NÔ THÉP KÍNH",
+                                                            "Default Sill Height":  "2.6",
+                                                            "KINH":  "0.0",
+                                                            "Define Thermal Properties by":  "1",
+                                                            "Height":  "4.9"
+                                                        }
+                                      },
+                                      {
+                                          "typeName":  "S4_1500x1400",
+                                          "paramDict":  {
+                                                            "TrimProjection":  "0.1",
+                                                            "Wall Closure":  "0",
+                                                            "Analytic Construction":  "\u003cNone\u003e",
+                                                            "CAO CÁNH":  "4.3",
+                                                            "Assembly Code":  "",
+                                                            "Width":  "4.9",
+                                                            "25":  "0.1",
+                                                            "76":  "0.2",
+                                                            "Type Comments":  "",
+                                                            "Default Sill Height":  "2.6",
+                                                            "KINH":  "0.0",
+                                                            "Define Thermal Properties by":  "1",
+                                                            "Height":  "4.6"
+                                                        }
+                                      },
+                                      {
+                                          "typeName":  "S1_1500x1400",
+                                          "paramDict":  {
+                                                            "TrimProjection":  "0.1",
+                                                            "Wall Closure":  "0",
+                                                            "Analytic Construction":  "\u003cNone\u003e",
+                                                            "CAO CÁNH":  "4.3",
+                                                            "Assembly Code":  "",
+                                                            "Width":  "4.9",
+                                                            "25":  "0.1",
+                                                            "76":  "0.2",
+                                                            "Type Comments":  "",
+                                                            "Default Sill Height":  "2.6",
+                                                            "KINH":  "0.0",
+                                                            "Define Thermal Properties by":  "1",
+                                                            "Height":  "4.3"
+                                                        }
+                                      },
+                                      {
+                                          "typeName":  "S2",
+                                          "paramDict":  {
+                                                            "TrimProjection":  "0.1",
+                                                            "Wall Closure":  "0",
+                                                            "Analytic Construction":  "\u003cNone\u003e",
+                                                            "CAO CÁNH":  "3.9",
+                                                            "Assembly Code":  "",
+                                                            "Width":  "3.9",
+                                                            "25":  "0.1",
+                                                            "76":  "0.2",
+                                                            "Type Comments":  "",
+                                                            "Default Sill Height":  "2.6",
+                                                            "KINH":  "0.0",
+                                                            "Define Thermal Properties by":  "1",
+                                                            "Height":  "3.9"
+                                                        }
+                                      }
+                                  ],
+                        "extrusions":  [
+                                           {
+                                               "id":  2373653,
+                                               "name":  "Extrusion",
+                                               "subCategory":  "Frame/Mullion",
+                                               "loopCount":  2,
+                                               "loopBBoxes":  [
+                                                                  {
+                                                                      "minX":  -750,
+                                                                      "maxX":  750,
+                                                                      "minZ":  750,
+                                                                      "maxZ":  2550
+                                                                  },
+                                                                  {
+                                                                      "minX":  -775,
+                                                                      "maxX":  775,
+                                                                      "minZ":  725,
+                                                                      "maxZ":  2575
+                                                                  }
+                                                              ],
+                                               "startOffset":  0,
+                                               "endOffset":  76
+                                           },
+                                           {
+                                               "id":  2373672,
+                                               "name":  "Extrusion",
+                                               "subCategory":  null,
+                                               "loopCount":  2,
+                                               "loopBBoxes":  [
+                                                                  {
+                                                                      "minX":  0,
+                                                                      "maxX":  750,
+                                                                      "minZ":  750,
+                                                                      "maxZ":  2550
+                                                                  },
+                                                                  {
+                                                                      "minX":  76,
+                                                                      "maxX":  674,
+                                                                      "minZ":  826,
+                                                                      "maxZ":  2474
+                                                                  }
+                                                              ],
+                                               "startOffset":  0,
+                                               "endOffset":  25
+                                           },
+                                           {
+                                               "id":  2373697,
+                                               "name":  "Extrusion",
+                                               "subCategory":  null,
+                                               "loopCount":  2,
+                                               "loopBBoxes":  [
+                                                                  {
+                                                                      "minX":  -750,
+                                                                      "maxX":  0,
+                                                                      "minZ":  750,
+                                                                      "maxZ":  2550
+                                                                  },
+                                                                  {
+                                                                      "minX":  -674,
+                                                                      "maxX":  -76,
+                                                                      "minZ":  826,
+                                                                      "maxZ":  2474
+                                                                  }
+                                                              ],
+                                               "startOffset":  0,
+                                               "endOffset":  25
+                                           },
+                                           {
+                                               "id":  2373857,
+                                               "name":  "Extrusion",
+                                               "subCategory":  "Glass",
+                                               "loopCount":  2,
+                                               "loopBBoxes":  [
+                                                                  {
+                                                                      "minX":  76,
+                                                                      "maxX":  674,
+                                                                      "minZ":  826,
+                                                                      "maxZ":  2474
+                                                                  },
+                                                                  {
+                                                                      "minX":  -674,
+                                                                      "maxX":  -76,
+                                                                      "minZ":  826,
+                                                                      "maxZ":  2474
+                                                                  }
+                                                              ],
+                                               "startOffset":  60,
+                                               "endOffset":  65
+                                           }
+                                       ],
+                        "refPlanesCount":  9
+                    },
+                    {
+                        "name":  "CUA SO2 CANH NHOM KINH CO O THOANG",
+                        "types":  [
+                                      {
+                                          "typeName":  "CUA SO2 CANH NHOM KINH CO O THOANG 2",
+                                          "paramDict":  {
+                                                            "CAO CÁNH":  "4.9",
+                                                            "KINH":  "0.0",
+                                                            "Type Comments":  "",
+                                                            "Define Thermal Properties by":  "1",
+                                                            "Assembly Code":  "",
+                                                            "Wall Closure":  "0",
+                                                            "76":  "0.2",
+                                                            "Height":  "6.2",
+                                                            "Analytic Construction":  "\u003cNone\u003e",
+                                                            "TrimProjection":  "0.1",
+                                                            "25":  "0.1",
+                                                            "Width":  "3.0",
+                                                            "Keynote":  "",
+                                                            "Default Sill Height":  "2.6"
+                                                        }
+                                      },
+                                      {
+                                          "typeName":  "CUA SO2 CANH NHOM KINH CO O THOANG 3",
+                                          "paramDict":  {
+                                                            "CAO CÁNH":  "4.9",
+                                                            "KINH":  "0.0",
+                                                            "Type Comments":  "CỬA NHỰA LÕI THÉP",
+                                                            "Define Thermal Properties by":  "1",
+                                                            "Assembly Code":  "",
+                                                            "Wall Closure":  "0",
+                                                            "76":  "0.2",
+                                                            "Height":  "6.2",
+                                                            "Analytic Construction":  "\u003cNone\u003e",
+                                                            "TrimProjection":  "0.1",
+                                                            "25":  "0.1",
+                                                            "Width":  "3.0",
+                                                            "Keynote":  "",
+                                                            "Default Sill Height":  "2.6"
+                                                        }
+                                      },
+                                      {
+                                          "typeName":  "900X1900",
+                                          "paramDict":  {
+                                                            "CAO CÁNH":  "4.9",
+                                                            "KINH":  "0.0",
+                                                            "Type Comments":  "",
+                                                            "Define Thermal Properties by":  "1",
+                                                            "Assembly Code":  "",
+                                                            "Wall Closure":  "0",
+                                                            "76":  "0.2",
+                                                            "Height":  "6.2",
+                                                            "Analytic Construction":  "\u003cNone\u003e",
+                                                            "TrimProjection":  "0.1",
+                                                            "25":  "0.1",
+                                                            "Width":  "3.0",
+                                                            "Keynote":  "",
+                                                            "Default Sill Height":  "2.6"
+                                                        }
+                                      },
+                                      {
+                                          "typeName":  "S1",
+                                          "paramDict":  {
+                                                            "CAO CÁNH":  "4.9",
+                                                            "KINH":  "0.0",
+                                                            "Type Comments":  "",
+                                                            "Define Thermal Properties by":  "1",
+                                                            "Assembly Code":  "",
+                                                            "Wall Closure":  "0",
+                                                            "76":  "0.2",
+                                                            "Height":  "6.2",
+                                                            "Analytic Construction":  "\u003cNone\u003e",
+                                                            "TrimProjection":  "0.1",
+                                                            "25":  "0.1",
+                                                            "Width":  "3.9",
+                                                            "Keynote":  "CỬA THÉP HỘP PANÔ KÍNH 5MM-CÓ HOA SẮT VUÔNG 12X12 BẢO VỆ",
+                                                            "Default Sill Height":  "2.6"
+                                                        }
+                                      },
+                                      {
+                                          "typeName":  "CUA SO2 CANH NHOM KINH CO O THOANG",
+                                          "paramDict":  {
+                                                            "CAO CÁNH":  "4.9",
+                                                            "KINH":  "0.0",
+                                                            "Type Comments":  "CỬA NHÔM HỆ, KÍNH TRẮNG 6.38MM",
+                                                            "Define Thermal Properties by":  "1",
+                                                            "Assembly Code":  "",
+                                                            "Wall Closure":  "0",
+                                                            "76":  "0.2",
+                                                            "Height":  "6.2",
+                                                            "Analytic Construction":  "\u003cNone\u003e",
+                                                            "TrimProjection":  "0.1",
+                                                            "25":  "0.1",
+                                                            "Width":  "3.9",
+                                                            "Keynote":  "",
+                                                            "Default Sill Height":  "2.6"
+                                                        }
+                                      }
+                                  ],
+                        "extrusions":  [
+                                           {
+                                               "id":  2372537,
+                                               "name":  "Extrusion",
+                                               "subCategory":  "Frame/Mullion",
+                                               "loopCount":  3,
+                                               "loopBBoxes":  [
+                                                                  {
+                                                                      "minX":  -450,
+                                                                      "maxX":  450,
+                                                                      "minZ":  2325,
+                                                                      "maxZ":  2700
+                                                                  },
+                                                                  {
+                                                                      "minX":  -450,
+                                                                      "maxX":  450,
+                                                                      "minZ":  800,
+                                                                      "maxZ":  2300
+                                                                  },
+                                                                  {
+                                                                      "minX":  -475,
+                                                                      "maxX":  475,
+                                                                      "minZ":  775,
+                                                                      "maxZ":  2725
+                                                                  }
+                                                              ],
+                                               "startOffset":  0,
+                                               "endOffset":  76
+                                           },
+                                           {
+                                               "id":  2372563,
+                                               "name":  "Extrusion",
+                                               "subCategory":  null,
+                                               "loopCount":  4,
+                                               "loopBBoxes":  [
+                                                                  {
+                                                                      "minX":  0,
+                                                                      "maxX":  450,
+                                                                      "minZ":  800,
+                                                                      "maxZ":  2300
+                                                                  },
+                                                                  {
+                                                                      "minX":  76,
+                                                                      "maxX":  374,
+                                                                      "minZ":  876,
+                                                                      "maxZ":  2224
+                                                                  },
+                                                                  {
+                                                                      "minX":  0,
+                                                                      "maxX":  450,
+                                                                      "minZ":  2325,
+                                                                      "maxZ":  2700
+                                                                  },
+                                                                  {
+                                                                      "minX":  76,
+                                                                      "maxX":  374,
+                                                                      "minZ":  2401,
+                                                                      "maxZ":  2624
+                                                                  }
+                                                              ],
+                                               "startOffset":  0,
+                                               "endOffset":  25
+                                           },
+                                           {
+                                               "id":  2372602,
+                                               "name":  "Extrusion",
+                                               "subCategory":  null,
+                                               "loopCount":  4,
+                                               "loopBBoxes":  [
+                                                                  {
+                                                                      "minX":  -450,
+                                                                      "maxX":  0,
+                                                                      "minZ":  800,
+                                                                      "maxZ":  2300
+                                                                  },
+                                                                  {
+                                                                      "minX":  -374,
+                                                                      "maxX":  -76,
+                                                                      "minZ":  876,
+                                                                      "maxZ":  2224
+                                                                  },
+                                                                  {
+                                                                      "minX":  -450,
+                                                                      "maxX":  0,
+                                                                      "minZ":  2325,
+                                                                      "maxZ":  2700
+                                                                  },
+                                                                  {
+                                                                      "minX":  -374,
+                                                                      "maxX":  -76,
+                                                                      "minZ":  2401,
+                                                                      "maxZ":  2624
+                                                                  }
+                                                              ],
+                                               "startOffset":  0,
+                                               "endOffset":  25
+                                           },
+                                           {
+                                               "id":  2372698,
+                                               "name":  "Extrusion",
+                                               "subCategory":  "Glass",
+                                               "loopCount":  8,
+                                               "loopBBoxes":  [
+                                                                  {
+                                                                      "minX":  76,
+                                                                      "maxX":  374,
+                                                                      "minZ":  2401,
+                                                                      "maxZ":  2624
+                                                                  },
+                                                                  {
+                                                                      "minX":  -374,
+                                                                      "maxX":  -76,
+                                                                      "minZ":  2401,
+                                                                      "maxZ":  2624
+                                                                  },
+                                                                  {
+                                                                      "minX":  76,
+                                                                      "maxX":  374,
+                                                                      "minZ":  1850,
+                                                                      "maxZ":  2224
+                                                                  },
+                                                                  {
+                                                                      "minX":  -374,
+                                                                      "maxX":  -76,
+                                                                      "minZ":  1850,
+                                                                      "maxZ":  2224
+                                                                  },
+                                                                  {
+                                                                      "minX":  76,
+                                                                      "maxX":  374,
+                                                                      "minZ":  1350,
+                                                                      "maxZ":  1800
+                                                                  },
+                                                                  {
+                                                                      "minX":  -374,
+                                                                      "maxX":  -76,
+                                                                      "minZ":  1350,
+                                                                      "maxZ":  1800
+                                                                  },
+                                                                  {
+                                                                      "minX":  76,
+                                                                      "maxX":  374,
+                                                                      "minZ":  876,
+                                                                      "maxZ":  1300
+                                                                  },
+                                                                  {
+                                                                      "minX":  -374,
+                                                                      "maxX":  -76,
+                                                                      "minZ":  876,
+                                                                      "maxZ":  1300
+                                                                  }
+                                                              ],
+                                               "startOffset":  0,
+                                               "endOffset":  5
+                                           }
+                                       ],
+                        "refPlanesCount":  9
+                    }
+                ]
+}

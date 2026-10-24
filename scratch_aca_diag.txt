@@ -1,0 +1,6 @@
+STEP 1: Testing AecWallAdd
+PROMPT_1=Command: (load "d:/Dropbox/_Documents/RevitAI/scratch/test_prompts.lsp")
+STEP 2: Testing AecDoorAdd
+PROMPT_2=Command: (load "d:/Dropbox/_Documents/RevitAI/scratch/test_prompts.lsp")
+STEP 3: Testing AecWindowAdd
+PROMPT_3=Command: (load "d:/Dropbox/_Documents/RevitAI/scratch/test_prompts.lsp")

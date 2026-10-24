@@ -1,0 +1,6 @@
+# Wavefront OBJ File
+# Object Name: Window
+# Scale: 1 unit = 1 mm
+mtllib materials.mtl
+o Window
+usemtl mat_window

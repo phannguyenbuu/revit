@@ -1,0 +1,73 @@
+{
+  "fileName": "CMF2_NHAPHUTRO_A.rvt",
+  "sizeMB": 24.65,
+  "categoryCounts": {
+    "Walls": 833,
+    "StructuralColumns": 666,
+    "Doors": 307,
+    "Floors": 2
+  },
+  "pipingSystemTypes": [
+    {
+      "Name": "Hydronic Supply",
+      "Classification": "SupplyHydronic"
+    },
+    {
+      "Name": "Hydronic Return",
+      "Classification": "ReturnHydronic"
+    },
+    {
+      "Name": "Sanitary",
+      "Classification": "Sanitary"
+    },
+    {
+      "Name": "Domestic Hot Water",
+      "Classification": "DomesticHotWater"
+    },
+    {
+      "Name": "Domestic Cold Water",
+      "Classification": "DomesticColdWater"
+    },
+    {
+      "Name": "Fire Protection Wet",
+      "Classification": "FireProtectWet"
+    },
+    {
+      "Name": "Fire Protection Dry",
+      "Classification": "FireProtectDry"
+    },
+    {
+      "Name": "Fire Protection Pre-Action",
+      "Classification": "FireProtectPreaction"
+    },
+    {
+      "Name": "Fire Protection Other",
+      "Classification": "FireProtectOther"
+    },
+    {
+      "Name": "Vent",
+      "Classification": "Vent"
+    },
+    {
+      "Name": "Other",
+      "Classification": "OtherPipe"
+    }
+  ],
+  "samplePipingSystems": [],
+  "pcccViews": [],
+  "sampleSheets": [],
+  "cadImports": [
+    "kc mong.dwg",
+    "MB KC TUM.dwg",
+    "MB M\u00D3NG.dwg",
+    "MB TR\u1EE4 T\u01AF\u1EDCNG T1.dwg",
+    "MB LANH T\u00D4 T2.dwg",
+    "MB LANH T\u00D4 T3.dwg",
+    "MB LANH T\u00D4 T4.dwg",
+    "MB LANH T\u00D4 T5.dwg",
+    "MB LANH T\u00D4 M\u00C1I.dwg"
+  ],
+  "rvtLinks": [
+    "COOLERMASTER_NHAPHU.rvt : 1 : location \u003CNot Shared\u003E"
+  ]
+}

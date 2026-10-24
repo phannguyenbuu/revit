@@ -1,0 +1,15 @@
+(progn
+  (setq ss (ssget "X" '((0 . "LINE") (-3 ("REVITAI_LEADER")))))
+  (setq f (open "d:/Dropbox/_Documents/RevitAI/scratch_inspect_leaders.txt" "w"))
+  (write-line (strcat "TOTAL_LEADERS=" (itoa (if ss (sslength ss) 0))) f)
+  (if ss
+    (repeat (min 5 (sslength ss))
+      (setq ent (ssname ss (setq i (if i (1- i) (1- (min 5 (sslength ss)))))))
+      (setq ed (entget ent))
+      (setq p1 (cdr (assoc 10 ed)) p2 (cdr (assoc 11 ed)))
+      (write-line (strcat "Start=(" (rtos (car p1) 2 1) ", " (rtos (cadr p1) 2 1) ") -> End=(" (rtos (car p2) 2 1) ", " (rtos (cadr p2) 2 1) ")") f)
+    )
+  )
+  (close f)
+  (princ)
+)

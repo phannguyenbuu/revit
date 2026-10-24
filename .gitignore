@@ -1,0 +1,29 @@
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# Backups and temporary files
+*.bak
+*.bak_*
+*.tmp
+
+# ETABS solver temporary files
+cai_tao_model.$et
+cai_tao_model.ebk
+cai_tao_model.LOG
+cai_tao_model.OUT
+cai_tao_model.K_*
+cai_tao_model.Y*
+cai_tao_model.msh

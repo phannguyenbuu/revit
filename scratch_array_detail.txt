@@ -1,0 +1,49 @@
+SS_P count: 2
+  P Ent: INSERT Name="*U152"
+  P Ent: INSERT Name="*U308"
+
+================== ARRAY BLOCK: *U152 ==================
+Found instances in DWG: 1
+Instance handle: 795B8E Pos: (138435.0 246252.0 0.0) BBox: (116956.1,232484.9)->(159914.0,932018.6)
+Sub-entities inside block table record:
+  [0] INSERT Name=*U151 Layer=0 Pt=(0.0 0.0 0.0)
+  [1] INSERT Name=*U151 Layer=0 Pt=(2.57176e-12 42000.0 0.0)
+  [2] INSERT Name=*U151 Layer=0 Pt=(5.14352e-12 84000.0 0.0)
+  [3] INSERT Name=*U151 Layer=0 Pt=(7.71527e-12 126000.0 0.0)
+  [4] INSERT Name=*U151 Layer=0 Pt=(1.0287e-11 168000.0 0.0)
+  [5] INSERT Name=*U151 Layer=0 Pt=(1.28588e-11 210000.0 0.0)
+  [6] INSERT Name=*U151 Layer=0 Pt=(1.54305e-11 252000.0 0.0)
+  [7] INSERT Name=*U151 Layer=0 Pt=(1.80023e-11 294000.0 0.0)
+  [8] INSERT Name=*U151 Layer=0 Pt=(2.05741e-11 336000.0 0.0)
+  [9] INSERT Name=*U151 Layer=0 Pt=(2.31458e-11 378000.0 0.0)
+  [10] INSERT Name=*U151 Layer=0 Pt=(2.57176e-11 420000.0 0.0)
+  [11] INSERT Name=*U151 Layer=0 Pt=(2.82893e-11 462000.0 0.0)
+  [12] INSERT Name=*U151 Layer=0 Pt=(3.08611e-11 504000.0 0.0)
+  [13] INSERT Name=*U151 Layer=0 Pt=(3.34329e-11 546000.0 0.0)
+  [14] INSERT Name=*U151 Layer=0 Pt=(3.60046e-11 588000.0 0.0)
+  [15] INSERT Name=*U151 Layer=0 Pt=(3.85764e-11 630000.0 0.0)
+  [16] INSERT Name=*U151 Layer=0 Pt=(4.11481e-11 672000.0 0.0)
+Total sub-entities: 17
+
+================== ARRAY BLOCK: *U308 ==================
+Found instances in DWG: 1
+Instance handle: 79BE10 Pos: (201002.0 246252.0 0.0) BBox: (179523.0,232484.9)->(222480.9,932018.6)
+Sub-entities inside block table record:
+  [0] INSERT Name=*U307 Layer=0 Pt=(0.0 0.0 0.0)
+  [1] INSERT Name=*U307 Layer=0 Pt=(2.57176e-12 42000.0 0.0)
+  [2] INSERT Name=*U307 Layer=0 Pt=(5.14352e-12 84000.0 0.0)
+  [3] INSERT Name=*U307 Layer=0 Pt=(7.71528e-12 126000.0 0.0)
+  [4] INSERT Name=*U307 Layer=0 Pt=(1.0287e-11 168000.0 0.0)
+  [5] INSERT Name=*U307 Layer=0 Pt=(1.28588e-11 210000.0 0.0)
+  [6] INSERT Name=*U307 Layer=0 Pt=(1.54306e-11 252000.0 0.0)
+  [7] INSERT Name=*U307 Layer=0 Pt=(1.80023e-11 294000.0 0.0)
+  [8] INSERT Name=*U307 Layer=0 Pt=(2.05741e-11 336000.0 0.0)
+  [9] INSERT Name=*U307 Layer=0 Pt=(2.31458e-11 378000.0 0.0)
+  [10] INSERT Name=*U307 Layer=0 Pt=(2.57176e-11 420000.0 0.0)
+  [11] INSERT Name=*U307 Layer=0 Pt=(2.82893e-11 462000.0 0.0)
+  [12] INSERT Name=*U307 Layer=0 Pt=(3.08611e-11 504000.0 0.0)
+  [13] INSERT Name=*U307 Layer=0 Pt=(3.34329e-11 546000.0 0.0)
+  [14] INSERT Name=*U307 Layer=0 Pt=(3.60046e-11 588000.0 0.0)
+  [15] INSERT Name=*U307 Layer=0 Pt=(3.85764e-11 630000.0 0.0)
+  [16] INSERT Name=*U307 Layer=0 Pt=(4.11481e-11 672000.0 0.0)
+Total sub-entities: 17

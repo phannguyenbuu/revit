@@ -1,0 +1,25 @@
+# Material file for rebar.obj
+
+newmtl Be_tong_xam
+Ka 0.2 0.2 0.2
+Kd 0.647 0.647 0.627
+Ks 0.2 0.2 0.2
+Ns 10.0
+d 0.40
+illum 2
+
+newmtl Thep_doc_do
+Ka 0.2 0.2 0.2
+Kd 0.745 0.176 0.157
+Ks 0.5 0.5 0.5
+Ns 32.0
+d 1.0
+illum 2
+
+newmtl Thep_dai_xanh
+Ka 0.2 0.2 0.2
+Kd 0.157 0.392 0.863
+Ks 0.5 0.5 0.5
+Ns 32.0
+d 1.0
+illum 2

@@ -1,0 +1,7 @@
+ZOOM
+E
+(setq p1 (getvar "EXTMIN"))
+(setq p2 (getvar "EXTMAX"))
+(princ (strcat "\nEXTENTS_RESULT: (" (rtos (car p1) 2 1) "," (rtos (cadr p1) 2 1) ") to (" (rtos (car p2) 2 1) "," (rtos (cadr p2) 2 1) ")\n"))
+_QUIT
+_Y

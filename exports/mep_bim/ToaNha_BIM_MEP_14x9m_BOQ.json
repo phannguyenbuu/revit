@@ -1,0 +1,361 @@
+{
+  "project_name": "ToaNha_BIM_MEP_14x9m",
+  "generated_at": "2026-10-22 10:59:23",
+  "summary": {
+    "total_elements": 161,
+    "rooms_count": 12,
+    "total_lighting_fixtures": 94,
+    "total_lighting_power_kw": 2.8,
+    "total_hvac_cooling_kw": 34.02,
+    "total_ducts_linear_meters": 26.3,
+    "total_pipes_linear_meters": 24.9,
+    "total_cable_trays_linear_meters": 26.8
+  },
+  "boq": {
+    "items": [
+      {
+        "item_no": 1,
+        "item_code": "Panel_DB",
+        "description": "Tủ điện phân phối DB âm tường (đầy đủ MCB nhánh)",
+        "unit": "Bộ",
+        "quantity": 2,
+        "material_price_vnd": 4500000,
+        "labor_price_vnd": 800000,
+        "total_amount_vnd": 10600000
+      },
+      {
+        "item_no": 2,
+        "item_code": "Cable_Tray_300x100",
+        "description": "Máng cáp mạ kẽm nhúng nóng 300x100 kèm nắp đậy",
+        "unit": "Mét",
+        "quantity": 26.4,
+        "material_price_vnd": 280000,
+        "labor_price_vnd": 75000,
+        "total_amount_vnd": 9372000
+      },
+      {
+        "item_no": 3,
+        "item_code": "Cable_Tray_200x100",
+        "description": "Máng cáp mạ kẽm 200x100",
+        "unit": "Mét",
+        "quantity": 0.4,
+        "material_price_vnd": 210000,
+        "labor_price_vnd": 60000,
+        "total_amount_vnd": 108000
+      },
+      {
+        "item_no": 4,
+        "item_code": "LED_Panel_600x600",
+        "description": "Đèn LED Panel âm trần 600x600 - 40W",
+        "unit": "Bộ",
+        "quantity": 44,
+        "material_price_vnd": 380000,
+        "labor_price_vnd": 60000,
+        "total_amount_vnd": 19360000
+      },
+      {
+        "item_no": 5,
+        "item_code": "LED_Downlight_D150",
+        "description": "Đèn LED Downlight âm trần Ø150 - 18W",
+        "unit": "Bộ",
+        "quantity": 26,
+        "material_price_vnd": 160000,
+        "labor_price_vnd": 40000,
+        "total_amount_vnd": 5200000
+      },
+      {
+        "item_no": 6,
+        "item_code": "FCU_Unit_2HP",
+        "description": "Dàn lạnh FCU giấu trần nối ống gió 2.0 HP",
+        "unit": "Bộ",
+        "quantity": 6,
+        "material_price_vnd": 12500000,
+        "labor_price_vnd": 1500000,
+        "total_amount_vnd": 84000000
+      },
+      {
+        "item_no": 7,
+        "item_code": "Duct_Galvanized_350x200",
+        "description": "Ống gió tole tráng kẽm 350x200",
+        "unit": "Mét",
+        "quantity": 26.3,
+        "material_price_vnd": 260000,
+        "labor_price_vnd": 75000,
+        "total_amount_vnd": 8810500
+      },
+      {
+        "item_no": 8,
+        "item_code": "Diffuser_600x600",
+        "description": "Miệng gió khuếch tán nhôm sơn tĩnh điện 600x600",
+        "unit": "Cái",
+        "quantity": 18,
+        "material_price_vnd": 260000,
+        "labor_price_vnd": 50000,
+        "total_amount_vnd": 5580000
+      },
+      {
+        "item_no": 9,
+        "item_code": "Exhaust_Fan_WC",
+        "description": "Quạt hút thông gió âm trần WC 250 CMH",
+        "unit": "Cái",
+        "quantity": 2,
+        "material_price_vnd": 750000,
+        "labor_price_vnd": 120000,
+        "total_amount_vnd": 1740000
+      },
+      {
+        "item_no": 10,
+        "item_code": "Sanitary_WC",
+        "description": "Bồn cầu 2 khối men nano kháng khuẩn",
+        "unit": "Bộ",
+        "quantity": 2,
+        "material_price_vnd": 2800000,
+        "labor_price_vnd": 350000,
+        "total_amount_vnd": 6300000
+      },
+      {
+        "item_no": 11,
+        "item_code": "Sanitary_Lavabo",
+        "description": "Chậu rửa Lavabo kèm vòi nóng lạnh & xi phông",
+        "unit": "Bộ",
+        "quantity": 2,
+        "material_price_vnd": 1450000,
+        "labor_price_vnd": 250000,
+        "total_amount_vnd": 3400000
+      },
+      {
+        "item_no": 12,
+        "item_code": "Floor_Drain_D90",
+        "description": "Phễu thu sàn chống mùi Inox 304 Ø90",
+        "unit": "Cái",
+        "quantity": 2,
+        "material_price_vnd": 180000,
+        "labor_price_vnd": 40000,
+        "total_amount_vnd": 440000
+      },
+      {
+        "item_no": 13,
+        "item_code": "Pipe_PPR_DN25",
+        "description": "Ống cấp nước PPR DN25 PN16 hàn nhiệt",
+        "unit": "Mét",
+        "quantity": 12.9,
+        "material_price_vnd": 48000,
+        "labor_price_vnd": 35000,
+        "total_amount_vnd": 1070700
+      },
+      {
+        "item_no": 14,
+        "item_code": "Pipe_uPVC_D114",
+        "description": "Ống thoát phân uPVC Ø114 Class 2 dán keo",
+        "unit": "Mét",
+        "quantity": 12.0,
+        "material_price_vnd": 145000,
+        "labor_price_vnd": 55000,
+        "total_amount_vnd": 2400000
+      },
+      {
+        "item_no": 15,
+        "item_code": "Roof_Water_Tank",
+        "description": "Bồn nước Inox SUS304 dung tích 2000L",
+        "unit": "Bộ",
+        "quantity": 1,
+        "material_price_vnd": 6500000,
+        "labor_price_vnd": 900000,
+        "total_amount_vnd": 7400000
+      },
+      {
+        "item_no": 16,
+        "item_code": "VRV_Outdoor_Unit",
+        "description": "Cụm Dàn nóng điều hòa trung tâm VRV 10 HP",
+        "unit": "Cụm",
+        "quantity": 1,
+        "material_price_vnd": 68000000,
+        "labor_price_vnd": 4500000,
+        "total_amount_vnd": 72500000
+      }
+    ],
+    "total_material_cost_vnd": 211093200,
+    "total_labor_cost_vnd": 27188000,
+    "grand_total_vnd": 238281200,
+    "vat_10_percent_vnd": 23828120,
+    "total_with_vat_vnd": 262109320,
+    "formatted_total": "262.109.320 VNĐ"
+  },
+  "clashes": [
+    {
+      "clash_id": "CLASH-001",
+      "severity": "MAJOR",
+      "description": "Va chạm không gian MEP (Dầm D300x500 Tang_1 Y=4500 & Máng Cáp Điện Trục Chính 300x100 Tang_1)",
+      "element_a": {
+        "id": "BEAM_X_Tang_1_4500",
+        "name": "Dầm D300x500 Tang_1 Y=4500",
+        "category": "Beam",
+        "system": "Structure"
+      },
+      "element_b": {
+        "id": "CABLE_TRAY_MAIN_Tang_1",
+        "name": "Máng Cáp Điện Trục Chính 300x100 Tang_1",
+        "category": "CableTray",
+        "system": "Electrical"
+      },
+      "clash_point": {
+        "x": 7000.0,
+        "y": 4575.0,
+        "z": 3200.0
+      },
+      "penetration_depth_mm": 100.0,
+      "recommendation": "Tự động dịch cốt cao độ z-offset tránh xung đột vật lý.",
+      "status": "OPEN"
+    },
+    {
+      "clash_id": "CLASH-002",
+      "severity": "MAJOR",
+      "description": "Va chạm không gian MEP (Dầm D300x500 Tang_1 X=7000 & Máng Cáp Điện Trục Chính 300x100 Tang_1)",
+      "element_a": {
+        "id": "BEAM_Y_Tang_1_7000",
+        "name": "Dầm D300x500 Tang_1 X=7000",
+        "category": "Beam",
+        "system": "Structure"
+      },
+      "element_b": {
+        "id": "CABLE_TRAY_MAIN_Tang_1",
+        "name": "Máng Cáp Điện Trục Chính 300x100 Tang_1",
+        "category": "CableTray",
+        "system": "Electrical"
+      },
+      "clash_point": {
+        "x": 7150.0,
+        "y": 4500.0,
+        "z": 3200.0
+      },
+      "penetration_depth_mm": 100.0,
+      "recommendation": "Tự động dịch cốt cao độ z-offset tránh xung đột vật lý.",
+      "status": "OPEN"
+    },
+    {
+      "clash_id": "CLASH-003",
+      "severity": "MAJOR",
+      "description": "Vi phạm khoảng cách an toàn Điện - Nước (Máng Cáp Nhánh Vào Phòng Kỹ Thuật 200x100 Tang_1 & Ống Cấp Nước Lạnh PPR DN25 Tang_1)",
+      "element_a": {
+        "id": "CABLE_TRAY_BRANCH_Tang_1",
+        "name": "Máng Cáp Nhánh Vào Phòng Kỹ Thuật 200x100 Tang_1",
+        "category": "CableTray",
+        "system": "Electrical"
+      },
+      "element_b": {
+        "id": "PIPE_COLD_HEADER_Tang_1",
+        "name": "Ống Cấp Nước Lạnh PPR DN25 Tang_1",
+        "category": "Pipe",
+        "system": "Plumbing_Cold"
+      },
+      "clash_point": {
+        "x": 10950.0,
+        "y": 2550.0,
+        "z": 3200.0
+      },
+      "penetration_depth_mm": 20.0,
+      "recommendation": "Tự động dịch chuyển tuyến máng cáp sang ngang +250mm đảm bảo khoảng cách ly kỹ thuật > 150mm.",
+      "status": "OPEN"
+    },
+    {
+      "clash_id": "CLASH-004",
+      "severity": "MAJOR",
+      "description": "Vi phạm khoảng cách an toàn Điện - Nước (Máng Cáp Nhánh Vào Phòng Kỹ Thuật 200x100 Tang_1 & Ống Thoát Phân uPVC Ø114 Dốc 2% Tang_2)",
+      "element_a": {
+        "id": "CABLE_TRAY_BRANCH_Tang_1",
+        "name": "Máng Cáp Nhánh Vào Phòng Kỹ Thuật 200x100 Tang_1",
+        "category": "CableTray",
+        "system": "Electrical"
+      },
+      "element_b": {
+        "id": "PIPE_SOIL_MAIN_Tang_2",
+        "name": "Ống Thoát Phân uPVC Ø114 Dốc 2% Tang_2",
+        "category": "Pipe",
+        "system": "Plumbing_Drain"
+      },
+      "clash_point": {
+        "x": 10950.0,
+        "y": 907.0,
+        "z": 3235.0
+      },
+      "penetration_depth_mm": 14.0,
+      "recommendation": "Tự động dịch chuyển tuyến máng cáp sang ngang +250mm đảm bảo khoảng cách ly kỹ thuật > 150mm.",
+      "status": "OPEN"
+    },
+    {
+      "clash_id": "CLASH-005",
+      "severity": "MAJOR",
+      "description": "Va chạm không gian MEP (Dầm D300x500 Tang_2 Y=4500 & Máng Cáp Điện Trục Chính 300x100 Tang_2)",
+      "element_a": {
+        "id": "BEAM_X_Tang_2_4500",
+        "name": "Dầm D300x500 Tang_2 Y=4500",
+        "category": "Beam",
+        "system": "Structure"
+      },
+      "element_b": {
+        "id": "CABLE_TRAY_MAIN_Tang_2",
+        "name": "Máng Cáp Điện Trục Chính 300x100 Tang_2",
+        "category": "CableTray",
+        "system": "Electrical"
+      },
+      "clash_point": {
+        "x": 7000.0,
+        "y": 4575.0,
+        "z": 6800.0
+      },
+      "penetration_depth_mm": 100.0,
+      "recommendation": "Tự động dịch cốt cao độ z-offset tránh xung đột vật lý.",
+      "status": "OPEN"
+    },
+    {
+      "clash_id": "CLASH-006",
+      "severity": "MAJOR",
+      "description": "Va chạm không gian MEP (Dầm D300x500 Tang_2 X=7000 & Máng Cáp Điện Trục Chính 300x100 Tang_2)",
+      "element_a": {
+        "id": "BEAM_Y_Tang_2_7000",
+        "name": "Dầm D300x500 Tang_2 X=7000",
+        "category": "Beam",
+        "system": "Structure"
+      },
+      "element_b": {
+        "id": "CABLE_TRAY_MAIN_Tang_2",
+        "name": "Máng Cáp Điện Trục Chính 300x100 Tang_2",
+        "category": "CableTray",
+        "system": "Electrical"
+      },
+      "clash_point": {
+        "x": 7150.0,
+        "y": 4500.0,
+        "z": 6800.0
+      },
+      "penetration_depth_mm": 100.0,
+      "recommendation": "Tự động dịch cốt cao độ z-offset tránh xung đột vật lý.",
+      "status": "OPEN"
+    },
+    {
+      "clash_id": "CLASH-007",
+      "severity": "MAJOR",
+      "description": "Vi phạm khoảng cách an toàn Điện - Nước (Máng Cáp Nhánh Vào Phòng Kỹ Thuật 200x100 Tang_2 & Ống Cấp Nước Lạnh PPR DN25 Tang_2)",
+      "element_a": {
+        "id": "CABLE_TRAY_BRANCH_Tang_2",
+        "name": "Máng Cáp Nhánh Vào Phòng Kỹ Thuật 200x100 Tang_2",
+        "category": "CableTray",
+        "system": "Electrical"
+      },
+      "element_b": {
+        "id": "PIPE_COLD_HEADER_Tang_2",
+        "name": "Ống Cấp Nước Lạnh PPR DN25 Tang_2",
+        "category": "Pipe",
+        "system": "Plumbing_Cold"
+      },
+      "clash_point": {
+        "x": 10950.0,
+        "y": 2300.0,
+        "z": 6800.0
+      },
+      "penetration_depth_mm": 20.0,
+      "recommendation": "Tự động dịch chuyển tuyến máng cáp sang ngang +250mm đảm bảo khoảng cách ly kỹ thuật > 150mm.",
+      "status": "OPEN"
+    }
+  ]
+}

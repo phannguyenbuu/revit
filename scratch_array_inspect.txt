@@ -1,0 +1,47 @@
+Found entities in SS: 2
+
+--- ENTITY: *U152 ---
+BoundingBox: (116956.13,232484.91) -> (159914.00,932018.57)
+Has Extension Dictionary: NO
+Block Table Record: <Entity name: 25b8e447f40>
+  Sub-ent [0]: INSERT Name=*U151 Layer=0 Pt=(0.0 0.0 0.0)
+  Sub-ent [1]: INSERT Name=*U151 Layer=0 Pt=(2.57176e-12 42000.0 0.0)
+  Sub-ent [2]: INSERT Name=*U151 Layer=0 Pt=(5.14352e-12 84000.0 0.0)
+  Sub-ent [3]: INSERT Name=*U151 Layer=0 Pt=(7.71527e-12 126000.0 0.0)
+  Sub-ent [4]: INSERT Name=*U151 Layer=0 Pt=(1.0287e-11 168000.0 0.0)
+  Sub-ent [5]: INSERT Name=*U151 Layer=0 Pt=(1.28588e-11 210000.0 0.0)
+  Sub-ent [6]: INSERT Name=*U151 Layer=0 Pt=(1.54305e-11 252000.0 0.0)
+  Sub-ent [7]: INSERT Name=*U151 Layer=0 Pt=(1.80023e-11 294000.0 0.0)
+  Sub-ent [8]: INSERT Name=*U151 Layer=0 Pt=(2.05741e-11 336000.0 0.0)
+  Sub-ent [9]: INSERT Name=*U151 Layer=0 Pt=(2.31458e-11 378000.0 0.0)
+  Sub-ent [10]: INSERT Name=*U151 Layer=0 Pt=(2.57176e-11 420000.0 0.0)
+  Sub-ent [11]: INSERT Name=*U151 Layer=0 Pt=(2.82893e-11 462000.0 0.0)
+  Sub-ent [12]: INSERT Name=*U151 Layer=0 Pt=(3.08611e-11 504000.0 0.0)
+  Sub-ent [13]: INSERT Name=*U151 Layer=0 Pt=(3.34329e-11 546000.0 0.0)
+  Sub-ent [14]: INSERT Name=*U151 Layer=0 Pt=(3.60046e-11 588000.0 0.0)
+  Sub-ent [15]: INSERT Name=*U151 Layer=0 Pt=(3.85764e-11 630000.0 0.0)
+  Sub-ent [16]: INSERT Name=*U151 Layer=0 Pt=(4.11481e-11 672000.0 0.0)
+Total sub-entities in block def: 17
+
+--- ENTITY: *U308 ---
+BoundingBox: (179523.00,232484.91) -> (222480.88,932018.61)
+Has Extension Dictionary: NO
+Block Table Record: <Entity name: 25b8e46af60>
+  Sub-ent [0]: INSERT Name=*U307 Layer=0 Pt=(0.0 0.0 0.0)
+  Sub-ent [1]: INSERT Name=*U307 Layer=0 Pt=(2.57176e-12 42000.0 0.0)
+  Sub-ent [2]: INSERT Name=*U307 Layer=0 Pt=(5.14352e-12 84000.0 0.0)
+  Sub-ent [3]: INSERT Name=*U307 Layer=0 Pt=(7.71528e-12 126000.0 0.0)
+  Sub-ent [4]: INSERT Name=*U307 Layer=0 Pt=(1.0287e-11 168000.0 0.0)
+  Sub-ent [5]: INSERT Name=*U307 Layer=0 Pt=(1.28588e-11 210000.0 0.0)
+  Sub-ent [6]: INSERT Name=*U307 Layer=0 Pt=(1.54306e-11 252000.0 0.0)
+  Sub-ent [7]: INSERT Name=*U307 Layer=0 Pt=(1.80023e-11 294000.0 0.0)
+  Sub-ent [8]: INSERT Name=*U307 Layer=0 Pt=(2.05741e-11 336000.0 0.0)
+  Sub-ent [9]: INSERT Name=*U307 Layer=0 Pt=(2.31458e-11 378000.0 0.0)
+  Sub-ent [10]: INSERT Name=*U307 Layer=0 Pt=(2.57176e-11 420000.0 0.0)
+  Sub-ent [11]: INSERT Name=*U307 Layer=0 Pt=(2.82893e-11 462000.0 0.0)
+  Sub-ent [12]: INSERT Name=*U307 Layer=0 Pt=(3.08611e-11 504000.0 0.0)
+  Sub-ent [13]: INSERT Name=*U307 Layer=0 Pt=(3.34329e-11 546000.0 0.0)
+  Sub-ent [14]: INSERT Name=*U307 Layer=0 Pt=(3.60046e-11 588000.0 0.0)
+  Sub-ent [15]: INSERT Name=*U307 Layer=0 Pt=(3.85764e-11 630000.0 0.0)
+  Sub-ent [16]: INSERT Name=*U307 Layer=0 Pt=(4.11481e-11 672000.0 0.0)
+Total sub-entities in block def: 17

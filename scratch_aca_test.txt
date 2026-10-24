@@ -1,0 +1,2 @@
+WALLADD=nil
+WALL=nil

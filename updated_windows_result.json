@@ -1,0 +1,470 @@
+{
+  "success": true,
+  "newTypeName": "S1_1500x1800",
+  "newHeight_mm": 1800,
+  "newSill_mm": 750,
+  "count": 51,
+  "updatedWindows": [
+    {
+      "id": 2360984,
+      "x": 9.8,
+      "y": 13.2,
+      "level": "MẶT BẰNG TẦNG 1",
+      "symbol": "S1_1500x1800",
+      "sill_mm": 750,
+      "head_mm": 2550
+    },
+    {
+      "id": 2360985,
+      "x": 13.4,
+      "y": 13.2,
+      "level": "MẶT BẰNG TẦNG 1",
+      "symbol": "S1_1500x1800",
+      "sill_mm": 750,
+      "head_mm": 2550
+    },
+    {
+      "id": 2360986,
+      "x": 17.05,
+      "y": 13.2,
+      "level": "MẶT BẰNG TẦNG 1",
+      "symbol": "S1_1500x1800",
+      "sill_mm": 750,
+      "head_mm": 2550
+    },
+    {
+      "id": 2360989,
+      "x": 25.04,
+      "y": 13.2,
+      "level": "MẶT BẰNG TẦNG 1",
+      "symbol": "S1_1500x1800",
+      "sill_mm": 750,
+      "head_mm": 2550
+    },
+    {
+      "id": 2360990,
+      "x": 28.19,
+      "y": 13.2,
+      "level": "MẶT BẰNG TẦNG 1",
+      "symbol": "S1_1500x1800",
+      "sill_mm": 750,
+      "head_mm": 2550
+    },
+    {
+      "id": 2361245,
+      "x": 6.3,
+      "y": 0,
+      "level": "MẶT BẰNG TẦNG 1",
+      "symbol": "S1_1500x1800",
+      "sill_mm": 750,
+      "head_mm": 2550
+    },
+    {
+      "id": 2361246,
+      "x": 9.85,
+      "y": 0,
+      "level": "MẶT BẰNG TẦNG 1",
+      "symbol": "S1_1500x1800",
+      "sill_mm": 750,
+      "head_mm": 2550
+    },
+    {
+      "id": 2361247,
+      "x": 13.45,
+      "y": 0,
+      "level": "MẶT BẰNG TẦNG 1",
+      "symbol": "S1_1500x1800",
+      "sill_mm": 750,
+      "head_mm": 2550
+    },
+    {
+      "id": 2361248,
+      "x": 17.05,
+      "y": 0,
+      "level": "MẶT BẰNG TẦNG 1",
+      "symbol": "S1_1500x1800",
+      "sill_mm": 750,
+      "head_mm": 2550
+    },
+    {
+      "id": 2361249,
+      "x": 20.65,
+      "y": 0,
+      "level": "MẶT BẰNG TẦNG 1",
+      "symbol": "S1_1500x1800",
+      "sill_mm": 750,
+      "head_mm": 2550
+    },
+    {
+      "id": 2361250,
+      "x": 24.25,
+      "y": 0,
+      "level": "MẶT BẰNG TẦNG 1",
+      "symbol": "S1_1500x1800",
+      "sill_mm": 750,
+      "head_mm": 2550
+    },
+    {
+      "id": 2361251,
+      "x": 27.85,
+      "y": 0,
+      "level": "MẶT BẰNG TẦNG 1",
+      "symbol": "S1_1500x1800",
+      "sill_mm": 750,
+      "head_mm": 2550
+    },
+    {
+      "id": 2361252,
+      "x": 31.4,
+      "y": 0,
+      "level": "MẶT BẰNG TẦNG 1",
+      "symbol": "S1_1500x1800",
+      "sill_mm": 750,
+      "head_mm": 2550
+    },
+    {
+      "id": 2368993,
+      "x": 6.07,
+      "y": 0,
+      "level": "MẶT BẰNG TẦNG 2",
+      "symbol": "S1_1500x1800",
+      "sill_mm": 750,
+      "head_mm": 2550
+    },
+    {
+      "id": 2368994,
+      "x": 9.64,
+      "y": 0,
+      "level": "MẶT BẰNG TẦNG 2",
+      "symbol": "S1_1500x1800",
+      "sill_mm": 750,
+      "head_mm": 2550
+    },
+    {
+      "id": 2368995,
+      "x": 13.22,
+      "y": 0,
+      "level": "MẶT BẰNG TẦNG 2",
+      "symbol": "S1_1500x1800",
+      "sill_mm": 750,
+      "head_mm": 2550
+    },
+    {
+      "id": 2368996,
+      "x": 16.92,
+      "y": 0,
+      "level": "MẶT BẰNG TẦNG 2",
+      "symbol": "S1_1500x1800",
+      "sill_mm": 750,
+      "head_mm": 2550
+    },
+    {
+      "id": 2368997,
+      "x": 20.45,
+      "y": 0,
+      "level": "MẶT BẰNG TẦNG 2",
+      "symbol": "S1_1500x1800",
+      "sill_mm": 750,
+      "head_mm": 2550
+    },
+    {
+      "id": 2368998,
+      "x": 24.14,
+      "y": 0,
+      "level": "MẶT BẰNG TẦNG 2",
+      "symbol": "S1_1500x1800",
+      "sill_mm": 750,
+      "head_mm": 2550
+    },
+    {
+      "id": 2368999,
+      "x": 27.6,
+      "y": 0,
+      "level": "MẶT BẰNG TẦNG 2",
+      "symbol": "S1_1500x1800",
+      "sill_mm": 750,
+      "head_mm": 2550
+    },
+    {
+      "id": 2369000,
+      "x": 31.32,
+      "y": 0,
+      "level": "MẶT BẰNG TẦNG 2",
+      "symbol": "S1_1500x1800",
+      "sill_mm": 750,
+      "head_mm": 2550
+    },
+    {
+      "id": 2369001,
+      "x": 9.69,
+      "y": 13.2,
+      "level": "MẶT BẰNG TẦNG 2",
+      "symbol": "S1_1500x1800",
+      "sill_mm": 750,
+      "head_mm": 2550
+    },
+    {
+      "id": 2369002,
+      "x": 13.29,
+      "y": 13.2,
+      "level": "MẶT BẰNG TẦNG 2",
+      "symbol": "S1_1500x1800",
+      "sill_mm": 750,
+      "head_mm": 2550
+    },
+    {
+      "id": 2369003,
+      "x": 16.89,
+      "y": 13.2,
+      "level": "MẶT BẰNG TẦNG 2",
+      "symbol": "S1_1500x1800",
+      "sill_mm": 750,
+      "head_mm": 2550
+    },
+    {
+      "id": 2369004,
+      "x": 20.49,
+      "y": 13.2,
+      "level": "MẶT BẰNG TẦNG 2",
+      "symbol": "S1_1500x1800",
+      "sill_mm": 750,
+      "head_mm": 2550
+    },
+    {
+      "id": 2369005,
+      "x": 24.09,
+      "y": 13.2,
+      "level": "MẶT BẰNG TẦNG 2",
+      "symbol": "S1_1500x1800",
+      "sill_mm": 750,
+      "head_mm": 2550
+    },
+    {
+      "id": 2369006,
+      "x": 27.85,
+      "y": 13.2,
+      "level": "MẶT BẰNG TẦNG 2",
+      "symbol": "S1_1500x1800",
+      "sill_mm": 750,
+      "head_mm": 2550
+    },
+    {
+      "id": 2369739,
+      "x": 6.08,
+      "y": 0,
+      "level": "MẶT BẰNG TẦNG 3",
+      "symbol": "S1_1500x1800",
+      "sill_mm": 750,
+      "head_mm": 2550
+    },
+    {
+      "id": 2369740,
+      "x": 9.64,
+      "y": 0,
+      "level": "MẶT BẰNG TẦNG 3",
+      "symbol": "S1_1500x1800",
+      "sill_mm": 750,
+      "head_mm": 2550
+    },
+    {
+      "id": 2369741,
+      "x": 13.22,
+      "y": 0,
+      "level": "MẶT BẰNG TẦNG 3",
+      "symbol": "S1_1500x1800",
+      "sill_mm": 750,
+      "head_mm": 2550
+    },
+    {
+      "id": 2369742,
+      "x": 16.93,
+      "y": 0,
+      "level": "MẶT BẰNG TẦNG 3",
+      "symbol": "S1_1500x1800",
+      "sill_mm": 750,
+      "head_mm": 2550
+    },
+    {
+      "id": 2369743,
+      "x": 20.46,
+      "y": 0,
+      "level": "MẶT BẰNG TẦNG 3",
+      "symbol": "S1_1500x1800",
+      "sill_mm": 750,
+      "head_mm": 2550
+    },
+    {
+      "id": 2369744,
+      "x": 24.14,
+      "y": 0,
+      "level": "MẶT BẰNG TẦNG 3",
+      "symbol": "S1_1500x1800",
+      "sill_mm": 750,
+      "head_mm": 2550
+    },
+    {
+      "id": 2369745,
+      "x": 27.73,
+      "y": 0,
+      "level": "MẶT BẰNG TẦNG 3",
+      "symbol": "S1_1500x1800",
+      "sill_mm": 750,
+      "head_mm": 2550
+    },
+    {
+      "id": 2369746,
+      "x": 31.32,
+      "y": 0,
+      "level": "MẶT BẰNG TẦNG 3",
+      "symbol": "S1_1500x1800",
+      "sill_mm": 750,
+      "head_mm": 2550
+    },
+    {
+      "id": 2369747,
+      "x": 9.58,
+      "y": 13.2,
+      "level": "MẶT BẰNG TẦNG 3",
+      "symbol": "S1_1500x1800",
+      "sill_mm": 750,
+      "head_mm": 2550
+    },
+    {
+      "id": 2369748,
+      "x": 13.27,
+      "y": 13.2,
+      "level": "MẶT BẰNG TẦNG 3",
+      "symbol": "S1_1500x1800",
+      "sill_mm": 750,
+      "head_mm": 2550
+    },
+    {
+      "id": 2369749,
+      "x": 16.89,
+      "y": 13.2,
+      "level": "MẶT BẰNG TẦNG 3",
+      "symbol": "S1_1500x1800",
+      "sill_mm": 750,
+      "head_mm": 2550
+    },
+    {
+      "id": 2369750,
+      "x": 20.52,
+      "y": 13.2,
+      "level": "MẶT BẰNG TẦNG 3",
+      "symbol": "S1_1500x1800",
+      "sill_mm": 750,
+      "head_mm": 2550
+    },
+    {
+      "id": 2369751,
+      "x": 24.18,
+      "y": 13.2,
+      "level": "MẶT BẰNG TẦNG 3",
+      "symbol": "S1_1500x1800",
+      "sill_mm": 750,
+      "head_mm": 2550
+    },
+    {
+      "id": 2369752,
+      "x": 27.72,
+      "y": 13.2,
+      "level": "MẶT BẰNG TẦNG 3",
+      "symbol": "S1_1500x1800",
+      "sill_mm": 750,
+      "head_mm": 2550
+    },
+    {
+      "id": 2369968,
+      "x": 13.77,
+      "y": 0,
+      "level": "MẶT BẰNG TẦNG 4",
+      "symbol": "S1_1500x1800",
+      "sill_mm": 750,
+      "head_mm": 2550
+    },
+    {
+      "id": 2369969,
+      "x": 17.48,
+      "y": 0,
+      "level": "MẶT BẰNG TẦNG 4",
+      "symbol": "S1_1500x1800",
+      "sill_mm": 750,
+      "head_mm": 2550
+    },
+    {
+      "id": 2369970,
+      "x": 21.01,
+      "y": 0,
+      "level": "MẶT BẰNG TẦNG 4",
+      "symbol": "S1_1500x1800",
+      "sill_mm": 750,
+      "head_mm": 2550
+    },
+    {
+      "id": 2369971,
+      "x": 24.7,
+      "y": 0,
+      "level": "MẶT BẰNG TẦNG 4",
+      "symbol": "S1_1500x1800",
+      "sill_mm": 750,
+      "head_mm": 2550
+    },
+    {
+      "id": 2369974,
+      "x": 9.58,
+      "y": 13.2,
+      "level": "MẶT BẰNG TẦNG 4",
+      "symbol": "S1_1500x1800",
+      "sill_mm": 750,
+      "head_mm": 2550
+    },
+    {
+      "id": 2369975,
+      "x": 13.27,
+      "y": 13.2,
+      "level": "MẶT BẰNG TẦNG 4",
+      "symbol": "S1_1500x1800",
+      "sill_mm": 750,
+      "head_mm": 2550
+    },
+    {
+      "id": 2369976,
+      "x": 16.89,
+      "y": 13.2,
+      "level": "MẶT BẰNG TẦNG 4",
+      "symbol": "S1_1500x1800",
+      "sill_mm": 750,
+      "head_mm": 2550
+    },
+    {
+      "id": 2369977,
+      "x": 20.52,
+      "y": 13.2,
+      "level": "MẶT BẰNG TẦNG 4",
+      "symbol": "S1_1500x1800",
+      "sill_mm": 750,
+      "head_mm": 2550
+    },
+    {
+      "id": 2369978,
+      "x": 24.18,
+      "y": 13.2,
+      "level": "MẶT BẰNG TẦNG 4",
+      "symbol": "S1_1500x1800",
+      "sill_mm": 750,
+      "head_mm": 2550
+    },
+    {
+      "id": 2369979,
+      "x": 27.72,
+      "y": 13.2,
+      "level": "MẶT BẰNG TẦNG 4",
+      "symbol": "S1_1500x1800",
+      "sill_mm": 750,
+      "head_mm": 2550
+    }
+  ],
+  "img3dPath": "C:\\Users\\nguyenbuu.DESKTOP-TOEFTR1\\.gemini\\antigravity\\brain\\16005848-1987-4ccc-a037-b18d9e878697\\revit_3d_windows_1800.jpg",
+  "docSaved": true
+}

@@ -1,0 +1,58 @@
+# RevitAI - Materials for Nha Cap 4 BIM
+# Standard Architectural PBR / Shading Definition
+
+newmtl Mat_Nen
+Ka 0.2 0.2 0.2
+Kd 0.6 0.6 0.6
+Ks 0.1 0.1 0.1
+Ns 10.0
+d 1.0
+illum 2
+
+newmtl Mat_Tuong
+Ka 0.3 0.3 0.3
+Kd 0.94 0.93 0.90
+Ks 0.1 0.1 0.1
+Ns 20.0
+d 1.0
+illum 2
+
+newmtl Mat_CuaDi_Wood
+Ka 0.2 0.1 0.05
+Kd 0.45 0.22 0.10
+Ks 0.3 0.3 0.3
+Ns 40.0
+d 1.0
+illum 2
+
+newmtl Mat_CuaDi_Glass
+Ka 0.1 0.15 0.2
+Kd 0.6 0.75 0.85
+Ks 0.9 0.9 0.9
+Ns 90.0
+d 0.5
+illum 4
+
+newmtl Mat_CuaSo_Frame
+Ka 0.1 0.1 0.1
+Kd 0.2 0.2 0.2
+Ks 0.4 0.4 0.4
+Ns 50.0
+d 1.0
+illum 2
+
+newmtl Mat_CuaSo_Glass
+Ka 0.1 0.15 0.2
+Kd 0.65 0.80 0.92
+Ks 0.9 0.9 0.9
+Ns 95.0
+d 0.4
+illum 4
+
+newmtl Mat_Mai_Tile
+Ka 0.1 0.15 0.2
+Kd 0.20 0.28 0.36
+Ks 0.2 0.2 0.2
+Ns 30.0
+d 1.0
+illum 2

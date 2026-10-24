@@ -1,0 +1,5 @@
+(setq p1 (getvar "EXTMIN"))
+(setq p2 (getvar "EXTMAX"))
+(princ (strcat "EXTENTS: (" (rtos (car p1) 2 2) "," (rtos (cadr p1) 2 2) ") to (" (rtos (car p2) 2 2) "," (rtos (cadr p2) 2 2) ")\n"))
+_.QUIT
+_Y

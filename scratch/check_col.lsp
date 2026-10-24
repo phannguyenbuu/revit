@@ -1,0 +1,16 @@
+(progn
+  (setq f (open "D:/Dropbox/_Documents/RevitAI/scratch/cad_col_entities.txt" "w"))
+  (setq ss (ssget "C" '(-96697.0 -1388305.9) '(-94697.0 -1386305.9)))
+  (if ss
+    (repeat (setq i (sslength ss))
+      (setq e (ssname ss (setq i (1- i))))
+      (setq ed (entget e))
+      (setq typ (cdr (assoc 0 ed)))
+      (setq lyr (cdr (assoc 8 ed)))
+      (setq hdl (cdr (assoc 5 ed)))
+      (write-line (strcat typ "|" lyr "|" hdl) f)
+    )
+  )
+  (close f)
+  (princ)
+)

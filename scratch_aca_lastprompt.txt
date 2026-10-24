@@ -1,0 +1,1 @@
+Select objects: (load "d:/Dropbox/_Documents/RevitAI/scratch/get_prompt.lsp")

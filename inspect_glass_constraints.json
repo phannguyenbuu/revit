@@ -1,0 +1,3 @@
+﻿{
+    "error":  "Autodesk.Revit.Proxy.Exceptions.InvalidObjectExceptionProxy: The referenced object is not valid, possibly because it has been deleted from the database, or its creation was undone.\r\n   at Autodesk.Revit.DB.Element.getElement()\r\n   at Autodesk.Revit.DB.Extrusion.get_StartOffset()\r\n   at RevitScript.InspectGlassConstraints.Run(UIApplication uiapp, JsonElement args)"
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Application">
+    <Name>RevitMcpBridge</Name>
+    <Assembly>C:\Users\nguyenbuu.DESKTOP-TOEFTR1\AppData\Roaming\Autodesk\Revit\Addins\2027\RevitMcpBridge\RevitMcpBridge.dll</Assembly>
+    <FullClassName>RevitMcpBridge.App</FullClassName>
+    <ClientId>f6e4a287-3c99-4d8b-9fa1-e6a3f91d84b2</ClientId>
+    <VendorId>ANTIGRAVITY</VendorId>
+    <VendorDescription>Antigravity AI Copilot Bridge for Autodesk Revit</VendorDescription>
+  </AddIn>
+</RevitAddIns>

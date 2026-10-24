@@ -1,0 +1,10 @@
+(setq f (open "D:/Dropbox/_Documents/RevitAI/DWG_Export_Sections/section_05.dwg_layers.txt" "w"))
+(setq tbl (tblnext "LAYER" T))
+(while tbl
+  (setq lname (cdr (assoc 2 tbl)))
+  (write-line lname f)
+  (setq tbl (tblnext "LAYER"))
+)
+(close f)
+_.QUIT
+_Y

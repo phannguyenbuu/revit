@@ -1,0 +1,40 @@
+Col 1 Width: 42957.90
+Col 1 Single TB Height: 27533.70
+
+--- COL 1 (*U152) CELLS ---
+Row 0 (Y=232485..260019): totalEnts=3 (texts=3, dims=0, lines=0) SampleText: %%UB\U+1EA2N V\U+1EBC XIN PHÉP XÂY D\U+1EF0NG XÂY D\U+1EF0NG NHÀ \U+1EDE
+Row 1 (Y=274485..302019): totalEnts=9 (texts=6, dims=0, lines=0) SampleText: GI\U+1EEE NGUYÊN TOÀN B\U+1ED8
+Row 2 (Y=316485..344019): totalEnts=0 (texts=0, dims=0, lines=0) SampleText: 
+Row 3 (Y=358485..386019): totalEnts=75 (texts=20, dims=5, lines=15) SampleText: PHAN NGUYÊN B\U+1EECU
+Row 4 (Y=400485..428019): totalEnts=32 (texts=13, dims=2, lines=6) SampleText: PHÒNG NG\U+1EE6
+Row 5 (Y=442485..470019): totalEnts=19 (texts=4, dims=1, lines=5) SampleText: SENO
+Row 6 (Y=484485..512019): totalEnts=93 (texts=14, dims=0, lines=45) SampleText: PHÒNG NG\U+1EE6
+Row 7 (Y=526485..554019): totalEnts=273 (texts=9, dims=0, lines=209) SampleText: M\U+1EB6T \U+0110\U+1EE8NG HI\U+1EC6N TR\U+1EA0NG TR\U+1EE4C A-B
+Row 8 (Y=568485..596019): totalEnts=0 (texts=0, dims=0, lines=0) SampleText: 
+Row 9 (Y=610485..638019): totalEnts=0 (texts=0, dims=0, lines=0) SampleText: 
+Row 10 (Y=652485..680019): totalEnts=0 (texts=0, dims=0, lines=0) SampleText: 
+Row 11 (Y=694485..722019): totalEnts=0 (texts=0, dims=0, lines=0) SampleText: 
+Row 12 (Y=736485..764019): totalEnts=0 (texts=0, dims=0, lines=0) SampleText: 
+Row 13 (Y=778485..806019): totalEnts=0 (texts=0, dims=0, lines=0) SampleText: 
+Row 14 (Y=820485..848019): totalEnts=0 (texts=0, dims=0, lines=0) SampleText: 
+Row 15 (Y=862485..890019): totalEnts=0 (texts=0, dims=0, lines=0) SampleText: 
+Row 16 (Y=904485..932019): totalEnts=0 (texts=0, dims=0, lines=0) SampleText: 
+
+--- COL 2 (*U308) CELLS ---
+Row 0 (Y=232485..260019): totalEnts=3 (texts=3, dims=0, lines=0) SampleText: %%UB\U+1EA2N V\U+1EBC XIN PHÉP XÂY D\U+1EF0NG XÂY D\U+1EF0NG NHÀ \U+1EDE
+Row 1 (Y=274485..302019): totalEnts=7 (texts=4, dims=0, lines=0) SampleText: KH\U+1ED0I NHÀ 3 T\U+1EA6NG XÂY M\U+1EDAI
+Row 2 (Y=316485..344019): totalEnts=0 (texts=0, dims=0, lines=0) SampleText: 
+Row 3 (Y=358485..386019): totalEnts=0 (texts=0, dims=0, lines=0) SampleText: 
+Row 4 (Y=400485..428019): totalEnts=0 (texts=0, dims=0, lines=0) SampleText: 
+Row 5 (Y=442485..470019): totalEnts=0 (texts=0, dims=0, lines=0) SampleText: 
+Row 6 (Y=484485..512019): totalEnts=0 (texts=0, dims=0, lines=0) SampleText: 
+Row 7 (Y=526485..554019): totalEnts=0 (texts=0, dims=0, lines=0) SampleText: 
+Row 8 (Y=568485..596019): totalEnts=0 (texts=0, dims=0, lines=0) SampleText: 
+Row 9 (Y=610485..638019): totalEnts=0 (texts=0, dims=0, lines=0) SampleText: 
+Row 10 (Y=652485..680019): totalEnts=0 (texts=0, dims=0, lines=0) SampleText: 
+Row 11 (Y=694485..722019): totalEnts=0 (texts=0, dims=0, lines=0) SampleText: 
+Row 12 (Y=736485..764019): totalEnts=0 (texts=0, dims=0, lines=0) SampleText: 
+Row 13 (Y=778485..806019): totalEnts=0 (texts=0, dims=0, lines=0) SampleText: 
+Row 14 (Y=820485..848019): totalEnts=0 (texts=0, dims=0, lines=0) SampleText: 
+Row 15 (Y=862485..890019): totalEnts=0 (texts=0, dims=0, lines=0) SampleText: 
+Row 16 (Y=904485..932019): totalEnts=0 (texts=0, dims=0, lines=0) SampleText: 

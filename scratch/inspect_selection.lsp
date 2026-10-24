@@ -1,0 +1,66 @@
+(vl-load-com)
+
+(defun c:InspectSelection ( / f ssI ssP ssAll dumpSS )
+  (setq f (open "d:/Dropbox/_Documents/RevitAI/scratch_sel_dump.txt" "w"))
+  
+  (defun dumpSS (ss name / i ent ed eType blkName minPt maxPt obj)
+    (write-line (strcat "=== SELECTION: " name " (Count: " (itoa (if ss (sslength ss) 0)) ") ===") f)
+    (if ss
+      (repeat (setq i (sslength ss))
+        (setq ent (ssname ss (setq i (1- i))))
+        (setq ed (entget ent))
+        (setq eType (cdr (assoc 0 ed)))
+        (setq blkName (cdr (assoc 2 ed)))
+        (setq obj (vlax-ename->vla-object ent))
+        (setq minPt nil maxPt nil)
+        (vl-catch-all-apply 'vla-getboundingbox (list obj 'minPt 'maxPt))
+        (if (and minPt maxPt)
+          (setq minPt (vlax-safearray->list minPt)
+                maxPt (vlax-safearray->list maxPt))
+        )
+        (write-line (strcat "Ent: " (vl-prin1-to-string ent)
+                            " | Type: " (if eType eType "nil")
+                            " | Name: " (if blkName blkName "nil")
+                            " | Layer: " (vl-prin1-to-string (cdr (assoc 8 ed)))
+                            " | BBox: " (if minPt (strcat "(" (rtos (car minPt) 2 1) "," (rtos (cadr minPt) 2 1) ")->("
+                                                         (rtos (car maxPt) 2 1) "," (rtos (cadr maxPt) 2 1) ")") "nil")) f)
+      )
+    )
+  )
+
+  ;; Check PICKFIRST
+  (setq ssI (ssget "_I"))
+  (dumpSS ssI "PICKFIRST (_I)")
+
+  ;; Check PREVIOUS
+  (setq ssP (ssget "_P"))
+  (dumpSS ssP "PREVIOUS (_P)")
+
+  ;; Check all blocks with "TITLE" or "KT" or "KHUNG" or "A3" or "A4" or "A2" or "A1" or "A0" in drawing just in case
+  (setq ssAll (ssget "X" '((0 . "INSERT"))))
+  (write-line (strcat "=== ALL INSERTS IN DRAWING: " (itoa (if ssAll (sslength ssAll) 0)) " ===") f)
+  (if ssAll
+    (repeat (setq i (sslength ssAll))
+      (setq ent (ssname ssAll (setq i (1- i))))
+      (setq ed (entget ent))
+      (setq blkName (cdr (assoc 2 ed)))
+      (if (or (wcmatch (strcase blkName) "*KHUNG*")
+              (wcmatch (strcase blkName) "*TITLE*")
+              (wcmatch (strcase blkName) "*A3*")
+              (wcmatch (strcase blkName) "*A4*")
+              (wcmatch (strcase blkName) "*A2*")
+              (wcmatch (strcase blkName) "*A1*")
+              (wcmatch (strcase blkName) "*A0*")
+              (wcmatch (strcase blkName) "*KT*")
+              (wcmatch (strcase blkName) "*ARRAY*")
+              (wcmatch (strcase blkName) "`*U*"))
+        (write-line (strcat "Insert: " blkName " | Layer: " (cdr (assoc 8 ed))) f)
+      )
+    )
+  )
+
+  (close f)
+  (princ "\n[RevitAI] Dump selection complete.\n")
+  (princ)
+)
+(c:InspectSelection)

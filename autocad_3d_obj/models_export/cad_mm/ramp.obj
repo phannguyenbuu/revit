@@ -1,0 +1,6 @@
+# Wavefront OBJ File
+# Object Name: Ramp
+# Scale: 1 unit = 1 mm
+mtllib materials.mtl
+o Ramp
+usemtl mat_stair

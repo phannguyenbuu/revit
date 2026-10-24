@@ -1,0 +1,21 @@
+# Wavefront OBJ File
+# Object Name: api_test_box
+mtllib api_test_box.mtl
+
+v 0.0000 0.0000 0.0000
+v 4.0000 0.0000 0.0000
+v 4.0000 3.0000 0.0000
+v 0.0000 3.0000 0.0000
+v 0.0000 3.0000 2.5000
+v 4.0000 3.0000 2.5000
+v 4.0000 0.0000 2.5000
+v 0.0000 0.0000 2.5000
+
+o Default
+usemtl mat_default
+f 1 2 3 4
+f 5 6 7 8
+f 1 2 7 8
+f 2 3 6 7
+f 3 4 5 6
+f 4 1 8 5

@@ -1,0 +1,79 @@
+# Materials for sign
+
+newmtl mat_default
+Kd 0.82 0.82 0.85
+Ka 0.2 0.2 0.2
+Ks 0.1 0.1 0.1
+Ns 10.0
+d 1.0
+
+newmtl Gray_Wall
+Kd 0.750 0.750 0.750
+Ka 0.25 0.25 0.25
+Ks 0.15 0.15 0.15
+Ns 20.0
+d 1.00
+
+newmtl HealthWave_Text
+Kd 0.750 0.750 0.750
+Ka 0.25 0.25 0.25
+Ks 0.15 0.15 0.15
+Ns 20.0
+d 1.00
+
+newmtl Logo_Green
+Kd 0.750 0.750 0.750
+Ka 0.25 0.25 0.25
+Ks 0.15 0.15 0.15
+Ns 20.0
+d 1.00
+
+newmtl White_Acrylic
+Kd 0.750 0.750 0.750
+Ka 0.25 0.25 0.25
+Ks 0.15 0.15 0.15
+Ns 20.0
+d 1.00
+
+newmtl Brushed_Stainless_Steel
+Kd 0.750 0.750 0.750
+Ka 0.25 0.25 0.25
+Ks 0.15 0.15 0.15
+Ns 20.0
+d 1.00
+
+newmtl Acrylic_Edge
+Kd 0.750 0.750 0.750
+Ka 0.25 0.25 0.25
+Ks 0.15 0.15 0.15
+Ns 20.0
+d 1.00
+
+newmtl Logo_Orange
+Kd 0.750 0.750 0.750
+Ka 0.25 0.25 0.25
+Ks 0.15 0.15 0.15
+Ns 20.0
+d 1.00
+
+newmtl Wall_Trim
+Kd 0.750 0.750 0.750
+Ka 0.25 0.25 0.25
+Ks 0.15 0.15 0.15
+Ns 20.0
+d 1.00
+
+newmtl Shadow_Spacer
+Kd 0.750 0.750 0.750
+Ka 0.25 0.25 0.25
+Ks 0.15 0.15 0.15
+Ns 20.0
+d 1.00
+
+newmtl Logo_Lime
+Kd 0.750 0.750 0.750
+Ka 0.25 0.25 0.25
+Ks 0.15 0.15 0.15
+Ns 20.0
+d 1.00
+

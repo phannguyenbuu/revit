@@ -1,0 +1,86 @@
+# Materials for signboard_sketchup_1791878469884
+
+newmtl mat_default
+Kd 0.82 0.82 0.85
+Ka 0.2 0.2 0.2
+Ks 0.1 0.1 0.1
+Ns 10.0
+d 1.0
+
+newmtl Brick_Brown
+Kd 0.518 0.376 0.259
+Ka 0.25 0.25 0.25
+Ks 0.15 0.15 0.15
+Ns 20.0
+d 1.00
+
+newmtl Brick_Rust
+Kd 0.592 0.325 0.216
+Ka 0.25 0.25 0.25
+Ks 0.15 0.15 0.15
+Ns 20.0
+d 1.00
+
+newmtl Brick_Sand
+Kd 0.804 0.651 0.435
+Ka 0.25 0.25 0.25
+Ks 0.15 0.15 0.15
+Ns 20.0
+d 1.00
+
+newmtl Brick_Ochre
+Kd 0.682 0.467 0.275
+Ka 0.25 0.25 0.25
+Ks 0.15 0.15 0.15
+Ns 20.0
+d 1.00
+
+newmtl Raised_Letter_White
+Kd 0.961 0.957 0.922
+Ka 0.25 0.25 0.25
+Ks 0.15 0.15 0.15
+Ns 20.0
+d 1.00
+
+newmtl Metal_Shadow
+Kd 0.353 0.357 0.341
+Ka 0.25 0.25 0.25
+Ks 0.15 0.15 0.15
+Ns 20.0
+d 1.00
+
+newmtl Sign_Edge_Dark
+Kd 0.188 0.192 0.188
+Ka 0.25 0.25 0.25
+Ks 0.15 0.15 0.15
+Ns 20.0
+d 1.00
+
+newmtl Sign_Charcoal_Grey
+Kd 0.325 0.329 0.322
+Ka 0.25 0.25 0.25
+Ks 0.15 0.15 0.15
+Ns 20.0
+d 1.00
+
+newmtl Mortar_Warm_Grey
+Kd 0.663 0.592 0.498
+Ka 0.25 0.25 0.25
+Ks 0.15 0.15 0.15
+Ns 20.0
+d 1.00
+
+newmtl Brushed_Stainless_Steel
+Kd 0.863 0.863 0.824
+Ka 0.25 0.25 0.25
+Ks 0.15 0.15 0.15
+Ns 20.0
+d 1.00
+
+newmtl Brick_Light
+Kd 0.855 0.745 0.573
+Ka 0.25 0.25 0.25
+Ks 0.15 0.15 0.15
+Ns 20.0
+d 1.00
+

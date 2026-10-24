@@ -1,0 +1,1088 @@
+﻿{
+    "families":  [
+                     {
+                         "name":  "cua so wc",
+                         "forms":  [
+                                       {
+                                           "id":  563324,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  "Frame/Mullion",
+                                           "bb":  "dx=1200, dy=60, dz=600, zMin=1800, zMax=2400",
+                                           "dz":  599.9999999999947,
+                                           "dy":  60
+                                       },
+                                       {
+                                           "id":  563363,
+                                           "name":  "Sweep",
+                                           "type":  "Sweep",
+                                           "subCat":  "Glass",
+                                           "bb":  "dx=1120, dy=62, dz=728, zMin=1859, zMax=2587",
+                                           "dz":  728.3713203435588,
+                                           "dy":  62.12132034356098
+                                       }
+                                   ]
+                     },
+                     {
+                         "name":  "CUA SO GO KINH 2 CANH O O THOANG",
+                         "forms":  [
+                                       {
+                                           "id":  579464,
+                                           "name":  "Sweep",
+                                           "type":  "Sweep",
+                                           "subCat":  "Frame/Mullion",
+                                           "bb":  "dx=1320, dy=250, dz=2100, zMin=600, zMax=2700",
+                                           "dz":  2099.9999999999995,
+                                           "dy":  250.00000000000463
+                                       },
+                                       {
+                                           "id":  579488,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  "Plan Swing",
+                                           "bb":  "dx=1230, dy=30, dz=2010, zMin=645, zMax=2655",
+                                           "dz":  2009.9999999999993,
+                                           "dy":  30.000000000003975
+                                       },
+                                       {
+                                           "id":  579515,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  "Glass",
+                                           "bb":  "dx=1070, dy=5, dz=1850, zMin=725, zMax=2575",
+                                           "dz":  1849.9999999999995,
+                                           "dy":  5.000000000003449
+                                       }
+                                   ]
+                     },
+                     {
+                         "name":  "CUA SO2 CANH NHOM KINH CO O THOANG",
+                         "forms":  [
+                                       {
+                                           "id":  585595,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  "Frame/Mullion",
+                                           "bb":  "dx=950, dy=76, dz=1950, zMin=775, zMax=2725",
+                                           "dz":  1950.0000000000011,
+                                           "dy":  76
+                                       },
+                                       {
+                                           "id":  585621,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  null,
+                                           "bb":  "dx=450, dy=25, dz=1900, zMin=800, zMax=2700",
+                                           "dz":  1900.000000000001,
+                                           "dy":  25
+                                       },
+                                       {
+                                           "id":  585636,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  null,
+                                           "bb":  "dx=748, dy=25, dz=50, zMin=1800, zMax=1850",
+                                           "dz":  50.000000000004874,
+                                           "dy":  25
+                                       },
+                                       {
+                                           "id":  585643,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  null,
+                                           "bb":  "dx=748, dy=25, dz=50, zMin=1300, zMax=1350",
+                                           "dz":  50,
+                                           "dy":  25
+                                       },
+                                       {
+                                           "id":  585679,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  null,
+                                           "bb":  "dx=450, dy=25, dz=1900, zMin=800, zMax=2700",
+                                           "dz":  1900.0000000000011,
+                                           "dy":  25
+                                       },
+                                       {
+                                           "id":  585799,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  "Glass",
+                                           "bb":  "dx=748, dy=5, dz=1748, zMin=876, zMax=2624",
+                                           "dz":  1748.0000000000086,
+                                           "dy":  4.999999999999997
+                                       }
+                                   ]
+                     },
+                     {
+                         "name":  "CUA SO 2 CANH GO KINH CO O THOANG",
+                         "forms":  [
+                                       {
+                                           "id":  586582,
+                                           "name":  "Sweep",
+                                           "type":  "Sweep",
+                                           "subCat":  null,
+                                           "bb":  "dx=1320, dy=250, dz=1900, zMin=879, zMax=2779",
+                                           "dz":  1900.0000000000011,
+                                           "dy":  250.0000000000039
+                                       },
+                                       {
+                                           "id":  586617,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  "Frame/Mullion",
+                                           "bb":  "dx=600, dy=30, dz=1780, zMin=939, zMax=2719",
+                                           "dz":  1779.9999999999998,
+                                           "dy":  30.000000000001943
+                                       },
+                                       {
+                                           "id":  586713,
+                                           "name":  "Sweep",
+                                           "type":  "Sweep",
+                                           "subCat":  null,
+                                           "bb":  "dx=1200, dy=250, dz=70, zMin=2429, zMax=2499",
+                                           "dz":  69.99999999999763,
+                                           "dy":  250.0000000000044
+                                       },
+                                       {
+                                           "id":  586765,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  "Glass",
+                                           "bb":  "dx=420, dy=5, dz=1640, zMin=1029, zMax=2669",
+                                           "dz":  1639.9999999999618,
+                                           "dy":  5.000000000001351
+                                       },
+                                       {
+                                           "id":  586848,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  "Frame/Mullion",
+                                           "bb":  "dx=600, dy=30, dz=1780, zMin=939, zMax=2719",
+                                           "dz":  1779.9999999999977,
+                                           "dy":  30.000000000001943
+                                       },
+                                       {
+                                           "id":  586943,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  "Glass",
+                                           "bb":  "dx=420, dy=5, dz=1640, zMin=1029, zMax=2669",
+                                           "dz":  1639.9999999999893,
+                                           "dy":  5.000000000001351
+                                       }
+                                   ]
+                     },
+                     {
+                         "name":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+                         "forms":  [
+                                       {
+                                           "id":  588878,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  "Frame/Mullion",
+                                           "bb":  "dx=1550, dy=76, dz=1850, zMin=725, zMax=2575",
+                                           "dz":  1850.000000000011,
+                                           "dy":  76
+                                       },
+                                       {
+                                           "id":  588897,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  null,
+                                           "bb":  "dx=750, dy=25, dz=1800, zMin=750, zMax=2550",
+                                           "dz":  1800.0000000000089,
+                                           "dy":  25
+                                       },
+                                       {
+                                           "id":  588912,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  null,
+                                           "bb":  "dx=1348, dy=25, dz=50, zMin=1950, zMax=2000",
+                                           "dz":  50.000000000004874,
+                                           "dy":  25
+                                       },
+                                       {
+                                           "id":  588919,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  null,
+                                           "bb":  "dx=1348, dy=25, dz=50, zMin=1350, zMax=1400",
+                                           "dz":  50,
+                                           "dy":  25
+                                       },
+                                       {
+                                           "id":  588941,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  null,
+                                           "bb":  "dx=750, dy=25, dz=1800, zMin=750, zMax=2550",
+                                           "dz":  1799.9999999999905,
+                                           "dy":  25
+                                       },
+                                       {
+                                           "id":  589035,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  "Glass",
+                                           "bb":  "dx=1348, dy=5, dz=1648, zMin=826, zMax=2474",
+                                           "dz":  1648.0000000000196,
+                                           "dy":  4.999999999999997
+                                       }
+                                   ]
+                     },
+                     {
+                         "name":  "CUA SO GỐ CHOP 2 CANH",
+                         "forms":  [
+                                       {
+                                           "id":  593862,
+                                           "name":  "Sweep",
+                                           "type":  "Sweep",
+                                           "subCat":  null,
+                                           "bb":  "dx=1500, dy=250, dz=2100, zMin=879, zMax=2979",
+                                           "dz":  2100.0000000000014,
+                                           "dy":  249.99999999999235
+                                       },
+                                       {
+                                           "id":  593897,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  "Frame/Mullion",
+                                           "bb":  "dx=690, dy=40, dz=1980, zMin=939, zMax=2919",
+                                           "dz":  1980.000000000001,
+                                           "dy":  40.000000000002245
+                                       },
+                                       {
+                                           "id":  593958,
+                                           "name":  "Sweep",
+                                           "type":  "Sweep",
+                                           "subCat":  null,
+                                           "bb":  "dx=1380, dy=250, dz=70, zMin=2329, zMax=2399",
+                                           "dz":  69.99999999999545,
+                                           "dy":  250.00000000000185
+                                       },
+                                       {
+                                           "id":  594009,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  "Glass",
+                                           "bb":  "dx=510, dy=5, dz=350, zMin=2479, zMax=2829",
+                                           "dz":  349.99999999996913,
+                                           "dy":  5.000000000001655
+                                       },
+                                       {
+                                           "id":  594028,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  "Frame/Mullion",
+                                           "bb":  "dx=690, dy=40, dz=1980, zMin=939, zMax=2919",
+                                           "dz":  1979.9999999999934,
+                                           "dy":  40.000000000002245
+                                       },
+                                       {
+                                           "id":  594088,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  "Glass",
+                                           "bb":  "dx=510, dy=5, dz=350, zMin=2479, zMax=2829",
+                                           "dz":  349.99999999997834,
+                                           "dy":  5.000000000001638
+                                       },
+                                       {
+                                           "id":  594125,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  null,
+                                           "bb":  "dx=1230, dy=55, dz=55, zMin=1018, zMax=1073",
+                                           "dz":  54.79898987306766,
+                                           "dy":  54.798989873160146
+                                       },
+                                       {
+                                           "id":  594208,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  null,
+                                           "bb":  "dx=1230, dy=55, dz=55, zMin=1063, zMax=1118",
+                                           "dz":  54.79898987306766,
+                                           "dy":  54.798989873160146
+                                       },
+                                       {
+                                           "id":  594246,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  null,
+                                           "bb":  "dx=1230, dy=55, dz=55, zMin=1108, zMax=1163",
+                                           "dz":  54.79898987306766,
+                                           "dy":  54.798989873160146
+                                       },
+                                       {
+                                           "id":  594284,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  null,
+                                           "bb":  "dx=1230, dy=55, dz=55, zMin=1153, zMax=1208",
+                                           "dz":  54.79898987306766,
+                                           "dy":  54.798989873160146
+                                       },
+                                       {
+                                           "id":  594322,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  null,
+                                           "bb":  "dx=1230, dy=55, dz=55, zMin=1198, zMax=1253",
+                                           "dz":  54.7989898730678,
+                                           "dy":  54.798989873160174
+                                       },
+                                       {
+                                           "id":  594360,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  null,
+                                           "bb":  "dx=1230, dy=55, dz=55, zMin=1243, zMax=1298",
+                                           "dz":  54.7989898730678,
+                                           "dy":  54.798989873160174
+                                       },
+                                       {
+                                           "id":  594398,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  null,
+                                           "bb":  "dx=1230, dy=55, dz=55, zMin=1288, zMax=1343",
+                                           "dz":  54.7989898730678,
+                                           "dy":  54.79898987316016
+                                       },
+                                       {
+                                           "id":  594436,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  null,
+                                           "bb":  "dx=1230, dy=55, dz=55, zMin=1333, zMax=1388",
+                                           "dz":  54.7989898730678,
+                                           "dy":  54.79898987316016
+                                       },
+                                       {
+                                           "id":  594474,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  null,
+                                           "bb":  "dx=1230, dy=55, dz=55, zMin=1378, zMax=1433",
+                                           "dz":  54.7989898730678,
+                                           "dy":  54.79898987316016
+                                       },
+                                       {
+                                           "id":  594512,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  null,
+                                           "bb":  "dx=1230, dy=55, dz=55, zMin=1423, zMax=1478",
+                                           "dz":  54.7989898730678,
+                                           "dy":  54.79898987316016
+                                       },
+                                       {
+                                           "id":  594550,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  null,
+                                           "bb":  "dx=1230, dy=55, dz=55, zMin=1468, zMax=1523",
+                                           "dz":  54.7989898730678,
+                                           "dy":  54.79898987316016
+                                       },
+                                       {
+                                           "id":  594588,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  null,
+                                           "bb":  "dx=1230, dy=55, dz=55, zMin=1513, zMax=1568",
+                                           "dz":  54.7989898730678,
+                                           "dy":  54.79898987316016
+                                       },
+                                       {
+                                           "id":  594626,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  null,
+                                           "bb":  "dx=1230, dy=55, dz=55, zMin=1563, zMax=1618",
+                                           "dz":  54.7989898730678,
+                                           "dy":  54.79898987316016
+                                       },
+                                       {
+                                           "id":  594664,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  null,
+                                           "bb":  "dx=1230, dy=55, dz=55, zMin=1648, zMax=1703",
+                                           "dz":  54.7989898730678,
+                                           "dy":  54.798989873160174
+                                       },
+                                       {
+                                           "id":  594702,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  null,
+                                           "bb":  "dx=1230, dy=55, dz=55, zMin=1693, zMax=1748",
+                                           "dz":  54.7989898730678,
+                                           "dy":  54.798989873160195
+                                       },
+                                       {
+                                           "id":  594740,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  null,
+                                           "bb":  "dx=1230, dy=55, dz=55, zMin=1738, zMax=1793",
+                                           "dz":  54.7989898730678,
+                                           "dy":  54.798989873160195
+                                       },
+                                       {
+                                           "id":  594778,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  null,
+                                           "bb":  "dx=1230, dy=55, dz=55, zMin=1783, zMax=1838",
+                                           "dz":  54.7989898730678,
+                                           "dy":  54.798989873160195
+                                       },
+                                       {
+                                           "id":  594816,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  null,
+                                           "bb":  "dx=1230, dy=55, dz=55, zMin=1828, zMax=1883",
+                                           "dz":  54.7989898730678,
+                                           "dy":  54.798989873160195
+                                       },
+                                       {
+                                           "id":  594854,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  null,
+                                           "bb":  "dx=1230, dy=55, dz=55, zMin=1873, zMax=1928",
+                                           "dz":  54.7989898730678,
+                                           "dy":  54.798989873160195
+                                       },
+                                       {
+                                           "id":  594892,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  null,
+                                           "bb":  "dx=1230, dy=55, dz=55, zMin=1918, zMax=1973",
+                                           "dz":  54.7989898730678,
+                                           "dy":  54.798989873160195
+                                       },
+                                       {
+                                           "id":  594930,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  null,
+                                           "bb":  "dx=1230, dy=55, dz=55, zMin=1963, zMax=2018",
+                                           "dz":  54.7989898730678,
+                                           "dy":  54.798989873160195
+                                       },
+                                       {
+                                           "id":  594968,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  null,
+                                           "bb":  "dx=1230, dy=55, dz=55, zMin=2008, zMax=2063",
+                                           "dz":  54.7989898730678,
+                                           "dy":  54.798989873160195
+                                       },
+                                       {
+                                           "id":  595006,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  null,
+                                           "bb":  "dx=1230, dy=55, dz=55, zMin=2053, zMax=2108",
+                                           "dz":  54.7989898730678,
+                                           "dy":  54.798989873160195
+                                       },
+                                       {
+                                           "id":  595044,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  null,
+                                           "bb":  "dx=1230, dy=55, dz=55, zMin=2098, zMax=2153",
+                                           "dz":  54.7989898730678,
+                                           "dy":  54.798989873160195
+                                       },
+                                       {
+                                           "id":  595082,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  null,
+                                           "bb":  "dx=1230, dy=55, dz=55, zMin=2143, zMax=2198",
+                                           "dz":  54.7989898730678,
+                                           "dy":  54.798989873160195
+                                       },
+                                       {
+                                           "id":  595120,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  null,
+                                           "bb":  "dx=1230, dy=55, dz=55, zMin=2193, zMax=2248",
+                                           "dz":  54.7989898730678,
+                                           "dy":  54.798989873160174
+                                       }
+                                   ]
+                     },
+                     {
+                         "name":  "cua so 2 canh khuon go khong co o thoang.0002",
+                         "forms":  [
+                                       {
+                                           "id":  609512,
+                                           "name":  "Sweep",
+                                           "type":  "Sweep",
+                                           "subCat":  null,
+                                           "bb":  "dx=1500, dy=250, dz=2100, zMin=879, zMax=2979",
+                                           "dz":  2100,
+                                           "dy":  249.99999999999235
+                                       },
+                                       {
+                                           "id":  609547,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  "Frame/Mullion",
+                                           "bb":  "dx=690, dy=60, dz=1980, zMin=939, zMax=2919",
+                                           "dz":  1979.9999999999986,
+                                           "dy":  60.00000000000223
+                                       },
+                                       {
+                                           "id":  609626,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  "Glass",
+                                           "bb":  "dx=510, dy=5, dz=1800, zMin=1029, zMax=2829",
+                                           "dz":  1799.999999999991,
+                                           "dy":  5.000000000001655
+                                       },
+                                       {
+                                           "id":  609760,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  "Frame/Mullion",
+                                           "bb":  "dx=690, dy=60, dz=1980, zMin=939, zMax=2919",
+                                           "dz":  1979.9999999999986,
+                                           "dy":  60.00000000000223
+                                       },
+                                       {
+                                           "id":  609819,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  "Glass",
+                                           "bb":  "dx=510, dy=5, dz=1800, zMin=1029, zMax=2829",
+                                           "dz":  1799.999999999991,
+                                           "dy":  5.000000000001638
+                                       }
+                                   ]
+                     },
+                     {
+                         "name":  "windoow2canh",
+                         "forms":  [
+                                       {
+                                           "id":  610711,
+                                           "name":  "Sweep",
+                                           "type":  "Sweep",
+                                           "subCat":  "Frame/Mullion",
+                                           "bb":  "dx=1200, dy=150, dz=1900, zMin=830, zMax=2730",
+                                           "dz":  1899.999999999998,
+                                           "dy":  150.00000000000387
+                                       },
+                                       {
+                                           "id":  610739,
+                                           "name":  "Sweep",
+                                           "type":  "Sweep",
+                                           "subCat":  "Frame/Mullion",
+                                           "bb":  "dx=1110, dy=150, dz=75, zMin=2230, zMax=2305",
+                                           "dz":  75.0000000000046,
+                                           "dy":  150
+                                       },
+                                       {
+                                           "id":  610772,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  "Plan Swing",
+                                           "bb":  "dx=1110, dy=30, dz=1810, zMin=875, zMax=2685",
+                                           "dz":  1809.9999999999995,
+                                           "dy":  30.000000000003585
+                                       },
+                                       {
+                                           "id":  610831,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  "Glass",
+                                           "bb":  "dx=950, dy=5, dz=1650, zMin=955, zMax=2605",
+                                           "dz":  1649.9999999999998,
+                                           "dy":  5.000000000003118
+                                       }
+                                   ]
+                     },
+                     {
+                         "name":  "CUA SO 0 CANH",
+                         "forms":  [
+
+                                   ]
+                     },
+                     {
+                         "name":  "CUA SO VK",
+                         "forms":  [
+                                       {
+                                           "id":  612872,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  null,
+                                           "bb":  "dx=1664, dy=25, dz=2438, zMin=0, zMax=2438",
+                                           "dz":  2438.399999999999,
+                                           "dy":  25
+                                       },
+                                       {
+                                           "id":  612891,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  null,
+                                           "bb":  "dx=1512, dy=5, dz=2286, zMin=76, zMax=2362",
+                                           "dz":  2286.399999999999,
+                                           "dy":  4.999999999999999
+                                       }
+                                   ]
+                     },
+                     {
+                         "name":  "Window-Projected_Single-Wausau-Psychiatric-4000i-DT",
+                         "forms":  [
+                                       {
+                                           "id":  1458089,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  "Glass",
+                                           "bb":  "dx=748, dy=95, dz=448, zMin=2176, zMax=2624",
+                                           "dz":  447.5999999999992,
+                                           "dy":  95.2500425746022
+                                       },
+                                       {
+                                           "id":  1458203,
+                                           "name":  "Sweep",
+                                           "type":  "Sweep",
+                                           "subCat":  "Frame/Mullion",
+                                           "bb":  "dx=900, dy=108, dz=600, zMin=2100, zMax=2700",
+                                           "dz":  599.9999999999974,
+                                           "dy":  107.95004257459861
+                                       },
+                                       {
+                                           "id":  1458249,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  "Frame/Mullion",
+                                           "bb":  "dx=900, dy=108, dz=600, zMin=2100, zMax=2700",
+                                           "dz":  599.9999999999984,
+                                           "dy":  107.95004257459009
+                                       }
+                                   ]
+                     },
+                     {
+                         "name":  "CỬA SỔ EROWIN 2 CÁNH",
+                         "forms":  [
+                                       {
+                                           "id":  1666600,
+                                           "name":  "Sweep",
+                                           "type":  "Sweep",
+                                           "subCat":  null,
+                                           "bb":  "dx=1200, dy=78, dz=1300, zMin=800, zMax=2100",
+                                           "dz":  1299.999999999999,
+                                           "dy":  77.99999999999989
+                                       },
+                                       {
+                                           "id":  1666644,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  null,
+                                           "bb":  "dx=504, dy=48, dz=1108, zMin=896, zMax=2004",
+                                           "dz":  1107.9999999999918,
+                                           "dy":  48.000000000001634
+                                       },
+                                       {
+                                           "id":  1666652,
+                                           "name":  "Sweep",
+                                           "type":  "Sweep",
+                                           "subCat":  null,
+                                           "bb":  "dx=582, dy=48, dz=1186, zMin=857, zMax=2043",
+                                           "dz":  1185.9999999999986,
+                                           "dy":  48.00000000000199
+                                       },
+                                       {
+                                           "id":  1666683,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  null,
+                                           "bb":  "dx=466, dy=5, dz=1070, zMin=915, zMax=1985",
+                                           "dz":  1069.9999999999898,
+                                           "dy":  5.000000000001503
+                                       },
+                                       {
+                                           "id":  1666694,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  null,
+                                           "bb":  "dx=466, dy=5, dz=1070, zMin=915, zMax=1985",
+                                           "dz":  1069.9999999999898,
+                                           "dy":  5.000000000001503
+                                       },
+                                       {
+                                           "id":  1666704,
+                                           "name":  "Sweep",
+                                           "type":  "Sweep",
+                                           "subCat":  null,
+                                           "bb":  "dx=466, dy=48, dz=1070, zMin=915, zMax=1985",
+                                           "dz":  1069.9999999999952,
+                                           "dy":  48.00000000000168
+                                       },
+                                       {
+                                           "id":  1666725,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  null,
+                                           "bb":  "dx=504, dy=48, dz=1108, zMin=896, zMax=2004",
+                                           "dz":  1107.9999999999918,
+                                           "dy":  48.00000000000163
+                                       },
+                                       {
+                                           "id":  1666742,
+                                           "name":  "Sweep",
+                                           "type":  "Sweep",
+                                           "subCat":  null,
+                                           "bb":  "dx=582, dy=48, dz=1186, zMin=857, zMax=2043",
+                                           "dz":  1185.9999999999986,
+                                           "dy":  48.000000000002004
+                                       },
+                                       {
+                                           "id":  1666764,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  null,
+                                           "bb":  "dx=466, dy=5, dz=1070, zMin=915, zMax=1985",
+                                           "dz":  1069.9999999999918,
+                                           "dy":  5.000000000001512
+                                       },
+                                       {
+                                           "id":  1666775,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  null,
+                                           "bb":  "dx=466, dy=5, dz=1070, zMin=915, zMax=1985",
+                                           "dz":  1069.9999999999918,
+                                           "dy":  5.000000000001503
+                                       },
+                                       {
+                                           "id":  1666784,
+                                           "name":  "Sweep",
+                                           "type":  "Sweep",
+                                           "subCat":  null,
+                                           "bb":  "dx=466, dy=48, dz=1070, zMin=915, zMax=1985",
+                                           "dz":  1069.999999999997,
+                                           "dy":  48.00000000000344
+                                       },
+                                       {
+                                           "id":  1666805,
+                                           "name":  "Void Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  null,
+                                           "bb":  "dx=30, dy=10, dz=150, zMin=1425, zMax=1575",
+                                           "dz":  150.00000000000082,
+                                           "dy":  10.000000000000103
+                                       },
+                                       {
+                                           "id":  1666821,
+                                           "name":  "Void Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  null,
+                                           "bb":  "dx=30, dy=10, dz=150, zMin=1425, zMax=1575",
+                                           "dz":  150.00000000000028,
+                                           "dy":  10.00000000000009
+                                       }
+                                   ]
+                     },
+                     {
+                         "name":  "CS 2C-1",
+                         "forms":  [
+                                       {
+                                           "id":  2194974,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  null,
+                                           "bb":  "dx=1200, dy=50, dz=1900, zMin=900, zMax=2800",
+                                           "dz":  1900.0000000000066,
+                                           "dy":  50.00000000000388
+                                       },
+                                       {
+                                           "id":  2195003,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  null,
+                                           "bb":  "dx=1100, dy=50, dz=400, zMin=2350, zMax=2750",
+                                           "dz":  399.9999999999989,
+                                           "dy":  50.00000000000356
+                                       },
+                                       {
+                                           "id":  2195014,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  null,
+                                           "bb":  "dx=550, dy=50, dz=1350, zMin=950, zMax=2300",
+                                           "dz":  1350.000000000007,
+                                           "dy":  50.000000000001776
+                                       },
+                                       {
+                                           "id":  2195029,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  null,
+                                           "bb":  "dx=550, dy=50, dz=1350, zMin=950, zMax=2300",
+                                           "dz":  1349.999999999998,
+                                           "dy":  50.000000000001776
+                                       },
+                                       {
+                                           "id":  2195061,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  null,
+                                           "bb":  "dx=1020, dy=10, dz=1720, zMin=990, zMax=2710",
+                                           "dz":  1720.000000000006,
+                                           "dy":  10.000000000003293
+                                       }
+                                   ]
+                     },
+                     {
+                         "name":  "ATT_Window 2",
+                         "forms":  [
+                                       {
+                                           "id":  2241584,
+                                           "name":  "Void Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  null,
+                                           "bb":  "dx=1150, dy=230, dz=2000, zMin=800, zMax=2800",
+                                           "dz":  1999.999999999998,
+                                           "dy":  230.00000000000003
+                                       },
+                                       {
+                                           "id":  2241611,
+                                           "name":  "Void Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  null,
+                                           "bb":  "dx=1550, dy=200, dz=200, zMin=2800, zMax=3000",
+                                           "dz":  199.9999999999973,
+                                           "dy":  200
+                                       },
+                                       {
+                                           "id":  2241623,
+                                           "name":  "Sweep",
+                                           "type":  "Sweep",
+                                           "subCat":  null,
+                                           "bb":  "dx=1150, dy=230, dz=2000, zMin=800, zMax=2800",
+                                           "dz":  1999.9999999999975,
+                                           "dy":  229.99999999999986
+                                       },
+                                       {
+                                           "id":  2241646,
+                                           "name":  "Sweep",
+                                           "type":  "Sweep",
+                                           "subCat":  null,
+                                           "bb":  "dx=1200, dy=15, dz=2050, zMin=775, zMax=2825",
+                                           "dz":  2049.999999999998,
+                                           "dy":  15.000000000000362
+                                       },
+                                       {
+                                           "id":  2241668,
+                                           "name":  "Sweep",
+                                           "type":  "Sweep",
+                                           "subCat":  null,
+                                           "bb":  "dx=1200, dy=15, dz=2050, zMin=775, zMax=2825",
+                                           "dz":  2049.999999999999,
+                                           "dy":  15.000000000007757
+                                       },
+                                       {
+                                           "id":  2241681,
+                                           "name":  "Sweep",
+                                           "type":  "Sweep",
+                                           "subCat":  null,
+                                           "bb":  "dx=1150, dy=84, dz=50, zMin=2390, zMax=2440",
+                                           "dz":  50,
+                                           "dy":  84.0000000000039
+                                       },
+                                       {
+                                           "id":  2241705,
+                                           "name":  "Sweep",
+                                           "type":  "Sweep",
+                                           "subCat":  null,
+                                           "bb":  "dx=1150, dy=84, dz=50, zMin=1160, zMax=1210",
+                                           "dz":  50,
+                                           "dy":  84.0000000000039
+                                       },
+                                       {
+                                           "id":  2241713,
+                                           "name":  "Sweep",
+                                           "type":  "Sweep",
+                                           "subCat":  null,
+                                           "bb":  "dx=50, dy=84, dz=1200, zMin=1200, zMax=2400",
+                                           "dz":  1199.9999999999986,
+                                           "dy":  84.00000000000014
+                                       },
+                                       {
+                                           "id":  2241721,
+                                           "name":  "Sweep",
+                                           "type":  "Sweep",
+                                           "subCat":  null,
+                                           "bb":  "dx=50, dy=84, dz=1200, zMin=1200, zMax=2400",
+                                           "dz":  1199.9999999999984,
+                                           "dy":  84.00000000000014
+                                       },
+                                       {
+                                           "id":  2241731,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  null,
+                                           "bb":  "dx=1070, dy=40, dz=1920, zMin=840, zMax=2760",
+                                           "dz":  1919.9999999999966,
+                                           "dy":  39.99999999999999
+                                       },
+                                       {
+                                           "id":  2241799,
+                                           "name":  "Sweep",
+                                           "type":  "Sweep",
+                                           "subCat":  null,
+                                           "bb":  "dx=950, dy=37, dz=210, zMin=2490, zMax=2700",
+                                           "dz":  210.00000000000747,
+                                           "dy":  37
+                                       },
+                                       {
+                                           "id":  2241821,
+                                           "name":  "Sweep",
+                                           "type":  "Sweep",
+                                           "subCat":  null,
+                                           "bb":  "dx=145, dy=37, dz=1080, zMin=1260, zMax=2340",
+                                           "dz":  1079.9999999999989,
+                                           "dy":  37
+                                       },
+                                       {
+                                           "id":  2241828,
+                                           "name":  "Sweep",
+                                           "type":  "Sweep",
+                                           "subCat":  null,
+                                           "bb":  "dx=145, dy=37, dz=1080, zMin=1260, zMax=2340",
+                                           "dz":  1080.0000000000018,
+                                           "dy":  37
+                                       },
+                                       {
+                                           "id":  2241835,
+                                           "name":  "Sweep",
+                                           "type":  "Sweep",
+                                           "subCat":  null,
+                                           "bb":  "dx=950, dy=37, dz=210, zMin=900, zMax=1110",
+                                           "dz":  209.9999999999953,
+                                           "dy":  37
+                                       },
+                                       {
+                                           "id":  2241844,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  null,
+                                           "bb":  "dx=950, dy=7, dz=1800, zMin=900, zMax=2700",
+                                           "dz":  1799.9999999999975,
+                                           "dy":  7.0000000000000835
+                                       }
+                                   ]
+                     },
+                     {
+                         "name":  "CỬA SỔ ĐẨY 2 CÁNH MỞ ERO",
+                         "forms":  [
+                                       {
+                                           "id":  2312447,
+                                           "name":  "Sweep",
+                                           "type":  "Sweep",
+                                           "subCat":  null,
+                                           "bb":  "dx=1500, dy=58, dz=1500, zMin=800, zMax=2300",
+                                           "dz":  1500.0000000000018,
+                                           "dy":  58.000000000000014
+                                       },
+                                       {
+                                           "id":  2312481,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  null,
+                                           "bb":  "dx=653, dy=58, dz=1354, zMin=873, zMax=2227",
+                                           "dz":  1354.000000000003,
+                                           "dy":  58.00000000000212
+                                       },
+                                       {
+                                           "id":  2312500,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  null,
+                                           "bb":  "dx=654, dy=58, dz=1354, zMin=873, zMax=2227",
+                                           "dz":  1354.0000000000002,
+                                           "dy":  58.00000000000212
+                                       },
+                                       {
+                                           "id":  2312519,
+                                           "name":  "Extrusion",
+                                           "type":  "Extrusion",
+                                           "subCat":  null,
+                                           "bb":  "dx=1242, dy=12, dz=1242, zMin=929, zMax=2171",
+                                           "dz":  1242.000000000004,
+                                           "dy":  12.000000000004015
+                                       },
+                                       {
+                                           "id":  2312537,
+                                           "name":  "Sweep",
+                                           "type":  "Sweep",
+                                           "subCat":  null,
+                                           "bb":  "dx=1378, dy=20, dz=1378, zMin=861, zMax=2239",
+                                           "dz":  1378.0000000000007,
+                                           "dy":  20.000000000000366
+                                       },
+                                       {
+                                           "id":  2312652,
+                                           "name":  "Sweep",
+                                           "type":  "Sweep",
+                                           "subCat":  null,
+                                           "bb":  "dx=693, dy=20, dz=1394, zMin=853, zMax=2247",
+                                           "dz":  1394.0000000000048,
+                                           "dy":  20.000000000009667
+                                       },
+                                       {
+                                           "id":  2312659,
+                                           "name":  "Sweep",
+                                           "type":  "Sweep",
+                                           "subCat":  null,
+                                           "bb":  "dx=694, dy=20, dz=1394, zMin=853, zMax=2247",
+                                           "dz":  1394.0000000000025,
+                                           "dy":  20.000000000006047
+                                       },
+                                       {
+                                           "id":  2312666,
+                                           "name":  "Sweep",
+                                           "type":  "Sweep",
+                                           "subCat":  null,
+                                           "bb":  "dx=541, dy=58, dz=1242, zMin=929, zMax=2171",
+                                           "dz":  1242.0000000000025,
+                                           "dy":  58.000000000002835
+                                       },
+                                       {
+                                           "id":  2312673,
+                                           "name":  "Sweep",
+                                           "type":  "Sweep",
+                                           "subCat":  null,
+                                           "bb":  "dx=542, dy=58, dz=1242, zMin=929, zMax=2171",
+                                           "dz":  1242.0000000000057,
+                                           "dy":  58.00000000000385
+                                       },
+                                       {
+                                           "id":  2312680,
+                                           "name":  "Sweep",
+                                           "type":  "Sweep",
+                                           "subCat":  null,
+                                           "bb":  "dx=57, dy=58, dz=1338, zMin=881, zMax=2219",
+                                           "dz":  1337.9999999999998,
+                                           "dy":  58.00000000000026
+                                       }
+                                   ]
+                     }
+                 ]
+}

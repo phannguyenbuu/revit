@@ -1,0 +1,2 @@
+(prompt (strcat "\nEXTENTS view_10: " (vl-prin1-to-string (getvar "EXTMIN")) " to " (vl-prin1-to-string (getvar "EXTMAX")) "\n"))
+_QUIT

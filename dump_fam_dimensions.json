@@ -1,0 +1,845 @@
+﻿{
+    "totalDims":  105,
+    "dims":  [
+                 {
+                     "id":  2371096,
+                     "name":  "Linear",
+                     "label":  null,
+                     "isLocked":  false,
+                     "val":  0,
+                     "segCount":  2
+                 },
+                 {
+                     "id":  2371099,
+                     "name":  "Linear \r\nLabel : Width",
+                     "label":  "Width",
+                     "isLocked":  true,
+                     "val":  1500,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371109,
+                     "name":  "Linear \r\nLabel : Height",
+                     "label":  "Height",
+                     "isLocked":  true,
+                     "val":  1800,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371132,
+                     "name":  "Linear \r\nLabel : Default Sill Height",
+                     "label":  "Default Sill Height",
+                     "isLocked":  true,
+                     "val":  750,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371175,
+                     "name":  "Linear",
+                     "label":  null,
+                     "isLocked":  true,
+                     "val":  0,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371177,
+                     "name":  "Linear",
+                     "label":  null,
+                     "isLocked":  true,
+                     "val":  0,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371502,
+                     "name":  "Linear \r\nLabel : CAO CÁNH",
+                     "label":  "CAO CÁNH",
+                     "isLocked":  true,
+                     "val":  1800,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371509,
+                     "name":  "Alignment",
+                     "label":  null,
+                     "isLocked":  true,
+                     "val":  0,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371520,
+                     "name":  "Alignment",
+                     "label":  null,
+                     "isLocked":  true,
+                     "val":  0,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371530,
+                     "name":  "Alignment",
+                     "label":  null,
+                     "isLocked":  true,
+                     "val":  0,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371531,
+                     "name":  "Alignment",
+                     "label":  null,
+                     "isLocked":  true,
+                     "val":  0,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371532,
+                     "name":  "Alignment",
+                     "label":  null,
+                     "isLocked":  true,
+                     "val":  0,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371533,
+                     "name":  "Alignment",
+                     "label":  null,
+                     "isLocked":  true,
+                     "val":  0,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371542,
+                     "name":  "Linear",
+                     "label":  null,
+                     "isLocked":  false,
+                     "val":  0,
+                     "segCount":  3
+                 },
+                 {
+                     "id":  2371543,
+                     "name":  "Linear",
+                     "label":  null,
+                     "isLocked":  false,
+                     "val":  76,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371544,
+                     "name":  "Linear",
+                     "label":  null,
+                     "isLocked":  false,
+                     "val":  76,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371545,
+                     "name":  "Linear",
+                     "label":  null,
+                     "isLocked":  false,
+                     "val":  76,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371546,
+                     "name":  "Linear \r\nLabel : 76",
+                     "label":  "76",
+                     "isLocked":  true,
+                     "val":  76,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371559,
+                     "name":  "Linear \r\nLabel : 76",
+                     "label":  "76",
+                     "isLocked":  true,
+                     "val":  76,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371560,
+                     "name":  "Linear Dimension Style",
+                     "label":  null,
+                     "isLocked":  false,
+                     "val":  0,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371561,
+                     "name":  "Linear Dimension Style",
+                     "label":  null,
+                     "isLocked":  false,
+                     "val":  0,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371562,
+                     "name":  "Linear Dimension Style",
+                     "label":  null,
+                     "isLocked":  false,
+                     "val":  0,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371563,
+                     "name":  "Linear Dimension Style",
+                     "label":  null,
+                     "isLocked":  false,
+                     "val":  0,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371564,
+                     "name":  "Linear Dimension Style",
+                     "label":  null,
+                     "isLocked":  false,
+                     "val":  0,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371565,
+                     "name":  "Linear Dimension Style",
+                     "label":  null,
+                     "isLocked":  false,
+                     "val":  0,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371566,
+                     "name":  "Linear Dimension Style",
+                     "label":  null,
+                     "isLocked":  false,
+                     "val":  25,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371567,
+                     "name":  "Linear Dimension Style",
+                     "label":  null,
+                     "isLocked":  false,
+                     "val":  25,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371568,
+                     "name":  "Linear Dimension Style",
+                     "label":  null,
+                     "isLocked":  false,
+                     "val":  76,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371569,
+                     "name":  "Linear Dimension Style",
+                     "label":  null,
+                     "isLocked":  false,
+                     "val":  76,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371570,
+                     "name":  "Linear Dimension Style",
+                     "label":  null,
+                     "isLocked":  false,
+                     "val":  76,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371571,
+                     "name":  "Linear Dimension Style",
+                     "label":  null,
+                     "isLocked":  false,
+                     "val":  76,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371572,
+                     "name":  "Linear Dimension Style",
+                     "label":  null,
+                     "isLocked":  false,
+                     "val":  197.2,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371573,
+                     "name":  "Linear Dimension Style",
+                     "label":  null,
+                     "isLocked":  false,
+                     "val":  197.2,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371574,
+                     "name":  "Linear Dimension Style",
+                     "label":  null,
+                     "isLocked":  false,
+                     "val":  142.8,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371575,
+                     "name":  "Linear Dimension Style",
+                     "label":  null,
+                     "isLocked":  false,
+                     "val":  181.2,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371576,
+                     "name":  "Linear Dimension Style",
+                     "label":  null,
+                     "isLocked":  false,
+                     "val":  0,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371577,
+                     "name":  "Linear Dimension Style",
+                     "label":  null,
+                     "isLocked":  false,
+                     "val":  0,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371578,
+                     "name":  "Linear Dimension Style",
+                     "label":  null,
+                     "isLocked":  false,
+                     "val":  0,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371579,
+                     "name":  "Linear Dimension Style",
+                     "label":  null,
+                     "isLocked":  false,
+                     "val":  0,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371580,
+                     "name":  "Linear Dimension Style",
+                     "label":  null,
+                     "isLocked":  false,
+                     "val":  76,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371581,
+                     "name":  "Linear Dimension Style",
+                     "label":  null,
+                     "isLocked":  false,
+                     "val":  76,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371582,
+                     "name":  "Linear Dimension Style",
+                     "label":  null,
+                     "isLocked":  false,
+                     "val":  76,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371583,
+                     "name":  "Linear Dimension Style",
+                     "label":  null,
+                     "isLocked":  false,
+                     "val":  76,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371585,
+                     "name":  "Linear",
+                     "label":  null,
+                     "isLocked":  true,
+                     "val":  25,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371586,
+                     "name":  "Linear",
+                     "label":  null,
+                     "isLocked":  true,
+                     "val":  25,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371587,
+                     "name":  "Linear",
+                     "label":  null,
+                     "isLocked":  true,
+                     "val":  25,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371591,
+                     "name":  "Alignment",
+                     "label":  null,
+                     "isLocked":  true,
+                     "val":  0,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371592,
+                     "name":  "Alignment",
+                     "label":  null,
+                     "isLocked":  true,
+                     "val":  0,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371594,
+                     "name":  "Linear Dimension Style",
+                     "label":  null,
+                     "isLocked":  false,
+                     "val":  0,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371595,
+                     "name":  "Linear Dimension Style",
+                     "label":  null,
+                     "isLocked":  false,
+                     "val":  0,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371596,
+                     "name":  "Linear Dimension Style",
+                     "label":  null,
+                     "isLocked":  false,
+                     "val":  0,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371597,
+                     "name":  "Linear Dimension Style",
+                     "label":  null,
+                     "isLocked":  false,
+                     "val":  25,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371606,
+                     "name":  "Alignment",
+                     "label":  null,
+                     "isLocked":  true,
+                     "val":  0,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371607,
+                     "name":  "Alignment",
+                     "label":  null,
+                     "isLocked":  true,
+                     "val":  0,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371608,
+                     "name":  "Alignment",
+                     "label":  null,
+                     "isLocked":  true,
+                     "val":  0,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371613,
+                     "name":  "Alignment",
+                     "label":  null,
+                     "isLocked":  true,
+                     "val":  0,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371614,
+                     "name":  "Alignment",
+                     "label":  null,
+                     "isLocked":  true,
+                     "val":  0,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371615,
+                     "name":  "Alignment",
+                     "label":  null,
+                     "isLocked":  true,
+                     "val":  0,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371616,
+                     "name":  "Alignment",
+                     "label":  null,
+                     "isLocked":  true,
+                     "val":  0,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371617,
+                     "name":  "Linear Dimension Style",
+                     "label":  null,
+                     "isLocked":  false,
+                     "val":  25,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371625,
+                     "name":  "Alignment",
+                     "label":  null,
+                     "isLocked":  true,
+                     "val":  0,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371626,
+                     "name":  "Alignment",
+                     "label":  null,
+                     "isLocked":  true,
+                     "val":  0,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371631,
+                     "name":  "Alignment",
+                     "label":  null,
+                     "isLocked":  true,
+                     "val":  0,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371632,
+                     "name":  "Alignment",
+                     "label":  null,
+                     "isLocked":  true,
+                     "val":  0,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371645,
+                     "name":  "Alignment",
+                     "label":  null,
+                     "isLocked":  true,
+                     "val":  0,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371646,
+                     "name":  "Alignment",
+                     "label":  null,
+                     "isLocked":  true,
+                     "val":  0,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371651,
+                     "name":  "Alignment",
+                     "label":  null,
+                     "isLocked":  true,
+                     "val":  0,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371652,
+                     "name":  "Alignment",
+                     "label":  null,
+                     "isLocked":  true,
+                     "val":  0,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371653,
+                     "name":  "Linear",
+                     "label":  null,
+                     "isLocked":  false,
+                     "val":  25,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371654,
+                     "name":  "Linear",
+                     "label":  null,
+                     "isLocked":  true,
+                     "val":  10,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371655,
+                     "name":  "Linear",
+                     "label":  null,
+                     "isLocked":  true,
+                     "val":  10,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371662,
+                     "name":  "Alignment",
+                     "label":  null,
+                     "isLocked":  true,
+                     "val":  0,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371663,
+                     "name":  "Alignment",
+                     "label":  null,
+                     "isLocked":  true,
+                     "val":  0,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371664,
+                     "name":  "Alignment",
+                     "label":  null,
+                     "isLocked":  true,
+                     "val":  0,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371665,
+                     "name":  "Alignment",
+                     "label":  null,
+                     "isLocked":  true,
+                     "val":  0,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371670,
+                     "name":  "Alignment",
+                     "label":  null,
+                     "isLocked":  true,
+                     "val":  0,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371671,
+                     "name":  "Alignment",
+                     "label":  null,
+                     "isLocked":  true,
+                     "val":  0,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371672,
+                     "name":  "Alignment",
+                     "label":  null,
+                     "isLocked":  true,
+                     "val":  0,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371673,
+                     "name":  "Alignment",
+                     "label":  null,
+                     "isLocked":  true,
+                     "val":  0,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371680,
+                     "name":  "Linear Dimension Style",
+                     "label":  null,
+                     "isLocked":  false,
+                     "val":  0,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371681,
+                     "name":  "Linear Dimension Style",
+                     "label":  null,
+                     "isLocked":  false,
+                     "val":  0,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371682,
+                     "name":  "Linear Dimension Style",
+                     "label":  null,
+                     "isLocked":  false,
+                     "val":  0,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371683,
+                     "name":  "Linear Dimension Style",
+                     "label":  null,
+                     "isLocked":  false,
+                     "val":  0,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371684,
+                     "name":  "Linear Dimension Style",
+                     "label":  null,
+                     "isLocked":  false,
+                     "val":  0,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371685,
+                     "name":  "Linear Dimension Style",
+                     "label":  null,
+                     "isLocked":  false,
+                     "val":  0,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371686,
+                     "name":  "Linear Dimension Style",
+                     "label":  null,
+                     "isLocked":  false,
+                     "val":  750,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371687,
+                     "name":  "Linear Dimension Style",
+                     "label":  null,
+                     "isLocked":  false,
+                     "val":  750,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371703,
+                     "name":  "Linear Dimension Style",
+                     "label":  null,
+                     "isLocked":  false,
+                     "val":  25,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371704,
+                     "name":  "Linear Dimension Style",
+                     "label":  null,
+                     "isLocked":  false,
+                     "val":  25,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371753,
+                     "name":  "Linear Dimension Style",
+                     "label":  null,
+                     "isLocked":  false,
+                     "val":  0,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371754,
+                     "name":  "Linear Dimension Style",
+                     "label":  null,
+                     "isLocked":  false,
+                     "val":  0,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371755,
+                     "name":  "Linear Dimension Style",
+                     "label":  null,
+                     "isLocked":  false,
+                     "val":  76,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371756,
+                     "name":  "Linear Dimension Style",
+                     "label":  null,
+                     "isLocked":  false,
+                     "val":  0,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371757,
+                     "name":  "Linear Dimension Style",
+                     "label":  null,
+                     "isLocked":  false,
+                     "val":  0,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371758,
+                     "name":  "Linear Dimension Style",
+                     "label":  null,
+                     "isLocked":  false,
+                     "val":  76,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371759,
+                     "name":  "Linear Dimension Style",
+                     "label":  null,
+                     "isLocked":  false,
+                     "val":  76,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371760,
+                     "name":  "Linear Dimension Style",
+                     "label":  null,
+                     "isLocked":  false,
+                     "val":  0,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371761,
+                     "name":  "Linear Dimension Style",
+                     "label":  null,
+                     "isLocked":  false,
+                     "val":  524,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371762,
+                     "name":  "Linear Dimension Style",
+                     "label":  null,
+                     "isLocked":  false,
+                     "val":  524,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371763,
+                     "name":  "Linear Dimension Style",
+                     "label":  null,
+                     "isLocked":  false,
+                     "val":  50,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371764,
+                     "name":  "Linear Dimension Style",
+                     "label":  null,
+                     "isLocked":  false,
+                     "val":  50,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371765,
+                     "name":  "Linear Dimension Style",
+                     "label":  null,
+                     "isLocked":  false,
+                     "val":  524,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371766,
+                     "name":  "Linear Dimension Style",
+                     "label":  null,
+                     "isLocked":  false,
+                     "val":  0,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371767,
+                     "name":  "Linear Dimension Style",
+                     "label":  null,
+                     "isLocked":  false,
+                     "val":  50,
+                     "segCount":  0
+                 },
+                 {
+                     "id":  2371768,
+                     "name":  "Linear Dimension Style",
+                     "label":  null,
+                     "isLocked":  false,
+                     "val":  50,
+                     "segCount":  0
+                 }
+             ]
+}

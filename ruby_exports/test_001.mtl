@@ -1,0 +1,9 @@
+# Materials for test_001
+
+newmtl mat_default
+Kd 0.82 0.82 0.85
+Ka 0.2 0.2 0.2
+Ks 0.1 0.1 0.1
+Ns 10.0
+d 1.0
+

@@ -1,0 +1,4 @@
+(setq p1 (getvar "EXTMIN"))
+(setq p2 (getvar "EXTMAX"))
+(princ (strcat "EXT: view_12.dwg (" (rtos (car p1) 2 0) "," (rtos (cadr p1) 2 0) ") to (" (rtos (car p2) 2 0) "," (rtos (cadr p2) 2 0) ")\n"))
+_QUIT

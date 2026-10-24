@@ -1,0 +1,56 @@
+﻿{
+    "totalFound":  1,
+    "doors":  [
+                  {
+                      "id":  2363716,
+                      "category":  "Doors",
+                      "familyName":  "cua thuy luc 2 canh",
+                      "typeName":  "Đ1",
+                      "level":  "MẶT BẰNG TẦNG 1",
+                      "host":  "none",
+                      "location":  null,
+                      "bb":  {
+                                 "dx":  1829,
+                                 "dy":  1829,
+                                 "dz":  2135
+                             },
+                      "instanceParams":  {
+                                             "Category":  "Doors",
+                                             "Export to IFC":  "By Type",
+                                             "IfcGUID":  "3ZA7Bhp_b6UAwuF7rYEfsV",
+                                             "Design Option":  "-1",
+                                             "Volume":  "0.06 m³",
+                                             "Area":  "6 m²",
+                                             "Phase Demolished":  "None",
+                                             "Phase Created":  "New Construction",
+                                             "Host Id":  "-1",
+                                             "Level":  "MẶT BẰNG TẦNG 1",
+                                             "Family and Type":  "cua thuy luc 2 canh: Đ1",
+                                             "Family":  "cua thuy luc 2 canh",
+                                             "Type":  "Đ1",
+                                             "Type Id":  "104895",
+                                             "Mark":  "D1"
+                                         },
+                      "typeParams":  {
+                                         "Category":  "Doors",
+                                         "Export Type to IFC":  "Default",
+                                         "Type IfcGUID":  "08B7HYK213GQ52Ri$3jRQ0",
+                                         "Design Option":  "-1",
+                                         "Description":  "Cửa kính cường lực 10mm 2 cánh bản lề sàn bật 2 chiều (D1)",
+                                         "Define Thermal Properties by":  "Schematic Type",
+                                         "Analytic Construction":  "\u003cNone\u003e",
+                                         "Family Name":  "cua thuy luc 2 canh",
+                                         "Type Name":  "Đ1",
+                                         "Function":  "Interior",
+                                         "Offset":  "50",
+                                         "Material Glass":  "Glass, Clear Glazing, Tempered",
+                                         "Material Ironmongery":  "Metal - Aluminum",
+                                         "Material Door":  "Metal - Aluminum",
+                                         "Stile Top Rail":  "125",
+                                         "Stile Bottom Rail":  "125",
+                                         "Handle X Distance":  "75",
+                                         "Glazing Thickness":  "10"
+                                     }
+                  }
+              ]
+}

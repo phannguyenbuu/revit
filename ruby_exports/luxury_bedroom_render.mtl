@@ -1,0 +1,135 @@
+# Materials for luxury_bedroom_render
+
+newmtl mat_default
+Kd 0.82 0.82 0.85
+Ka 0.2 0.2 0.2
+Ks 0.1 0.1 0.1
+Ns 10.0
+d 1.0
+
+newmtl Window_Glass
+Kd 0.750 0.750 0.750
+Ka 0.25 0.25 0.25
+Ks 0.15 0.15 0.15
+Ns 20.0
+d 1.00
+
+newmtl Warm_White
+Kd 0.750 0.750 0.750
+Ka 0.25 0.25 0.25
+Ks 0.15 0.15 0.15
+Ns 20.0
+d 1.00
+
+newmtl Warm_Ivory_Wall
+Kd 0.750 0.750 0.750
+Ka 0.25 0.25 0.25
+Ks 0.15 0.15 0.15
+Ns 20.0
+d 1.00
+
+newmtl Lamp_Shade
+Kd 0.750 0.750 0.750
+Ka 0.25 0.25 0.25
+Ks 0.15 0.15 0.15
+Ns 20.0
+d 1.00
+
+newmtl Plant_Pot
+Kd 0.750 0.750 0.750
+Ka 0.25 0.25 0.25
+Ks 0.15 0.15 0.15
+Ns 20.0
+d 1.00
+
+newmtl Leaf_Green
+Kd 0.750 0.750 0.750
+Ka 0.25 0.25 0.25
+Ks 0.15 0.15 0.15
+Ns 20.0
+d 1.00
+
+newmtl Brushed_Brass
+Kd 0.750 0.750 0.750
+Ka 0.25 0.25 0.25
+Ks 0.15 0.15 0.15
+Ns 20.0
+d 1.00
+
+newmtl Lamp_Metal
+Kd 0.750 0.750 0.750
+Ka 0.25 0.25 0.25
+Ks 0.15 0.15 0.15
+Ns 20.0
+d 1.00
+
+newmtl Natural_Jute_Rug
+Kd 0.750 0.750 0.750
+Ka 0.25 0.25 0.25
+Ks 0.15 0.15 0.15
+Ns 20.0
+d 1.00
+
+newmtl Bed_Runner
+Kd 0.750 0.750 0.750
+Ka 0.25 0.25 0.25
+Ks 0.15 0.15 0.15
+Ns 20.0
+d 1.00
+
+newmtl Dark_Walnut
+Kd 0.750 0.750 0.750
+Ka 0.25 0.25 0.25
+Ks 0.15 0.15 0.15
+Ns 20.0
+d 1.00
+
+newmtl Parquet_Light
+Kd 0.750 0.750 0.750
+Ka 0.25 0.25 0.25
+Ks 0.15 0.15 0.15
+Ns 20.0
+d 1.00
+
+newmtl Cream_Fabric
+Kd 0.750 0.750 0.750
+Ka 0.25 0.25 0.25
+Ks 0.15 0.15 0.15
+Ns 20.0
+d 1.00
+
+newmtl Door_Handle
+Kd 0.750 0.750 0.750
+Ka 0.25 0.25 0.25
+Ks 0.15 0.15 0.15
+Ns 20.0
+d 1.00
+
+newmtl Parquet_Dark
+Kd 0.750 0.750 0.750
+Ka 0.25 0.25 0.25
+Ks 0.15 0.15 0.15
+Ns 20.0
+d 1.00
+
+newmtl Walnut
+Kd 0.322 0.192 0.110
+Ka 0.25 0.25 0.25
+Ks 0.15 0.15 0.15
+Ns 20.0
+d 1.00
+
+newmtl Ceiling
+Kd 0.965 0.949 0.898
+Ka 0.25 0.25 0.25
+Ks 0.15 0.15 0.15
+Ns 20.0
+d 1.00
+
+newmtl Window_Frame
+Kd 0.750 0.750 0.750
+Ka 0.25 0.25 0.25
+Ks 0.15 0.15 0.15
+Ns 20.0
+d 1.00
+

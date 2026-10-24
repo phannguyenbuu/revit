@@ -1,0 +1,1513 @@
+﻿{
+    "grids":  [
+                  {
+                      "name":  "1",
+                      "p1":  {
+                                 "x":  0.55,
+                                 "y":  -3
+                             },
+                      "p2":  {
+                                 "x":  0.55,
+                                 "y":  18
+                             }
+                  },
+                  {
+                      "name":  "2",
+                      "p1":  {
+                                 "x":  4.35,
+                                 "y":  -3
+                             },
+                      "p2":  {
+                                 "x":  4.35,
+                                 "y":  18
+                             }
+                  },
+                  {
+                      "name":  "3",
+                      "p1":  {
+                                 "x":  8.05,
+                                 "y":  -3
+                             },
+                      "p2":  {
+                                 "x":  8.05,
+                                 "y":  18
+                             }
+                  },
+                  {
+                      "name":  "4",
+                      "p1":  {
+                                 "x":  11.65,
+                                 "y":  -3
+                             },
+                      "p2":  {
+                                 "x":  11.65,
+                                 "y":  18
+                             }
+                  },
+                  {
+                      "name":  "5",
+                      "p1":  {
+                                 "x":  15.25,
+                                 "y":  -3
+                             },
+                      "p2":  {
+                                 "x":  15.25,
+                                 "y":  18
+                             }
+                  },
+                  {
+                      "name":  "6",
+                      "p1":  {
+                                 "x":  18.85,
+                                 "y":  -3
+                             },
+                      "p2":  {
+                                 "x":  18.85,
+                                 "y":  18
+                             }
+                  },
+                  {
+                      "name":  "7",
+                      "p1":  {
+                                 "x":  22.45,
+                                 "y":  -3
+                             },
+                      "p2":  {
+                                 "x":  22.45,
+                                 "y":  18
+                             }
+                  },
+                  {
+                      "name":  "8",
+                      "p1":  {
+                                 "x":  26.05,
+                                 "y":  -3
+                             },
+                      "p2":  {
+                                 "x":  26.05,
+                                 "y":  18
+                             }
+                  },
+                  {
+                      "name":  "9",
+                      "p1":  {
+                                 "x":  29.65,
+                                 "y":  -3
+                             },
+                      "p2":  {
+                                 "x":  29.65,
+                                 "y":  18
+                             }
+                  },
+                  {
+                      "name":  "10",
+                      "p1":  {
+                                 "x":  33.35,
+                                 "y":  -3
+                             },
+                      "p2":  {
+                                 "x":  33.35,
+                                 "y":  18
+                             }
+                  },
+                  {
+                      "name":  "11",
+                      "p1":  {
+                                 "x":  37.15,
+                                 "y":  -3
+                             },
+                      "p2":  {
+                                 "x":  37.15,
+                                 "y":  18
+                             }
+                  },
+                  {
+                      "name":  "A",
+                      "p1":  {
+                                 "x":  -3,
+                                 "y":  0
+                             },
+                      "p2":  {
+                                 "x":  39.5,
+                                 "y":  0
+                             }
+                  },
+                  {
+                      "name":  "B",
+                      "p1":  {
+                                 "x":  -3,
+                                 "y":  5.4
+                             },
+                      "p2":  {
+                                 "x":  39.5,
+                                 "y":  5.4
+                             }
+                  },
+                  {
+                      "name":  "C",
+                      "p1":  {
+                                 "x":  -3,
+                                 "y":  7.8
+                             },
+                      "p2":  {
+                                 "x":  39.5,
+                                 "y":  7.8
+                             }
+                  },
+                  {
+                      "name":  "D",
+                      "p1":  {
+                                 "x":  -3,
+                                 "y":  13.2
+                             },
+                      "p2":  {
+                                 "x":  39.5,
+                                 "y":  13.2
+                             }
+                  },
+                  {
+                      "name":  "E",
+                      "p1":  {
+                                 "x":  -3,
+                                 "y":  14.9
+                             },
+                      "p2":  {
+                                 "x":  39.5,
+                                 "y":  14.9
+                             }
+                  }
+              ],
+    "totalWindows":  77,
+    "windows":  [
+                    {
+                        "id":  2360984,
+                        "symbol":  "S1_1500x1800",
+                        "family":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 1",
+                        "x":  9.8,
+                        "y":  13.2,
+                        "z":  0.75,
+                        "sill_mm":  750,
+                        "head_mm":  2550,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2360985,
+                        "symbol":  "S1_1500x1800",
+                        "family":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 1",
+                        "x":  13.4,
+                        "y":  13.2,
+                        "z":  0.75,
+                        "sill_mm":  750,
+                        "head_mm":  2550,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2360986,
+                        "symbol":  "S1_1500x1800",
+                        "family":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 1",
+                        "x":  17.05,
+                        "y":  13.2,
+                        "z":  0.75,
+                        "sill_mm":  750,
+                        "head_mm":  2550,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2360987,
+                        "symbol":  "S5_800x600",
+                        "family":  "ATT_Window 2",
+                        "level":  "MẶT BẰNG TẦNG 1",
+                        "x":  19.44,
+                        "y":  13.2,
+                        "z":  1.8,
+                        "sill_mm":  1800,
+                        "head_mm":  2400,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2360988,
+                        "symbol":  "S5_800x600",
+                        "family":  "ATT_Window 2",
+                        "level":  "MẶT BẰNG TẦNG 1",
+                        "x":  23.4,
+                        "y":  13.2,
+                        "z":  1.8,
+                        "sill_mm":  1800,
+                        "head_mm":  2400,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2360989,
+                        "symbol":  "S1_1500x1800",
+                        "family":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 1",
+                        "x":  25.04,
+                        "y":  13.2,
+                        "z":  0.75,
+                        "sill_mm":  750,
+                        "head_mm":  2550,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2360990,
+                        "symbol":  "S1_1500x1800",
+                        "family":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 1",
+                        "x":  28.19,
+                        "y":  13.2,
+                        "z":  0.75,
+                        "sill_mm":  750,
+                        "head_mm":  2550,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2360996,
+                        "symbol":  "K3_3100x2100",
+                        "family":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 1",
+                        "x":  6.2,
+                        "y":  14.9,
+                        "z":  0.9,
+                        "sill_mm":  900,
+                        "head_mm":  3000,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2360999,
+                        "symbol":  "K3_3100x2100",
+                        "family":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 1",
+                        "x":  31.5,
+                        "y":  14.9,
+                        "z":  0.9,
+                        "sill_mm":  900,
+                        "head_mm":  3000,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2361245,
+                        "symbol":  "S1_1500x1800",
+                        "family":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 1",
+                        "x":  6.3,
+                        "y":  0,
+                        "z":  0.75,
+                        "sill_mm":  750,
+                        "head_mm":  2550,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2361246,
+                        "symbol":  "S1_1500x1800",
+                        "family":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 1",
+                        "x":  9.85,
+                        "y":  0,
+                        "z":  0.75,
+                        "sill_mm":  750,
+                        "head_mm":  2550,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2361247,
+                        "symbol":  "S1_1500x1800",
+                        "family":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 1",
+                        "x":  13.45,
+                        "y":  0,
+                        "z":  0.75,
+                        "sill_mm":  750,
+                        "head_mm":  2550,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2361248,
+                        "symbol":  "S1_1500x1800",
+                        "family":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 1",
+                        "x":  17.05,
+                        "y":  0,
+                        "z":  0.75,
+                        "sill_mm":  750,
+                        "head_mm":  2550,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2361249,
+                        "symbol":  "S1_1500x1800",
+                        "family":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 1",
+                        "x":  20.65,
+                        "y":  0,
+                        "z":  0.75,
+                        "sill_mm":  750,
+                        "head_mm":  2550,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2361250,
+                        "symbol":  "S1_1500x1800",
+                        "family":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 1",
+                        "x":  24.25,
+                        "y":  0,
+                        "z":  0.75,
+                        "sill_mm":  750,
+                        "head_mm":  2550,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2361251,
+                        "symbol":  "S1_1500x1800",
+                        "family":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 1",
+                        "x":  27.85,
+                        "y":  0,
+                        "z":  0.75,
+                        "sill_mm":  750,
+                        "head_mm":  2550,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2361252,
+                        "symbol":  "S1_1500x1800",
+                        "family":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 1",
+                        "x":  31.4,
+                        "y":  0,
+                        "z":  0.75,
+                        "sill_mm":  750,
+                        "head_mm":  2550,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2361532,
+                        "symbol":  "S4_1500x1400",
+                        "family":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 1",
+                        "x":  34.5,
+                        "y":  13.2,
+                        "z":  0.9,
+                        "sill_mm":  900,
+                        "head_mm":  2300,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2368993,
+                        "symbol":  "S1_1500x1800",
+                        "family":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 2",
+                        "x":  6.07,
+                        "y":  0,
+                        "z":  4.35,
+                        "sill_mm":  750,
+                        "head_mm":  2550,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2368994,
+                        "symbol":  "S1_1500x1800",
+                        "family":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 2",
+                        "x":  9.64,
+                        "y":  0,
+                        "z":  4.35,
+                        "sill_mm":  750,
+                        "head_mm":  2550,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2368995,
+                        "symbol":  "S1_1500x1800",
+                        "family":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 2",
+                        "x":  13.22,
+                        "y":  0,
+                        "z":  4.35,
+                        "sill_mm":  750,
+                        "head_mm":  2550,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2368996,
+                        "symbol":  "S1_1500x1800",
+                        "family":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 2",
+                        "x":  16.92,
+                        "y":  0,
+                        "z":  4.35,
+                        "sill_mm":  750,
+                        "head_mm":  2550,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2368997,
+                        "symbol":  "S1_1500x1800",
+                        "family":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 2",
+                        "x":  20.45,
+                        "y":  0,
+                        "z":  4.35,
+                        "sill_mm":  750,
+                        "head_mm":  2550,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2368998,
+                        "symbol":  "S1_1500x1800",
+                        "family":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 2",
+                        "x":  24.14,
+                        "y":  0,
+                        "z":  4.35,
+                        "sill_mm":  750,
+                        "head_mm":  2550,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2368999,
+                        "symbol":  "S1_1500x1800",
+                        "family":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 2",
+                        "x":  27.6,
+                        "y":  0,
+                        "z":  4.35,
+                        "sill_mm":  750,
+                        "head_mm":  2550,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2369000,
+                        "symbol":  "S1_1500x1800",
+                        "family":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 2",
+                        "x":  31.32,
+                        "y":  0,
+                        "z":  4.35,
+                        "sill_mm":  750,
+                        "head_mm":  2550,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2369001,
+                        "symbol":  "S1_1500x1800",
+                        "family":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 2",
+                        "x":  9.69,
+                        "y":  13.2,
+                        "z":  4.35,
+                        "sill_mm":  750,
+                        "head_mm":  2550,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2369002,
+                        "symbol":  "S1_1500x1800",
+                        "family":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 2",
+                        "x":  13.29,
+                        "y":  13.2,
+                        "z":  4.35,
+                        "sill_mm":  750,
+                        "head_mm":  2550,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2369003,
+                        "symbol":  "S1_1500x1800",
+                        "family":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 2",
+                        "x":  16.89,
+                        "y":  13.2,
+                        "z":  4.35,
+                        "sill_mm":  750,
+                        "head_mm":  2550,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2369004,
+                        "symbol":  "S1_1500x1800",
+                        "family":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 2",
+                        "x":  20.49,
+                        "y":  13.2,
+                        "z":  4.35,
+                        "sill_mm":  750,
+                        "head_mm":  2550,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2369005,
+                        "symbol":  "S1_1500x1800",
+                        "family":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 2",
+                        "x":  24.09,
+                        "y":  13.2,
+                        "z":  4.35,
+                        "sill_mm":  750,
+                        "head_mm":  2550,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2369006,
+                        "symbol":  "S1_1500x1800",
+                        "family":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 2",
+                        "x":  27.85,
+                        "y":  13.2,
+                        "z":  4.35,
+                        "sill_mm":  750,
+                        "head_mm":  2550,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2369007,
+                        "symbol":  "S4_1500x1400",
+                        "family":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 2",
+                        "x":  34.37,
+                        "y":  13.2,
+                        "z":  4.5,
+                        "sill_mm":  900,
+                        "head_mm":  2300,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2369008,
+                        "symbol":  "S1_1500x1400",
+                        "family":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 2",
+                        "x":  0.55,
+                        "y":  3.52,
+                        "z":  4.5,
+                        "sill_mm":  900,
+                        "head_mm":  2200,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2369009,
+                        "symbol":  "S1_1500x1400",
+                        "family":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 2",
+                        "x":  0.55,
+                        "y":  9.45,
+                        "z":  4.5,
+                        "sill_mm":  900,
+                        "head_mm":  2200,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2369010,
+                        "symbol":  "900X1900",
+                        "family":  "CUA SO2 CANH NHOM KINH CO O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 2",
+                        "x":  37.15,
+                        "y":  10.86,
+                        "z":  4.5,
+                        "sill_mm":  900,
+                        "head_mm":  2800,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2369011,
+                        "symbol":  "900X1900",
+                        "family":  "CUA SO2 CANH NHOM KINH CO O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 2",
+                        "x":  37.15,
+                        "y":  12.03,
+                        "z":  4.5,
+                        "sill_mm":  900,
+                        "head_mm":  2800,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2369012,
+                        "symbol":  "K3_3100x2100",
+                        "family":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 2",
+                        "x":  6.19,
+                        "y":  14.9,
+                        "z":  4.5,
+                        "sill_mm":  900,
+                        "head_mm":  3000,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2369013,
+                        "symbol":  "K3_3100x2100",
+                        "family":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 2",
+                        "x":  31.31,
+                        "y":  14.9,
+                        "z":  4.5,
+                        "sill_mm":  900,
+                        "head_mm":  3000,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2369739,
+                        "symbol":  "S1_1500x1800",
+                        "family":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 3",
+                        "x":  6.08,
+                        "y":  0,
+                        "z":  7.95,
+                        "sill_mm":  750,
+                        "head_mm":  2550,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2369740,
+                        "symbol":  "S1_1500x1800",
+                        "family":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 3",
+                        "x":  9.64,
+                        "y":  0,
+                        "z":  7.95,
+                        "sill_mm":  750,
+                        "head_mm":  2550,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2369741,
+                        "symbol":  "S1_1500x1800",
+                        "family":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 3",
+                        "x":  13.22,
+                        "y":  0,
+                        "z":  7.95,
+                        "sill_mm":  750,
+                        "head_mm":  2550,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2369742,
+                        "symbol":  "S1_1500x1800",
+                        "family":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 3",
+                        "x":  16.93,
+                        "y":  0,
+                        "z":  7.95,
+                        "sill_mm":  750,
+                        "head_mm":  2550,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2369743,
+                        "symbol":  "S1_1500x1800",
+                        "family":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 3",
+                        "x":  20.46,
+                        "y":  0,
+                        "z":  7.95,
+                        "sill_mm":  750,
+                        "head_mm":  2550,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2369744,
+                        "symbol":  "S1_1500x1800",
+                        "family":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 3",
+                        "x":  24.14,
+                        "y":  0,
+                        "z":  7.95,
+                        "sill_mm":  750,
+                        "head_mm":  2550,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2369745,
+                        "symbol":  "S1_1500x1800",
+                        "family":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 3",
+                        "x":  27.73,
+                        "y":  0,
+                        "z":  7.95,
+                        "sill_mm":  750,
+                        "head_mm":  2550,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2369746,
+                        "symbol":  "S1_1500x1800",
+                        "family":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 3",
+                        "x":  31.32,
+                        "y":  0,
+                        "z":  7.95,
+                        "sill_mm":  750,
+                        "head_mm":  2550,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2369747,
+                        "symbol":  "S1_1500x1800",
+                        "family":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 3",
+                        "x":  9.58,
+                        "y":  13.2,
+                        "z":  7.95,
+                        "sill_mm":  750,
+                        "head_mm":  2550,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2369748,
+                        "symbol":  "S1_1500x1800",
+                        "family":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 3",
+                        "x":  13.27,
+                        "y":  13.2,
+                        "z":  7.95,
+                        "sill_mm":  750,
+                        "head_mm":  2550,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2369749,
+                        "symbol":  "S1_1500x1800",
+                        "family":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 3",
+                        "x":  16.89,
+                        "y":  13.2,
+                        "z":  7.95,
+                        "sill_mm":  750,
+                        "head_mm":  2550,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2369750,
+                        "symbol":  "S1_1500x1800",
+                        "family":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 3",
+                        "x":  20.52,
+                        "y":  13.2,
+                        "z":  7.95,
+                        "sill_mm":  750,
+                        "head_mm":  2550,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2369751,
+                        "symbol":  "S1_1500x1800",
+                        "family":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 3",
+                        "x":  24.18,
+                        "y":  13.2,
+                        "z":  7.95,
+                        "sill_mm":  750,
+                        "head_mm":  2550,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2369752,
+                        "symbol":  "S1_1500x1800",
+                        "family":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 3",
+                        "x":  27.72,
+                        "y":  13.2,
+                        "z":  7.95,
+                        "sill_mm":  750,
+                        "head_mm":  2550,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2369753,
+                        "symbol":  "S4_1500x1400",
+                        "family":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 3",
+                        "x":  34.49,
+                        "y":  13.2,
+                        "z":  8.1,
+                        "sill_mm":  900,
+                        "head_mm":  2300,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2369754,
+                        "symbol":  "S1_1500x1400",
+                        "family":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 3",
+                        "x":  0.55,
+                        "y":  3.52,
+                        "z":  8.1,
+                        "sill_mm":  900,
+                        "head_mm":  2200,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2369755,
+                        "symbol":  "S1_1500x1400",
+                        "family":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 3",
+                        "x":  0.55,
+                        "y":  9.45,
+                        "z":  8.1,
+                        "sill_mm":  900,
+                        "head_mm":  2200,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2369756,
+                        "symbol":  "900X1900",
+                        "family":  "CUA SO2 CANH NHOM KINH CO O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 3",
+                        "x":  37.15,
+                        "y":  10.86,
+                        "z":  8.1,
+                        "sill_mm":  900,
+                        "head_mm":  2800,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2369757,
+                        "symbol":  "900X1900",
+                        "family":  "CUA SO2 CANH NHOM KINH CO O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 3",
+                        "x":  37.15,
+                        "y":  12.03,
+                        "z":  8.1,
+                        "sill_mm":  900,
+                        "head_mm":  2800,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2369758,
+                        "symbol":  "K3_3100x2100",
+                        "family":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 3",
+                        "x":  6.2,
+                        "y":  14.9,
+                        "z":  8.1,
+                        "sill_mm":  900,
+                        "head_mm":  3000,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2369759,
+                        "symbol":  "K3_3100x2100",
+                        "family":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 3",
+                        "x":  31.5,
+                        "y":  14.9,
+                        "z":  8.1,
+                        "sill_mm":  900,
+                        "head_mm":  3000,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2369968,
+                        "symbol":  "S1_1500x1800",
+                        "family":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 4",
+                        "x":  13.77,
+                        "y":  0,
+                        "z":  11.55,
+                        "sill_mm":  750,
+                        "head_mm":  2550,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2369969,
+                        "symbol":  "S1_1500x1800",
+                        "family":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 4",
+                        "x":  17.48,
+                        "y":  0,
+                        "z":  11.55,
+                        "sill_mm":  750,
+                        "head_mm":  2550,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2369970,
+                        "symbol":  "S1_1500x1800",
+                        "family":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 4",
+                        "x":  21.01,
+                        "y":  0,
+                        "z":  11.55,
+                        "sill_mm":  750,
+                        "head_mm":  2550,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2369971,
+                        "symbol":  "S1_1500x1800",
+                        "family":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 4",
+                        "x":  24.7,
+                        "y":  0,
+                        "z":  11.55,
+                        "sill_mm":  750,
+                        "head_mm":  2550,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2369972,
+                        "symbol":  "S1_1500x1400",
+                        "family":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 4",
+                        "x":  10.2,
+                        "y":  5.4,
+                        "z":  11.7,
+                        "sill_mm":  900,
+                        "head_mm":  2200,
+                        "isNearB":  true,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2369973,
+                        "symbol":  "S1_1500x1400",
+                        "family":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 4",
+                        "x":  28.3,
+                        "y":  5.4,
+                        "z":  11.7,
+                        "sill_mm":  900,
+                        "head_mm":  2200,
+                        "isNearB":  true,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2369974,
+                        "symbol":  "S1_1500x1800",
+                        "family":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 4",
+                        "x":  9.58,
+                        "y":  13.2,
+                        "z":  11.55,
+                        "sill_mm":  750,
+                        "head_mm":  2550,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2369975,
+                        "symbol":  "S1_1500x1800",
+                        "family":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 4",
+                        "x":  13.27,
+                        "y":  13.2,
+                        "z":  11.55,
+                        "sill_mm":  750,
+                        "head_mm":  2550,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2369976,
+                        "symbol":  "S1_1500x1800",
+                        "family":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 4",
+                        "x":  16.89,
+                        "y":  13.2,
+                        "z":  11.55,
+                        "sill_mm":  750,
+                        "head_mm":  2550,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2369977,
+                        "symbol":  "S1_1500x1800",
+                        "family":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 4",
+                        "x":  20.52,
+                        "y":  13.2,
+                        "z":  11.55,
+                        "sill_mm":  750,
+                        "head_mm":  2550,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2369978,
+                        "symbol":  "S1_1500x1800",
+                        "family":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 4",
+                        "x":  24.18,
+                        "y":  13.2,
+                        "z":  11.55,
+                        "sill_mm":  750,
+                        "head_mm":  2550,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2369979,
+                        "symbol":  "S1_1500x1800",
+                        "family":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 4",
+                        "x":  27.72,
+                        "y":  13.2,
+                        "z":  11.55,
+                        "sill_mm":  750,
+                        "head_mm":  2550,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2369980,
+                        "symbol":  "S4_1500x1400",
+                        "family":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 4",
+                        "x":  34.49,
+                        "y":  13.2,
+                        "z":  11.7,
+                        "sill_mm":  900,
+                        "head_mm":  2300,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2369981,
+                        "symbol":  "900X1900",
+                        "family":  "CUA SO2 CANH NHOM KINH CO O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 4",
+                        "x":  37.15,
+                        "y":  11.04,
+                        "z":  12,
+                        "sill_mm":  1200,
+                        "head_mm":  3100,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2369982,
+                        "symbol":  "900X1900",
+                        "family":  "CUA SO2 CANH NHOM KINH CO O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 4",
+                        "x":  37.15,
+                        "y":  12.21,
+                        "z":  12,
+                        "sill_mm":  1200,
+                        "head_mm":  3100,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2369983,
+                        "symbol":  "K3_3100x2100",
+                        "family":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 4",
+                        "x":  6.2,
+                        "y":  14.9,
+                        "z":  11.3,
+                        "sill_mm":  500,
+                        "head_mm":  2600,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    },
+                    {
+                        "id":  2369984,
+                        "symbol":  "K3_3100x2100",
+                        "family":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+                        "level":  "MẶT BẰNG TẦNG 4",
+                        "x":  31.5,
+                        "y":  14.9,
+                        "z":  11.3,
+                        "sill_mm":  500,
+                        "head_mm":  2600,
+                        "isNearB":  false,
+                        "isNearC":  false
+                    }
+                ],
+    "wallsNearB":  [
+                       {
+                           "id":  2361174,
+                           "name":  "gach200_xay moi",
+                           "level":  "MẶT BẰNG TẦNG 1",
+                           "start":  {
+                                         "x":  0.55,
+                                         "y":  5.4
+                                     },
+                           "end":  {
+                                       "x":  34.55,
+                                       "y":  5.4
+                                   }
+                       },
+                       {
+                           "id":  2361333,
+                           "name":  "gach200_xay moi",
+                           "level":  "MẶT BẰNG TẦNG 1",
+                           "start":  {
+                                         "x":  36.15,
+                                         "y":  5.4
+                                     },
+                           "end":  {
+                                       "x":  37.5,
+                                       "y":  5.4
+                                   }
+                       },
+                       {
+                           "id":  2368943,
+                           "name":  "gach200_xay moi",
+                           "level":  "MẶT BẰNG TẦNG 2",
+                           "start":  {
+                                         "x":  0.55,
+                                         "y":  5.4
+                                     },
+                           "end":  {
+                                       "x":  37.15,
+                                       "y":  5.4
+                                   }
+                       },
+                       {
+                           "id":  2369689,
+                           "name":  "gach200_xay moi",
+                           "level":  "MẶT BẰNG TẦNG 3",
+                           "start":  {
+                                         "x":  0.55,
+                                         "y":  5.4
+                                     },
+                           "end":  {
+                                       "x":  37.15,
+                                       "y":  5.4
+                                   }
+                       },
+                       {
+                           "id":  2369925,
+                           "name":  "gach200_xay moi",
+                           "level":  "MẶT BẰNG TẦNG 4",
+                           "start":  {
+                                         "x":  0.55,
+                                         "y":  5.4
+                                     },
+                           "end":  {
+                                       "x":  11.65,
+                                       "y":  5.4
+                                   }
+                       },
+                       {
+                           "id":  2369926,
+                           "name":  "gach200_xay moi",
+                           "level":  "MẶT BẰNG TẦNG 4",
+                           "start":  {
+                                         "x":  11.65,
+                                         "y":  5.4
+                                     },
+                           "end":  {
+                                       "x":  26.05,
+                                       "y":  5.4
+                                   }
+                       },
+                       {
+                           "id":  2369927,
+                           "name":  "gach200_xay moi",
+                           "level":  "MẶT BẰNG TẦNG 4",
+                           "start":  {
+                                         "x":  26.05,
+                                         "y":  5.4
+                                     },
+                           "end":  {
+                                       "x":  37.15,
+                                       "y":  5.4
+                                   }
+                       }
+                   ],
+    "wallsNearC":  [
+                       {
+                           "id":  2360899,
+                           "name":  "gach200_xay moi",
+                           "level":  "MẶT BẰNG TẦNG 1",
+                           "start":  {
+                                         "x":  4.35,
+                                         "y":  7.8
+                                     },
+                           "end":  {
+                                       "x":  33.35,
+                                       "y":  7.8
+                                   }
+                       },
+                       {
+                           "id":  2361271,
+                           "name":  "gach200_xay moi",
+                           "level":  "MẶT BẰNG TẦNG 1",
+                           "start":  {
+                                         "x":  34.6,
+                                         "y":  7.8
+                                     },
+                           "end":  {
+                                       "x":  37.5,
+                                       "y":  7.8
+                                   }
+                       },
+                       {
+                           "id":  2368944,
+                           "name":  "gach200_xay moi",
+                           "level":  "MẶT BẰNG TẦNG 2",
+                           "start":  {
+                                         "x":  0.55,
+                                         "y":  7.8
+                                     },
+                           "end":  {
+                                       "x":  4.35,
+                                       "y":  7.8
+                                   }
+                       },
+                       {
+                           "id":  2368945,
+                           "name":  "gach200_xay moi",
+                           "level":  "MẶT BẰNG TẦNG 2",
+                           "start":  {
+                                         "x":  4.35,
+                                         "y":  7.8
+                                     },
+                           "end":  {
+                                       "x":  8.05,
+                                       "y":  7.8
+                                   }
+                       },
+                       {
+                           "id":  2368946,
+                           "name":  "gach200_xay moi",
+                           "level":  "MẶT BẰNG TẦNG 2",
+                           "start":  {
+                                         "x":  8.05,
+                                         "y":  7.8
+                                     },
+                           "end":  {
+                                       "x":  29.65,
+                                       "y":  7.8
+                                   }
+                       },
+                       {
+                           "id":  2368947,
+                           "name":  "gach200_xay moi",
+                           "level":  "MẶT BẰNG TẦNG 2",
+                           "start":  {
+                                         "x":  29.65,
+                                         "y":  7.8
+                                     },
+                           "end":  {
+                                       "x":  33.35,
+                                       "y":  7.8
+                                   }
+                       },
+                       {
+                           "id":  2368948,
+                           "name":  "gach200_xay moi",
+                           "level":  "MẶT BẰNG TẦNG 2",
+                           "start":  {
+                                         "x":  37.15,
+                                         "y":  7.8
+                                     },
+                           "end":  {
+                                       "x":  34.6,
+                                       "y":  7.8
+                                   }
+                       },
+                       {
+                           "id":  2369690,
+                           "name":  "gach200_xay moi",
+                           "level":  "MẶT BẰNG TẦNG 3",
+                           "start":  {
+                                         "x":  0.55,
+                                         "y":  7.8
+                                     },
+                           "end":  {
+                                       "x":  4.35,
+                                       "y":  7.8
+                                   }
+                       },
+                       {
+                           "id":  2369691,
+                           "name":  "gach200_xay moi",
+                           "level":  "MẶT BẰNG TẦNG 3",
+                           "start":  {
+                                         "x":  4.35,
+                                         "y":  7.8
+                                     },
+                           "end":  {
+                                       "x":  8.05,
+                                       "y":  7.8
+                                   }
+                       },
+                       {
+                           "id":  2369692,
+                           "name":  "gach200_xay moi",
+                           "level":  "MẶT BẰNG TẦNG 3",
+                           "start":  {
+                                         "x":  8.05,
+                                         "y":  7.8
+                                     },
+                           "end":  {
+                                       "x":  29.65,
+                                       "y":  7.8
+                                   }
+                       },
+                       {
+                           "id":  2369693,
+                           "name":  "gach200_xay moi",
+                           "level":  "MẶT BẰNG TẦNG 3",
+                           "start":  {
+                                         "x":  29.65,
+                                         "y":  7.8
+                                     },
+                           "end":  {
+                                       "x":  33.35,
+                                       "y":  7.8
+                                   }
+                       },
+                       {
+                           "id":  2369694,
+                           "name":  "gach200_xay moi",
+                           "level":  "MẶT BẰNG TẦNG 3",
+                           "start":  {
+                                         "x":  33.35,
+                                         "y":  7.8
+                                     },
+                           "end":  {
+                                       "x":  37.15,
+                                       "y":  7.8
+                                   }
+                       },
+                       {
+                           "id":  2369930,
+                           "name":  "gach200_xay moi",
+                           "level":  "MẶT BẰNG TẦNG 4",
+                           "start":  {
+                                         "x":  0.55,
+                                         "y":  7.8
+                                     },
+                           "end":  {
+                                       "x":  4.35,
+                                       "y":  7.8
+                                   }
+                       },
+                       {
+                           "id":  2369931,
+                           "name":  "gach200_xay moi",
+                           "level":  "MẶT BẰNG TẦNG 4",
+                           "start":  {
+                                         "x":  4.35,
+                                         "y":  7.8
+                                     },
+                           "end":  {
+                                       "x":  8.05,
+                                       "y":  7.8
+                                   }
+                       },
+                       {
+                           "id":  2369932,
+                           "name":  "gach200_xay moi",
+                           "level":  "MẶT BẰNG TẦNG 4",
+                           "start":  {
+                                         "x":  8.05,
+                                         "y":  7.8
+                                     },
+                           "end":  {
+                                       "x":  29.65,
+                                       "y":  7.8
+                                   }
+                       },
+                       {
+                           "id":  2369933,
+                           "name":  "gach200_xay moi",
+                           "level":  "MẶT BẰNG TẦNG 4",
+                           "start":  {
+                                         "x":  29.65,
+                                         "y":  7.8
+                                     },
+                           "end":  {
+                                       "x":  33.35,
+                                       "y":  7.8
+                                   }
+                       },
+                       {
+                           "id":  2369934,
+                           "name":  "gach200_xay moi",
+                           "level":  "MẶT BẰNG TẦNG 4",
+                           "start":  {
+                                         "x":  33.35,
+                                         "y":  7.8
+                                     },
+                           "end":  {
+                                       "x":  37.15,
+                                       "y":  7.8
+                                   }
+                       },
+                       {
+                           "id":  2370735,
+                           "name":  "gach200_xay moi",
+                           "level":  "MẶT BẰNG TẦNG TUM",
+                           "start":  {
+                                         "x":  33.35,
+                                         "y":  7.8
+                                     },
+                           "end":  {
+                                       "x":  29.65,
+                                       "y":  7.8
+                                   }
+                       }
+                   ]
+}

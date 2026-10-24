@@ -1,0 +1,6 @@
+FAILED: AecX.AecArchBaseApplication
+SUCCESS: AecX.AecArchBaseApplication.8.4 -> #<VLA-OBJECT IAecArchBaseApplication 0000025b7da69b40>
+FAILED: AecX.AecArchBaseApplication.8.3
+FAILED: AecX.AecArchBaseApplication.8.2
+FAILED: AecX.AecBaseApplication
+SUCCESS: AecX.AecBaseApplication.8.4 -> #<VLA-OBJECT IAecBaseApplication 0000025bb6ef42a0>

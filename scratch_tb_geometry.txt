@@ -1,0 +1,12 @@
+
+================== TITLEBLOCK: TitleBlock.XPXD ==================
+Entity count: 29
+Min: (188.17, 0.00)
+Max: (429.58, 275.34)
+Width: 241.41 Height: 275.34
+
+================== TITLEBLOCK: TitleBlock.XPXD.165 ==================
+Entity count: 30
+Min: (188.17, 0.00)
+Max: (429.58, 275.34)
+Width: 241.41 Height: 275.34

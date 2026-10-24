@@ -1,0 +1,145 @@
+0 | Color: 7
+STAPTS | Color: 1
+Defpoints | Color: 7
+Tuyen ven bien | Color: 1
+ROW | Color: 7
+khungten | Color: 7
+ICD_Table | Color: 7
+ICD_Text | Color: 7
+PlotMarker | Color: 31
+Ranh GPMB | Color: 5
+Level 2 | Color: 7
+Level 4 | Color: 7
+Level 5 | Color: 7
+Level 7 | Color: 7
+Level 10 | Color: 7
+Level 11 | Color: 7
+Level 12 | Color: 7
+Level 13 | Color: 7
+Level 14 | Color: 7
+Level 15 | Color: 7
+Level 22 | Color: 7
+Level 23 | Color: 7
+Level 28 | Color: 7
+Level 31 | Color: 7
+Level 35 | Color: 7
+Level 39 | Color: 7
+Level 48 | Color: 7
+Level 49 | Color: 7
+Level 50 | Color: 7
+Level 60 | Color: 7
+Level 63 | Color: 7
+Level 19 | Color: 7
+Level 27 | Color: 7
+Level 51 | Color: 7
+Level 9 | Color: 7
+Level 59 | Color: 7
+DOOR | Color: 44
+CHUTHICH | Color: 7
+DUONG THAY | Color: 122
+CHUGHICHU | Color: 7
+HATCH | Color: 7
+DIM | Color: 7
+TKE | Color: 4
+duong | Color: 1
+CONG LO THIEN | Color: 3
+TRUC | Color: 8
+BHATCH | Color: 8
+0-TUONG | Color: 2
+BOUND-E | Color: 2
+Dbao | Color: 2
+TUONG | Color: 1
+TEXT | Color: 2
+A-SHBD-TTBL | Color: 7
+0-khung | Color: 7
+1-text | Color: 7
+A-Wall | Color: 4
+0.08 | Color: 8
+X- Dim | Color: 251
+vatdung | Color: 148
+cb | Color: 3
+cua44 | Color: 44
+KICHTHUOC | Color: 9
+ranh qhoach | Color: 6
+1 | Color: 1
+Diem | Color: 8
+LE DUONG | Color: 1
+HIEN | Color: 7
+RANH DAT | Color: 5
+caodo | Color: 1
+H | Color: 8
+015 | Color: 2
+03 | Color: 3
+THEP | Color: 10
+0-HATCH | Color: 8
+8-VAT DUNG | Color: 8
+MP FIXTURE | Color: 1
+NOITHAT | Color: 9
+NCAT | Color: 6
+KTHUOC | Color: 7
+KHUAT | Color: 71
+2L | Color: 2
+HACH | Color: 8
+NCAY | Color: 3
+NBONG | Color: 253
+EQUIPMENT | Color: 4
+XR_MB MO RONG$0$0-KYHIEU | Color: 3
+8-Tilte | Color: 150
+8-Text | Color: 100
+BV_Rg_lapquyhoach | Color: 1
+DAT_CTHXH_CayxanhCC | Color: 84
+2 - QH - TIMMOI | Color: 1
+LongDuong | Color: 5
+Net-Hatch-0.10 | Color: 8
+Netghichu | Color: 7
+Text01 | Color: 7
+0.Net-Tangcao | Color: 7
+NAT THAY | Color: 7
+0 Layer 0 | Color: 7
+2-Thin | Color: 8
+NET-THAY | Color: 7
+CHUKHUNGTEN | Color: 7
+NET THAY 0.30 | Color: 7
+THAY | Color: 7
+Steel | Color: 4
+TÂM HATCH | Color: 8
+2 | Color: 3
+ELEV | Color: 1
+NETTHAY | Color: 7
+VTH- KHUNGTEN | Color: 7
+10.Text | Color: 151
+KY-HIEU | Color: 1
+TENCOC | Color: 1
+KYHIEUCOC | Color: 5
+KHUNGBAO | Color: 7
+KYHIEU | Color: 1
+CÐCOC | Color: 1
+MEP KENH | Color: 3
+Taluymuong | Color: 7
+DAT CAO | Color: 2
+ONG NUOC | Color: 4
+0.2 | Color: 7
+0.09 | Color: 8
+BAO-VE | Color: 3
+0.13 | Color: 8
+THEP-DAI | Color: 4
+MAINGOI | Color: 1
+S3 | Color: 7
+S2 | Color: 7
+HAT8 | Color: 8
+GHICHU | Color: 2
+NETMANH | Color: 85
+Chu | Color: 7
+A-seeline | Color: 254
+A-thin | Color: 251
+A-axis | Color: 250
+THEP CHIU LUC CHINH | Color: 2
+S5 | Color: 1
+hat | Color: 7
+Net-02 | Color: 8
+A-Door | Color: 8
+VAT DUNG TV | Color: 253
+KIHIEU | Color: 7
+NET CHINH | Color: 4
+LINE 4 | Color: 7
+DP-CUA | Color: 153

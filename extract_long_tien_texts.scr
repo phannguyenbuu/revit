@@ -1,0 +1,16 @@
+(setq f (open "D:/Dropbox/_Documents/RevitAI/extracted_long_tien_texts.txt" "w"))
+(setq ss (ssget "X" '((0 . "TEXT,MTEXT"))))
+(if ss
+  (repeat (setq i (sslength ss))
+    (setq ent (entget (ssname ss (setq i (1- i)))))
+    (setq str (cdr (assoc 1 ent)))
+    (setq pt (cdr (assoc 10 ent)))
+    (setq lay (cdr (assoc 8 ent)))
+    (setq h (cdr (assoc 40 ent)))
+    (if (and str pt)
+      (write-line (strcat lay "	" (rtos (car pt) 2 1) "	" (rtos (cadr pt) 2 1) "	" (rtos h 2 1) "	" str) f)
+    )
+  )
+)
+(close f)
+_QUIT

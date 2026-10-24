@@ -1,0 +1,51 @@
+# Materials for signboard
+
+newmtl mat_default
+Kd 0.82 0.82 0.85
+Ka 0.2 0.2 0.2
+Ks 0.1 0.1 0.1
+Ns 10.0
+d 1.0
+
+newmtl Signboard_-_Mounting_Steel
+Kd 0.750 0.750 0.750
+Ka 0.25 0.25 0.25
+Ks 0.15 0.15 0.15
+Ns 20.0
+d 1.00
+
+newmtl Signboard_-_Casing_Grey
+Kd 0.750 0.750 0.750
+Ka 0.25 0.25 0.25
+Ks 0.15 0.15 0.15
+Ns 20.0
+d 1.00
+
+newmtl Signboard_-_Black_Lettering
+Kd 0.750 0.750 0.750
+Ka 0.25 0.25 0.25
+Ks 0.15 0.15 0.15
+Ns 20.0
+d 1.00
+
+newmtl Signboard_-_Concrete_Wall
+Kd 0.750 0.750 0.750
+Ka 0.25 0.25 0.25
+Ks 0.15 0.15 0.15
+Ns 20.0
+d 1.00
+
+newmtl Signboard_-_Bright_Yellow_Face
+Kd 0.750 0.750 0.750
+Ka 0.25 0.25 0.25
+Ks 0.15 0.15 0.15
+Ns 20.0
+d 1.00
+
+newmtl Signboard_-_Dark_Metal
+Kd 0.750 0.750 0.750
+Ka 0.25 0.25 0.25
+Ks 0.15 0.15 0.15
+Ns 20.0
+d 1.00
+

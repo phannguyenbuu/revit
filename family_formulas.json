@@ -1,0 +1,367 @@
+{
+  "familyName": "CUA SO 2 CANH NHOM KINH O O THOANG",
+  "parameters": [
+    {
+      "name": "Keynote",
+      "formula": null,
+      "isInstance": false,
+      "isReadOnly": false,
+      "storage": "String"
+    },
+    {
+      "name": "Export Type to IFC As",
+      "formula": null,
+      "isInstance": false,
+      "isReadOnly": false,
+      "storage": "String"
+    },
+    {
+      "name": "Model",
+      "formula": null,
+      "isInstance": false,
+      "isReadOnly": false,
+      "storage": "String"
+    },
+    {
+      "name": "Type Image",
+      "formula": null,
+      "isInstance": false,
+      "isReadOnly": false,
+      "storage": "ElementId"
+    },
+    {
+      "name": "Default Sill Height",
+      "formula": null,
+      "isInstance": false,
+      "isReadOnly": false,
+      "storage": "Double"
+    },
+    {
+      "name": "TrimProjection",
+      "formula": null,
+      "isInstance": false,
+      "isReadOnly": false,
+      "storage": "Double"
+    },
+    {
+      "name": "Manufacturer",
+      "formula": null,
+      "isInstance": false,
+      "isReadOnly": false,
+      "storage": "String"
+    },
+    {
+      "name": "Rough Height",
+      "formula": null,
+      "isInstance": false,
+      "isReadOnly": false,
+      "storage": "Double"
+    },
+    {
+      "name": "URL",
+      "formula": null,
+      "isInstance": false,
+      "isReadOnly": false,
+      "storage": "String"
+    },
+    {
+      "name": "Construction Type",
+      "formula": null,
+      "isInstance": false,
+      "isReadOnly": false,
+      "storage": "String"
+    },
+    {
+      "name": "Operation",
+      "formula": null,
+      "isInstance": false,
+      "isReadOnly": false,
+      "storage": "String"
+    },
+    {
+      "name": "Assembly Code",
+      "formula": null,
+      "isInstance": false,
+      "isReadOnly": false,
+      "storage": "String"
+    },
+    {
+      "name": "Analytic Construction",
+      "formula": null,
+      "isInstance": false,
+      "isReadOnly": false,
+      "storage": "String"
+    },
+    {
+      "name": "Description",
+      "formula": null,
+      "isInstance": false,
+      "isReadOnly": false,
+      "storage": "String"
+    },
+    {
+      "name": "76",
+      "formula": null,
+      "isInstance": false,
+      "isReadOnly": false,
+      "storage": "Double"
+    },
+    {
+      "name": "Define Thermal Properties by",
+      "formula": null,
+      "isInstance": false,
+      "isReadOnly": false,
+      "storage": "Integer"
+    },
+    {
+      "name": "Heat Transfer Coefficient (U)",
+      "formula": null,
+      "isInstance": false,
+      "isReadOnly": false,
+      "storage": "Double"
+    },
+    {
+      "name": "Type IFC Predefined Type",
+      "formula": null,
+      "isInstance": false,
+      "isReadOnly": false,
+      "storage": "String"
+    },
+    {
+      "name": "Rough Width",
+      "formula": null,
+      "isInstance": false,
+      "isReadOnly": false,
+      "storage": "Double"
+    },
+    {
+      "name": "CAO CÁNH",
+      "formula": null,
+      "isInstance": false,
+      "isReadOnly": false,
+      "storage": "Double"
+    },
+    {
+      "name": "Height",
+      "formula": null,
+      "isInstance": false,
+      "isReadOnly": false,
+      "storage": "Double"
+    },
+    {
+      "name": "KINH",
+      "formula": null,
+      "isInstance": false,
+      "isReadOnly": false,
+      "storage": "Double"
+    },
+    {
+      "name": "Visual Light Transmittance",
+      "formula": null,
+      "isInstance": false,
+      "isReadOnly": false,
+      "storage": "Double"
+    },
+    {
+      "name": "Width",
+      "formula": null,
+      "isInstance": false,
+      "isReadOnly": false,
+      "storage": "Double"
+    },
+    {
+      "name": "Thermal Resistance (R)",
+      "formula": null,
+      "isInstance": false,
+      "isReadOnly": true,
+      "storage": "Double"
+    },
+    {
+      "name": "Type Comments",
+      "formula": null,
+      "isInstance": false,
+      "isReadOnly": false,
+      "storage": "String"
+    },
+    {
+      "name": "Solar Heat Gain Coefficient",
+      "formula": null,
+      "isInstance": false,
+      "isReadOnly": false,
+      "storage": "Double"
+    },
+    {
+      "name": "Cost",
+      "formula": null,
+      "isInstance": false,
+      "isReadOnly": false,
+      "storage": "Double"
+    },
+    {
+      "name": "25",
+      "formula": null,
+      "isInstance": false,
+      "isReadOnly": false,
+      "storage": "Double"
+    },
+    {
+      "name": "Wall Closure",
+      "formula": null,
+      "isInstance": false,
+      "isReadOnly": false,
+      "storage": "Integer"
+    }
+  ],
+  "types": [
+    {
+      "typeName": "CUA SO 2 CANH NHOM KINH O O THOANG 2",
+      "values": {
+        "Keynote": "",
+        "Export Type to IFC As": "",
+        "Model": "",
+        "Default Sill Height": "800.0",
+        "TrimProjection": "25.0",
+        "Manufacturer": "",
+        "URL": "",
+        "Construction Type": "",
+        "Operation": "",
+        "Assembly Code": "",
+        "Analytic Construction": "<None>",
+        "Description": "",
+        "76": "76.0",
+        "Type IFC Predefined Type": "",
+        "CAO CÁNH": "1500.0",
+        "Height": "1500.0",
+        "KINH": "5.0",
+        "Width": "900.0",
+        "Type Comments": "CỬA PA NÔ THÉP KÍNH",
+        "25": "25.0"
+      }
+    },
+    {
+      "typeName": "S4_1500x1400",
+      "values": {
+        "Keynote": "",
+        "Export Type to IFC As": "",
+        "Model": "",
+        "Default Sill Height": "800.0",
+        "TrimProjection": "25.0",
+        "Manufacturer": "",
+        "URL": "",
+        "Construction Type": "",
+        "Operation": "",
+        "Assembly Code": "",
+        "Analytic Construction": "<None>",
+        "Description": "",
+        "76": "76.0",
+        "Type IFC Predefined Type": "",
+        "CAO CÁNH": "1300.0",
+        "Height": "1400.0",
+        "KINH": "5.0",
+        "Width": "1500.0",
+        "Type Comments": "",
+        "25": "25.0"
+      }
+    },
+    {
+      "typeName": "S1_1500x1400",
+      "values": {
+        "Keynote": "",
+        "Export Type to IFC As": "",
+        "Model": "",
+        "Default Sill Height": "800.0",
+        "TrimProjection": "25.0",
+        "Manufacturer": "",
+        "URL": "",
+        "Construction Type": "",
+        "Operation": "",
+        "Assembly Code": "",
+        "Analytic Construction": "<None>",
+        "Description": "",
+        "76": "76.0",
+        "Type IFC Predefined Type": "",
+        "CAO CÁNH": "1300.0",
+        "Height": "1300.0",
+        "KINH": "5.0",
+        "Width": "1500.0",
+        "Type Comments": "",
+        "25": "25.0"
+      }
+    },
+    {
+      "typeName": "CUA SO 2 CANH NHOM KINH O O THOANG",
+      "values": {
+        "Keynote": "",
+        "Export Type to IFC As": "",
+        "Model": "",
+        "Default Sill Height": "800.0",
+        "TrimProjection": "25.0",
+        "Manufacturer": "",
+        "URL": "",
+        "Construction Type": "",
+        "Operation": "",
+        "Assembly Code": "",
+        "Analytic Construction": "<None>",
+        "Description": "",
+        "76": "76.0",
+        "Type IFC Predefined Type": "",
+        "CAO CÁNH": "1300.0",
+        "Height": "1300.0",
+        "KINH": "5.0",
+        "Width": "1200.0",
+        "Type Comments": "CỬA PA NÔ THÉP KÍNH (LÀM MỚI)",
+        "25": "25.0"
+      }
+    },
+    {
+      "typeName": "S2",
+      "values": {
+        "Keynote": "",
+        "Export Type to IFC As": "",
+        "Model": "",
+        "Default Sill Height": "800.0",
+        "TrimProjection": "25.0",
+        "Manufacturer": "",
+        "URL": "",
+        "Construction Type": "",
+        "Operation": "",
+        "Assembly Code": "",
+        "Analytic Construction": "<None>",
+        "Description": "",
+        "76": "76.0",
+        "Type IFC Predefined Type": "",
+        "CAO CÁNH": "1200.0",
+        "Height": "1200.0",
+        "KINH": "5.0",
+        "Width": "1200.0",
+        "Type Comments": "",
+        "25": "25.0"
+      }
+    },
+    {
+      "typeName": "K3_3100x2100",
+      "values": {
+        "Keynote": "",
+        "Export Type to IFC As": "",
+        "Model": "",
+        "Default Sill Height": "800.0",
+        "TrimProjection": "25.0",
+        "Manufacturer": "",
+        "URL": "",
+        "Construction Type": "",
+        "Operation": "",
+        "Assembly Code": "",
+        "Analytic Construction": "<None>",
+        "Description": "",
+        "76": "76.0",
+        "Type IFC Predefined Type": "",
+        "CAO CÁNH": "1300.0",
+        "Height": "2100.0",
+        "KINH": "5.0",
+        "Width": "3100.0",
+        "Type Comments": "",
+        "25": "25.0"
+      }
+    }
+  ]
+}

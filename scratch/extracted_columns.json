@@ -1,0 +1,1655 @@
+[
+  {
+    "cluster_id": 23,
+    "count": 1,
+    "center": [
+      18.85,
+      0.0
+    ],
+    "envelope_box": [
+      18.75,
+      -0.1,
+      18.95,
+      0.1
+    ],
+    "envelope_size_mm": [
+      200,
+      200
+    ],
+    "max_item_box": [
+      18.75,
+      -0.1,
+      18.95,
+      0.1
+    ],
+    "max_item_size_mm": [
+      200,
+      200
+    ],
+    "max_item_block": "cot1-2",
+    "items_summary": [
+      "AcDbBlockReference(cot1-2)[200x200]"
+    ]
+  },
+  {
+    "cluster_id": 24,
+    "count": 7,
+    "center": [
+      0.55,
+      0.0991
+    ],
+    "envelope_box": [
+      0.425,
+      -0.1009,
+      0.675,
+      0.2991
+    ],
+    "envelope_size_mm": [
+      250,
+      400
+    ],
+    "max_item_box": [
+      0.425,
+      -0.1009,
+      0.675,
+      0.2991
+    ],
+    "max_item_size_mm": [
+      250,
+      400
+    ],
+    "max_item_block": "",
+    "items_summary": [
+      "AcDbHatch()[200x200]",
+      "AcDbPolyline()[200x200]",
+      "AcDbHatch()[250x400]",
+      "AcDbPolyline()[250x400]",
+      "AcDbPolyline()[0x199]",
+      "AcDbHatch()[200x200]",
+      "AcDbPolyline()[200x200]"
+    ]
+  },
+  {
+    "cluster_id": 27,
+    "count": 3,
+    "center": [
+      4.35,
+      0.0991
+    ],
+    "envelope_box": [
+      4.225,
+      -0.1009,
+      4.475,
+      0.2991
+    ],
+    "envelope_size_mm": [
+      250,
+      400
+    ],
+    "max_item_box": [
+      4.225,
+      -0.1009,
+      4.475,
+      0.2991
+    ],
+    "max_item_size_mm": [
+      250,
+      400
+    ],
+    "max_item_block": "",
+    "items_summary": [
+      "AcDbHatch()[250x400]",
+      "AcDbPolyline()[250x400]",
+      "AcDbBlockReference(cot1-2)[200x200]"
+    ]
+  },
+  {
+    "cluster_id": 28,
+    "count": 4,
+    "center": [
+      8.05,
+      0.0991
+    ],
+    "envelope_box": [
+      7.925,
+      -0.1009,
+      8.175,
+      0.2991
+    ],
+    "envelope_size_mm": [
+      250,
+      400
+    ],
+    "max_item_box": [
+      7.925,
+      -0.1009,
+      8.175,
+      0.2991
+    ],
+    "max_item_size_mm": [
+      250,
+      400
+    ],
+    "max_item_block": "",
+    "items_summary": [
+      "AcDbHatch()[250x400]",
+      "AcDbPolyline()[250x400]",
+      "AcDbBlockReference(cot1-2)[200x200]",
+      "AcDbBlockReference(cot1-2)[200x200]"
+    ]
+  },
+  {
+    "cluster_id": 38,
+    "count": 3,
+    "center": [
+      11.65,
+      0.0991
+    ],
+    "envelope_box": [
+      11.525,
+      -0.1009,
+      11.775,
+      0.2991
+    ],
+    "envelope_size_mm": [
+      250,
+      400
+    ],
+    "max_item_box": [
+      11.525,
+      -0.1009,
+      11.775,
+      0.2991
+    ],
+    "max_item_size_mm": [
+      250,
+      400
+    ],
+    "max_item_block": "",
+    "items_summary": [
+      "AcDbHatch()[250x400]",
+      "AcDbPolyline()[250x400]",
+      "AcDbBlockReference(cot1-2)[200x200]"
+    ]
+  },
+  {
+    "cluster_id": 29,
+    "count": 3,
+    "center": [
+      15.25,
+      0.0987
+    ],
+    "envelope_box": [
+      15.125,
+      -0.1017,
+      15.375,
+      0.2991
+    ],
+    "envelope_size_mm": [
+      250,
+      401
+    ],
+    "max_item_box": [
+      15.125,
+      -0.1009,
+      15.375,
+      0.2991
+    ],
+    "max_item_size_mm": [
+      250,
+      400
+    ],
+    "max_item_block": "",
+    "items_summary": [
+      "AcDbHatch()[250x400]",
+      "AcDbPolyline()[250x400]",
+      "AcDbBlockReference(cot1-2)[200x200]"
+    ]
+  },
+  {
+    "cluster_id": 8,
+    "count": 3,
+    "center": [
+      22.45,
+      0.0991
+    ],
+    "envelope_box": [
+      22.325,
+      -0.1009,
+      22.575,
+      0.2991
+    ],
+    "envelope_size_mm": [
+      250,
+      400
+    ],
+    "max_item_box": [
+      22.325,
+      -0.1009,
+      22.575,
+      0.2991
+    ],
+    "max_item_size_mm": [
+      250,
+      400
+    ],
+    "max_item_block": "",
+    "items_summary": [
+      "AcDbBlockReference(cot1-2)[200x200]",
+      "AcDbHatch()[250x400]",
+      "AcDbPolyline()[250x400]"
+    ]
+  },
+  {
+    "cluster_id": 30,
+    "count": 2,
+    "center": [
+      26.05,
+      0.0991
+    ],
+    "envelope_box": [
+      25.925,
+      -0.1009,
+      26.175,
+      0.2991
+    ],
+    "envelope_size_mm": [
+      250,
+      400
+    ],
+    "max_item_box": [
+      25.925,
+      -0.1009,
+      26.175,
+      0.2991
+    ],
+    "max_item_size_mm": [
+      250,
+      400
+    ],
+    "max_item_block": "",
+    "items_summary": [
+      "AcDbHatch()[250x400]",
+      "AcDbPolyline()[250x400]"
+    ]
+  },
+  {
+    "cluster_id": 31,
+    "count": 3,
+    "center": [
+      29.65,
+      0.0991
+    ],
+    "envelope_box": [
+      29.525,
+      -0.1009,
+      29.775,
+      0.2991
+    ],
+    "envelope_size_mm": [
+      250,
+      400
+    ],
+    "max_item_box": [
+      29.525,
+      -0.1009,
+      29.775,
+      0.2991
+    ],
+    "max_item_size_mm": [
+      250,
+      400
+    ],
+    "max_item_block": "",
+    "items_summary": [
+      "AcDbHatch()[250x400]",
+      "AcDbPolyline()[250x400]",
+      "AcDbBlockReference(cot1-2)[200x200]"
+    ]
+  },
+  {
+    "cluster_id": 32,
+    "count": 3,
+    "center": [
+      33.35,
+      0.0991
+    ],
+    "envelope_box": [
+      33.225,
+      -0.1009,
+      33.475,
+      0.2991
+    ],
+    "envelope_size_mm": [
+      250,
+      400
+    ],
+    "max_item_box": [
+      33.225,
+      -0.1009,
+      33.475,
+      0.2991
+    ],
+    "max_item_size_mm": [
+      250,
+      400
+    ],
+    "max_item_block": "",
+    "items_summary": [
+      "AcDbHatch()[250x400]",
+      "AcDbPolyline()[250x400]",
+      "AcDbBlockReference(cot1-2)[200x200]"
+    ]
+  },
+  {
+    "cluster_id": 22,
+    "count": 18,
+    "center": [
+      37.15,
+      0.0991
+    ],
+    "envelope_box": [
+      37.025,
+      -0.1009,
+      37.275,
+      0.2991
+    ],
+    "envelope_size_mm": [
+      250,
+      400
+    ],
+    "max_item_box": [
+      37.025,
+      -0.1009,
+      37.275,
+      0.2991
+    ],
+    "max_item_size_mm": [
+      250,
+      400
+    ],
+    "max_item_block": "",
+    "items_summary": [
+      "AcDbHatch()[200x200]",
+      "AcDbPolyline()[200x200]",
+      "AcDbHatch()[200x200]",
+      "AcDbPolyline()[200x200]",
+      "AcDbHatch()[200x200]",
+      "AcDbPolyline()[200x200]",
+      "AcDbHatch()[200x200]",
+      "AcDbPolyline()[200x200]",
+      "AcDbHatch()[250x400]",
+      "AcDbPolyline()[250x400]",
+      "AcDbHatch()[200x200]",
+      "AcDbPolyline()[200x200]",
+      "AcDbHatch()[200x200]",
+      "AcDbPolyline()[200x200]",
+      "AcDbHatch()[200x200]",
+      "AcDbPolyline()[200x200]",
+      "AcDbHatch()[200x200]",
+      "AcDbPolyline()[200x200]"
+    ]
+  },
+  {
+    "cluster_id": 15,
+    "count": 3,
+    "center": [
+      0.55,
+      5.3001
+    ],
+    "envelope_box": [
+      0.425,
+      5.1001,
+      0.675,
+      5.5001
+    ],
+    "envelope_size_mm": [
+      250,
+      400
+    ],
+    "max_item_box": [
+      0.425,
+      5.1001,
+      0.675,
+      5.5001
+    ],
+    "max_item_size_mm": [
+      250,
+      400
+    ],
+    "max_item_block": "",
+    "items_summary": [
+      "AcDbBlockReference(cot1-2)[200x200]",
+      "AcDbHatch()[250x400]",
+      "AcDbPolyline()[250x400]"
+    ]
+  },
+  {
+    "cluster_id": 17,
+    "count": 3,
+    "center": [
+      4.35,
+      5.3001
+    ],
+    "envelope_box": [
+      4.225,
+      5.1001,
+      4.475,
+      5.5001
+    ],
+    "envelope_size_mm": [
+      250,
+      400
+    ],
+    "max_item_box": [
+      4.225,
+      5.1001,
+      4.475,
+      5.5001
+    ],
+    "max_item_size_mm": [
+      250,
+      400
+    ],
+    "max_item_block": "",
+    "items_summary": [
+      "AcDbBlockReference(cot1-2)[200x200]",
+      "AcDbHatch()[250x400]",
+      "AcDbPolyline()[250x400]"
+    ]
+  },
+  {
+    "cluster_id": 18,
+    "count": 3,
+    "center": [
+      8.05,
+      5.3001
+    ],
+    "envelope_box": [
+      7.925,
+      5.1001,
+      8.175,
+      5.5001
+    ],
+    "envelope_size_mm": [
+      250,
+      400
+    ],
+    "max_item_box": [
+      7.925,
+      5.1001,
+      8.175,
+      5.5001
+    ],
+    "max_item_size_mm": [
+      250,
+      400
+    ],
+    "max_item_block": "",
+    "items_summary": [
+      "AcDbBlockReference(cot1-2)[200x200]",
+      "AcDbHatch()[250x400]",
+      "AcDbPolyline()[250x400]"
+    ]
+  },
+  {
+    "cluster_id": 40,
+    "count": 2,
+    "center": [
+      11.65,
+      5.3001
+    ],
+    "envelope_box": [
+      11.525,
+      5.1001,
+      11.775,
+      5.5001
+    ],
+    "envelope_size_mm": [
+      250,
+      400
+    ],
+    "max_item_box": [
+      11.525,
+      5.1001,
+      11.775,
+      5.5001
+    ],
+    "max_item_size_mm": [
+      250,
+      400
+    ],
+    "max_item_block": "",
+    "items_summary": [
+      "AcDbHatch()[250x400]",
+      "AcDbPolyline()[250x400]"
+    ]
+  },
+  {
+    "cluster_id": 5,
+    "count": 3,
+    "center": [
+      15.25,
+      5.3001
+    ],
+    "envelope_box": [
+      15.125,
+      5.1001,
+      15.375,
+      5.5001
+    ],
+    "envelope_size_mm": [
+      250,
+      400
+    ],
+    "max_item_box": [
+      15.125,
+      5.1001,
+      15.375,
+      5.5001
+    ],
+    "max_item_size_mm": [
+      250,
+      400
+    ],
+    "max_item_block": "",
+    "items_summary": [
+      "AcDbBlockReference(cot1-2)[200x200]",
+      "AcDbHatch()[250x400]",
+      "AcDbPolyline()[250x400]"
+    ]
+  },
+  {
+    "cluster_id": 6,
+    "count": 3,
+    "center": [
+      22.45,
+      5.3001
+    ],
+    "envelope_box": [
+      22.325,
+      5.1001,
+      22.575,
+      5.5001
+    ],
+    "envelope_size_mm": [
+      250,
+      400
+    ],
+    "max_item_box": [
+      22.325,
+      5.1001,
+      22.575,
+      5.5001
+    ],
+    "max_item_size_mm": [
+      250,
+      400
+    ],
+    "max_item_block": "",
+    "items_summary": [
+      "AcDbBlockReference(cot1-2)[200x200]",
+      "AcDbHatch()[250x400]",
+      "AcDbPolyline()[250x400]"
+    ]
+  },
+  {
+    "cluster_id": 34,
+    "count": 1,
+    "center": [
+      26.05,
+      5.3001
+    ],
+    "envelope_box": [
+      25.925,
+      5.1001,
+      26.175,
+      5.5001
+    ],
+    "envelope_size_mm": [
+      250,
+      400
+    ],
+    "max_item_box": [
+      25.925,
+      5.1001,
+      26.175,
+      5.5001
+    ],
+    "max_item_size_mm": [
+      250,
+      400
+    ],
+    "max_item_block": "",
+    "items_summary": [
+      "AcDbHatch()[250x400]"
+    ]
+  },
+  {
+    "cluster_id": 11,
+    "count": 3,
+    "center": [
+      29.65,
+      5.3001
+    ],
+    "envelope_box": [
+      29.525,
+      5.1001,
+      29.775,
+      5.5001
+    ],
+    "envelope_size_mm": [
+      250,
+      400
+    ],
+    "max_item_box": [
+      29.525,
+      5.1001,
+      29.775,
+      5.5001
+    ],
+    "max_item_size_mm": [
+      250,
+      400
+    ],
+    "max_item_block": "",
+    "items_summary": [
+      "AcDbBlockReference(cot1-2)[200x200]",
+      "AcDbHatch()[250x400]",
+      "AcDbPolyline()[250x400]"
+    ]
+  },
+  {
+    "cluster_id": 14,
+    "count": 5,
+    "center": [
+      33.35,
+      5.3014
+    ],
+    "envelope_box": [
+      33.225,
+      5.1001,
+      33.475,
+      5.5026
+    ],
+    "envelope_size_mm": [
+      250,
+      402
+    ],
+    "max_item_box": [
+      33.225,
+      5.1001,
+      33.475,
+      5.5001
+    ],
+    "max_item_size_mm": [
+      250,
+      400
+    ],
+    "max_item_block": "",
+    "items_summary": [
+      "AcDbBlockReference(cot1-2)[200x200]",
+      "AcDbHatch()[200x200]",
+      "AcDbPolyline()[200x200]",
+      "AcDbHatch()[250x400]",
+      "AcDbPolyline()[250x400]"
+    ]
+  },
+  {
+    "cluster_id": 21,
+    "count": 10,
+    "center": [
+      37.15,
+      5.3005
+    ],
+    "envelope_box": [
+      37.025,
+      5.1001,
+      37.275,
+      5.5009
+    ],
+    "envelope_size_mm": [
+      250,
+      401
+    ],
+    "max_item_box": [
+      37.025,
+      5.1001,
+      37.275,
+      5.5001
+    ],
+    "max_item_size_mm": [
+      250,
+      400
+    ],
+    "max_item_block": "",
+    "items_summary": [
+      "AcDbHatch()[200x200]",
+      "AcDbPolyline()[200x200]",
+      "AcDbHatch()[200x200]",
+      "AcDbPolyline()[200x200]",
+      "AcDbHatch()[200x200]",
+      "AcDbPolyline()[200x200]",
+      "AcDbHatch()[200x200]",
+      "AcDbPolyline()[200x200]",
+      "AcDbHatch()[250x400]",
+      "AcDbPolyline()[250x400]"
+    ]
+  },
+  {
+    "cluster_id": 16,
+    "count": 4,
+    "center": [
+      0.55,
+      7.899
+    ],
+    "envelope_box": [
+      0.425,
+      7.699,
+      0.675,
+      8.099
+    ],
+    "envelope_size_mm": [
+      250,
+      400
+    ],
+    "max_item_box": [
+      0.425,
+      7.699,
+      0.675,
+      8.099
+    ],
+    "max_item_size_mm": [
+      250,
+      400
+    ],
+    "max_item_block": "",
+    "items_summary": [
+      "AcDbBlockReference(cot1-2)[200x200]",
+      "AcDbBlockReference(cot1-2)[200x200]",
+      "AcDbHatch()[250x400]",
+      "AcDbPolyline()[250x400]"
+    ]
+  },
+  {
+    "cluster_id": 1,
+    "count": 3,
+    "center": [
+      4.35,
+      7.899
+    ],
+    "envelope_box": [
+      4.225,
+      7.699,
+      4.475,
+      8.099
+    ],
+    "envelope_size_mm": [
+      250,
+      400
+    ],
+    "max_item_box": [
+      4.225,
+      7.699,
+      4.475,
+      8.099
+    ],
+    "max_item_size_mm": [
+      250,
+      400
+    ],
+    "max_item_block": "",
+    "items_summary": [
+      "AcDbBlockReference(cot1-2)[200x200]",
+      "AcDbHatch()[250x400]",
+      "AcDbPolyline()[250x400]"
+    ]
+  },
+  {
+    "cluster_id": 2,
+    "count": 3,
+    "center": [
+      8.05,
+      7.899
+    ],
+    "envelope_box": [
+      7.925,
+      7.699,
+      8.175,
+      8.099
+    ],
+    "envelope_size_mm": [
+      250,
+      400
+    ],
+    "max_item_box": [
+      7.925,
+      7.699,
+      8.175,
+      8.099
+    ],
+    "max_item_size_mm": [
+      250,
+      400
+    ],
+    "max_item_block": "",
+    "items_summary": [
+      "AcDbBlockReference(cot1-2)[200x200]",
+      "AcDbHatch()[250x400]",
+      "AcDbPolyline()[250x400]"
+    ]
+  },
+  {
+    "cluster_id": 39,
+    "count": 2,
+    "center": [
+      11.65,
+      7.899
+    ],
+    "envelope_box": [
+      11.525,
+      7.699,
+      11.775,
+      8.099
+    ],
+    "envelope_size_mm": [
+      250,
+      400
+    ],
+    "max_item_box": [
+      11.525,
+      7.699,
+      11.775,
+      8.099
+    ],
+    "max_item_size_mm": [
+      250,
+      400
+    ],
+    "max_item_block": "",
+    "items_summary": [
+      "AcDbHatch()[250x400]",
+      "AcDbPolyline()[250x400]"
+    ]
+  },
+  {
+    "cluster_id": 4,
+    "count": 3,
+    "center": [
+      15.25,
+      7.899
+    ],
+    "envelope_box": [
+      15.125,
+      7.699,
+      15.375,
+      8.099
+    ],
+    "envelope_size_mm": [
+      250,
+      400
+    ],
+    "max_item_box": [
+      15.125,
+      7.699,
+      15.375,
+      8.099
+    ],
+    "max_item_size_mm": [
+      250,
+      400
+    ],
+    "max_item_block": "",
+    "items_summary": [
+      "AcDbBlockReference(cot1-2)[200x200]",
+      "AcDbHatch()[250x400]",
+      "AcDbPolyline()[250x400]"
+    ]
+  },
+  {
+    "cluster_id": 42,
+    "count": 2,
+    "center": [
+      18.85,
+      7.899
+    ],
+    "envelope_box": [
+      18.725,
+      7.699,
+      18.975,
+      8.099
+    ],
+    "envelope_size_mm": [
+      250,
+      400
+    ],
+    "max_item_box": [
+      18.725,
+      7.699,
+      18.975,
+      8.099
+    ],
+    "max_item_size_mm": [
+      250,
+      400
+    ],
+    "max_item_block": "",
+    "items_summary": [
+      "AcDbHatch()[250x400]",
+      "AcDbPolyline()[250x400]"
+    ]
+  },
+  {
+    "cluster_id": 7,
+    "count": 3,
+    "center": [
+      22.45,
+      7.899
+    ],
+    "envelope_box": [
+      22.325,
+      7.699,
+      22.575,
+      8.099
+    ],
+    "envelope_size_mm": [
+      250,
+      400
+    ],
+    "max_item_box": [
+      22.325,
+      7.699,
+      22.575,
+      8.099
+    ],
+    "max_item_size_mm": [
+      250,
+      400
+    ],
+    "max_item_block": "",
+    "items_summary": [
+      "AcDbBlockReference(cot1-2)[200x200]",
+      "AcDbHatch()[250x400]",
+      "AcDbPolyline()[250x400]"
+    ]
+  },
+  {
+    "cluster_id": 33,
+    "count": 2,
+    "center": [
+      26.05,
+      7.899
+    ],
+    "envelope_box": [
+      25.925,
+      7.699,
+      26.175,
+      8.099
+    ],
+    "envelope_size_mm": [
+      250,
+      400
+    ],
+    "max_item_box": [
+      25.925,
+      7.699,
+      26.175,
+      8.099
+    ],
+    "max_item_size_mm": [
+      250,
+      400
+    ],
+    "max_item_block": "",
+    "items_summary": [
+      "AcDbHatch()[250x400]",
+      "AcDbPolyline()[250x400]"
+    ]
+  },
+  {
+    "cluster_id": 10,
+    "count": 5,
+    "center": [
+      29.65,
+      7.899
+    ],
+    "envelope_box": [
+      29.525,
+      7.699,
+      29.775,
+      8.099
+    ],
+    "envelope_size_mm": [
+      250,
+      400
+    ],
+    "max_item_box": [
+      29.525,
+      7.699,
+      29.775,
+      8.099
+    ],
+    "max_item_size_mm": [
+      250,
+      400
+    ],
+    "max_item_block": "",
+    "items_summary": [
+      "AcDbBlockReference(cot1-2)[200x200]",
+      "AcDbHatch()[200x200]",
+      "AcDbPolyline()[200x200]",
+      "AcDbHatch()[250x400]",
+      "AcDbPolyline()[250x400]"
+    ]
+  },
+  {
+    "cluster_id": 13,
+    "count": 7,
+    "center": [
+      33.35,
+      7.899
+    ],
+    "envelope_box": [
+      33.225,
+      7.699,
+      33.475,
+      8.099
+    ],
+    "envelope_size_mm": [
+      250,
+      400
+    ],
+    "max_item_box": [
+      33.225,
+      7.699,
+      33.475,
+      8.099
+    ],
+    "max_item_size_mm": [
+      250,
+      400
+    ],
+    "max_item_block": "",
+    "items_summary": [
+      "AcDbBlockReference(cot1-2)[200x200]",
+      "AcDbHatch()[200x200]",
+      "AcDbPolyline()[200x200]",
+      "AcDbHatch()[200x200]",
+      "AcDbPolyline()[200x200]",
+      "AcDbHatch()[250x400]",
+      "AcDbPolyline()[250x400]"
+    ]
+  },
+  {
+    "cluster_id": 20,
+    "count": 8,
+    "center": [
+      37.15,
+      7.899
+    ],
+    "envelope_box": [
+      37.025,
+      7.699,
+      37.275,
+      8.099
+    ],
+    "envelope_size_mm": [
+      250,
+      400
+    ],
+    "max_item_box": [
+      37.025,
+      7.699,
+      37.275,
+      8.099
+    ],
+    "max_item_size_mm": [
+      250,
+      400
+    ],
+    "max_item_block": "",
+    "items_summary": [
+      "AcDbHatch()[200x200]",
+      "AcDbPolyline()[200x200]",
+      "AcDbHatch()[200x200]",
+      "AcDbPolyline()[200x200]",
+      "AcDbHatch()[200x200]",
+      "AcDbPolyline()[200x200]",
+      "AcDbHatch()[250x400]",
+      "AcDbPolyline()[250x400]"
+    ]
+  },
+  {
+    "cluster_id": 25,
+    "count": 14,
+    "center": [
+      0.55,
+      13.1005
+    ],
+    "envelope_box": [
+      0.425,
+      12.9001,
+      0.675,
+      13.3009
+    ],
+    "envelope_size_mm": [
+      250,
+      401
+    ],
+    "max_item_box": [
+      0.425,
+      12.9001,
+      0.675,
+      13.3001
+    ],
+    "max_item_size_mm": [
+      250,
+      400
+    ],
+    "max_item_block": "",
+    "items_summary": [
+      "AcDbHatch()[200x200]",
+      "AcDbPolyline()[200x200]",
+      "AcDbHatch()[200x200]",
+      "AcDbPolyline()[200x200]",
+      "AcDbHatch()[250x400]",
+      "AcDbPolyline()[250x400]",
+      "AcDbPolyline()[0x199]",
+      "AcDbHatch()[200x200]",
+      "AcDbPolyline()[200x200]",
+      "AcDbHatch()[250x400]",
+      "AcDbPolyline()[250x400]",
+      "AcDbPolyline()[0x199]",
+      "AcDbHatch()[200x200]",
+      "AcDbPolyline()[200x200]"
+    ]
+  },
+  {
+    "cluster_id": 0,
+    "count": 3,
+    "center": [
+      4.35,
+      13.1001
+    ],
+    "envelope_box": [
+      4.225,
+      12.9001,
+      4.475,
+      13.3001
+    ],
+    "envelope_size_mm": [
+      250,
+      400
+    ],
+    "max_item_box": [
+      4.225,
+      12.9001,
+      4.475,
+      13.3001
+    ],
+    "max_item_size_mm": [
+      250,
+      400
+    ],
+    "max_item_block": "",
+    "items_summary": [
+      "AcDbBlockReference(cot1-2)[200x200]",
+      "AcDbHatch()[250x400]",
+      "AcDbPolyline()[250x400]"
+    ]
+  },
+  {
+    "cluster_id": 35,
+    "count": 2,
+    "center": [
+      8.05,
+      13.1001
+    ],
+    "envelope_box": [
+      7.925,
+      12.9001,
+      8.175,
+      13.3001
+    ],
+    "envelope_size_mm": [
+      250,
+      400
+    ],
+    "max_item_box": [
+      7.925,
+      12.9001,
+      8.175,
+      13.3001
+    ],
+    "max_item_size_mm": [
+      250,
+      400
+    ],
+    "max_item_block": "",
+    "items_summary": [
+      "AcDbHatch()[250x400]",
+      "AcDbPolyline()[250x400]"
+    ]
+  },
+  {
+    "cluster_id": 41,
+    "count": 2,
+    "center": [
+      11.65,
+      13.1001
+    ],
+    "envelope_box": [
+      11.525,
+      12.9001,
+      11.775,
+      13.3001
+    ],
+    "envelope_size_mm": [
+      250,
+      400
+    ],
+    "max_item_box": [
+      11.525,
+      12.9001,
+      11.775,
+      13.3001
+    ],
+    "max_item_size_mm": [
+      250,
+      400
+    ],
+    "max_item_block": "",
+    "items_summary": [
+      "AcDbHatch()[250x400]",
+      "AcDbPolyline()[250x400]"
+    ]
+  },
+  {
+    "cluster_id": 3,
+    "count": 6,
+    "center": [
+      15.25,
+      13.0997
+    ],
+    "envelope_box": [
+      15.125,
+      12.8991,
+      15.375,
+      13.3002
+    ],
+    "envelope_size_mm": [
+      250,
+      401
+    ],
+    "max_item_box": [
+      15.125,
+      12.8991,
+      15.375,
+      13.2991
+    ],
+    "max_item_size_mm": [
+      250,
+      400
+    ],
+    "max_item_block": "vtretvretve",
+    "items_summary": [
+      "AcDbBlockReference(cot1-2)[200x200]",
+      "AcDbHatch()[200x200]",
+      "AcDbPolyline()[200x200]",
+      "AcDbBlockReference(vtretvretve)[250x400]",
+      "AcDbHatch()[250x400]",
+      "AcDbPolyline()[250x400]"
+    ]
+  },
+  {
+    "cluster_id": 26,
+    "count": 3,
+    "center": [
+      18.85,
+      13.0996
+    ],
+    "envelope_box": [
+      18.725,
+      12.8991,
+      18.975,
+      13.3001
+    ],
+    "envelope_size_mm": [
+      250,
+      401
+    ],
+    "max_item_box": [
+      18.725,
+      12.8991,
+      18.975,
+      13.2991
+    ],
+    "max_item_size_mm": [
+      250,
+      400
+    ],
+    "max_item_block": "vtretvretve",
+    "items_summary": [
+      "AcDbBlockReference(vtretvretve)[250x400]",
+      "AcDbHatch()[250x400]",
+      "AcDbPolyline()[250x400]"
+    ]
+  },
+  {
+    "cluster_id": 36,
+    "count": 2,
+    "center": [
+      22.45,
+      13.1001
+    ],
+    "envelope_box": [
+      22.325,
+      12.9001,
+      22.575,
+      13.3001
+    ],
+    "envelope_size_mm": [
+      250,
+      400
+    ],
+    "max_item_box": [
+      22.325,
+      12.9001,
+      22.575,
+      13.3001
+    ],
+    "max_item_size_mm": [
+      250,
+      400
+    ],
+    "max_item_block": "",
+    "items_summary": [
+      "AcDbHatch()[250x400]",
+      "AcDbPolyline()[250x400]"
+    ]
+  },
+  {
+    "cluster_id": 37,
+    "count": 2,
+    "center": [
+      26.05,
+      13.1001
+    ],
+    "envelope_box": [
+      25.925,
+      12.9001,
+      26.175,
+      13.3001
+    ],
+    "envelope_size_mm": [
+      250,
+      400
+    ],
+    "max_item_box": [
+      25.925,
+      12.9001,
+      26.175,
+      13.3001
+    ],
+    "max_item_size_mm": [
+      250,
+      400
+    ],
+    "max_item_block": "",
+    "items_summary": [
+      "AcDbHatch()[250x400]",
+      "AcDbPolyline()[250x400]"
+    ]
+  },
+  {
+    "cluster_id": 9,
+    "count": 7,
+    "center": [
+      29.65,
+      13.1005
+    ],
+    "envelope_box": [
+      29.525,
+      12.9001,
+      29.775,
+      13.3009
+    ],
+    "envelope_size_mm": [
+      250,
+      401
+    ],
+    "max_item_box": [
+      29.525,
+      12.9001,
+      29.775,
+      13.3001
+    ],
+    "max_item_size_mm": [
+      250,
+      400
+    ],
+    "max_item_block": "",
+    "items_summary": [
+      "AcDbBlockReference(cot1-2)[200x200]",
+      "AcDbHatch()[200x200]",
+      "AcDbPolyline()[200x200]",
+      "AcDbHatch()[200x200]",
+      "AcDbPolyline()[200x200]",
+      "AcDbHatch()[250x400]",
+      "AcDbPolyline()[250x400]"
+    ]
+  },
+  {
+    "cluster_id": 12,
+    "count": 7,
+    "center": [
+      33.35,
+      13.1014
+    ],
+    "envelope_box": [
+      33.225,
+      12.9001,
+      33.475,
+      13.3026
+    ],
+    "envelope_size_mm": [
+      250,
+      402
+    ],
+    "max_item_box": [
+      33.225,
+      12.9001,
+      33.475,
+      13.3001
+    ],
+    "max_item_size_mm": [
+      250,
+      400
+    ],
+    "max_item_block": "",
+    "items_summary": [
+      "AcDbBlockReference(cot1-2)[200x200]",
+      "AcDbHatch()[200x200]",
+      "AcDbPolyline()[200x200]",
+      "AcDbHatch()[200x200]",
+      "AcDbPolyline()[200x200]",
+      "AcDbHatch()[250x400]",
+      "AcDbPolyline()[250x400]"
+    ]
+  },
+  {
+    "cluster_id": 19,
+    "count": 10,
+    "center": [
+      37.15,
+      13.1014
+    ],
+    "envelope_box": [
+      37.025,
+      12.9001,
+      37.275,
+      13.3026
+    ],
+    "envelope_size_mm": [
+      250,
+      402
+    ],
+    "max_item_box": [
+      37.025,
+      12.9001,
+      37.275,
+      13.3001
+    ],
+    "max_item_size_mm": [
+      250,
+      400
+    ],
+    "max_item_block": "",
+    "items_summary": [
+      "AcDbHatch()[200x200]",
+      "AcDbPolyline()[200x200]",
+      "AcDbHatch()[200x200]",
+      "AcDbPolyline()[200x200]",
+      "AcDbHatch()[200x200]",
+      "AcDbPolyline()[200x200]",
+      "AcDbHatch()[200x200]",
+      "AcDbPolyline()[200x200]",
+      "AcDbHatch()[250x400]",
+      "AcDbPolyline()[250x400]"
+    ]
+  },
+  {
+    "cluster_id": 43,
+    "count": 3,
+    "center": [
+      4.35,
+      14.8995
+    ],
+    "envelope_box": [
+      4.25,
+      14.7991,
+      4.45,
+      15.0
+    ],
+    "envelope_size_mm": [
+      200,
+      201
+    ],
+    "max_item_box": [
+      4.25,
+      14.8,
+      4.45,
+      15.0
+    ],
+    "max_item_size_mm": [
+      200,
+      200
+    ],
+    "max_item_block": "cot1-2",
+    "items_summary": [
+      "AcDbBlockReference(cot1-2)[200x200]",
+      "AcDbBlockReference(cot1-2)[200x200]",
+      "AcDbBlockReference(cot)[200x200]"
+    ]
+  },
+  {
+    "cluster_id": 44,
+    "count": 3,
+    "center": [
+      8.05,
+      14.8995
+    ],
+    "envelope_box": [
+      7.95,
+      14.7991,
+      8.15,
+      15.0
+    ],
+    "envelope_size_mm": [
+      200,
+      201
+    ],
+    "max_item_box": [
+      7.95,
+      14.8,
+      8.15,
+      15.0
+    ],
+    "max_item_size_mm": [
+      200,
+      200
+    ],
+    "max_item_block": "cot1-2",
+    "items_summary": [
+      "AcDbBlockReference(cot1-2)[200x200]",
+      "AcDbBlockReference(cot1-2)[200x200]",
+      "AcDbBlockReference(cot)[200x200]"
+    ]
+  },
+  {
+    "cluster_id": 45,
+    "count": 2,
+    "center": [
+      29.65,
+      14.8997
+    ],
+    "envelope_box": [
+      29.55,
+      14.7993,
+      29.75,
+      15.0
+    ],
+    "envelope_size_mm": [
+      200,
+      201
+    ],
+    "max_item_box": [
+      29.55,
+      14.8,
+      29.75,
+      15.0
+    ],
+    "max_item_size_mm": [
+      200,
+      200
+    ],
+    "max_item_block": "cot1-2",
+    "items_summary": [
+      "AcDbBlockReference(cot1-2)[200x200]",
+      "AcDbBlockReference(cot)[200x200]"
+    ]
+  },
+  {
+    "cluster_id": 46,
+    "count": 2,
+    "center": [
+      33.35,
+      14.8997
+    ],
+    "envelope_box": [
+      33.25,
+      14.7993,
+      33.45,
+      15.0
+    ],
+    "envelope_size_mm": [
+      200,
+      201
+    ],
+    "max_item_box": [
+      33.25,
+      14.8,
+      33.45,
+      15.0
+    ],
+    "max_item_size_mm": [
+      200,
+      200
+    ],
+    "max_item_block": "cot1-2",
+    "items_summary": [
+      "AcDbBlockReference(cot1-2)[200x200]",
+      "AcDbBlockReference(cot)[200x200]"
+    ]
+  }
+]

@@ -1,0 +1,2 @@
+(prompt (strcat "\nENTITY_TEXT: " (cdr (assoc 1 (entget (entlast)))) "\n"))
+_QUIT

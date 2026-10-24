@@ -1,0 +1,989 @@
+{
+  "count": 8,
+  "files": [
+    {
+      "fileName": "Clooler Master Phase 2 - Nha Xuong - FFS - Branch.rvt",
+      "fullPath": "D:\\Dropbox\\_Documents\\_KIEN TRUC 2026\\CM Fire Protect\\Coolermaster 2 - BIM model\\Clooler Master Phase 2 - Nha Xuong - FFS - Branch.rvt",
+      "directory": "D:\\Dropbox\\_Documents\\_KIEN TRUC 2026\\CM Fire Protect\\Coolermaster 2 - BIM model",
+      "sizeMB": 303.07,
+      "lastModified": "2026-08-22 03:47:14",
+      "basicInfo": {
+        "Format": "2024",
+        "IsWorkshared": true,
+        "IsCentral": true,
+        "CentralPath": "\\\\dhagroup.synology.me\\DHA - Coolermaster phase 2\\3. 3D Models\\3. Model\\C\u01A1 \u0111i\u1EC7n\\Clooler Master Phase 2 - Nha Xuong - FFS - Branch_detached_detached.rvt",
+        "Username": ""
+      },
+      "externalLinks": [
+        {
+          "ExtType": "KeynoteTable",
+          "Path": ""
+        },
+        {
+          "ExtType": "AssemblyCodeTable",
+          "Path": ""
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref Cable Tray\\CT \u002B 00.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref FFS\\FP \u002B0.00.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref FFS\\FP \u002B5.00.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref MB Nha xuong\\Xref MB \u002B5.0.dwg"
+        },
+        {
+          "ExtType": "RevitLink",
+          "Path": "Z:\\3. 3D Models\\3. Model\\C\u01A1 \u0111i\u1EC7n\\260709 - Clooler Master Phase 2 - Nha Xuong 1.rvt"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref MB Nha xuong\\Xref MB \u002B8.7.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref FFS\\FP \u002B8.70.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref MB Nha xuong\\Xref MB \u002B15.7.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref FFS\\FP \u002B15.70.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref FFS\\FP \u002B 22.70.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref MB Nha xuong\\Xref MB \u002B22.7.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref FFS\\FP \u002B29.70.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref MB Nha xuong\\Xref MB \u002B29.7.dwg"
+        },
+        {
+          "ExtType": "RevitLink",
+          "Path": "CMF 2 - CO - Nha Xuong_(Thay \u0111\u1ED5i tr\u1EE5c busway).rvt"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref MB Nha xuong\\Xref MB \u002B0.0.dwg"
+        },
+        {
+          "ExtType": "RevitLink",
+          "Path": "Z:\\3. 3D Models\\3. Model\\STRUCTURE\\CMF2_NHAXUONG_S.rvt"
+        },
+        {
+          "ExtType": "RevitLink",
+          "Path": "Z:\\3. 3D Models\\3. Model\\ARCHITECTURE\\CMF2_NHAXUONG_A.rvt"
+        }
+      ]
+    },
+    {
+      "fileName": "CMF 2 - CO - Nha Xuong.rvt",
+      "fullPath": "D:\\Dropbox\\_Documents\\_KIEN TRUC 2026\\CM Fire Protect\\Coolermaster 2 - BIM model\\CMF 2 - CO - Nha Xuong.rvt",
+      "directory": "D:\\Dropbox\\_Documents\\_KIEN TRUC 2026\\CM Fire Protect\\Coolermaster 2 - BIM model",
+      "sizeMB": 364.71,
+      "lastModified": "2026-08-10 07:25:04",
+      "basicInfo": {
+        "Format": "2024",
+        "IsWorkshared": true,
+        "IsCentral": true,
+        "CentralPath": "\\\\dhagroup.synology.me\\DHA - Coolermaster phase 2\\3. 3D Models\\3. Model\\C\u01A1 \u0111i\u1EC7n\\CMF 2 - CO - Nha Xuong.rvt",
+        "Username": ""
+      },
+      "externalLinks": [
+        {
+          "ExtType": "KeynoteTable",
+          "Path": ""
+        },
+        {
+          "ExtType": "AssemblyCodeTable",
+          "Path": ""
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "\\\\dhagroup.synology.me\\DHA - Coolermaster phase 2\\3. 3D Models\\5. Xref CAD\\Xref Cable Tray\\CT \u002B 00.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "\\\\dhagroup.synology.me\\DHA - Coolermaster phase 2\\3. 3D Models\\5. Xref CAD\\Xref FFS\\FP \u002B0.00.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "\\\\dhagroup.synology.me\\DHA - Coolermaster phase 2\\3. 3D Models\\5. Xref CAD\\Xref Busway\\Busway \u002B 00.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "\\\\dhagroup.synology.me\\DHA - Coolermaster phase 2\\3. 3D Models\\5. Xref CAD\\Xref FFS\\FP \u002B5.00.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "\\\\dhagroup.synology.me\\DHA - Coolermaster phase 2\\3. 3D Models\\5. Xref CAD\\Xref Cable Tray\\CT \u002B 5.0.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "\\\\dhagroup.synology.me\\DHA - Coolermaster phase 2\\3. 3D Models\\5. Xref CAD\\Xref Cable Tray\\CT \u002B 8.7.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "\\\\dhagroup.synology.me\\DHA - Coolermaster phase 2\\3. 3D Models\\5. Xref CAD\\Xref Busway\\Busway \u002B 8.7.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "\\\\dhagroup.synology.me\\DHA - Coolermaster phase 2\\3. 3D Models\\5. Xref CAD\\Xref MB Nha xuong\\Xref MB \u002B0.0.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "\\\\dhagroup.synology.me\\DHA - Coolermaster phase 2\\3. 3D Models\\5. Xref CAD\\Xref Cable Tray\\CT \u002B 15.7.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "\\\\dhagroup.synology.me\\DHA - Coolermaster phase 2\\3. 3D Models\\5. Xref CAD\\Xref Busway\\Busway \u002B 15.7.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "\\\\dhagroup.synology.me\\DHA - Coolermaster phase 2\\3. 3D Models\\5. Xref CAD\\Xref Busway\\Busway \u002B 22.7.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "\\\\dhagroup.synology.me\\DHA - Coolermaster phase 2\\3. 3D Models\\5. Xref CAD\\Xref Cable Tray\\CT \u002B 29.7.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "\\\\dhagroup.synology.me\\DHA - Coolermaster phase 2\\3. 3D Models\\5. Xref CAD\\Xref MB Nha xuong\\Xref MB \u002B29.7.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "\\\\dhagroup.synology.me\\DHA - Coolermaster phase 2\\3. 3D Models\\5. Xref CAD\\Xref MB Nha xuong\\Xref MB \u002B37.7.dwg"
+        },
+        {
+          "ExtType": "RevitLink",
+          "Path": "Clooler Master Phase 2 - Nha Xuong - FFS - Branch.rvt"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "\\\\dhagroup.synology.me\\DHA - Coolermaster phase 2\\3. 3D Models\\5. Xref CAD\\Xref MB CTN\\MB THO\u00C1T N\u01AF\u1EDAC TH\u1EA2I S\u1EA2N XU\u1EA4T T1.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "\\\\dhagroup.synology.me\\DHA - Coolermaster phase 2\\3. 3D Models\\5. Xref CAD\\Xref MB Nha xuong\\Xref MB \u002B8.7.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "\\\\dhagroup.synology.me\\DHA - Coolermaster phase 2\\3. 3D Models\\5. Xref CAD\\Xref Busway\\Busway \u002B 29.7.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "\\\\dhagroup.synology.me\\DHA - Coolermaster phase 2\\3. 3D Models\\5. Xref CAD\\Xref FFS\\FP \u002B8.70.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "\\\\dhagroup.synology.me\\DHA - Coolermaster phase 2\\3. 3D Models\\5. Xref CAD\\Xref FFS\\FP \u002B 22.70.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "\\\\dhagroup.synology.me\\DHA - Coolermaster phase 2\\3. 3D Models\\5. Xref CAD\\Xref MB Nha xuong\\Xref MB \u002B22.7.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "\\\\dhagroup.synology.me\\DHA - Coolermaster phase 2\\3. 3D Models\\5. Xref CAD\\Xref FFS\\FP \u002B15.70.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "\\\\dhagroup.synology.me\\DHA - Coolermaster phase 2\\3. 3D Models\\5. Xref CAD\\Xref FFS\\FP \u002B29.70.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "\\\\dhagroup.synology.me\\DHA - Coolermaster phase 2\\3. 3D Models\\5. Xref CAD\\Xref MB CTN\\MB CTN \u002B5.00.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "\\\\dhagroup.synology.me\\DHA - Coolermaster phase 2\\3. 3D Models\\5. Xref CAD\\Xref MB CTN\\MB CTN \u002B8.70.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "\\\\dhagroup.synology.me\\DHA - Coolermaster phase 2\\3. 3D Models\\5. Xref CAD\\Xref MB CTN\\MB CTN \u002B15.70.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "\\\\dhagroup.synology.me\\DHA - Coolermaster phase 2\\3. 3D Models\\5. Xref CAD\\Xref MB Nha xuong\\Xref MB \u002B5.0.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "\\\\dhagroup.synology.me\\DHA - Coolermaster phase 2\\3. 3D Models\\3. Model\\C\u01A1 \u0111i\u1EC7n\\xref cooler master\\MB PH\u00D2NG B\u01A0M C\u1EA4P N\u01AF\u1EDAC.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "\\\\dhagroup.synology.me\\DHA - Coolermaster phase 2\\3. 3D Models\\5. Xref CAD\\Xref MB Nha xuong\\Xref MB \u002B15.7.dwg"
+        },
+        {
+          "ExtType": "RevitLink",
+          "Path": "CJSC-COOLER-SITE_R23.rvt"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "\\\\dhagroup.synology.me\\DHA - Coolermaster phase 2\\3. 3D Models\\5. Xref CAD\\Xref TBA\\XREF B\u1ED0 TR\u00CD THI\u1EBET B\u1ECA TBA.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "\\\\dhagroup.synology.me\\DHA - Coolermaster phase 2\\3. 3D Models\\5. Xref CAD\\Xref TBA\\MB H\u1EC6 TH\u1ED0NG BUSWAY.dwg"
+        },
+        {
+          "ExtType": "RevitLink",
+          "Path": "Z:\\3. 3D Models\\3. Model\\ARCHITECTURE\\CMF2_NHAXUONG_A.rvt"
+        },
+        {
+          "ExtType": "RevitLink",
+          "Path": "Z:\\3. 3D Models\\3. Model\\STRUCTURE\\CMF2_NHAXUONG_S.rvt"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "\\\\dhagroup.synology.me\\DHA - Coolermaster phase 2\\3. 3D Models\\5. Xref CAD\\Xref H\u00FAt kh\u00F3i\\H\u00DAT KH\u00D3I T1.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "\\\\dhagroup.synology.me\\DHA - Coolermaster phase 2\\3. 3D Models\\5. Xref CAD\\Xref H\u00FAt kh\u00F3i\\H\u00DAT KH\u00D3I T1,5.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "\\\\dhagroup.synology.me\\DHA - Coolermaster phase 2\\3. 3D Models\\5. Xref CAD\\Xref H\u00FAt kh\u00F3i\\H\u00DAT KH\u00D3I T2.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "\\\\dhagroup.synology.me\\DHA - Coolermaster phase 2\\3. 3D Models\\5. Xref CAD\\Xref H\u00FAt kh\u00F3i\\H\u00DAT KH\u00D3I T\u1EA6NG M\u00C1I.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref H\u00FAt kh\u00F3i\\H\u00DAT KH\u00D3I T3.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref H\u00FAt kh\u00F3i\\H\u00DAT KH\u00D3I T4.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref H\u00FAt kh\u00F3i\\H\u00DAT KH\u00D3I T5.dwg"
+        },
+        {
+          "ExtType": "RevitLink",
+          "Path": "Z:\\3. 3D Models\\3. Model\\C\u01A1 \u0111i\u1EC7n\\CMF 2 - ELECTRIC STATION.rvt"
+        },
+        {
+          "ExtType": "RevitLink",
+          "Path": "Z:\\3. 3D Models\\3. Model\\STRUCTURE\\CMF2_NHAPHUTRO_S.rvt"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref TBA\\\u0111i\u1EC7n\\260806 -B\u1EA3n v\u1EBD \u0111i\u1EC1u ch\u1EC9nh l\u1EA1i v\u1ECB tr\u00ED t\u1EE7 MSB\u002BH\u01B0\u1EDBng tuy\u1EBFn \u0111i\u1EC1u ch\u1EC9nh busway.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref Busway\\260806 - Busway FL2.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref Busway\\260806 - Busway FL3.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref Busway\\260806 - Busway FL4.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref Busway\\260806 - Busway FL5.dwg"
+        },
+        {
+          "ExtType": "RevitLink",
+          "Path": "D:\\t\u00E0i li\u1EC7u Cty DHA\\CFM2\\CMF 2 - ELECTRIC STATION.rvt"
+        }
+      ]
+    },
+    {
+      "fileName": "CMF 2 - ELECTRIC STATION ( b\u1ED5 sung 12 tuy\u1EBFn busway sang 3 mp\u0111 m\u1EDBi).rvt",
+      "fullPath": "D:\\Dropbox\\_Documents\\_KIEN TRUC 2026\\CM Fire Protect\\Coolermaster 2 - BIM model\\CMF 2 - ELECTRIC STATION ( b\u1ED5 sung 12 tuy\u1EBFn busway sang 3 mp\u0111 m\u1EDBi).rvt",
+      "directory": "D:\\Dropbox\\_Documents\\_KIEN TRUC 2026\\CM Fire Protect\\Coolermaster 2 - BIM model",
+      "sizeMB": 461.32,
+      "lastModified": "2026-10-08 03:23:06",
+      "basicInfo": {
+        "Format": "2024",
+        "IsWorkshared": false,
+        "IsCentral": false,
+        "CentralPath": "",
+        "Username": ""
+      },
+      "externalLinks": [
+        {
+          "ExtType": "KeynoteTable",
+          "Path": ""
+        },
+        {
+          "ExtType": "AssemblyCodeTable",
+          "Path": ""
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref Cable Tray\\CT \u002B 00.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref FFS\\FP \u002B0.00.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref Busway\\Busway \u002B 00.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref Cable Tray\\CT \u002B 5.0.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref Cable Tray\\CT \u002B 8.7.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref Busway\\Busway \u002B 8.7.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref MB Nha xuong\\Xref MB \u002B0.0.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref Cable Tray\\CT \u002B 15.7.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref Busway\\Busway \u002B 15.7.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref Busway\\Busway \u002B 22.7.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref Cable Tray\\CT \u002B 29.7.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref MB Nha xuong\\Xref MB \u002B29.7.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref MB Nha xuong\\Xref MB \u002B37.7.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref MB CTN\\MB THO\u00C1T N\u01AF\u1EDAC TH\u1EA2I S\u1EA2N XU\u1EA4T T1.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref MB Nha xuong\\Xref MB \u002B8.7.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref Busway\\Busway \u002B 29.7.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref FFS\\FP \u002B8.70.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref FFS\\FP \u002B 22.70.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref MB Nha xuong\\Xref MB \u002B22.7.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref FFS\\FP \u002B15.70.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref FFS\\FP \u002B29.70.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref MB CTN\\MB CTN \u002B8.70.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref MB CTN\\MB CTN \u002B15.70.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\3. Model\\C\u01A1 \u0111i\u1EC7n\\xref cooler master\\MB PH\u00D2NG B\u01A0M C\u1EA4P N\u01AF\u1EDAC.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref MB Nha xuong\\Xref MB \u002B15.7.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref TBA\\XREF B\u1ED0 TR\u00CD THI\u1EBET B\u1ECA TBA.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref TBA\\MB H\u1EC6 TH\u1ED0NG BUSWAY.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref H\u00FAt kh\u00F3i\\H\u00DAT KH\u00D3I T1.dwg"
+        },
+        {
+          "ExtType": "RevitLink",
+          "Path": "CMF2_NHAPHUTRO_A.rvt"
+        },
+        {
+          "ExtType": "RevitLink",
+          "Path": "CMF2_NHAPHUTRO_S.rvt"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "..\\..\\5. Xref CAD\\Xref PCCC\\NH\u00C0 PH\u1EE4 TR\u1EE2\\FM 200\\CMF2 - FM200 nh\u00E0 ph\u1EE5 tr\u1EE3.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref TBA\\MB B\u1ED0 TR\u00CD \u0110\u00C8N T3 TBA.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref TBA\\HVAC\\MB H\u00DAT KH\u00D3I V\u00C0 C\u1EA4P KH\u00CD B\u00D9 TBA T1.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref TBA\\HVAC\\MB H\u00DAT KH\u00D3I V\u00C0 C\u1EA4P KH\u00CD B\u00D9 TBA T4.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref TBA\\HVAC\\MB H\u00DAT KH\u00D3I V\u00C0 C\u1EA4P KH\u00CD B\u00D9 TBA T5.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref TBA\\HVAC\\MB H\u00DAT KH\u00D3I V\u00C0 C\u1EA4P KH\u00CD B\u00D9 TBA TUM.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref TBA\\MB \u0110\u1EA6U PHUN CH\u1EEEA CH\u00C1Y TBA T1.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref PCCC\\NH\u00C0 PH\u1EE4 TR\u1EE2\\TMB \u0110\u01AF\u1EDCNG \u1ED0NG CH\u1EEEA CH\u00C1Y 150 \u0110I NG\u1EA6M.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref TBA\\\u0111i\u1EC7n\\260806 -B\u1EA3n v\u1EBD \u0111i\u1EC1u ch\u1EC9nh l\u1EA1i v\u1ECB tr\u00ED t\u1EE7 MSB\u002BH\u01B0\u1EDBng tuy\u1EBFn \u0111i\u1EC1u ch\u1EC9nh busway.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref TBA\\HVAC\\MB \u0110I\u1EC0U H\u00D2A \u0110\u1EB6T S\u00C0N T\u1EA6NG 1.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "..\\xref cooler master\\Xref nh\u00E0 ph\u1EE5 tr\u1EE3 T1.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref TBA\\\u0111i\u1EC7n\\MB B\u1ED0 TR\u00CD \u0110\u00C8N T1 TBA ( 260808).dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref TBA\\\u0111i\u1EC7n\\MB B\u1ED0 TR\u00CD \u0110\u00C8N T2 TBA ( 260808).dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref TBA\\\u0111i\u1EC7n\\MB B\u1ED0 TR\u00CD \u0110\u00C8N T3 TBA ( 260808).dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "..\\xref cooler master\\Xref tr\u1EE5c ph\u00F2ng nh\u00E0 ph\u1EE5 tr\u1EE3 \u0111\u1EC1 xu\u1EA5t.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "..\\xref cooler master\\Xref m\u1EB7t b\u1EB1ng tho\u00E1t n\u01B0\u1EDBc m\u01B0a nh\u00E0 ph\u1EE5 tr\u1EE3.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "..\\xref cooler master\\Xref m\u1EB7t b\u1EB1ng tho\u00E1t n\u01B0\u1EDBc m\u01B0a t\u1EA7ng 2nh\u00E0 ph\u1EE5 tr\u1EE3.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "..\\xref cooler master\\Xref m\u1EB7t b\u1EB1ng tho\u00E1t n\u01B0\u1EDBc m\u01B0a t\u1EA7ng 3nh\u00E0 ph\u1EE5 tr\u1EE3.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "..\\xref cooler master\\Xref m\u1EB7t b\u1EB1ng tho\u00E1t n\u01B0\u1EDBc m\u01B0a t\u1EA7ng m\u00E1i nh\u00E0 ph\u1EE5 tr\u1EE3.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "..\\xref cooler master\\Xref m\u1EB7t b\u1EB1ng tho\u00E1t n\u01B0\u1EDBc ng\u01B0ng \u0111i\u1EC1u h\u00F2a \u0111\u1EB7t s\u00E0n nh\u00E0 ph\u1EE5 tr\u1EE3.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "C:\\Users\\Dell\\Downloads\\SME205_\u0110\u1EB7t ch\u1EDD NPT3 t\u1EA7ng 1.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref TBA\\Xref tr\u1EE5c tho\u00E1t n\u01B0\u1EDBc m\u01B0a t2 nh\u00E0 ph\u1EE5 tr\u1EE3.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref TBA\\Xref tr\u1EE5c tho\u00E1t n\u01B0\u1EDBc m\u01B0a t\u1EA7ng m\u00E1i nh\u00E0 ph\u1EE5 tr\u1EE3.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref TBA\\P\u0026S\\Xref tr\u1EE5c tho\u00E1t n\u01B0\u1EDBc m\u01B0a t1 nh\u00E0 ph\u1EE5 tr\u1EE3.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref TBA\\\u0111i\u1EC7n\\XREF B\u1ED0 TR\u00CD THI\u1EBET B\u1ECA TBA( 2608180.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref TBA\\\u0111i\u1EC7n\\MB tr\u1EA1m v\u00E0 busway 260819.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "..\\xref cooler master\\Xref TMB CMF.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref TBA\\\u0111i\u1EC7n\\MB tr\u1EA1m v\u00E0 busway 260827( 5 \u0111\u01B0\u1EDDng busway b\u1ED5 sung sang giai \u0111o\u1EA1n 1) .dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref TBA\\\u0111i\u1EC7n\\MB tr\u1EA1m v\u00E0 busway G\u0110 1 260827( 5 \u0111\u01B0\u1EDDng busway b\u1ED5 sung sang giai \u0111o\u1EA1n 1) .dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref TBA\\\u0111i\u1EC7n\\260923 - B\u1ED5 sung 12 tuy\u1EBFn busway sang 3 mp\u0111 m\u1EDBi.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref TBA\\\u0111i\u1EC7n\\26093 - B\u1ED5 sung 12 tuy\u1EBFn busway sang 3 mp\u0111 m\u1EDBi( thay \u0111\u1ED5i line m\u00E1y ph\u00E1t).dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref TBA\\\u0111i\u1EC7n\\26093 - B\u1ED5 sung 12 tuy\u1EBFn busway sang 3 mp\u0111 m\u1EDBi( th\u00EAm m\u00E1y bi\u1EBFn \u00E1p).dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\xref mb nh\u00E0 ph\u1EE5 tr\u1EE3\\MB nh\u00E0 ph\u1EE5 tr\u1EE3 t\u1EA7ng 1 ( 300926).dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref TBA\\\u0111i\u1EC7n\\MB thang m\u00E1ng c\u00E1p v\u00E0 t\u1EE7 \u0111i\u1EC7n khu nh\u00E0 ph\u1EE5 tr\u1EE3 T1.dwg"
+        },
+        {
+          "ExtType": "RevitLink",
+          "Path": "Z:\\3. 3D Models\\3. Model\\C\u01A1 \u0111i\u1EC7n\\CMF 2 - CO - Nha Xuong_(Thay \u0111\u1ED5i tr\u1EE5c busway).rvt"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "xref nh\u00E0 ph\u1EE5 tr\u1EE3 c\u1EADp nh\u1EADt 261002\\Xref nh\u00E0 ph\u1EE5 tr\u1EE3 T1 261002.dwg"
+        }
+      ]
+    },
+    {
+      "fileName": "CMF2_NHAPHUTRO_A.rvt",
+      "fullPath": "D:\\Dropbox\\_Documents\\_KIEN TRUC 2026\\CM Fire Protect\\Coolermaster 2 - BIM model\\CMF2_NHAPHUTRO_A.rvt",
+      "directory": "D:\\Dropbox\\_Documents\\_KIEN TRUC 2026\\CM Fire Protect\\Coolermaster 2 - BIM model",
+      "sizeMB": 24.65,
+      "lastModified": "2026-09-24 23:40:04",
+      "basicInfo": {
+        "Format": "2024",
+        "IsWorkshared": false,
+        "IsCentral": false,
+        "CentralPath": "",
+        "Username": ""
+      },
+      "externalLinks": [
+        {
+          "ExtType": "KeynoteTable",
+          "Path": "RevitKeynotes_Imperial_2004.txt"
+        },
+        {
+          "ExtType": "AssemblyCodeTable",
+          "Path": "C:\\ProgramData\\Autodesk\\RVT 2024\\Templates\\English\\UniformatClassifications.txt"
+        },
+        {
+          "ExtType": "RevitLink",
+          "Path": "COOLERMASTER_NHAPHU.rvt"
+        }
+      ]
+    },
+    {
+      "fileName": "CMF2_NHAPHUTRO_S.rvt",
+      "fullPath": "D:\\Dropbox\\_Documents\\_KIEN TRUC 2026\\CM Fire Protect\\Coolermaster 2 - BIM model\\CMF2_NHAPHUTRO_S.rvt",
+      "directory": "D:\\Dropbox\\_Documents\\_KIEN TRUC 2026\\CM Fire Protect\\Coolermaster 2 - BIM model",
+      "sizeMB": 27.11,
+      "lastModified": "2026-09-24 23:40:04",
+      "basicInfo": {
+        "Format": "2024",
+        "IsWorkshared": false,
+        "IsCentral": false,
+        "CentralPath": "",
+        "Username": ""
+      },
+      "externalLinks": [
+        {
+          "ExtType": "KeynoteTable",
+          "Path": "RevitKeynotes_Imperial_2004.txt"
+        },
+        {
+          "ExtType": "AssemblyCodeTable",
+          "Path": "C:\\ProgramData\\Autodesk\\RVT 2024\\Templates\\English\\UniformatClassifications.txt"
+        },
+        {
+          "ExtType": "RevitLink",
+          "Path": "COOLERMASTER_NHAPHU_KIENTRUC.rvt"
+        },
+        {
+          "ExtType": "RevitLink",
+          "Path": "CMF2_NHAPHUTRO_A.rvt"
+        }
+      ]
+    },
+    {
+      "fileName": "CMF2_NHAXUONG_A.rvt",
+      "fullPath": "D:\\Dropbox\\_Documents\\_KIEN TRUC 2026\\CM Fire Protect\\Coolermaster 2 - BIM model\\CMF2_NHAXUONG_A.rvt",
+      "directory": "D:\\Dropbox\\_Documents\\_KIEN TRUC 2026\\CM Fire Protect\\Coolermaster 2 - BIM model",
+      "sizeMB": 187.29,
+      "lastModified": "2026-10-06 07:48:10",
+      "basicInfo": {
+        "Format": "2024",
+        "IsWorkshared": false,
+        "IsCentral": false,
+        "CentralPath": "",
+        "Username": ""
+      },
+      "externalLinks": [
+        {
+          "ExtType": "KeynoteTable",
+          "Path": "RevitKeynotes_Imperial_2004.txt"
+        },
+        {
+          "ExtType": "AssemblyCodeTable",
+          "Path": "C:\\ProgramData\\Autodesk\\RVT 2024\\Templates\\English\\UniformatClassifications.txt"
+        },
+        {
+          "ExtType": "RevitLink",
+          "Path": "CMF2_NHAXUONG_S.rvt"
+        },
+        {
+          "ExtType": "RevitLink",
+          "Path": "CMF2_NHAPHUTRO_S.rvt"
+        },
+        {
+          "ExtType": "RevitLink",
+          "Path": "CMF2_NHAPHUTRO_A.rvt"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref MB Nha xuong\\Xref c\u1EADp nh\u1EADt 180826\\Xref t1 260818.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref MB Nha xuong\\Xref c\u1EADp nh\u1EADt 180826\\Xref t\u1EA7ng l\u1EEDng 260818.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref MB Nha xuong\\Xref c\u1EADp nh\u1EADt 180826\\Xref t\u1EA7ng 2 260818.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref MB Nha xuong\\Xref c\u1EADp nh\u1EADt 180826\\Xref t\u1EA7ng 3 260818.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref MB Nha xuong\\Xref c\u1EADp nh\u1EADt 180826\\Xref t\u1EA7ng 4 260818.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref MB Nha xuong\\Xref c\u1EADp nh\u1EADt 180826\\Xref t\u1EA7ng 5 260818.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref MB Nha xuong\\Xref c\u1EADp nh\u1EADt 180826\\Xref t\u1EA7ng m\u00E1i 260818.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "Z:\\3. 3D Models\\5. Xref CAD\\Xref MB Nha xuong\\Xref c\u1EADp nh\u1EADt 180826\\Xref t\u1EA7ng tum 260818.dwg"
+        }
+      ]
+    },
+    {
+      "fileName": "CMF2_NHAXUONG_S.rvt",
+      "fullPath": "D:\\Dropbox\\_Documents\\_KIEN TRUC 2026\\CM Fire Protect\\Coolermaster 2 - BIM model\\CMF2_NHAXUONG_S.rvt",
+      "directory": "D:\\Dropbox\\_Documents\\_KIEN TRUC 2026\\CM Fire Protect\\Coolermaster 2 - BIM model",
+      "sizeMB": 48.68,
+      "lastModified": "2026-09-01 06:08:00",
+      "basicInfo": {
+        "Format": "2024",
+        "IsWorkshared": false,
+        "IsCentral": false,
+        "CentralPath": "",
+        "Username": ""
+      },
+      "externalLinks": [
+        {
+          "ExtType": "KeynoteTable",
+          "Path": "RevitKeynotes_Imperial_2004.txt"
+        },
+        {
+          "ExtType": "AssemblyCodeTable",
+          "Path": "C:\\ProgramData\\Autodesk\\RVT 2024\\Templates\\English\\UniformatClassifications.txt"
+        },
+        {
+          "ExtType": "RevitLink",
+          "Path": "CMF2_NHAXUONG_A.rvt"
+        },
+        {
+          "ExtType": "RevitLink",
+          "Path": "CMF2_NHAPHUTRO_S.rvt"
+        }
+      ]
+    },
+    {
+      "fileName": "Fire Protection - PCCC - Template.rvt",
+      "fullPath": "D:\\Dropbox\\_Documents\\_KIEN TRUC 2026\\CM Fire Protect\\Fire Protection - PCCC - Template.rvt",
+      "directory": "D:\\Dropbox\\_Documents\\_KIEN TRUC 2026\\CM Fire Protect",
+      "sizeMB": 68.94,
+      "lastModified": "2026-10-07 08:47:09",
+      "basicInfo": {
+        "Format": "2027",
+        "IsWorkshared": false,
+        "IsCentral": false,
+        "CentralPath": "",
+        "Username": ""
+      },
+      "externalLinks": [
+        {
+          "ExtType": "KeynoteTable",
+          "Path": "RevitKeynotes_Metric.txt"
+        },
+        {
+          "ExtType": "RevitLink",
+          "Path": "D:\\PROJECT\\VAN HOA KHACH SAN\\REVIT KIEN TRUC\\VAN HOA KHACH SAN- KIEN TRUC-MR LAM - 10-03-2014.rvt"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "D:\\PROJECT\\VAN HOA KHACH SAN\\SHOP DRAWING\\tach bv\\FP-UP DATE\\kien truc -100 All layout plan - MF- new.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "D:\\PROJECT\\VAN HOA KHACH SAN\\SHOP DRAWING\\tach bv\\FP-UP DATE\\kien truc -100 All layout plan - GF- new.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "D:\\PROJECT\\VAN HOA KHACH SAN\\SHOP DRAWING\\tach bv\\FP-UP DATE\\kien truc -100 All layout plan - F1- new.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "D:\\PROJECT\\VAN HOA KHACH SAN\\SHOP DRAWING\\tach bv\\FP-UP DATE\\kien truc -100 All layout plan - F2- new.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "D:\\PROJECT\\VAN HOA KHACH SAN\\SHOP DRAWING\\tach bv\\FP-UP DATE\\kien truc -100 All layout plan - F3- new.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "D:\\PROJECT\\VAN HOA KHACH SAN\\SHOP DRAWING\\tach bv\\FP-UP DATE\\MB kien truc moi -Tang 5_dieu chinh.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "D:\\PROJECT\\VAN HOA KHACH SAN\\Fire protection M.Hung\\LINK CAD KIEN TRUC\\TANG 6--cad.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "D:\\PROJECT\\VAN HOA KHACH SAN\\SHOP DRAWING\\tach bv\\FP-UP DATE\\KT - MB TANG 7.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "D:\\PROJECT\\VAN HOA KHACH SAN\\SHOP DRAWING\\tach bv\\FP-UP DATE\\KT - MB TANG 8.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "D:\\PROJECT\\VAN HOA KHACH SAN\\SHOP DRAWING\\tach bv\\FP-UP DATE\\KT - MB TANG 9.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "D:\\PROJECT\\VAN HOA KHACH SAN\\SHOP DRAWING\\tach bv\\FP-UP DATE\\KT - MB TANG 15.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "D:\\PROJECT\\VAN HOA KHACH SAN\\SHOP DRAWING\\tach bv\\FP-UP DATE\\KT - MB TANG 14.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "D:\\PROJECT\\VAN HOA KHACH SAN\\SHOP DRAWING\\tach bv\\FP-UP DATE\\KT - MB TANG 16.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "D:\\PROJECT\\VAN HOA KHACH SAN\\SHOP DRAWING\\tach bv\\ID-100 Layout Plan mb tran tonh the t6-12.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "D:\\SEAREFICO\\2014\\VHKS\\CAD link\\Tang 6.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "D:\\PROJECT\\VAN HOA KHACH SAN\\SHOP DRAWING\\tach bv\\combina t5\\COMBINA - T5 -H.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "D:\\PROJECT\\VAN HOA KHACH SAN\\SHOP DRAWING\\tach bv\\combina t5\\M2 - FP- T05.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "D:\\Du An\\Van Hoa Khach San\\Shop Drawing\\LINK CAD KIEN TRUC\\M\u0026E TANG 05.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "D:\\Du An\\Van Hoa Khach San\\Shop Drawing\\LINK CAD KIEN TRUC\\KIEN TRUC TANG 5- HTQUOC.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "D:\\Du An\\Van Hoa Khach San\\Shop Drawing\\LINK CAD KIEN TRUC\\E2-LG-T5.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "D:\\VHKS\\ME HAM B3 Hung.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "D:\\Du An\\Van Hoa Khach San\\Shop Drawing\\LINK CAD KIEN TRUC\\KIEN TRUC B3.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "D:\\Du An\\Van Hoa Khach San\\Shop Drawing\\LINK CAD KIEN TRUC\\M\u0026E B3.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "D:\\PROJECT\\VAN HOA KHACH SAN\\Mr Thai\\COORDINATION B3(htlam).dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "D:\\Du An\\Van Hoa Khach San\\Shop Drawing\\LINK CAD KIEN TRUC\\KIEN TRUC B2.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "D:\\PROJECT\\VAN HOA KHACH SAN\\Mr Thai\\COORDINATION B2(htlam).dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "D:\\PROJECT\\VAN HOA KHACH SAN\\Mr Z.Hung\\15-02-2014\\kien truc ham 03.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "D:\\SEAREFICO\\2014\\VHKS\\CAD link\\H2.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "D:\\PROJECT\\VAN HOA KHACH SAN\\SHOP DRAWING\\tach bv\\FP-UP DATE\\M2-FP-T06.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "D:\\PROJECT\\VAN HOA KHACH SAN\\SHOP DRAWING\\tach bv\\FP-UP DATE\\M2-FP-T05.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "D:\\PROJECT\\VAN HOA KHACH SAN\\SHOP DRAWING\\tach bv\\FP-UP DATE\\M2-FP-T03.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "D:\\PROJECT\\VAN HOA KHACH SAN\\SHOP DRAWING\\tach bv\\FP-UP DATE\\M2-FP-T02.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "D:\\PROJECT\\VAN HOA KHACH SAN\\SHOP DRAWING\\tach bv\\FP-UP DATE\\M2-FP-T01.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "D:\\PROJECT\\VAN HOA KHACH SAN\\SHOP DRAWING\\tach bv\\FP-UP DATE\\M2-FP-LUNG.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "D:\\PROJECT\\VAN HOA KHACH SAN\\SHOP DRAWING\\tach bv\\FP-UP DATE\\M2-FP-TRET.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "D:\\PROJECT\\VAN HOA KHACH SAN\\Mr Z.Hung\\17-02-2014\\COORDINATION T6.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "D:\\SEAREFICO\\2014\\VHKS\\CAD link\\H1.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "D:\\SEAREFICO\\2014\\VHKS\\CAD link\\G.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "D:\\PROJECT\\VAN HOA KHACH SAN\\SHOP DRAWING\\MB-Tang 5_dieu chinh.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "D:\\SEAREFICO\\2014\\VHKS\\CAD link\\H3.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "D:\\PROJECT\\VAN HOA KHACH SAN\\SHOP DRAWING\\tach bv\\M2-FP-t16.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "D:\\PROJECT\\VAN HOA KHACH SAN\\SHOP DRAWING\\tach bv\\M2-FP-t17.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "D:\\PROJECT\\VAN HOA KHACH SAN\\SHOP DRAWING\\tach bv\\M2-FP-t18.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "D:\\PROJECT\\VAN HOA KHACH SAN\\SHOP DRAWING\\tach bv\\M2-FP-Terrac.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "D:\\PROJECT\\VAN HOA KHACH SAN\\Mr Thai\\COORDINATION B1(htlam).dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "D:\\PROJECT\\VAN HOA KHACH SAN\\Mr Thai\\kienv truc - B1(htlam).dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "D:\\VINH\\2014\\VHKS\\CAD link\\MB kien truc mo tang 5 Vinh.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "D:\\Du An\\Van Hoa Khach San\\Shop Drawing\\A.Hung\\COORDINATION B2.dwg"
+        },
+        {
+          "ExtType": "CADLink",
+          "Path": "D:\\Du An\\Van Hoa Khach San\\Shop Drawing\\LINK CAD KIEN TRUC\\M\u0026E B1.dwg"
+        },
+        {
+          "ExtType": "AssemblyCodeTable",
+          "Path": "UniformatClassifications.txt"
+        }
+      ]
+    }
+  ]
+}

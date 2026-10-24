@@ -1,0 +1,110 @@
+=== BẮT ĐẦU XỬ LÝ MEP & BUSWAY MODEL ===
+[05:55:15] [MỞ FILE CHỦ] Đang mở tài liệu chủ: C:\Users\nguyenbuu.DESKTOP-TOEFTR1\Documents\[fixed]Clooler Master Phase 2 - Nha Xuong - FFS - Branch_detached_phannguyenbuu@gmail.com.rvt...
+[06:00:38] [MỞ FILE CHỦ THÀNH CÔNG] Tiêu đề: [fixed]Clooler Master Phase 2 - Nha Xuong - FFS - Branch_detached_phannguyenbuu@gmail.com
+[06:00:38] 
+--- Bắt đầu xử lý: CMF 2 - CO - Nha Xuong.rvt ---
+[06:00:38] [MỞ NÂNG CẤP] Đang mở CMF 2 - CO - Nha Xuong.rvt (Audit=false, Detach=True)...
+[06:20:47] [FAILURE] Severity: Error, Text: Elements need to be disconnected.
+[06:20:47] [RESOLVED BY RESOLUTION] Elements need to be disconnected.
+[06:20:47] [FAILURE] Severity: Error, Text: Elements need to be disconnected.
+[06:20:47] [RESOLVED BY RESOLUTION] Elements need to be disconnected.
+[06:20:47] [FAILURE] Severity: Error, Text: Elements need to be disconnected.
+[06:20:47] [RESOLVED BY RESOLUTION] Elements need to be disconnected.
+[06:20:47] [FAILURE] Severity: Error, Text: Elements need to be disconnected.
+[06:20:47] [RESOLVED BY RESOLUTION] Elements need to be disconnected.
+[06:20:47] [FAILURE] Severity: Error, Text: Elements need to be disconnected.
+[06:20:47] [RESOLVED BY RESOLUTION] Elements need to be disconnected.
+[06:20:47] [FAILURE] Severity: Error, Text: Elements need to be disconnected.
+[06:20:47] [RESOLVED BY RESOLUTION] Elements need to be disconnected.
+[06:20:47] [FAILURE] Severity: Error, Text: Elements need to be disconnected.
+[06:20:47] [RESOLVED BY RESOLUTION] Elements need to be disconnected.
+[06:20:47] [FAILURE] Severity: Error, Text: The Tap must be attached to duct.
+[06:20:47] [RESOLVED BY RESOLUTION] The Tap must be attached to duct.
+[06:20:47] [FAILURE] Severity: Error, Text: The Tap must be attached to duct.
+[06:20:47] [RESOLVED BY RESOLUTION] The Tap must be attached to duct.
+[06:20:47] [FAILURE] Severity: Error, Text: The Tap must be attached to duct.
+[06:20:47] [RESOLVED BY RESOLUTION] The Tap must be attached to duct.
+[06:20:47] [FAILURE] Severity: Error, Text: The Tap must be attached to duct.
+[06:20:47] [RESOLVED BY RESOLUTION] The Tap must be attached to duct.
+[06:20:47] [FAILURE] Severity: Error, Text: The Tap must be attached to duct.
+[06:20:47] [RESOLVED BY RESOLUTION] The Tap must be attached to duct.
+[06:20:47] [FAILURE] Severity: Error, Text: The Tap must be attached to duct.
+[06:20:47] [RESOLVED BY RESOLUTION] The Tap must be attached to duct.
+[06:20:47] [FAILURE] Severity: Warning, Text: The Tap must be attached to duct.
+[06:20:47] [FAILURE] Severity: Warning, Text: The Tap must be attached to duct.
+[06:20:47] [FAILURE] Severity: Warning, Text: An error occurred in family "uPVC_Cap End2-TienPhong" and was automatically resolved, but may require review by the family creator.
+Error Information:
+"Can't create surface of revolution"
+Error Resolution: Delete Element(s)
+[06:20:47] [FAILURE] Severity: Warning, Text: An error occurred in family "uPVC_Cap End2-TienPhong" and was automatically resolved, but may require review by the family creator.
+Error Information:
+"Line is too short."
+Error Resolution: Delete Element(s)
+[06:31:19] [MỞ THÀNH CÔNG] Tiêu đề: CMF 2 - CO - Nha Xuong_detached. Đang lưu sang CMF 2 - CO - Nha Xuong_2025.rvt...
+[06:34:24] [LƯU THÀNH CÔNG] Đã lưu xong file 2025: D:\Dropbox\_Documents\_KIEN TRUC 2026\CM Fire Protect\Coolermaster 2 - BIM model\CMF 2 - CO - Nha Xuong_2025.rvt
+[06:34:33] [ĐÃ ĐÓNG] Đã đóng tài liệu nâng cấp.
+[06:34:33] [LIÊN KẾT] Đang nạp link vào file tổng: CMF 2 - CO - Nha Xuong_2025.rvt...
+[06:42:41] [LINK THÀNH CÔNG] TypeId: 5325554, InstanceId: 5325555, Status: LinkLoaded
+[06:42:45] [TRANSACTION COMMIT] Hoàn tất liên kết CMF 2 - CO - Nha Xuong.rvt!
+[06:42:45] 
+--- Bắt đầu xử lý: CMF 2 - ELECTRIC STATION ( bổ sung 12 tuyến busway sang 3 mpđ mới).rvt ---
+[06:42:45] [MỞ NÂNG CẤP] Đang mở CMF 2 - ELECTRIC STATION ( bổ sung 12 tuyến busway sang 3 mpđ mới).rvt (Audit=false, Detach=False)...
+[07:01:17] [FAILURE] Severity: Error, Text: The family is connected in a network and can no longer keep the connectivity. Disconnect the family from the network?
+[07:01:17] [RESOLVED BY RESOLUTION] The family is connected in a network and can no longer keep the connectivity. Disconnect the family from the network?
+[07:01:17] [FAILURE] Severity: Error, Text: The family is connected in a network and can no longer keep the connectivity. Disconnect the family from the network?
+[07:01:17] [RESOLVED BY RESOLUTION] The family is connected in a network and can no longer keep the connectivity. Disconnect the family from the network?
+[07:01:17] [FAILURE] Severity: Error, Text: The family is connected in a network and can no longer keep the connectivity. Disconnect the family from the network?
+[07:01:17] [RESOLVED BY RESOLUTION] The family is connected in a network and can no longer keep the connectivity. Disconnect the family from the network?
+[07:01:17] [FAILURE] Severity: Error, Text: The family is connected in a network and can no longer keep the connectivity. Disconnect the family from the network?
+[07:01:17] [RESOLVED BY RESOLUTION] The family is connected in a network and can no longer keep the connectivity. Disconnect the family from the network?
+[07:01:17] [FAILURE] Severity: Error, Text: The family is connected in a network and can no longer keep the connectivity. Disconnect the family from the network?
+[07:01:17] [RESOLVED BY RESOLUTION] The family is connected in a network and can no longer keep the connectivity. Disconnect the family from the network?
+[07:01:17] [FAILURE] Severity: Error, Text: The family is connected in a network and can no longer keep the connectivity. Disconnect the family from the network?
+[07:01:17] [RESOLVED BY RESOLUTION] The family is connected in a network and can no longer keep the connectivity. Disconnect the family from the network?
+[07:01:17] [FAILURE] Severity: Error, Text: The duct/pipe has been modified to be in the opposite direction causing the connections to be invalid.
+[07:01:17] [RESOLVED BY RESOLUTION] The duct/pipe has been modified to be in the opposite direction causing the connections to be invalid.
+[07:01:17] [FAILURE] Severity: Error, Text: The duct/pipe has been modified to be in the opposite direction causing the connections to be invalid.
+[07:01:17] [RESOLVED BY RESOLUTION] The duct/pipe has been modified to be in the opposite direction causing the connections to be invalid.
+[07:01:17] [FAILURE] Severity: Warning, Text: An error occurred in family "Dirit_uPVC TienPhong Clean Out" and was automatically resolved, but may require review by the family creator.
+Error Information:
+"Can't create surface of revolution"
+Error Resolution: Delete Element(s)
+[07:01:17] [FAILURE] Severity: Warning, Text: An error occurred in family "Dirit_uPVC TienPhong Clean Out" and was automatically resolved, but may require review by the family creator.
+Error Information:
+"Line is too short."
+Error Resolution: Delete Element(s)
+[07:01:17] [FAILURE] Severity: Warning, Text: An error occurred in family "E_Ladder Horizontal Cross" and was automatically resolved, but may require review by the family creator.
+Error Information:
+"Base sketch for extrusion is invalid"
+Error Resolution: Delete Instance(s)
+[07:01:17] [FAILURE] Severity: Warning, Text: An error occurred in family "E_Ladder Horizontal Cross" and was automatically resolved, but may require review by the family creator.
+Error Information:
+"Can't make Extrusion."
+Error Resolution: Delete Element(s)
+[07:01:17] [FAILURE] Severity: Warning, Text: An error occurred in family "LADDER_REDUCER" and was automatically resolved, but may require review by the family creator.
+Error Information:
+"Can't create sweep"
+Error Resolution: Delete Element(s)
+[07:01:17] [FAILURE] Severity: Warning, Text: An error occurred in family "Valve_Water Flow Swithch" and was automatically resolved, but may require review by the family creator.
+Error Information:
+"The constraints of the sketch defining the highlighted element cannot be satisfied."
+Error Resolution: Delete Element(s)
+[07:01:17] [FAILURE] Severity: Warning, Text: An error occurred in family "Valve_Water Flow Swithch" and was automatically resolved, but may require review by the family creator.
+Error Information:
+"The constraints of the sketch defining the highlighted element cannot be satisfied."
+Error Resolution: Delete Element(s)
+[07:01:17] [FAILURE] Severity: Warning, Text: An error occurred in family "uPVC_Cap End2-TienPhong" and was automatically resolved, but may require review by the family creator.
+Error Information:
+"Can't create surface of revolution"
+Error Resolution: Delete Element(s)
+[07:01:17] [FAILURE] Severity: Warning, Text: An error occurred in family "uPVC_Cap End2-TienPhong" and was automatically resolved, but may require review by the family creator.
+Error Information:
+"Line is too short."
+Error Resolution: Delete Element(s)
+[07:01:59] [MỞ THÀNH CÔNG] Tiêu đề: CMF 2 - ELECTRIC STATION ( bổ sung 12 tuyến busway sang 3 mpđ mới). Đang lưu sang CMF 2 - ELECTRIC STATION_2025.rvt...
+[07:05:09] [LƯU THÀNH CÔNG] Đã lưu xong file 2025: D:\Dropbox\_Documents\_KIEN TRUC 2026\CM Fire Protect\Coolermaster 2 - BIM model\CMF 2 - ELECTRIC STATION_2025.rvt
+[07:05:18] [ĐÃ ĐÓNG] Đã đóng tài liệu nâng cấp.
+[07:05:18] [LIÊN KẾT] Đang nạp link vào file tổng: CMF 2 - ELECTRIC STATION_2025.rvt...
+[07:06:01] [LINK THÀNH CÔNG] TypeId: 5325557, InstanceId: 5325558, Status: LinkLoaded
+[07:06:05] [TRANSACTION COMMIT] Hoàn tất liên kết CMF 2 - ELECTRIC STATION ( bổ sung 12 tuyến busway sang 3 mpđ mới).rvt!
+[07:06:05] === HOÀN TẤT TOÀN BỘ QUÁ TRÌNH ===

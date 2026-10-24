@@ -1,0 +1,11 @@
+ZOOM
+E
+(setq f (open "D:/Dropbox/_Documents/RevitAI/master_info.txt" "w"))
+(setq p1 (getvar "EXTMIN"))
+(setq p2 (getvar "EXTMAX"))
+(write-line (strcat "EXTENTS: (" (rtos (car p1) 2 1) "," (rtos (cadr p1) 2 1) ") to (" (rtos (car p2) 2 1) "," (rtos (cadr p2) 2 1) ")") f)
+(setq ss (ssget "X"))
+(write-line (strcat "TOTAL_ENTITIES: " (itoa (if ss (sslength ss) 0))) f)
+(close f)
+_.QUIT
+_Y

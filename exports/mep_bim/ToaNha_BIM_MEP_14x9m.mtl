@@ -1,0 +1,64 @@
+# RevitAI MEP 3D Materials Library
+newmtl Mat_Concrete
+Kd 0.75 0.75 0.75
+Ka 0.20 0.20 0.20
+Ks 0.10 0.10 0.10
+d 1.0
+
+newmtl Mat_BrickWall
+Kd 0.88 0.86 0.82
+Ka 0.25 0.25 0.25
+Ks 0.05 0.05 0.05
+d 1.0
+
+newmtl Mat_HVAC_Supply
+Kd 0.00 0.75 0.85
+Ka 0.10 0.20 0.25
+Ks 0.60 0.60 0.60
+Ns 40.0
+d 1.0
+
+newmtl Mat_HVAC_Exhaust
+Kd 0.45 0.55 0.60
+Ka 0.15 0.15 0.15
+Ks 0.40 0.40 0.40
+d 1.0
+
+newmtl Mat_Pipe_Cold
+Kd 0.10 0.50 0.90
+Ka 0.05 0.15 0.30
+Ks 0.70 0.70 0.70
+Ns 50.0
+d 1.0
+
+newmtl Mat_Pipe_Soil
+Kd 0.90 0.40 0.05
+Ka 0.25 0.10 0.05
+Ks 0.30 0.30 0.30
+d 1.0
+
+newmtl Mat_CableTray
+Kd 0.95 0.70 0.10
+Ka 0.30 0.20 0.05
+Ks 0.80 0.80 0.80
+Ns 60.0
+d 1.0
+
+newmtl Mat_LightFixture
+Kd 1.00 0.98 0.85
+Ka 0.90 0.90 0.80
+Ks 0.90 0.90 0.90
+d 1.0
+
+newmtl Mat_SanitaryWare
+Kd 0.96 0.96 0.98
+Ka 0.30 0.30 0.30
+Ks 0.90 0.90 0.90
+Ns 80.0
+d 1.0
+
+newmtl Mat_Equipment
+Kd 0.60 0.65 0.70
+Ka 0.20 0.20 0.20
+Ks 0.50 0.50 0.50
+d 1.0

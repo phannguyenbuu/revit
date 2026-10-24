@@ -1,0 +1,10 @@
+(progn
+  (setq err (vl-catch-all-apply '(lambda () (load "d:/Dropbox/_Documents/RevitAI/test_run.lsp"))))
+  (setq f (open "d:/Dropbox/_Documents/RevitAI/scratch_err.txt" "w"))
+  (if (vl-catch-all-error-p err)
+    (write-line (strcat "ERROR: " (vl-catch-all-error-message err)) f)
+    (write-line "SUCCESS_LOAD" f)
+  )
+  (close f)
+  (princ)
+)

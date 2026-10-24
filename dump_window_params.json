@@ -1,0 +1,436 @@
+{
+  "symbolName": "S1_1500x1400",
+  "familyName": "CUA SO 2 CANH NHOM KINH O O THOANG",
+  "allTypes": [
+    {
+      "id": 144661,
+      "name": "CUA SO 2 CANH NHOM KINH O O THOANG"
+    },
+    {
+      "id": 208720,
+      "name": "S2"
+    },
+    {
+      "id": 1105795,
+      "name": "CUA SO 2 CANH NHOM KINH O O THOANG 2"
+    },
+    {
+      "id": 2360977,
+      "name": "S1_1500x1400"
+    },
+    {
+      "id": 2360993,
+      "name": "K3_3100x2100"
+    },
+    {
+      "id": 2361522,
+      "name": "S4_1500x1400"
+    }
+  ],
+  "instParams": [
+    {
+      "name": "Image",
+      "val": null,
+      "isReadOnly": false,
+      "storage": "ElementId"
+    },
+    {
+      "name": "Category",
+      "val": "Windows",
+      "isReadOnly": true,
+      "storage": "ElementId"
+    },
+    {
+      "name": "Category",
+      "val": "Windows",
+      "isReadOnly": true,
+      "storage": "ElementId"
+    },
+    {
+      "name": "IFC Predefined Type",
+      "val": null,
+      "isReadOnly": false,
+      "storage": "String"
+    },
+    {
+      "name": "Export to IFC As",
+      "val": null,
+      "isReadOnly": false,
+      "storage": "String"
+    },
+    {
+      "name": "Export to IFC",
+      "val": "By Type",
+      "isReadOnly": false,
+      "storage": "Integer"
+    },
+    {
+      "name": "IfcGUID",
+      "val": "0y3EU2TfD4nwYWfKg$brYG",
+      "isReadOnly": false,
+      "storage": "String"
+    },
+    {
+      "name": "Design Option",
+      "val": "-1",
+      "isReadOnly": true,
+      "storage": "ElementId"
+    },
+    {
+      "name": "Volume",
+      "val": "371.5",
+      "isReadOnly": true,
+      "storage": "Double"
+    },
+    {
+      "name": "Area",
+      "val": "9215.0",
+      "isReadOnly": true,
+      "storage": "Double"
+    },
+    {
+      "name": "Phase Demolished",
+      "val": "None",
+      "isReadOnly": false,
+      "storage": "ElementId"
+    },
+    {
+      "name": "Phase Created",
+      "val": "New Construction",
+      "isReadOnly": false,
+      "storage": "ElementId"
+    },
+    {
+      "name": "Comments",
+      "val": null,
+      "isReadOnly": false,
+      "storage": "String"
+    },
+    {
+      "name": "Host Id",
+      "val": "2361244",
+      "isReadOnly": true,
+      "storage": "ElementId"
+    },
+    {
+      "name": "Level",
+      "val": "MẶT BẰNG TẦNG 1",
+      "isReadOnly": true,
+      "storage": "ElementId"
+    },
+    {
+      "name": "Family and Type",
+      "val": "CUA SO 2 CANH NHOM KINH O O THOANG: S1_1500x1400",
+      "isReadOnly": false,
+      "storage": "ElementId"
+    },
+    {
+      "name": "Family",
+      "val": "CUA SO 2 CANH NHOM KINH O O THOANG",
+      "isReadOnly": false,
+      "storage": "ElementId"
+    },
+    {
+      "name": "Type",
+      "val": "S1_1500x1400",
+      "isReadOnly": false,
+      "storage": "ElementId"
+    },
+    {
+      "name": "Family Name",
+      "val": null,
+      "isReadOnly": true,
+      "storage": "String"
+    },
+    {
+      "name": "Type Name",
+      "val": null,
+      "isReadOnly": true,
+      "storage": "String"
+    },
+    {
+      "name": "Type Id",
+      "val": "2360977",
+      "isReadOnly": true,
+      "storage": "ElementId"
+    },
+    {
+      "name": "Head Height",
+      "val": "2200.0",
+      "isReadOnly": false,
+      "storage": "Double"
+    },
+    {
+      "name": "Sill Height",
+      "val": "900.0",
+      "isReadOnly": false,
+      "storage": "Double"
+    },
+    {
+      "name": "Level",
+      "val": "MẶT BẰNG TẦNG 1",
+      "isReadOnly": false,
+      "storage": "ElementId"
+    },
+    {
+      "name": "Mark",
+      "val": "S1-A2",
+      "isReadOnly": false,
+      "storage": "String"
+    }
+  ],
+  "symParams": [
+    {
+      "name": "Type Image",
+      "val": null,
+      "isReadOnly": true,
+      "storage": "ElementId"
+    },
+    {
+      "name": "Keynote",
+      "val": null,
+      "isReadOnly": false,
+      "storage": "String"
+    },
+    {
+      "name": "Category",
+      "val": "Windows",
+      "isReadOnly": true,
+      "storage": "ElementId"
+    },
+    {
+      "name": "Category",
+      "val": "Windows",
+      "isReadOnly": true,
+      "storage": "ElementId"
+    },
+    {
+      "name": "Type IFC Predefined Type",
+      "val": null,
+      "isReadOnly": false,
+      "storage": "String"
+    },
+    {
+      "name": "Export Type to IFC As",
+      "val": null,
+      "isReadOnly": false,
+      "storage": "String"
+    },
+    {
+      "name": "Export Type to IFC",
+      "val": "Default",
+      "isReadOnly": false,
+      "storage": "Integer"
+    },
+    {
+      "name": "Type IfcGUID",
+      "val": "3Eg3pOuErAFQUjaF6Snu0h",
+      "isReadOnly": false,
+      "storage": "String"
+    },
+    {
+      "name": "Design Option",
+      "val": "-1",
+      "isReadOnly": true,
+      "storage": "ElementId"
+    },
+    {
+      "name": "Model",
+      "val": null,
+      "isReadOnly": false,
+      "storage": "String"
+    },
+    {
+      "name": "Manufacturer",
+      "val": null,
+      "isReadOnly": false,
+      "storage": "String"
+    },
+    {
+      "name": "Type Comments",
+      "val": null,
+      "isReadOnly": false,
+      "storage": "String"
+    },
+    {
+      "name": "URL",
+      "val": null,
+      "isReadOnly": false,
+      "storage": "String"
+    },
+    {
+      "name": "Description",
+      "val": null,
+      "isReadOnly": false,
+      "storage": "String"
+    },
+    {
+      "name": "Code Name",
+      "val": "",
+      "isReadOnly": true,
+      "storage": "String"
+    },
+    {
+      "name": "Define Thermal Properties by",
+      "val": "Schematic Type",
+      "isReadOnly": false,
+      "storage": "Integer"
+    },
+    {
+      "name": "Analytic Construction",
+      "val": "<None>",
+      "isReadOnly": false,
+      "storage": "String"
+    },
+    {
+      "name": "Visual Light Transmittance",
+      "val": "0.0",
+      "isReadOnly": true,
+      "storage": "Double"
+    },
+    {
+      "name": "Solar Heat Gain Coefficient",
+      "val": "0.0",
+      "isReadOnly": true,
+      "storage": "Double"
+    },
+    {
+      "name": "Thermal Resistance (R)",
+      "val": "0.0",
+      "isReadOnly": true,
+      "storage": "Double"
+    },
+    {
+      "name": "Heat Transfer Coefficient (U)",
+      "val": "0.0",
+      "isReadOnly": true,
+      "storage": "Double"
+    },
+    {
+      "name": "OmniClass Title",
+      "val": "",
+      "isReadOnly": true,
+      "storage": "String"
+    },
+    {
+      "name": "OmniClass Number",
+      "val": "",
+      "isReadOnly": true,
+      "storage": "String"
+    },
+    {
+      "name": "Assembly Description",
+      "val": "",
+      "isReadOnly": true,
+      "storage": "String"
+    },
+    {
+      "name": "Assembly Code",
+      "val": "",
+      "isReadOnly": false,
+      "storage": "String"
+    },
+    {
+      "name": "Family Name",
+      "val": "CUA SO 2 CANH NHOM KINH O O THOANG",
+      "isReadOnly": true,
+      "storage": "String"
+    },
+    {
+      "name": "Type Name",
+      "val": "S1_1500x1400",
+      "isReadOnly": true,
+      "storage": "String"
+    },
+    {
+      "name": "Type Mark",
+      "val": "S1",
+      "isReadOnly": false,
+      "storage": "String"
+    },
+    {
+      "name": "Wall Closure",
+      "val": "By host",
+      "isReadOnly": false,
+      "storage": "Integer"
+    },
+    {
+      "name": "Rough Width",
+      "val": "0.0",
+      "isReadOnly": false,
+      "storage": "Double"
+    },
+    {
+      "name": "Rough Height",
+      "val": "0.0",
+      "isReadOnly": false,
+      "storage": "Double"
+    },
+    {
+      "name": "Width",
+      "val": "1500.0",
+      "isReadOnly": false,
+      "storage": "Double"
+    },
+    {
+      "name": "Height",
+      "val": "1300.0",
+      "isReadOnly": false,
+      "storage": "Double"
+    },
+    {
+      "name": "Operation",
+      "val": null,
+      "isReadOnly": false,
+      "storage": "String"
+    },
+    {
+      "name": "Construction Type",
+      "val": null,
+      "isReadOnly": false,
+      "storage": "String"
+    },
+    {
+      "name": "Cost",
+      "val": "0.0",
+      "isReadOnly": false,
+      "storage": "Double"
+    },
+    {
+      "name": "TrimProjection",
+      "val": "25.0",
+      "isReadOnly": false,
+      "storage": "Double"
+    },
+    {
+      "name": "Default Sill Height",
+      "val": "800.0",
+      "isReadOnly": false,
+      "storage": "Double"
+    },
+    {
+      "name": "CAO CÁNH",
+      "val": "1300.0",
+      "isReadOnly": false,
+      "storage": "Double"
+    },
+    {
+      "name": "76",
+      "val": "76.0",
+      "isReadOnly": false,
+      "storage": "Double"
+    },
+    {
+      "name": "25",
+      "val": "25.0",
+      "isReadOnly": false,
+      "storage": "Double"
+    },
+    {
+      "name": "KINH",
+      "val": "5.0",
+      "isReadOnly": false,
+      "storage": "Double"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+# Materials for Architectural Floorplan
+
+newmtl mat_wall
+Kd 0.85 0.85 0.85
+Ka 0.2 0.2 0.2
+Ks 0.1 0.1 0.1
+Ns 10.0
+d 1.0
+
+newmtl mat_door
+Kd 0.65 0.35 0.15
+Ka 0.2 0.1 0.05
+Ks 0.2 0.2 0.2
+Ns 20.0
+d 1.0
+
+newmtl mat_window
+Kd 0.35 0.75 0.95
+Ka 0.1 0.2 0.3
+Ks 0.8 0.8 0.8
+Ns 50.0
+d 0.6
+
+newmtl mat_stair
+Kd 0.85 0.55 0.20
+Ka 0.25 0.15 0.05
+Ks 0.3 0.3 0.3
+Ns 20.0
+d 1.0
+

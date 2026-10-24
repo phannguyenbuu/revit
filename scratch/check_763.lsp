@@ -1,0 +1,16 @@
+(progn
+  (setq f (open "D:/Dropbox/_Documents/RevitAI/scratch/text_44c763.txt" "w"))
+  (setq ss (ssget "C" '(-129497.0 -1402005.9) '(-126497.0 -1399005.9)))
+  (if ss
+    (repeat (setq i (sslength ss))
+      (setq e (ssname ss (setq i (1- i))))
+      (setq ed (entget e))
+      (setq typ (cdr (assoc 0 ed)))
+      (setq lyr (cdr (assoc 8 ed)))
+      (setq txt (if (wcmatch typ "*TEXT") (cdr (assoc 1 ed)) ""))
+      (write-line (strcat typ "|" lyr "|" txt) f)
+    )
+  )
+  (close f)
+  (princ)
+)

@@ -1,0 +1,86 @@
+# Materials for signboard_sketchup_1791757281585
+
+newmtl mat_default
+Kd 0.82 0.82 0.85
+Ka 0.2 0.2 0.2
+Ks 0.1 0.1 0.1
+Ns 10.0
+d 1.0
+
+newmtl Advertising_Gold
+Kd 0.745 0.561 0.282
+Ka 0.25 0.25 0.25
+Ks 0.15 0.15 0.15
+Ns 20.0
+d 1.00
+
+newmtl Billboard_Edge
+Kd 0.188 0.176 0.165
+Ka 0.25 0.25 0.25
+Ks 0.15 0.15 0.15
+Ns 20.0
+d 1.00
+
+newmtl Glass
+Kd 0.745 0.812 0.843
+Ka 0.25 0.25 0.25
+Ks 0.15 0.15 0.15
+Ns 20.0
+d 1.00
+
+newmtl Billboard_Black
+Kd 0.078 0.075 0.075
+Ka 0.25 0.25 0.25
+Ks 0.15 0.15 0.15
+Ns 20.0
+d 1.00
+
+newmtl Structural_Steel
+Kd 0.255 0.282 0.306
+Ka 0.25 0.25 0.25
+Ks 0.15 0.15 0.15
+Ns 20.0
+d 1.00
+
+newmtl Steel_Galvanized
+Kd 0.569 0.600 0.627
+Ka 0.25 0.25 0.25
+Ks 0.15 0.15 0.15
+Ns 20.0
+d 1.00
+
+newmtl Bottle_Amber
+Kd 0.463 0.263 0.125
+Ka 0.25 0.25 0.25
+Ks 0.15 0.15 0.15
+Ns 20.0
+d 1.00
+
+newmtl Advertising_White
+Kd 0.965 0.941 0.871
+Ka 0.25 0.25 0.25
+Ks 0.15 0.15 0.15
+Ns 20.0
+d 1.00
+
+newmtl Concrete
+Kd 0.608 0.600 0.573
+Ka 0.25 0.25 0.25
+Ks 0.15 0.15 0.15
+Ns 20.0
+d 1.00
+
+newmtl Concrete_Top
+Kd 0.686 0.678 0.647
+Ka 0.25 0.25 0.25
+Ks 0.15 0.15 0.15
+Ns 20.0
+d 1.00
+
+newmtl Steel_Dark
+Kd 0.149 0.165 0.180
+Ka 0.25 0.25 0.25
+Ks 0.15 0.15 0.15
+Ns 20.0
+d 1.00
+

@@ -1,0 +1,6 @@
+(vl-load-com)
+(setq f (open "d:/Dropbox/_Documents/RevitAI/scratch_aca_test.txt" "w"))
+(write-line (strcat "WALLADD=" (vl-prin1-to-string (help "WALLADD"))) f)
+(write-line (strcat "WALL=" (vl-prin1-to-string (type (findfile "AecArchBase.arx")))) f)
+(close f)
+(princ)

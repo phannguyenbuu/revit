@@ -1,0 +1,100 @@
+# Materials for villa_tan_co_dien
+
+newmtl mat_default
+Kd 0.82 0.82 0.85
+Ka 0.2 0.2 0.2
+Ks 0.1 0.1 0.1
+Ns 10.0
+d 1.0
+
+newmtl Mai_ngoi_xam_than
+Kd 0.750 0.750 0.750
+Ka 0.25 0.25 0.25
+Ks 0.15 0.15 0.15
+Ns 20.0
+d 1.00
+
+newmtl Da_lat_san
+Kd 0.750 0.750 0.750
+Ka 0.25 0.25 0.25
+Ks 0.15 0.15 0.15
+Ns 20.0
+d 1.00
+
+newmtl Khung_cua_den_nau
+Kd 0.750 0.750 0.750
+Ka 0.25 0.25 0.25
+Ks 0.15 0.15 0.15
+Ns 20.0
+d 1.00
+
+newmtl Go_cua_nau
+Kd 0.750 0.750 0.750
+Ka 0.25 0.25 0.25
+Ks 0.15 0.15 0.15
+Ns 20.0
+d 1.00
+
+newmtl Kinh_xanh_khoi
+Kd 0.750 0.750 0.750
+Ka 0.25 0.25 0.25
+Ks 0.15 0.15 0.15
+Ns 20.0
+d 1.00
+
+newmtl Da_kem_trang
+Kd 0.750 0.750 0.750
+Ka 0.25 0.25 0.25
+Ks 0.15 0.15 0.15
+Ns 20.0
+d 1.00
+
+newmtl Den_kim_loai_den
+Kd 0.750 0.750 0.750
+Ka 0.25 0.25 0.25
+Ks 0.15 0.15 0.15
+Ns 20.0
+d 1.00
+
+newmtl Hoa_tim
+Kd 0.750 0.750 0.750
+Ka 0.25 0.25 0.25
+Ks 0.15 0.15 0.15
+Ns 20.0
+d 1.00
+
+newmtl Nuoc_ho_boi
+Kd 0.750 0.750 0.750
+Ka 0.25 0.25 0.25
+Ks 0.15 0.15 0.15
+Ns 20.0
+d 1.00
+
+newmtl Da_vien_san
+Kd 0.750 0.750 0.750
+Ka 0.25 0.25 0.25
+Ks 0.15 0.15 0.15
+Ns 20.0
+d 1.00
+
+newmtl Cay_xanh
+Kd 0.750 0.750 0.750
+Ka 0.25 0.25 0.25
+Ks 0.15 0.15 0.15
+Ns 20.0
+d 1.00
+
+newmtl Hang_rao_xanh
+Kd 0.750 0.750 0.750
+Ka 0.25 0.25 0.25
+Ks 0.15 0.15 0.15
+Ns 20.0
+d 1.00
+
+newmtl Chi_phao_trang_nga
+Kd 0.750 0.750 0.750
+Ka 0.25 0.25 0.25
+Ks 0.15 0.15 0.15
+Ns 20.0
+d 1.00
+

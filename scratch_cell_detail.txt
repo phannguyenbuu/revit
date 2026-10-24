@@ -1,0 +1,8 @@
+
+================== CELL BLOCK: *U151 ==================
+  [0] INSERT Name=TitleBlock.XPXD Layer=I-Furniture Pt=(-21478.9 -13766.8 0.0)
+Total sub-entities: 1
+
+================== CELL BLOCK: *U307 ==================
+  [0] INSERT Name=TitleBlock.XPXD.165 Layer=I-Furniture Pt=(-21478.9 -13766.8 0.0)
+Total sub-entities: 1

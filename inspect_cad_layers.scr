@@ -1,0 +1,11 @@
+(setq f (open "D:/Dropbox/_Documents/RevitAI/cad_layers_sample.txt" "w"))
+(setq tbl (tblnext "LAYER" T))
+(while tbl
+  (setq lname (cdr (assoc 2 tbl)))
+  (setq lcolor (cdr (assoc 62 tbl)))
+  (write-line (strcat lname " | Color: " (itoa lcolor)) f)
+  (setq tbl (tblnext "LAYER"))
+)
+(close f)
+_.QUIT
+_Y

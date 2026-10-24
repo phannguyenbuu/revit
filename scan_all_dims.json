@@ -1,0 +1,1398 @@
+{
+  "success": true,
+  "viewReports": [
+    {
+      "viewId": 312,
+      "viewName": "MẶT BẰNG TẦNG 1",
+      "totalDims": 18,
+      "dimsWithZero": 0,
+      "dimsWithZerosInMiddle": 0,
+      "dims": [
+        {
+          "id": 2408818,
+          "type": "Linear Dimension Style",
+          "numSegs": 0,
+          "totalSpanMm": 36600,
+          "hasZero": false,
+          "hasZerosInMiddle": false,
+          "origin": {
+            "x": -450,
+            "y": -4600
+          },
+          "dir": {
+            "x": 1,
+            "y": 0
+          },
+          "segVals": [
+            36600
+          ]
+        },
+        {
+          "id": 2408819,
+          "type": "Linear Dimension Style",
+          "numSegs": 10,
+          "totalSpanMm": 36600,
+          "hasZero": false,
+          "hasZerosInMiddle": false,
+          "origin": {
+            "x": -450,
+            "y": -2200
+          },
+          "dir": {
+            "x": 1,
+            "y": 0
+          },
+          "segVals": [
+            3800,
+            3700,
+            3600,
+            3600,
+            3600,
+            3600,
+            3600,
+            3600,
+            3700,
+            3800
+          ]
+        },
+        {
+          "id": 2408821,
+          "type": "Linear Dimension Style",
+          "numSegs": 0,
+          "totalSpanMm": 36600,
+          "hasZero": false,
+          "hasZerosInMiddle": false,
+          "origin": {
+            "x": -450,
+            "y": 19600
+          },
+          "dir": {
+            "x": 1,
+            "y": 0
+          },
+          "segVals": [
+            36600
+          ]
+        },
+        {
+          "id": 2408822,
+          "type": "Linear Dimension Style",
+          "numSegs": 10,
+          "totalSpanMm": 36600,
+          "hasZero": false,
+          "hasZerosInMiddle": false,
+          "origin": {
+            "x": -450,
+            "y": 17200
+          },
+          "dir": {
+            "x": 1,
+            "y": 0
+          },
+          "segVals": [
+            3800,
+            3700,
+            3600,
+            3600,
+            3600,
+            3600,
+            3600,
+            3600,
+            3700,
+            3800
+          ]
+        },
+        {
+          "id": 2408824,
+          "type": "Linear Dimension Style",
+          "numSegs": 0,
+          "totalSpanMm": 14900,
+          "hasZero": false,
+          "hasZerosInMiddle": false,
+          "origin": {
+            "x": -10400,
+            "y": -1000
+          },
+          "dir": {
+            "x": 0,
+            "y": 1
+          },
+          "segVals": [
+            14900
+          ]
+        },
+        {
+          "id": 2408825,
+          "type": "Linear Dimension Style",
+          "numSegs": 4,
+          "totalSpanMm": 14900,
+          "hasZero": false,
+          "hasZerosInMiddle": false,
+          "origin": {
+            "x": -9200,
+            "y": -1000
+          },
+          "dir": {
+            "x": 0,
+            "y": 1
+          },
+          "segVals": [
+            5400,
+            2400,
+            5400,
+            1700
+          ]
+        },
+        {
+          "id": 2408828,
+          "type": "Linear Dimension Style",
+          "numSegs": 0,
+          "totalSpanMm": 14900,
+          "hasZero": false,
+          "hasZerosInMiddle": false,
+          "origin": {
+            "x": 44400,
+            "y": -1000
+          },
+          "dir": {
+            "x": 0,
+            "y": 1
+          },
+          "segVals": [
+            14900
+          ]
+        },
+        {
+          "id": 2408829,
+          "type": "Linear Dimension Style",
+          "numSegs": 4,
+          "totalSpanMm": 14900,
+          "hasZero": false,
+          "hasZerosInMiddle": false,
+          "origin": {
+            "x": 43200,
+            "y": -1000
+          },
+          "dir": {
+            "x": 0,
+            "y": 1
+          },
+          "segVals": [
+            5400,
+            2400,
+            5400,
+            1700
+          ]
+        },
+        {
+          "id": 2408831,
+          "type": "Linear Dimension Style",
+          "numSegs": 5,
+          "totalSpanMm": 2300,
+          "hasZero": false,
+          "hasZerosInMiddle": false,
+          "origin": {
+            "x": 36250,
+            "y": 4600
+          },
+          "dir": {
+            "x": 1,
+            "y": 0
+          },
+          "segVals": [
+            1100,
+            300,
+            300,
+            300,
+            300
+          ]
+        },
+        {
+          "id": 2408832,
+          "type": "Linear Dimension Style",
+          "numSegs": 0,
+          "totalSpanMm": 2300,
+          "hasZero": false,
+          "hasZerosInMiddle": false,
+          "origin": {
+            "x": 36250,
+            "y": 4000
+          },
+          "dir": {
+            "x": 1,
+            "y": 0
+          },
+          "segVals": [
+            2300
+          ]
+        },
+        {
+          "id": 2408833,
+          "type": "Linear Dimension Style",
+          "numSegs": 0,
+          "totalSpanMm": 2200,
+          "hasZero": false,
+          "hasZerosInMiddle": false,
+          "origin": {
+            "x": 39800,
+            "y": 4500
+          },
+          "dir": {
+            "x": 0,
+            "y": 1
+          },
+          "segVals": [
+            2200
+          ]
+        },
+        {
+          "id": 2409102,
+          "type": "Linear Dimension Style",
+          "numSegs": 12,
+          "totalSpanMm": 17932,
+          "hasZero": false,
+          "hasZerosInMiddle": false,
+          "origin": {
+            "x": -7200,
+            "y": 0
+          },
+          "dir": {
+            "x": 0,
+            "y": 1
+          },
+          "segVals": [
+            1200,
+            1832.5,
+            1832.5,
+            1200,
+            810.8,
+            1556.7,
+            250,
+            1291.8,
+            608.2,
+            250,
+            5400,
+            1700
+          ]
+        },
+        {
+          "id": 2409285,
+          "type": "Linear Dimension Style",
+          "numSegs": 50,
+          "totalSpanMm": 37000,
+          "hasZero": false,
+          "hasZerosInMiddle": false,
+          "origin": {
+            "x": -450,
+            "y": -1200
+          },
+          "dir": {
+            "x": 1,
+            "y": 0
+          },
+          "segVals": [
+            125,
+            150,
+            100,
+            900,
+            300,
+            900,
+            100,
+            200,
+            825,
+            100,
+            100,
+            1208,
+            1500,
+            892,
+            100,
+            100,
+            958,
+            1500,
+            1042,
+            1058,
+            1500,
+            942,
+            100,
+            100,
+            958,
+            1500,
+            1042,
+            1058,
+            1500,
+            942,
+            100,
+            100,
+            958,
+            1500,
+            1042,
+            1058,
+            1500,
+            942,
+            100,
+            100,
+            908,
+            1492,
+            1200,
+            1100,
+            200,
+            1000,
+            300,
+            1100,
+            100,
+            400
+          ]
+        },
+        {
+          "id": 2409286,
+          "type": "Linear Dimension Style",
+          "numSegs": 34,
+          "totalSpanMm": 37000,
+          "hasZero": false,
+          "hasZerosInMiddle": false,
+          "origin": {
+            "x": -450,
+            "y": 16000
+          },
+          "dir": {
+            "x": 1,
+            "y": 0
+          },
+          "segVals": [
+            3800,
+            100,
+            208,
+            3100,
+            192,
+            100,
+            100,
+            908,
+            1500,
+            1092,
+            1008,
+            1500,
+            1092,
+            1058,
+            1500,
+            1042,
+            3600,
+            1846,
+            1500,
+            254,
+            1396,
+            1500,
+            604,
+            100,
+            100,
+            208,
+            3100,
+            192,
+            100,
+            100,
+            308,
+            1500,
+            1892,
+            400
+          ]
+        },
+        {
+          "id": 2409287,
+          "type": "Linear Dimension Style",
+          "numSegs": 66,
+          "totalSpanMm": 37000,
+          "hasZero": false,
+          "hasZerosInMiddle": false,
+          "origin": {
+            "x": -450,
+            "y": 3000
+          },
+          "dir": {
+            "x": 1,
+            "y": 0
+          },
+          "segVals": [
+            150,
+            125,
+            100,
+            825,
+            75,
+            300,
+            900,
+            125,
+            175,
+            1025,
+            1208,
+            392,
+            1108,
+            292,
+            600,
+            100,
+            100,
+            600,
+            358,
+            1042,
+            458,
+            1042,
+            1058,
+            442,
+            1058,
+            342,
+            600,
+            100,
+            100,
+            200,
+            758,
+            242,
+            1258,
+            1042,
+            1058,
+            1500,
+            942,
+            100,
+            100,
+            100,
+            858,
+            142,
+            1358,
+            1042,
+            1058,
+            1500,
+            942,
+            100,
+            100,
+            300,
+            608,
+            392,
+            1100,
+            1200,
+            200,
+            900,
+            200,
+            100,
+            800,
+            100,
+            300,
+            200,
+            700,
+            200,
+            100,
+            400
+          ]
+        },
+        {
+          "id": 2409288,
+          "type": "Linear Dimension Style",
+          "numSegs": 74,
+          "totalSpanMm": 37000,
+          "hasZero": false,
+          "hasZerosInMiddle": false,
+          "origin": {
+            "x": -450,
+            "y": 10800
+          },
+          "dir": {
+            "x": 1,
+            "y": 0
+          },
+          "segVals": [
+            150,
+            125,
+            100,
+            900,
+            300,
+            900,
+            300,
+            925,
+            100,
+            100,
+            100,
+            1200,
+            2200,
+            100,
+            100,
+            237,
+            671,
+            329,
+            1171,
+            1092,
+            1008,
+            1500,
+            992,
+            100,
+            100,
+            137,
+            821,
+            179,
+            1321,
+            942,
+            100,
+            100,
+            950,
+            350,
+            1000,
+            150,
+            100,
+            950,
+            412,
+            138,
+            862,
+            88,
+            200,
+            146,
+            1041,
+            459,
+            254,
+            600,
+            200,
+            596,
+            966,
+            534,
+            466,
+            138,
+            100,
+            100,
+            2200,
+            1200,
+            100,
+            100,
+            100,
+            100,
+            208,
+            592,
+            200,
+            100,
+            250,
+            100,
+            250,
+            1775,
+            125,
+            200,
+            100,
+            100
+          ]
+        },
+        {
+          "id": 2413358,
+          "type": "Linear Dimension Style",
+          "numSegs": 17,
+          "totalSpanMm": 13050,
+          "hasZero": false,
+          "hasZerosInMiddle": false,
+          "origin": {
+            "x": -1200,
+            "y": 0
+          },
+          "dir": {
+            "x": 0,
+            "y": 1
+          },
+          "segVals": [
+            75,
+            250,
+            75,
+            150,
+            900,
+            300,
+            900,
+            448,
+            1500,
+            1252,
+            1900,
+            1252,
+            1500,
+            448,
+            900,
+            300,
+            900
+          ]
+        },
+        {
+          "id": 2413359,
+          "type": "Linear Dimension Style",
+          "numSegs": 16,
+          "totalSpanMm": 13050,
+          "hasZero": false,
+          "hasZerosInMiddle": false,
+          "origin": {
+            "x": 40500,
+            "y": 0
+          },
+          "dir": {
+            "x": 0,
+            "y": 1
+          },
+          "segVals": [
+            75,
+            325,
+            150,
+            900,
+            300,
+            900,
+            3050,
+            400,
+            1400,
+            400,
+            1700,
+            100,
+            1250,
+            900,
+            300,
+            900
+          ]
+        }
+      ]
+    },
+    {
+      "viewId": 695,
+      "viewName": "MẶT BẰNG TẦNG 2",
+      "totalDims": 10,
+      "dimsWithZero": 0,
+      "dimsWithZerosInMiddle": 0,
+      "dims": [
+        {
+          "id": 2410317,
+          "type": "Linear Dimension Style",
+          "numSegs": 0,
+          "totalSpanMm": 36600,
+          "hasZero": false,
+          "hasZerosInMiddle": false,
+          "origin": {
+            "x": -450,
+            "y": -4600
+          },
+          "dir": {
+            "x": 1,
+            "y": 0
+          },
+          "segVals": [
+            36600
+          ]
+        },
+        {
+          "id": 2410329,
+          "type": "Linear Dimension Style",
+          "numSegs": 10,
+          "totalSpanMm": 36600,
+          "hasZero": false,
+          "hasZerosInMiddle": false,
+          "origin": {
+            "x": -450,
+            "y": -2200
+          },
+          "dir": {
+            "x": 1,
+            "y": 0
+          },
+          "segVals": [
+            3800,
+            3700,
+            3600,
+            3600,
+            3600,
+            3600,
+            3600,
+            3600,
+            3700,
+            3800
+          ]
+        },
+        {
+          "id": 2410332,
+          "type": "Linear Dimension Style",
+          "numSegs": 0,
+          "totalSpanMm": 36600,
+          "hasZero": false,
+          "hasZerosInMiddle": false,
+          "origin": {
+            "x": -450,
+            "y": 19600
+          },
+          "dir": {
+            "x": 1,
+            "y": 0
+          },
+          "segVals": [
+            36600
+          ]
+        },
+        {
+          "id": 2410344,
+          "type": "Linear Dimension Style",
+          "numSegs": 10,
+          "totalSpanMm": 36600,
+          "hasZero": false,
+          "hasZerosInMiddle": false,
+          "origin": {
+            "x": -450,
+            "y": 17200
+          },
+          "dir": {
+            "x": 1,
+            "y": 0
+          },
+          "segVals": [
+            3800,
+            3700,
+            3600,
+            3600,
+            3600,
+            3600,
+            3600,
+            3600,
+            3700,
+            3800
+          ]
+        },
+        {
+          "id": 2410347,
+          "type": "Linear Dimension Style",
+          "numSegs": 0,
+          "totalSpanMm": 14900,
+          "hasZero": false,
+          "hasZerosInMiddle": false,
+          "origin": {
+            "x": -10400,
+            "y": -1000
+          },
+          "dir": {
+            "x": 0,
+            "y": 1
+          },
+          "segVals": [
+            14900
+          ]
+        },
+        {
+          "id": 2410353,
+          "type": "Linear Dimension Style",
+          "numSegs": 4,
+          "totalSpanMm": 14900,
+          "hasZero": false,
+          "hasZerosInMiddle": false,
+          "origin": {
+            "x": -9200,
+            "y": -1000
+          },
+          "dir": {
+            "x": 0,
+            "y": 1
+          },
+          "segVals": [
+            5400,
+            2400,
+            5400,
+            1700
+          ]
+        },
+        {
+          "id": 2410356,
+          "type": "Linear Dimension Style",
+          "numSegs": 0,
+          "totalSpanMm": 14900,
+          "hasZero": false,
+          "hasZerosInMiddle": false,
+          "origin": {
+            "x": 44400,
+            "y": -1000
+          },
+          "dir": {
+            "x": 0,
+            "y": 1
+          },
+          "segVals": [
+            14900
+          ]
+        },
+        {
+          "id": 2410362,
+          "type": "Linear Dimension Style",
+          "numSegs": 4,
+          "totalSpanMm": 14900,
+          "hasZero": false,
+          "hasZerosInMiddle": false,
+          "origin": {
+            "x": 43200,
+            "y": -1000
+          },
+          "dir": {
+            "x": 0,
+            "y": 1
+          },
+          "segVals": [
+            5400,
+            2400,
+            5400,
+            1700
+          ]
+        },
+        {
+          "id": 2410598,
+          "type": "Linear Dimension Style",
+          "numSegs": 14,
+          "totalSpanMm": 36700,
+          "hasZero": false,
+          "hasZerosInMiddle": false,
+          "origin": {
+            "x": 550,
+            "y": 16000
+          },
+          "dir": {
+            "x": 1,
+            "y": 0
+          },
+          "segVals": [
+            3800,
+            100,
+            3700,
+            10700,
+            3600,
+            3600,
+            3500,
+            100,
+            100,
+            3500,
+            100,
+            100,
+            3700,
+            100
+          ]
+        },
+        {
+          "id": 2413360,
+          "type": "Linear Dimension Style",
+          "numSegs": 13,
+          "totalSpanMm": 13050,
+          "hasZero": false,
+          "hasZerosInMiddle": false,
+          "origin": {
+            "x": -1200,
+            "y": 350
+          },
+          "dir": {
+            "x": 0,
+            "y": 1
+          },
+          "segVals": [
+            75,
+            250,
+            75,
+            150,
+            900,
+            300,
+            900,
+            448,
+            7404,
+            448,
+            900,
+            300,
+            900
+          ]
+        }
+      ]
+    },
+    {
+      "viewId": 1727632,
+      "viewName": "MẶT BẰNG TẦNG 3",
+      "totalDims": 10,
+      "dimsWithZero": 0,
+      "dimsWithZerosInMiddle": 0,
+      "dims": [
+        {
+          "id": 2410727,
+          "type": "Linear Dimension Style",
+          "numSegs": 0,
+          "totalSpanMm": 36600,
+          "hasZero": false,
+          "hasZerosInMiddle": false,
+          "origin": {
+            "x": -450,
+            "y": -4600
+          },
+          "dir": {
+            "x": 1,
+            "y": 0
+          },
+          "segVals": [
+            36600
+          ]
+        },
+        {
+          "id": 2410739,
+          "type": "Linear Dimension Style",
+          "numSegs": 10,
+          "totalSpanMm": 36600,
+          "hasZero": false,
+          "hasZerosInMiddle": false,
+          "origin": {
+            "x": -450,
+            "y": -2200
+          },
+          "dir": {
+            "x": 1,
+            "y": 0
+          },
+          "segVals": [
+            3800,
+            3700,
+            3600,
+            3600,
+            3600,
+            3600,
+            3600,
+            3600,
+            3700,
+            3800
+          ]
+        },
+        {
+          "id": 2410742,
+          "type": "Linear Dimension Style",
+          "numSegs": 0,
+          "totalSpanMm": 36600,
+          "hasZero": false,
+          "hasZerosInMiddle": false,
+          "origin": {
+            "x": -450,
+            "y": 19600
+          },
+          "dir": {
+            "x": 1,
+            "y": 0
+          },
+          "segVals": [
+            36600
+          ]
+        },
+        {
+          "id": 2410754,
+          "type": "Linear Dimension Style",
+          "numSegs": 10,
+          "totalSpanMm": 36600,
+          "hasZero": false,
+          "hasZerosInMiddle": false,
+          "origin": {
+            "x": -450,
+            "y": 17200
+          },
+          "dir": {
+            "x": 1,
+            "y": 0
+          },
+          "segVals": [
+            3800,
+            3700,
+            3600,
+            3600,
+            3600,
+            3600,
+            3600,
+            3600,
+            3700,
+            3800
+          ]
+        },
+        {
+          "id": 2410757,
+          "type": "Linear Dimension Style",
+          "numSegs": 0,
+          "totalSpanMm": 14900,
+          "hasZero": false,
+          "hasZerosInMiddle": false,
+          "origin": {
+            "x": -10400,
+            "y": -1000
+          },
+          "dir": {
+            "x": 0,
+            "y": 1
+          },
+          "segVals": [
+            14900
+          ]
+        },
+        {
+          "id": 2410763,
+          "type": "Linear Dimension Style",
+          "numSegs": 4,
+          "totalSpanMm": 14900,
+          "hasZero": false,
+          "hasZerosInMiddle": false,
+          "origin": {
+            "x": -9200,
+            "y": -1000
+          },
+          "dir": {
+            "x": 0,
+            "y": 1
+          },
+          "segVals": [
+            5400,
+            2400,
+            5400,
+            1700
+          ]
+        },
+        {
+          "id": 2410766,
+          "type": "Linear Dimension Style",
+          "numSegs": 0,
+          "totalSpanMm": 14900,
+          "hasZero": false,
+          "hasZerosInMiddle": false,
+          "origin": {
+            "x": 44400,
+            "y": -1000
+          },
+          "dir": {
+            "x": 0,
+            "y": 1
+          },
+          "segVals": [
+            14900
+          ]
+        },
+        {
+          "id": 2410772,
+          "type": "Linear Dimension Style",
+          "numSegs": 4,
+          "totalSpanMm": 14900,
+          "hasZero": false,
+          "hasZerosInMiddle": false,
+          "origin": {
+            "x": 43200,
+            "y": -1000
+          },
+          "dir": {
+            "x": 0,
+            "y": 1
+          },
+          "segVals": [
+            5400,
+            2400,
+            5400,
+            1700
+          ]
+        },
+        {
+          "id": 2411008,
+          "type": "Linear Dimension Style",
+          "numSegs": 18,
+          "totalSpanMm": 36700,
+          "hasZero": false,
+          "hasZerosInMiddle": false,
+          "origin": {
+            "x": 550,
+            "y": 16000
+          },
+          "dir": {
+            "x": 1,
+            "y": 0
+          },
+          "segVals": [
+            3800,
+            100,
+            3500,
+            100,
+            100,
+            3500,
+            3600,
+            3600,
+            3600,
+            3600,
+            3500,
+            100,
+            100,
+            3500,
+            100,
+            100,
+            3700,
+            100
+          ]
+        },
+        {
+          "id": 2413361,
+          "type": "Linear Dimension Style",
+          "numSegs": 13,
+          "totalSpanMm": 13050,
+          "hasZero": false,
+          "hasZerosInMiddle": false,
+          "origin": {
+            "x": -1200,
+            "y": 350
+          },
+          "dir": {
+            "x": 0,
+            "y": 1
+          },
+          "segVals": [
+            75,
+            250,
+            75,
+            150,
+            900,
+            300,
+            900,
+            448,
+            7404,
+            448,
+            900,
+            300,
+            900
+          ]
+        }
+      ]
+    },
+    {
+      "viewId": 2409349,
+      "viewName": "MẶT BẰNG TẦNG 4",
+      "totalDims": 10,
+      "dimsWithZero": 0,
+      "dimsWithZerosInMiddle": 0,
+      "dims": [
+        {
+          "id": 2411137,
+          "type": "Linear Dimension Style",
+          "numSegs": 0,
+          "totalSpanMm": 36600,
+          "hasZero": false,
+          "hasZerosInMiddle": false,
+          "origin": {
+            "x": -450,
+            "y": -4600
+          },
+          "dir": {
+            "x": 1,
+            "y": 0
+          },
+          "segVals": [
+            36600
+          ]
+        },
+        {
+          "id": 2411149,
+          "type": "Linear Dimension Style",
+          "numSegs": 10,
+          "totalSpanMm": 36600,
+          "hasZero": false,
+          "hasZerosInMiddle": false,
+          "origin": {
+            "x": -450,
+            "y": -2200
+          },
+          "dir": {
+            "x": 1,
+            "y": 0
+          },
+          "segVals": [
+            3800,
+            3700,
+            3600,
+            3600,
+            3600,
+            3600,
+            3600,
+            3600,
+            3700,
+            3800
+          ]
+        },
+        {
+          "id": 2411152,
+          "type": "Linear Dimension Style",
+          "numSegs": 0,
+          "totalSpanMm": 36600,
+          "hasZero": false,
+          "hasZerosInMiddle": false,
+          "origin": {
+            "x": -450,
+            "y": 19600
+          },
+          "dir": {
+            "x": 1,
+            "y": 0
+          },
+          "segVals": [
+            36600
+          ]
+        },
+        {
+          "id": 2411164,
+          "type": "Linear Dimension Style",
+          "numSegs": 10,
+          "totalSpanMm": 36600,
+          "hasZero": false,
+          "hasZerosInMiddle": false,
+          "origin": {
+            "x": -450,
+            "y": 17200
+          },
+          "dir": {
+            "x": 1,
+            "y": 0
+          },
+          "segVals": [
+            3800,
+            3700,
+            3600,
+            3600,
+            3600,
+            3600,
+            3600,
+            3600,
+            3700,
+            3800
+          ]
+        },
+        {
+          "id": 2411167,
+          "type": "Linear Dimension Style",
+          "numSegs": 0,
+          "totalSpanMm": 14900,
+          "hasZero": false,
+          "hasZerosInMiddle": false,
+          "origin": {
+            "x": -10400,
+            "y": -1000
+          },
+          "dir": {
+            "x": 0,
+            "y": 1
+          },
+          "segVals": [
+            14900
+          ]
+        },
+        {
+          "id": 2411173,
+          "type": "Linear Dimension Style",
+          "numSegs": 4,
+          "totalSpanMm": 14900,
+          "hasZero": false,
+          "hasZerosInMiddle": false,
+          "origin": {
+            "x": -9200,
+            "y": -1000
+          },
+          "dir": {
+            "x": 0,
+            "y": 1
+          },
+          "segVals": [
+            5400,
+            2400,
+            5400,
+            1700
+          ]
+        },
+        {
+          "id": 2411176,
+          "type": "Linear Dimension Style",
+          "numSegs": 0,
+          "totalSpanMm": 14900,
+          "hasZero": false,
+          "hasZerosInMiddle": false,
+          "origin": {
+            "x": 44400,
+            "y": -1000
+          },
+          "dir": {
+            "x": 0,
+            "y": 1
+          },
+          "segVals": [
+            14900
+          ]
+        },
+        {
+          "id": 2411182,
+          "type": "Linear Dimension Style",
+          "numSegs": 4,
+          "totalSpanMm": 14900,
+          "hasZero": false,
+          "hasZerosInMiddle": false,
+          "origin": {
+            "x": 43200,
+            "y": -1000
+          },
+          "dir": {
+            "x": 0,
+            "y": 1
+          },
+          "segVals": [
+            5400,
+            2400,
+            5400,
+            1700
+          ]
+        },
+        {
+          "id": 2411421,
+          "type": "Linear Dimension Style",
+          "numSegs": 18,
+          "totalSpanMm": 36700,
+          "hasZero": false,
+          "hasZerosInMiddle": false,
+          "origin": {
+            "x": 550,
+            "y": 16000
+          },
+          "dir": {
+            "x": 1,
+            "y": 0
+          },
+          "segVals": [
+            3800,
+            100,
+            3500,
+            100,
+            100,
+            3500,
+            3600,
+            3600,
+            3600,
+            3600,
+            3500,
+            100,
+            100,
+            3500,
+            100,
+            100,
+            3700,
+            100
+          ]
+        },
+        {
+          "id": 2413362,
+          "type": "Linear Dimension Style",
+          "numSegs": 13,
+          "totalSpanMm": 13050,
+          "hasZero": false,
+          "hasZerosInMiddle": false,
+          "origin": {
+            "x": -1200,
+            "y": 350
+          },
+          "dir": {
+            "x": 0,
+            "y": 1
+          },
+          "segVals": [
+            75,
+            250,
+            75,
+            150,
+            900,
+            300,
+            900,
+            448,
+            7404,
+            448,
+            900,
+            300,
+            900
+          ]
+        }
+      ]
+    }
+  ]
+}

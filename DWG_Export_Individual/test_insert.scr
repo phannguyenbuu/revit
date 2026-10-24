@@ -1,0 +1,7 @@
+(setvar "CMDECHO" 1)
+(setvar "FILEDIA" 0)
+(setvar "EXPERT" 5)
+(command "._-INSERT" "D:/Dropbox/_Documents/RevitAI/DWG_Export_Individual/02_02.MẶT BẰNG TẦNG 2.dwg" (list 0.0 35000.0 0.0) 1.0 1.0 0.0)
+(command "._ZOOM" "_E")
+(command "._QSAVE")
+(command "._QUIT")

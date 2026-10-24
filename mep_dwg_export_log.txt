@@ -1,0 +1,206 @@
+=== BẮT ĐẦU XUẤT BẢN VẼ DWG MEP KÈM TAG COS CAO ĐỘ (COOLERMASTER PHASE 2) ===
+[10:54:53] [TÀI LIỆU CHỦ] Tiêu đề: [fixed]Clooler Master Phase 2 - Nha Xuong - FFS - Branch_detached_phannguyenbuu@gmail.com
+[10:54:53] [DANH SÁCH MẶT BẰNG SÀN CHUẨN] Tìm thấy 8 tầng chính:
+[10:54:53]   • 0.000 (Level: 0.000, Cao độ: 0.000 m)
+[10:54:53]   • TẦNG 1.5 (Level: TẦNG 1.5, Cao độ: 5.000 m)
+[10:54:53]   • TẦNG 2 (Level: TẦNG 2, Cao độ: 8.700 m)
+[10:54:53]   • TẦNG 3 (Level: TẦNG 3, Cao độ: 15.700 m)
+[10:54:53]   • TẦNG 4 (Level: TẦNG 4, Cao độ: 22.700 m)
+[10:54:53]   • TẦNG 5 (Level: TẦNG 5, Cao độ: 29.700 m)
+[10:54:53]   • TẦNG 6 (Level: TẦNG 6, Cao độ: 34.700 m)
+[10:54:53]   • TẦNG 7 (Level: TẦNG 7, Cao độ: 40.700 m)
+[10:54:53] [REVIT LINKS] Tìm thấy 5 link model đang kết nối.
+[10:54:54] 
+>>> Xử lý: Tầng [0.000] • Hạng mục [Chữa Cháy (PCCC Sprinkler)] <<<
+[10:55:02] [COMMIT VIEW] Đã chuẩn bị xong DWG_0.000_CHUA_CHAY • Đã gắn 336 tag cos cao độ.
+[10:59:02] [XUẤT DWG THÀNH CÔNG] File: 0.000_chua_chay.dwg (72548 KB)
+[10:59:02] 
+>>> Xử lý: Tầng [0.000] • Hạng mục [Hút Khói Sự Cố (Smoke Exhaust)] <<<
+[10:59:04] [COMMIT VIEW] Đã chuẩn bị xong DWG_0.000_HUT_KHOI • Đã gắn 13 tag cos cao độ.
+[11:03:04] [XUẤT DWG THÀNH CÔNG] File: 0.000_hut_khoi.dwg (75597 KB)
+[11:03:04] 
+>>> Xử lý: Tầng [0.000] • Hạng mục [Thông Gió & Bù Khí (HVAC)] <<<
+[11:03:06] [COMMIT VIEW] Đã chuẩn bị xong DWG_0.000_THONG_GIO • Đã gắn 169 tag cos cao độ.
+[11:07:16] [XUẤT DWG THÀNH CÔNG] File: 0.000_thong_gio.dwg (75630 KB)
+[11:07:16] 
+>>> Xử lý: Tầng [0.000] • Hạng mục [Ống Điện & Máng Cáp (Electrical)] <<<
+[11:07:18] [COMMIT VIEW] Đã chuẩn bị xong DWG_0.000_DIEN_MANG_CAP • Đã gắn 168 tag cos cao độ.
+[11:09:43] [XUẤT DWG THÀNH CÔNG] File: 0.000_dien_mang_cap.dwg (39281 KB)
+[11:09:43] 
+>>> Xử lý: Tầng [0.000] • Hạng mục [Tuyến Busway & Trạm Điện (Busway)] <<<
+[11:09:44] [COMMIT VIEW] Đã chuẩn bị xong DWG_0.000_BUSWAY • Đã gắn 0 tag cos cao độ.
+[11:12:05] [XUẤT DWG THÀNH CÔNG] File: 0.000_busway.dwg (39222 KB)
+[11:12:05] 
+>>> Xử lý: Tầng [0.000] • Hạng mục [Báo Khói & Báo Cháy (Fire Alarm)] <<<
+[11:12:06] [COMMIT VIEW] Đã chuẩn bị xong DWG_0.000_BAO_KHOI • Đã gắn 17 tag cos cao độ.
+[11:15:18] [XUẤT DWG THÀNH CÔNG] File: 0.000_bao_khoi.dwg (59248 KB)
+[11:15:18] 
+>>> Xử lý: Tầng [TẦNG 1.5] • Hạng mục [Chữa Cháy (PCCC Sprinkler)] <<<
+[11:15:28] [COMMIT VIEW] Đã chuẩn bị xong DWG_TẦNG_1.5_CHUA_CHAY • Đã gắn 1299 tag cos cao độ.
+[11:21:15] [XUẤT DWG THÀNH CÔNG] File: TẦNG_1.5_chua_chay.dwg (85511 KB)
+[11:21:15] 
+>>> Xử lý: Tầng [TẦNG 1.5] • Hạng mục [Hút Khói Sự Cố (Smoke Exhaust)] <<<
+[11:21:17] [COMMIT VIEW] Đã chuẩn bị xong DWG_TẦNG_1.5_HUT_KHOI • Đã gắn 128 tag cos cao độ.
+[11:22:48] [XUẤT DWG THÀNH CÔNG] File: TẦNG_1.5_hut_khoi.dwg (30238 KB)
+[11:22:48] 
+>>> Xử lý: Tầng [TẦNG 1.5] • Hạng mục [Thông Gió & Bù Khí (HVAC)] <<<
+[11:22:50] [COMMIT VIEW] Đã chuẩn bị xong DWG_TẦNG_1.5_THONG_GIO • Đã gắn 96 tag cos cao độ.
+[11:24:23] [XUẤT DWG THÀNH CÔNG] File: TẦNG_1.5_thong_gio.dwg (30016 KB)
+[11:24:23] 
+>>> Xử lý: Tầng [TẦNG 1.5] • Hạng mục [Ống Điện & Máng Cáp (Electrical)] <<<
+[11:24:24] [COMMIT VIEW] Đã chuẩn bị xong DWG_TẦNG_1.5_DIEN_MANG_CAP • Đã gắn 18 tag cos cao độ.
+[11:25:02] [XUẤT DWG THÀNH CÔNG] File: TẦNG_1.5_dien_mang_cap.dwg (9152 KB)
+[11:25:02] 
+>>> Xử lý: Tầng [TẦNG 1.5] • Hạng mục [Tuyến Busway & Trạm Điện (Busway)] <<<
+[11:25:03] [COMMIT VIEW] Đã chuẩn bị xong DWG_TẦNG_1.5_BUSWAY • Đã gắn 0 tag cos cao độ.
+[11:25:42] [XUẤT DWG THÀNH CÔNG] File: TẦNG_1.5_busway.dwg (9161 KB)
+[11:25:42] 
+>>> Xử lý: Tầng [TẦNG 1.5] • Hạng mục [Báo Khói & Báo Cháy (Fire Alarm)] <<<
+[11:25:43] [COMMIT VIEW] Đã chuẩn bị xong DWG_TẦNG_1.5_BAO_KHOI • Đã gắn 12 tag cos cao độ.
+[11:26:22] [XUẤT DWG THÀNH CÔNG] File: TẦNG_1.5_bao_khoi.dwg (9174 KB)
+[11:26:22] 
+>>> Xử lý: Tầng [TẦNG 2] • Hạng mục [Chữa Cháy (PCCC Sprinkler)] <<<
+[11:26:32] [COMMIT VIEW] Đã chuẩn bị xong DWG_TẦNG_2_CHUA_CHAY • Đã gắn 1376 tag cos cao độ.
+[11:34:43] [XUẤT DWG THÀNH CÔNG] File: TẦNG_2_chua_chay.dwg (130703 KB)
+[11:34:43] 
+>>> Xử lý: Tầng [TẦNG 2] • Hạng mục [Hút Khói Sự Cố (Smoke Exhaust)] <<<
+[11:34:45] [COMMIT VIEW] Đã chuẩn bị xong DWG_TẦNG_2_HUT_KHOI • Đã gắn 112 tag cos cao độ.
+[11:36:21] [XUẤT DWG THÀNH CÔNG] File: TẦNG_2_hut_khoi.dwg (26029 KB)
+[11:36:21] 
+>>> Xử lý: Tầng [TẦNG 2] • Hạng mục [Thông Gió & Bù Khí (HVAC)] <<<
+[11:36:22] [COMMIT VIEW] Đã chuẩn bị xong DWG_TẦNG_2_THONG_GIO • Đã gắn 62 tag cos cao độ.
+[11:37:57] [XUẤT DWG THÀNH CÔNG] File: TẦNG_2_thong_gio.dwg (26052 KB)
+[11:37:57] 
+>>> Xử lý: Tầng [TẦNG 2] • Hạng mục [Ống Điện & Máng Cáp (Electrical)] <<<
+[11:37:59] [COMMIT VIEW] Đã chuẩn bị xong DWG_TẦNG_2_DIEN_MANG_CAP • Đã gắn 102 tag cos cao độ.
+[11:38:57] [XUẤT DWG THÀNH CÔNG] File: TẦNG_2_dien_mang_cap.dwg (12416 KB)
+[11:38:57] 
+>>> Xử lý: Tầng [TẦNG 2] • Hạng mục [Tuyến Busway & Trạm Điện (Busway)] <<<
+[11:38:58] [COMMIT VIEW] Đã chuẩn bị xong DWG_TẦNG_2_BUSWAY • Đã gắn 0 tag cos cao độ.
+[11:39:55] [XUẤT DWG THÀNH CÔNG] File: TẦNG_2_busway.dwg (12420 KB)
+[11:39:55] 
+>>> Xử lý: Tầng [TẦNG 2] • Hạng mục [Báo Khói & Báo Cháy (Fire Alarm)] <<<
+[11:39:56] [COMMIT VIEW] Đã chuẩn bị xong DWG_TẦNG_2_BAO_KHOI • Đã gắn 16 tag cos cao độ.
+[11:40:51] [XUẤT DWG THÀNH CÔNG] File: TẦNG_2_bao_khoi.dwg (11597 KB)
+[11:40:51] 
+>>> Xử lý: Tầng [TẦNG 3] • Hạng mục [Chữa Cháy (PCCC Sprinkler)] <<<
+[11:41:01] [COMMIT VIEW] Đã chuẩn bị xong DWG_TẦNG_3_CHUA_CHAY • Đã gắn 1338 tag cos cao độ.
+[11:46:48] [XUẤT DWG THÀNH CÔNG] File: TẦNG_3_chua_chay.dwg (81855 KB)
+[11:46:48] 
+>>> Xử lý: Tầng [TẦNG 3] • Hạng mục [Hút Khói Sự Cố (Smoke Exhaust)] <<<
+[11:46:50] [COMMIT VIEW] Đã chuẩn bị xong DWG_TẦNG_3_HUT_KHOI • Đã gắn 119 tag cos cao độ.
+[11:47:41] [XUẤT DWG THÀNH CÔNG] File: TẦNG_3_hut_khoi.dwg (13386 KB)
+[11:47:41] 
+>>> Xử lý: Tầng [TẦNG 3] • Hạng mục [Thông Gió & Bù Khí (HVAC)] <<<
+[11:47:43] [COMMIT VIEW] Đã chuẩn bị xong DWG_TẦNG_3_THONG_GIO • Đã gắn 83 tag cos cao độ.
+[11:48:41] [XUẤT DWG THÀNH CÔNG] File: TẦNG_3_thong_gio.dwg (13402 KB)
+[11:48:41] 
+>>> Xử lý: Tầng [TẦNG 3] • Hạng mục [Ống Điện & Máng Cáp (Electrical)] <<<
+[11:48:43] [COMMIT VIEW] Đã chuẩn bị xong DWG_TẦNG_3_DIEN_MANG_CAP • Đã gắn 84 tag cos cao độ.
+[11:49:23] [XUẤT DWG THÀNH CÔNG] File: TẦNG_3_dien_mang_cap.dwg (8147 KB)
+[11:49:23] 
+>>> Xử lý: Tầng [TẦNG 3] • Hạng mục [Tuyến Busway & Trạm Điện (Busway)] <<<
+[11:49:24] [COMMIT VIEW] Đã chuẩn bị xong DWG_TẦNG_3_BUSWAY • Đã gắn 0 tag cos cao độ.
+[11:50:01] [XUẤT DWG THÀNH CÔNG] File: TẦNG_3_busway.dwg (8109 KB)
+[11:50:01] 
+>>> Xử lý: Tầng [TẦNG 3] • Hạng mục [Báo Khói & Báo Cháy (Fire Alarm)] <<<
+[11:50:03] [COMMIT VIEW] Đã chuẩn bị xong DWG_TẦNG_3_BAO_KHOI • Đã gắn 12 tag cos cao độ.
+[11:50:41] [XUẤT DWG THÀNH CÔNG] File: TẦNG_3_bao_khoi.dwg (8117 KB)
+[11:50:41] 
+>>> Xử lý: Tầng [TẦNG 4] • Hạng mục [Chữa Cháy (PCCC Sprinkler)] <<<
+[11:50:53] [COMMIT VIEW] Đã chuẩn bị xong DWG_TẦNG_4_CHUA_CHAY • Đã gắn 1291 tag cos cao độ.
+[11:56:21] [XUẤT DWG THÀNH CÔNG] File: TẦNG_4_chua_chay.dwg (72868 KB)
+[11:56:21] 
+>>> Xử lý: Tầng [TẦNG 4] • Hạng mục [Hút Khói Sự Cố (Smoke Exhaust)] <<<
+[11:56:23] [COMMIT VIEW] Đã chuẩn bị xong DWG_TẦNG_4_HUT_KHOI • Đã gắn 105 tag cos cao độ.
+[11:57:11] [XUẤT DWG THÀNH CÔNG] File: TẦNG_4_hut_khoi.dwg (12991 KB)
+[11:57:11] 
+>>> Xử lý: Tầng [TẦNG 4] • Hạng mục [Thông Gió & Bù Khí (HVAC)] <<<
+[11:57:13] [COMMIT VIEW] Đã chuẩn bị xong DWG_TẦNG_4_THONG_GIO • Đã gắn 57 tag cos cao độ.
+[11:58:01] [XUẤT DWG THÀNH CÔNG] File: TẦNG_4_thong_gio.dwg (12987 KB)
+[11:58:01] 
+>>> Xử lý: Tầng [TẦNG 4] • Hạng mục [Ống Điện & Máng Cáp (Electrical)] <<<
+[11:58:02] [COMMIT VIEW] Đã chuẩn bị xong DWG_TẦNG_4_DIEN_MANG_CAP • Đã gắn 83 tag cos cao độ.
+[11:58:40] [XUẤT DWG THÀNH CÔNG] File: TẦNG_4_dien_mang_cap.dwg (7864 KB)
+[11:58:40] 
+>>> Xử lý: Tầng [TẦNG 4] • Hạng mục [Tuyến Busway & Trạm Điện (Busway)] <<<
+[11:58:41] [COMMIT VIEW] Đã chuẩn bị xong DWG_TẦNG_4_BUSWAY • Đã gắn 0 tag cos cao độ.
+[11:59:17] [XUẤT DWG THÀNH CÔNG] File: TẦNG_4_busway.dwg (7853 KB)
+[11:59:17] 
+>>> Xử lý: Tầng [TẦNG 4] • Hạng mục [Báo Khói & Báo Cháy (Fire Alarm)] <<<
+[11:59:19] [COMMIT VIEW] Đã chuẩn bị xong DWG_TẦNG_4_BAO_KHOI • Đã gắn 11 tag cos cao độ.
+[11:59:56] [XUẤT DWG THÀNH CÔNG] File: TẦNG_4_bao_khoi.dwg (7827 KB)
+[11:59:56] 
+>>> Xử lý: Tầng [TẦNG 5] • Hạng mục [Chữa Cháy (PCCC Sprinkler)] <<<
+[12:00:07] [COMMIT VIEW] Đã chuẩn bị xong DWG_TẦNG_5_CHUA_CHAY • Đã gắn 1364 tag cos cao độ.
+[12:06:47] [XUẤT DWG THÀNH CÔNG] File: TẦNG_5_chua_chay.dwg (102640 KB)
+[12:06:47] 
+>>> Xử lý: Tầng [TẦNG 5] • Hạng mục [Hút Khói Sự Cố (Smoke Exhaust)] <<<
+[12:06:49] [COMMIT VIEW] Đã chuẩn bị xong DWG_TẦNG_5_HUT_KHOI • Đã gắn 120 tag cos cao độ.
+[12:08:52] [XUẤT DWG THÀNH CÔNG] File: TẦNG_5_hut_khoi.dwg (49035 KB)
+[12:08:52] 
+>>> Xử lý: Tầng [TẦNG 5] • Hạng mục [Thông Gió & Bù Khí (HVAC)] <<<
+[12:08:54] [COMMIT VIEW] Đã chuẩn bị xong DWG_TẦNG_5_THONG_GIO • Đã gắn 88 tag cos cao độ.
+[12:10:53] [XUẤT DWG THÀNH CÔNG] File: TẦNG_5_thong_gio.dwg (49010 KB)
+[12:10:53] 
+>>> Xử lý: Tầng [TẦNG 5] • Hạng mục [Ống Điện & Máng Cáp (Electrical)] <<<
+[12:10:55] [COMMIT VIEW] Đã chuẩn bị xong DWG_TẦNG_5_DIEN_MANG_CAP • Đã gắn 111 tag cos cao độ.
+[12:11:40] [XUẤT DWG THÀNH CÔNG] File: TẦNG_5_dien_mang_cap.dwg (10155 KB)
+[12:11:40] 
+>>> Xử lý: Tầng [TẦNG 5] • Hạng mục [Tuyến Busway & Trạm Điện (Busway)] <<<
+[12:11:41] [COMMIT VIEW] Đã chuẩn bị xong DWG_TẦNG_5_BUSWAY • Đã gắn 0 tag cos cao độ.
+[12:12:24] [XUẤT DWG THÀNH CÔNG] File: TẦNG_5_busway.dwg (10161 KB)
+[12:12:24] 
+>>> Xử lý: Tầng [TẦNG 5] • Hạng mục [Báo Khói & Báo Cháy (Fire Alarm)] <<<
+[12:12:26] [COMMIT VIEW] Đã chuẩn bị xong DWG_TẦNG_5_BAO_KHOI • Đã gắn 11 tag cos cao độ.
+[12:13:09] [XUẤT DWG THÀNH CÔNG] File: TẦNG_5_bao_khoi.dwg (10162 KB)
+[12:13:09] 
+>>> Xử lý: Tầng [TẦNG 6] • Hạng mục [Chữa Cháy (PCCC Sprinkler)] <<<
+[12:13:15] [COMMIT VIEW] Đã chuẩn bị xong DWG_TẦNG_6_CHUA_CHAY • Đã gắn 457 tag cos cao độ.
+[12:13:37] [XUẤT DWG THÀNH CÔNG] File: TẦNG_6_chua_chay.dwg (444 KB)
+[12:13:37] 
+>>> Xử lý: Tầng [TẦNG 6] • Hạng mục [Hút Khói Sự Cố (Smoke Exhaust)] <<<
+[12:13:38] [COMMIT VIEW] Đã chuẩn bị xong DWG_TẦNG_6_HUT_KHOI • Đã gắn 57 tag cos cao độ.
+[12:14:06] [XUẤT DWG THÀNH CÔNG] File: TẦNG_6_hut_khoi.dwg (2025 KB)
+[12:14:06] 
+>>> Xử lý: Tầng [TẦNG 6] • Hạng mục [Thông Gió & Bù Khí (HVAC)] <<<
+[12:14:08] [COMMIT VIEW] Đã chuẩn bị xong DWG_TẦNG_6_THONG_GIO • Đã gắn 51 tag cos cao độ.
+[12:14:35] [XUẤT DWG THÀNH CÔNG] File: TẦNG_6_thong_gio.dwg (2023 KB)
+[12:14:35] 
+>>> Xử lý: Tầng [TẦNG 6] • Hạng mục [Ống Điện & Máng Cáp (Electrical)] <<<
+[12:14:37] [COMMIT VIEW] Đã chuẩn bị xong DWG_TẦNG_6_DIEN_MANG_CAP • Đã gắn 0 tag cos cao độ.
+[12:14:47] [XUẤT DWG THÀNH CÔNG] File: TẦNG_6_dien_mang_cap.dwg (351 KB)
+[12:14:47] 
+>>> Xử lý: Tầng [TẦNG 6] • Hạng mục [Tuyến Busway & Trạm Điện (Busway)] <<<
+[12:14:48] [COMMIT VIEW] Đã chuẩn bị xong DWG_TẦNG_6_BUSWAY • Đã gắn 0 tag cos cao độ.
+[12:14:58] [XUẤT DWG THÀNH CÔNG] File: TẦNG_6_busway.dwg (351 KB)
+[12:14:58] 
+>>> Xử lý: Tầng [TẦNG 6] • Hạng mục [Báo Khói & Báo Cháy (Fire Alarm)] <<<
+[12:15:00] [COMMIT VIEW] Đã chuẩn bị xong DWG_TẦNG_6_BAO_KHOI • Đã gắn 0 tag cos cao độ.
+[12:15:10] [XUẤT DWG THÀNH CÔNG] File: TẦNG_6_bao_khoi.dwg (360 KB)
+[12:15:10] 
+>>> Xử lý: Tầng [TẦNG 7] • Hạng mục [Chữa Cháy (PCCC Sprinkler)] <<<
+[12:15:15] [COMMIT VIEW] Đã chuẩn bị xong DWG_TẦNG_7_CHUA_CHAY • Đã gắn 0 tag cos cao độ.
+[12:15:27] [XUẤT DWG THÀNH CÔNG] File: TẦNG_7_chua_chay.dwg (158 KB)
+[12:15:27] 
+>>> Xử lý: Tầng [TẦNG 7] • Hạng mục [Hút Khói Sự Cố (Smoke Exhaust)] <<<
+[12:15:28] [COMMIT VIEW] Đã chuẩn bị xong DWG_TẦNG_7_HUT_KHOI • Đã gắn 0 tag cos cao độ.
+[12:15:36] [XUẤT DWG THÀNH CÔNG] File: TẦNG_7_hut_khoi.dwg (159 KB)
+[12:15:36] 
+>>> Xử lý: Tầng [TẦNG 7] • Hạng mục [Thông Gió & Bù Khí (HVAC)] <<<
+[12:15:38] [COMMIT VIEW] Đã chuẩn bị xong DWG_TẦNG_7_THONG_GIO • Đã gắn 0 tag cos cao độ.
+[12:15:46] [XUẤT DWG THÀNH CÔNG] File: TẦNG_7_thong_gio.dwg (161 KB)
+[12:15:46] 
+>>> Xử lý: Tầng [TẦNG 7] • Hạng mục [Ống Điện & Máng Cáp (Electrical)] <<<
+[12:15:47] [COMMIT VIEW] Đã chuẩn bị xong DWG_TẦNG_7_DIEN_MANG_CAP • Đã gắn 0 tag cos cao độ.
+[12:15:55] [XUẤT DWG THÀNH CÔNG] File: TẦNG_7_dien_mang_cap.dwg (160 KB)
+[12:15:55] 
+>>> Xử lý: Tầng [TẦNG 7] • Hạng mục [Tuyến Busway & Trạm Điện (Busway)] <<<
+[12:15:56] [COMMIT VIEW] Đã chuẩn bị xong DWG_TẦNG_7_BUSWAY • Đã gắn 0 tag cos cao độ.
+[12:16:05] [XUẤT DWG THÀNH CÔNG] File: TẦNG_7_busway.dwg (162 KB)
+[12:16:05] 
+>>> Xử lý: Tầng [TẦNG 7] • Hạng mục [Báo Khói & Báo Cháy (Fire Alarm)] <<<
+[12:16:06] [COMMIT VIEW] Đã chuẩn bị xong DWG_TẦNG_7_BAO_KHOI • Đã gắn 0 tag cos cao độ.
+[12:16:14] [XUẤT DWG THÀNH CÔNG] File: TẦNG_7_bao_khoi.dwg (158 KB)
+[12:16:14] 
+=== HOÀN TẤT: Đã xuất 48 file DWG • Tổng cộng 9366 tag cos cao độ ===

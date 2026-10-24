@@ -1,0 +1,87 @@
+﻿{
+    "familyName":  "CUA SO 2 CANH NHOM KINH O O THOANG",
+    "formsCount":  6,
+    "forms":  [
+                  {
+                      "id":  588878,
+                      "type":  "Extrusion",
+                      "name":  "Extrusion",
+                      "isSolid":  true,
+                      "subCat":  "Frame/Mullion",
+                      "bb":  "min=(-775, -1, 725), max=(775, 75, 2575), dx=1550, dy=76, dz=1850",
+                      "dx":  1549.9999999999998,
+                      "dy":  76,
+                      "dz":  1850.000000000011,
+                      "zMin":  724.9999999999997,
+                      "zMax":  2575.000000000011
+                  },
+                  {
+                      "id":  588897,
+                      "type":  "Extrusion",
+                      "name":  "Extrusion",
+                      "isSolid":  true,
+                      "subCat":  null,
+                      "bb":  "min=(-0, 50, 750), max=(750, 75, 2550), dx=750, dy=25, dz=1800",
+                      "dx":  750.0000000000003,
+                      "dy":  25,
+                      "dz":  1800.0000000000089,
+                      "zMin":  749.9999999999995,
+                      "zMax":  2550.000000000008
+                  },
+                  {
+                      "id":  588912,
+                      "type":  "Extrusion",
+                      "name":  "Extrusion",
+                      "isSolid":  true,
+                      "subCat":  null,
+                      "bb":  "min=(-674, 50, 1950), max=(674, 75, 2000), dx=1348, dy=25, dz=50",
+                      "dx":  1348,
+                      "dy":  25,
+                      "dz":  50.000000000004874,
+                      "zMin":  1950.0000000000052,
+                      "zMax":  2000.0000000000102
+                  },
+                  {
+                      "id":  588919,
+                      "type":  "Extrusion",
+                      "name":  "Extrusion",
+                      "isSolid":  true,
+                      "subCat":  null,
+                      "bb":  "min=(-674, 50, 1350), max=(674, 75, 1400), dx=1348, dy=25, dz=50",
+                      "dx":  1348.0000000000005,
+                      "dy":  25,
+                      "dz":  50,
+                      "zMin":  1350.0000000000025,
+                      "zMax":  1400.0000000000025
+                  },
+                  {
+                      "id":  588941,
+                      "type":  "Extrusion",
+                      "name":  "Extrusion",
+                      "isSolid":  true,
+                      "subCat":  null,
+                      "bb":  "min=(-750, 50, 750), max=(-0, 75, 2550), dx=750, dy=25, dz=1800",
+                      "dx":  749.9999999999995,
+                      "dy":  25,
+                      "dz":  1799.9999999999905,
+                      "zMin":  750.0000000000069,
+                      "zMax":  2549.9999999999973
+                  },
+                  {
+                      "id":  589035,
+                      "type":  "Extrusion",
+                      "name":  "Extrusion",
+                      "isSolid":  true,
+                      "subCat":  "Glass",
+                      "bb":  "min=(-674, 60, 826), max=(674, 65, 2474), dx=1348, dy=5, dz=1648",
+                      "dx":  1348.0000000000005,
+                      "dy":  4.999999999999997,
+                      "dz":  1648.0000000000196,
+                      "zMin":  825.9999999999995,
+                      "zMax":  2474.000000000019
+                  }
+              ],
+    "nested":  [
+
+               ]
+}

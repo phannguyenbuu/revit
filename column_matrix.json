@@ -1,0 +1,1307 @@
+{
+  "success": true,
+  "data": {
+    "model_name": "CAI_TAO_PHUONG_AN_B.EDB",
+    "column_labels": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10",
+      "C11",
+      "C12",
+      "C13",
+      "C14",
+      "C15"
+    ],
+    "stories": [
+      {
+        "id": "T4",
+        "name": "TẦNG 4",
+        "elevation": "+10.800",
+        "height": 3.6
+      },
+      {
+        "id": "T3",
+        "name": "TẦNG 3",
+        "elevation": "+7.200",
+        "height": 3.6
+      },
+      {
+        "id": "T2",
+        "name": "TẦNG 2",
+        "elevation": "+3.600",
+        "height": 3.6
+      },
+      {
+        "id": "T1",
+        "name": "TẦNG 1",
+        "elevation": "±0.000",
+        "height": 3.6
+      }
+    ],
+    "column_meta": {
+      "C1": {
+        "label": "C1",
+        "grid": "1-C",
+        "grid_x": "1",
+        "grid_y": "C",
+        "coord": [
+          0,
+          0
+        ]
+      },
+      "C5": {
+        "label": "C5",
+        "grid": "1-B",
+        "grid_x": "1",
+        "grid_y": "B",
+        "coord": [
+          0,
+          5970
+        ]
+      },
+      "C2": {
+        "label": "C2",
+        "grid": "2-C",
+        "grid_x": "2",
+        "grid_y": "C",
+        "coord": [
+          5900,
+          0
+        ]
+      },
+      "C4": {
+        "label": "C4",
+        "grid": "3-C",
+        "grid_x": "3",
+        "grid_y": "C",
+        "coord": [
+          13250,
+          0
+        ]
+      },
+      "C6": {
+        "label": "C6",
+        "grid": "2-B",
+        "grid_x": "2",
+        "grid_y": "B",
+        "coord": [
+          5900,
+          5970
+        ]
+      },
+      "C3": {
+        "label": "C3",
+        "grid": "4-C",
+        "grid_x": "4",
+        "grid_y": "C",
+        "coord": [
+          16750,
+          0
+        ]
+      },
+      "C7": {
+        "label": "C7",
+        "grid": "5-C",
+        "grid_x": "5",
+        "grid_y": "C",
+        "coord": [
+          21850,
+          0
+        ]
+      },
+      "C8": {
+        "label": "C8",
+        "grid": "3-B",
+        "grid_x": "3",
+        "grid_y": "B",
+        "coord": [
+          13250,
+          5970
+        ]
+      },
+      "C9": {
+        "label": "C9",
+        "grid": "5-B",
+        "grid_x": "5",
+        "grid_y": "B",
+        "coord": [
+          21850,
+          5970
+        ]
+      },
+      "C10": {
+        "label": "C10",
+        "grid": "6-B",
+        "grid_x": "6",
+        "grid_y": "B",
+        "coord": [
+          27450,
+          5970
+        ]
+      },
+      "C11": {
+        "label": "C11",
+        "grid": "6-A",
+        "grid_x": "6",
+        "grid_y": "A",
+        "coord": [
+          27450,
+          11970
+        ]
+      },
+      "C12": {
+        "label": "C12",
+        "grid": "7-B",
+        "grid_x": "7",
+        "grid_y": "B",
+        "coord": [
+          32950,
+          5970
+        ]
+      },
+      "C13": {
+        "label": "C13",
+        "grid": "7-A",
+        "grid_x": "7",
+        "grid_y": "A",
+        "coord": [
+          32950,
+          11970
+        ]
+      },
+      "C14": {
+        "label": "C14",
+        "grid": "4-A",
+        "grid_x": "4",
+        "grid_y": "A",
+        "coord": [
+          18250,
+          11970
+        ]
+      },
+      "C15": {
+        "label": "C15",
+        "grid": "5-A",
+        "grid_x": "5",
+        "grid_y": "A",
+        "coord": [
+          21850,
+          11970
+        ]
+      }
+    },
+    "cells": {
+      "T4_C1": {
+        "exists": false,
+        "story": "T4",
+        "label": "C1",
+        "grid": "1-C",
+        "coord": [
+          0,
+          0
+        ]
+      },
+      "T4_C2": {
+        "exists": true,
+        "story": "T4",
+        "label": "C2",
+        "section_name": "C2 300x300",
+        "width": 300.0,
+        "depth": 300.0,
+        "rebar_str": "4Φ20",
+        "corner_count": 4,
+        "side_count_x": 0,
+        "side_count_y": 0,
+        "stirrup_str": "d6a100/200",
+        "has_crosstie": false,
+        "grid": "2-C",
+        "coord": [
+          5900,
+          0
+        ]
+      },
+      "T4_C3": {
+        "exists": true,
+        "story": "T4",
+        "label": "C3",
+        "section_name": "C2 300x300",
+        "width": 300.0,
+        "depth": 300.0,
+        "rebar_str": "4Φ20",
+        "corner_count": 4,
+        "side_count_x": 0,
+        "side_count_y": 0,
+        "stirrup_str": "d6a100/200",
+        "has_crosstie": false,
+        "grid": "4-C",
+        "coord": [
+          16750,
+          0
+        ]
+      },
+      "T4_C4": {
+        "exists": true,
+        "story": "T4",
+        "label": "C4",
+        "section_name": "C2 300x300",
+        "width": 300.0,
+        "depth": 300.0,
+        "rebar_str": "4Φ20",
+        "corner_count": 4,
+        "side_count_x": 0,
+        "side_count_y": 0,
+        "stirrup_str": "d6a100/200",
+        "has_crosstie": false,
+        "grid": "3-C",
+        "coord": [
+          13250,
+          0
+        ]
+      },
+      "T4_C5": {
+        "exists": false,
+        "story": "T4",
+        "label": "C5",
+        "grid": "1-B",
+        "coord": [
+          0,
+          5970
+        ]
+      },
+      "T4_C6": {
+        "exists": true,
+        "story": "T4",
+        "label": "C6",
+        "section_name": "C2 300x300",
+        "width": 300.0,
+        "depth": 300.0,
+        "rebar_str": "4Φ20",
+        "corner_count": 4,
+        "side_count_x": 0,
+        "side_count_y": 0,
+        "stirrup_str": "d6a100/200",
+        "has_crosstie": false,
+        "grid": "2-B",
+        "coord": [
+          5900,
+          5970
+        ]
+      },
+      "T4_C7": {
+        "exists": true,
+        "story": "T4",
+        "label": "C7",
+        "section_name": "C2 300x300",
+        "width": 300.0,
+        "depth": 300.0,
+        "rebar_str": "4Φ20",
+        "corner_count": 4,
+        "side_count_x": 0,
+        "side_count_y": 0,
+        "stirrup_str": "d6a100/200",
+        "has_crosstie": false,
+        "grid": "5-C",
+        "coord": [
+          21850,
+          0
+        ]
+      },
+      "T4_C8": {
+        "exists": true,
+        "story": "T4",
+        "label": "C8",
+        "section_name": "C3 250x520",
+        "width": 250.0,
+        "depth": 520.0,
+        "rebar_str": "8Φ20",
+        "corner_count": 4,
+        "side_count_x": 0,
+        "side_count_y": 2,
+        "stirrup_str": "d6a100/200",
+        "has_crosstie": true,
+        "grid": "3-B",
+        "coord": [
+          13250,
+          5970
+        ]
+      },
+      "T4_C9": {
+        "exists": true,
+        "story": "T4",
+        "label": "C9",
+        "section_name": "C3 250x520",
+        "width": 250.0,
+        "depth": 520.0,
+        "rebar_str": "8Φ20",
+        "corner_count": 4,
+        "side_count_x": 0,
+        "side_count_y": 2,
+        "stirrup_str": "d6a100/200",
+        "has_crosstie": true,
+        "grid": "5-B",
+        "coord": [
+          21850,
+          5970
+        ]
+      },
+      "T4_C10": {
+        "exists": true,
+        "story": "T4",
+        "label": "C10",
+        "section_name": "C2 300x300",
+        "width": 300.0,
+        "depth": 300.0,
+        "rebar_str": "4Φ20",
+        "corner_count": 4,
+        "side_count_x": 0,
+        "side_count_y": 0,
+        "stirrup_str": "d6a100/200",
+        "has_crosstie": false,
+        "grid": "6-B",
+        "coord": [
+          27450,
+          5970
+        ]
+      },
+      "T4_C11": {
+        "exists": true,
+        "story": "T4",
+        "label": "C11",
+        "section_name": "C2 300x300",
+        "width": 300.0,
+        "depth": 300.0,
+        "rebar_str": "4Φ20",
+        "corner_count": 4,
+        "side_count_x": 0,
+        "side_count_y": 0,
+        "stirrup_str": "d6a100/200",
+        "has_crosstie": false,
+        "grid": "6-A",
+        "coord": [
+          27450,
+          11970
+        ]
+      },
+      "T4_C12": {
+        "exists": false,
+        "story": "T4",
+        "label": "C12",
+        "grid": "7-B",
+        "coord": [
+          32950,
+          5970
+        ]
+      },
+      "T4_C13": {
+        "exists": false,
+        "story": "T4",
+        "label": "C13",
+        "grid": "7-A",
+        "coord": [
+          32950,
+          11970
+        ]
+      },
+      "T4_C14": {
+        "exists": true,
+        "story": "T4",
+        "label": "C14",
+        "section_name": "C1 250x300",
+        "width": 250.0,
+        "depth": 300.0,
+        "rebar_str": "4Φ18",
+        "corner_count": 4,
+        "side_count_x": 0,
+        "side_count_y": 0,
+        "stirrup_str": "d6a100/200",
+        "has_crosstie": false,
+        "grid": "4-A",
+        "coord": [
+          18250,
+          11970
+        ]
+      },
+      "T4_C15": {
+        "exists": true,
+        "story": "T4",
+        "label": "C15",
+        "section_name": "C1 250x300",
+        "width": 250.0,
+        "depth": 300.0,
+        "rebar_str": "4Φ18",
+        "corner_count": 4,
+        "side_count_x": 0,
+        "side_count_y": 0,
+        "stirrup_str": "d6a100/200",
+        "has_crosstie": false,
+        "grid": "5-A",
+        "coord": [
+          21850,
+          11970
+        ]
+      },
+      "T3_C1": {
+        "exists": true,
+        "story": "T3",
+        "label": "C1",
+        "section_name": "C1 250x300",
+        "width": 250.0,
+        "depth": 300.0,
+        "rebar_str": "4Φ18",
+        "corner_count": 4,
+        "side_count_x": 0,
+        "side_count_y": 0,
+        "stirrup_str": "d6a100/200",
+        "has_crosstie": false,
+        "grid": "1-C",
+        "coord": [
+          0,
+          0
+        ]
+      },
+      "T3_C2": {
+        "exists": true,
+        "story": "T3",
+        "label": "C2",
+        "section_name": "C2 300x300",
+        "width": 300.0,
+        "depth": 300.0,
+        "rebar_str": "4Φ20",
+        "corner_count": 4,
+        "side_count_x": 0,
+        "side_count_y": 0,
+        "stirrup_str": "d6a100/200",
+        "has_crosstie": false,
+        "grid": "2-C",
+        "coord": [
+          5900,
+          0
+        ]
+      },
+      "T3_C3": {
+        "exists": true,
+        "story": "T3",
+        "label": "C3",
+        "section_name": "C2 300x300",
+        "width": 300.0,
+        "depth": 300.0,
+        "rebar_str": "4Φ20",
+        "corner_count": 4,
+        "side_count_x": 0,
+        "side_count_y": 0,
+        "stirrup_str": "d6a100/200",
+        "has_crosstie": false,
+        "grid": "4-C",
+        "coord": [
+          16750,
+          0
+        ]
+      },
+      "T3_C4": {
+        "exists": true,
+        "story": "T3",
+        "label": "C4",
+        "section_name": "C2 300x300",
+        "width": 300.0,
+        "depth": 300.0,
+        "rebar_str": "4Φ20",
+        "corner_count": 4,
+        "side_count_x": 0,
+        "side_count_y": 0,
+        "stirrup_str": "d6a100/200",
+        "has_crosstie": false,
+        "grid": "3-C",
+        "coord": [
+          13250,
+          0
+        ]
+      },
+      "T3_C5": {
+        "exists": true,
+        "story": "T3",
+        "label": "C5",
+        "section_name": "C1 250x300",
+        "width": 250.0,
+        "depth": 300.0,
+        "rebar_str": "4Φ18",
+        "corner_count": 4,
+        "side_count_x": 0,
+        "side_count_y": 0,
+        "stirrup_str": "d6a100/200",
+        "has_crosstie": false,
+        "grid": "1-B",
+        "coord": [
+          0,
+          5970
+        ]
+      },
+      "T3_C6": {
+        "exists": true,
+        "story": "T3",
+        "label": "C6",
+        "section_name": "C2 300x300",
+        "width": 300.0,
+        "depth": 300.0,
+        "rebar_str": "4Φ20",
+        "corner_count": 4,
+        "side_count_x": 0,
+        "side_count_y": 0,
+        "stirrup_str": "d6a100/200",
+        "has_crosstie": false,
+        "grid": "2-B",
+        "coord": [
+          5900,
+          5970
+        ]
+      },
+      "T3_C7": {
+        "exists": true,
+        "story": "T3",
+        "label": "C7",
+        "section_name": "C2 300x300",
+        "width": 300.0,
+        "depth": 300.0,
+        "rebar_str": "4Φ20",
+        "corner_count": 4,
+        "side_count_x": 0,
+        "side_count_y": 0,
+        "stirrup_str": "d6a100/200",
+        "has_crosstie": false,
+        "grid": "5-C",
+        "coord": [
+          21850,
+          0
+        ]
+      },
+      "T3_C8": {
+        "exists": true,
+        "story": "T3",
+        "label": "C8",
+        "section_name": "C3 250x520",
+        "width": 250.0,
+        "depth": 520.0,
+        "rebar_str": "8Φ20",
+        "corner_count": 4,
+        "side_count_x": 0,
+        "side_count_y": 2,
+        "stirrup_str": "d6a100/200",
+        "has_crosstie": true,
+        "grid": "3-B",
+        "coord": [
+          13250,
+          5970
+        ]
+      },
+      "T3_C9": {
+        "exists": true,
+        "story": "T3",
+        "label": "C9",
+        "section_name": "C3 250x520",
+        "width": 250.0,
+        "depth": 520.0,
+        "rebar_str": "8Φ20",
+        "corner_count": 4,
+        "side_count_x": 0,
+        "side_count_y": 2,
+        "stirrup_str": "d6a100/200",
+        "has_crosstie": true,
+        "grid": "5-B",
+        "coord": [
+          21850,
+          5970
+        ]
+      },
+      "T3_C10": {
+        "exists": true,
+        "story": "T3",
+        "label": "C10",
+        "section_name": "C2 300x300",
+        "width": 300.0,
+        "depth": 300.0,
+        "rebar_str": "4Φ20",
+        "corner_count": 4,
+        "side_count_x": 0,
+        "side_count_y": 0,
+        "stirrup_str": "d6a100/200",
+        "has_crosstie": false,
+        "grid": "6-B",
+        "coord": [
+          27450,
+          5970
+        ]
+      },
+      "T3_C11": {
+        "exists": true,
+        "story": "T3",
+        "label": "C11",
+        "section_name": "C2 300x300",
+        "width": 300.0,
+        "depth": 300.0,
+        "rebar_str": "4Φ20",
+        "corner_count": 4,
+        "side_count_x": 0,
+        "side_count_y": 0,
+        "stirrup_str": "d6a100/200",
+        "has_crosstie": false,
+        "grid": "6-A",
+        "coord": [
+          27450,
+          11970
+        ]
+      },
+      "T3_C12": {
+        "exists": true,
+        "story": "T3",
+        "label": "C12",
+        "section_name": "C1 250x300",
+        "width": 250.0,
+        "depth": 300.0,
+        "rebar_str": "4Φ18",
+        "corner_count": 4,
+        "side_count_x": 0,
+        "side_count_y": 0,
+        "stirrup_str": "d6a100/200",
+        "has_crosstie": false,
+        "grid": "7-B",
+        "coord": [
+          32950,
+          5970
+        ]
+      },
+      "T3_C13": {
+        "exists": true,
+        "story": "T3",
+        "label": "C13",
+        "section_name": "C1 250x300",
+        "width": 250.0,
+        "depth": 300.0,
+        "rebar_str": "4Φ18",
+        "corner_count": 4,
+        "side_count_x": 0,
+        "side_count_y": 0,
+        "stirrup_str": "d6a100/200",
+        "has_crosstie": false,
+        "grid": "7-A",
+        "coord": [
+          32950,
+          11970
+        ]
+      },
+      "T3_C14": {
+        "exists": true,
+        "story": "T3",
+        "label": "C14",
+        "section_name": "C1 250x300",
+        "width": 250.0,
+        "depth": 300.0,
+        "rebar_str": "4Φ18",
+        "corner_count": 4,
+        "side_count_x": 0,
+        "side_count_y": 0,
+        "stirrup_str": "d6a100/200",
+        "has_crosstie": false,
+        "grid": "4-A",
+        "coord": [
+          18250,
+          11970
+        ]
+      },
+      "T3_C15": {
+        "exists": true,
+        "story": "T3",
+        "label": "C15",
+        "section_name": "C1 250x300",
+        "width": 250.0,
+        "depth": 300.0,
+        "rebar_str": "4Φ18",
+        "corner_count": 4,
+        "side_count_x": 0,
+        "side_count_y": 0,
+        "stirrup_str": "d6a100/200",
+        "has_crosstie": false,
+        "grid": "5-A",
+        "coord": [
+          21850,
+          11970
+        ]
+      },
+      "T2_C1": {
+        "exists": true,
+        "story": "T2",
+        "label": "C1",
+        "section_name": "C1 250x300",
+        "width": 250.0,
+        "depth": 300.0,
+        "rebar_str": "4Φ18",
+        "corner_count": 4,
+        "side_count_x": 0,
+        "side_count_y": 0,
+        "stirrup_str": "d6a100/200",
+        "has_crosstie": false,
+        "grid": "1-C",
+        "coord": [
+          0,
+          0
+        ]
+      },
+      "T2_C2": {
+        "exists": true,
+        "story": "T2",
+        "label": "C2",
+        "section_name": "C2 300x300",
+        "width": 300.0,
+        "depth": 300.0,
+        "rebar_str": "4Φ20",
+        "corner_count": 4,
+        "side_count_x": 0,
+        "side_count_y": 0,
+        "stirrup_str": "d6a100/200",
+        "has_crosstie": false,
+        "grid": "2-C",
+        "coord": [
+          5900,
+          0
+        ]
+      },
+      "T2_C3": {
+        "exists": true,
+        "story": "T2",
+        "label": "C3",
+        "section_name": "C2 300x300",
+        "width": 300.0,
+        "depth": 300.0,
+        "rebar_str": "4Φ20",
+        "corner_count": 4,
+        "side_count_x": 0,
+        "side_count_y": 0,
+        "stirrup_str": "d6a100/200",
+        "has_crosstie": false,
+        "grid": "4-C",
+        "coord": [
+          16750,
+          0
+        ]
+      },
+      "T2_C4": {
+        "exists": true,
+        "story": "T2",
+        "label": "C4",
+        "section_name": "C2 300x300",
+        "width": 300.0,
+        "depth": 300.0,
+        "rebar_str": "4Φ20",
+        "corner_count": 4,
+        "side_count_x": 0,
+        "side_count_y": 0,
+        "stirrup_str": "d6a100/200",
+        "has_crosstie": false,
+        "grid": "3-C",
+        "coord": [
+          13250,
+          0
+        ]
+      },
+      "T2_C5": {
+        "exists": true,
+        "story": "T2",
+        "label": "C5",
+        "section_name": "C1 250x300",
+        "width": 250.0,
+        "depth": 300.0,
+        "rebar_str": "4Φ18",
+        "corner_count": 4,
+        "side_count_x": 0,
+        "side_count_y": 0,
+        "stirrup_str": "d6a100/200",
+        "has_crosstie": false,
+        "grid": "1-B",
+        "coord": [
+          0,
+          5970
+        ]
+      },
+      "T2_C6": {
+        "exists": true,
+        "story": "T2",
+        "label": "C6",
+        "section_name": "C2 300x300",
+        "width": 300.0,
+        "depth": 300.0,
+        "rebar_str": "4Φ20",
+        "corner_count": 4,
+        "side_count_x": 0,
+        "side_count_y": 0,
+        "stirrup_str": "d6a100/200",
+        "has_crosstie": false,
+        "grid": "2-B",
+        "coord": [
+          5900,
+          5970
+        ]
+      },
+      "T2_C7": {
+        "exists": true,
+        "story": "T2",
+        "label": "C7",
+        "section_name": "C2 300x300",
+        "width": 300.0,
+        "depth": 300.0,
+        "rebar_str": "4Φ20",
+        "corner_count": 4,
+        "side_count_x": 0,
+        "side_count_y": 0,
+        "stirrup_str": "d6a100/200",
+        "has_crosstie": false,
+        "grid": "5-C",
+        "coord": [
+          21850,
+          0
+        ]
+      },
+      "T2_C8": {
+        "exists": true,
+        "story": "T2",
+        "label": "C8",
+        "section_name": "C3 250x520",
+        "width": 250.0,
+        "depth": 520.0,
+        "rebar_str": "8Φ20",
+        "corner_count": 4,
+        "side_count_x": 0,
+        "side_count_y": 2,
+        "stirrup_str": "d6a100/200",
+        "has_crosstie": true,
+        "grid": "3-B",
+        "coord": [
+          13250,
+          5970
+        ]
+      },
+      "T2_C9": {
+        "exists": true,
+        "story": "T2",
+        "label": "C9",
+        "section_name": "C3 250x520",
+        "width": 250.0,
+        "depth": 520.0,
+        "rebar_str": "8Φ20",
+        "corner_count": 4,
+        "side_count_x": 0,
+        "side_count_y": 2,
+        "stirrup_str": "d6a100/200",
+        "has_crosstie": true,
+        "grid": "5-B",
+        "coord": [
+          21850,
+          5970
+        ]
+      },
+      "T2_C10": {
+        "exists": true,
+        "story": "T2",
+        "label": "C10",
+        "section_name": "C2 300x300",
+        "width": 300.0,
+        "depth": 300.0,
+        "rebar_str": "4Φ20",
+        "corner_count": 4,
+        "side_count_x": 0,
+        "side_count_y": 0,
+        "stirrup_str": "d6a100/200",
+        "has_crosstie": false,
+        "grid": "6-B",
+        "coord": [
+          27450,
+          5970
+        ]
+      },
+      "T2_C11": {
+        "exists": true,
+        "story": "T2",
+        "label": "C11",
+        "section_name": "C2 300x300",
+        "width": 300.0,
+        "depth": 300.0,
+        "rebar_str": "4Φ20",
+        "corner_count": 4,
+        "side_count_x": 0,
+        "side_count_y": 0,
+        "stirrup_str": "d6a100/200",
+        "has_crosstie": false,
+        "grid": "6-A",
+        "coord": [
+          27450,
+          11970
+        ]
+      },
+      "T2_C12": {
+        "exists": true,
+        "story": "T2",
+        "label": "C12",
+        "section_name": "C1 250x300",
+        "width": 250.0,
+        "depth": 300.0,
+        "rebar_str": "4Φ18",
+        "corner_count": 4,
+        "side_count_x": 0,
+        "side_count_y": 0,
+        "stirrup_str": "d6a100/200",
+        "has_crosstie": false,
+        "grid": "7-B",
+        "coord": [
+          32950,
+          5970
+        ]
+      },
+      "T2_C13": {
+        "exists": true,
+        "story": "T2",
+        "label": "C13",
+        "section_name": "C1 250x300",
+        "width": 250.0,
+        "depth": 300.0,
+        "rebar_str": "4Φ18",
+        "corner_count": 4,
+        "side_count_x": 0,
+        "side_count_y": 0,
+        "stirrup_str": "d6a100/200",
+        "has_crosstie": false,
+        "grid": "7-A",
+        "coord": [
+          32950,
+          11970
+        ]
+      },
+      "T2_C14": {
+        "exists": true,
+        "story": "T2",
+        "label": "C14",
+        "section_name": "C1 250x300",
+        "width": 250.0,
+        "depth": 300.0,
+        "rebar_str": "4Φ18",
+        "corner_count": 4,
+        "side_count_x": 0,
+        "side_count_y": 0,
+        "stirrup_str": "d6a100/200",
+        "has_crosstie": false,
+        "grid": "4-A",
+        "coord": [
+          18250,
+          11970
+        ]
+      },
+      "T2_C15": {
+        "exists": true,
+        "story": "T2",
+        "label": "C15",
+        "section_name": "C1 250x300",
+        "width": 250.0,
+        "depth": 300.0,
+        "rebar_str": "4Φ18",
+        "corner_count": 4,
+        "side_count_x": 0,
+        "side_count_y": 0,
+        "stirrup_str": "d6a100/200",
+        "has_crosstie": false,
+        "grid": "5-A",
+        "coord": [
+          21850,
+          11970
+        ]
+      },
+      "T1_C1": {
+        "exists": true,
+        "story": "T1",
+        "label": "C1",
+        "section_name": "C1 250x300",
+        "width": 250.0,
+        "depth": 300.0,
+        "rebar_str": "4Φ18",
+        "corner_count": 4,
+        "side_count_x": 0,
+        "side_count_y": 0,
+        "stirrup_str": "d6a100/200",
+        "has_crosstie": false,
+        "grid": "1-C",
+        "coord": [
+          0,
+          0
+        ]
+      },
+      "T1_C2": {
+        "exists": true,
+        "story": "T1",
+        "label": "C2",
+        "section_name": "C2 300x300",
+        "width": 300.0,
+        "depth": 300.0,
+        "rebar_str": "4Φ20",
+        "corner_count": 4,
+        "side_count_x": 0,
+        "side_count_y": 0,
+        "stirrup_str": "d6a100/200",
+        "has_crosstie": false,
+        "grid": "2-C",
+        "coord": [
+          5900,
+          0
+        ]
+      },
+      "T1_C3": {
+        "exists": true,
+        "story": "T1",
+        "label": "C3",
+        "section_name": "C2 300x300",
+        "width": 300.0,
+        "depth": 300.0,
+        "rebar_str": "4Φ20",
+        "corner_count": 4,
+        "side_count_x": 0,
+        "side_count_y": 0,
+        "stirrup_str": "d6a100/200",
+        "has_crosstie": false,
+        "grid": "4-C",
+        "coord": [
+          16750,
+          0
+        ]
+      },
+      "T1_C4": {
+        "exists": true,
+        "story": "T1",
+        "label": "C4",
+        "section_name": "C2 300x300",
+        "width": 300.0,
+        "depth": 300.0,
+        "rebar_str": "4Φ20",
+        "corner_count": 4,
+        "side_count_x": 0,
+        "side_count_y": 0,
+        "stirrup_str": "d6a100/200",
+        "has_crosstie": false,
+        "grid": "3-C",
+        "coord": [
+          13250,
+          0
+        ]
+      },
+      "T1_C5": {
+        "exists": true,
+        "story": "T1",
+        "label": "C5",
+        "section_name": "C1 250x300",
+        "width": 250.0,
+        "depth": 300.0,
+        "rebar_str": "4Φ18",
+        "corner_count": 4,
+        "side_count_x": 0,
+        "side_count_y": 0,
+        "stirrup_str": "d6a100/200",
+        "has_crosstie": false,
+        "grid": "1-B",
+        "coord": [
+          0,
+          5970
+        ]
+      },
+      "T1_C6": {
+        "exists": true,
+        "story": "T1",
+        "label": "C6",
+        "section_name": "C2 300x300",
+        "width": 300.0,
+        "depth": 300.0,
+        "rebar_str": "4Φ20",
+        "corner_count": 4,
+        "side_count_x": 0,
+        "side_count_y": 0,
+        "stirrup_str": "d6a100/200",
+        "has_crosstie": false,
+        "grid": "2-B",
+        "coord": [
+          5900,
+          5970
+        ]
+      },
+      "T1_C7": {
+        "exists": true,
+        "story": "T1",
+        "label": "C7",
+        "section_name": "C2 300x300",
+        "width": 300.0,
+        "depth": 300.0,
+        "rebar_str": "4Φ20",
+        "corner_count": 4,
+        "side_count_x": 0,
+        "side_count_y": 0,
+        "stirrup_str": "d6a100/200",
+        "has_crosstie": false,
+        "grid": "5-C",
+        "coord": [
+          21850,
+          0
+        ]
+      },
+      "T1_C8": {
+        "exists": true,
+        "story": "T1",
+        "label": "C8",
+        "section_name": "C3 250x520",
+        "width": 250.0,
+        "depth": 520.0,
+        "rebar_str": "8Φ20",
+        "corner_count": 4,
+        "side_count_x": 0,
+        "side_count_y": 2,
+        "stirrup_str": "d6a100/200",
+        "has_crosstie": true,
+        "grid": "3-B",
+        "coord": [
+          13250,
+          5970
+        ]
+      },
+      "T1_C9": {
+        "exists": true,
+        "story": "T1",
+        "label": "C9",
+        "section_name": "C3 250x520",
+        "width": 250.0,
+        "depth": 520.0,
+        "rebar_str": "8Φ20",
+        "corner_count": 4,
+        "side_count_x": 0,
+        "side_count_y": 2,
+        "stirrup_str": "d6a100/200",
+        "has_crosstie": true,
+        "grid": "5-B",
+        "coord": [
+          21850,
+          5970
+        ]
+      },
+      "T1_C10": {
+        "exists": true,
+        "story": "T1",
+        "label": "C10",
+        "section_name": "C2 300x300",
+        "width": 300.0,
+        "depth": 300.0,
+        "rebar_str": "4Φ20",
+        "corner_count": 4,
+        "side_count_x": 0,
+        "side_count_y": 0,
+        "stirrup_str": "d6a100/200",
+        "has_crosstie": false,
+        "grid": "6-B",
+        "coord": [
+          27450,
+          5970
+        ]
+      },
+      "T1_C11": {
+        "exists": true,
+        "story": "T1",
+        "label": "C11",
+        "section_name": "C2 300x300",
+        "width": 300.0,
+        "depth": 300.0,
+        "rebar_str": "4Φ20",
+        "corner_count": 4,
+        "side_count_x": 0,
+        "side_count_y": 0,
+        "stirrup_str": "d6a100/200",
+        "has_crosstie": false,
+        "grid": "6-A",
+        "coord": [
+          27450,
+          11970
+        ]
+      },
+      "T1_C12": {
+        "exists": true,
+        "story": "T1",
+        "label": "C12",
+        "section_name": "C1 250x300",
+        "width": 250.0,
+        "depth": 300.0,
+        "rebar_str": "4Φ18",
+        "corner_count": 4,
+        "side_count_x": 0,
+        "side_count_y": 0,
+        "stirrup_str": "d6a100/200",
+        "has_crosstie": false,
+        "grid": "7-B",
+        "coord": [
+          32950,
+          5970
+        ]
+      },
+      "T1_C13": {
+        "exists": true,
+        "story": "T1",
+        "label": "C13",
+        "section_name": "C1 250x300",
+        "width": 250.0,
+        "depth": 300.0,
+        "rebar_str": "4Φ18",
+        "corner_count": 4,
+        "side_count_x": 0,
+        "side_count_y": 0,
+        "stirrup_str": "d6a100/200",
+        "has_crosstie": false,
+        "grid": "7-A",
+        "coord": [
+          32950,
+          11970
+        ]
+      },
+      "T1_C14": {
+        "exists": true,
+        "story": "T1",
+        "label": "C14",
+        "section_name": "C1 250x300",
+        "width": 250.0,
+        "depth": 300.0,
+        "rebar_str": "4Φ18",
+        "corner_count": 4,
+        "side_count_x": 0,
+        "side_count_y": 0,
+        "stirrup_str": "d6a100/200",
+        "has_crosstie": false,
+        "grid": "4-A",
+        "coord": [
+          18250,
+          11970
+        ]
+      },
+      "T1_C15": {
+        "exists": true,
+        "story": "T1",
+        "label": "C15",
+        "section_name": "C1 250x300",
+        "width": 250.0,
+        "depth": 300.0,
+        "rebar_str": "4Φ18",
+        "corner_count": 4,
+        "side_count_x": 0,
+        "side_count_y": 0,
+        "stirrup_str": "d6a100/200",
+        "has_crosstie": false,
+        "grid": "5-A",
+        "coord": [
+          21850,
+          11970
+        ]
+      }
+    }
+  }
+}

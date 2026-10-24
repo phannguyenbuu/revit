@@ -1,0 +1,87 @@
+FILEDIA
+0
+CMDECHO
+1
+_-INSERT
+*D:/Dropbox/_Documents/RevitAI/DWG_Export_Individual/floor_02.dwg
+0,-40000
+1
+0
+_-INSERT
+*D:/Dropbox/_Documents/RevitAI/DWG_Export_Individual/floor_03.dwg
+0,-80000
+1
+0
+_-INSERT
+*D:/Dropbox/_Documents/RevitAI/DWG_Export_Individual/floor_04.dwg
+0,-120000
+1
+0
+_-INSERT
+*D:/Dropbox/_Documents/RevitAI/DWG_Export_Individual/floor_05.dwg
+0,-160000
+1
+0
+_-INSERT
+*D:/Dropbox/_Documents/RevitAI/DWG_Export_Individual/floor_06.dwg
+0,-200000
+1
+0
+_-INSERT
+*D:/Dropbox/_Documents/RevitAI/DWG_Export_Individual/floor_07.dwg
+0,-240000
+1
+0
+_-TEXT
+_J
+_MC
+21800,-8500
+600
+0
+01. MẶT BẰNG TẦNG 1
+_-TEXT
+_J
+_MC
+21800,-48500
+600
+0
+02. MẶT BẰNG TẦNG 2
+_-TEXT
+_J
+_MC
+21800,-88500
+600
+0
+03. MẶT BẰNG TẦNG 3
+_-TEXT
+_J
+_MC
+21800,-128500
+600
+0
+04. MẶT BẰNG TẦNG 4
+_-TEXT
+_J
+_MC
+21800,-168500
+600
+0
+05. MẶT BẰNG TẦNG ÁP MÁI
+_-TEXT
+_J
+_MC
+21800,-208500
+600
+0
+06. MẶT BẰNG TẦNG TUM
+_-TEXT
+_J
+_MC
+21800,-248500
+600
+0
+07. MẶT BẰNG MÁI
+_ZOOM
+_E
+_QSAVE
+_QUIT

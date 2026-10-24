@@ -1,0 +1,104 @@
+=== SELECTION: PICKFIRST (_I) (Count: 2) ===
+Ent: <Entity name: 25b8e447f60> | Type: INSERT | Name: *U152 | Layer: "0" | BBox: (116956.1,232484.9)->(159914.0,932018.6)
+Ent: <Entity name: 25b8e464800> | Type: INSERT | Name: *U308 | Layer: "0" | BBox: (179523.0,232484.9)->(222480.9,932018.6)
+=== SELECTION: PREVIOUS (_P) (Count: 2) ===
+Ent: <Entity name: 25b8e447f60> | Type: INSERT | Name: *U152 | Layer: "0" | BBox: (116956.1,232484.9)->(159914.0,932018.6)
+Ent: <Entity name: 25b8e464800> | Type: INSERT | Name: *U308 | Layer: "0" | BBox: (179523.0,232484.9)->(222480.9,932018.6)
+=== ALL INSERTS IN DRAWING: 339 ===
+Insert: *U12 | Layer: I-Furniture
+Insert: *U55 | Layer: A-Wall
+Insert: *U57 | Layer: A-Wall
+Insert: *U66 | Layer: A-Wall
+Insert: *U68 | Layer: A-Glaz
+Insert: *U58 | Layer: A-Wall
+Insert: *U69 | Layer: A-Glaz
+Insert: *U94 | Layer: 0
+Insert: *U96 | Layer: 0
+Insert: *U54 | Layer: A-Wall
+Insert: *U75 | Layer: A-Glaz
+Insert: *U76 | Layer: A-Glaz
+Insert: *U61 | Layer: A-Wall
+Insert: *U70 | Layer: A-Glaz
+Insert: *U106 | Layer: 0
+Insert: *U108 | Layer: 0
+Insert: *U110 | Layer: 0
+Insert: A$C66a0414e | Layer: 0
+Insert: A$C66a0414e | Layer: 0
+Insert: A$C66a0414e | Layer: 0
+Insert: A$C66a0414e | Layer: 0
+Insert: A$Ca129ecff | Layer: 0
+Insert: A$Ca129ecff | Layer: 0
+Insert: *U129 | Layer: I-Furniture
+Insert: A$C06e9a403 | Layer: 0
+Insert: A$C0a1d8aeb | Layer: 0
+Insert: *U152 | Layer: 0
+Insert: *U12 | Layer: I-Furniture
+Insert: *U172 | Layer: A-Wall
+Insert: *U173 | Layer: A-Wall
+Insert: *U174 | Layer: A-Wall
+Insert: *U175 | Layer: A-Wall
+Insert: *U184 | Layer: A-Door
+Insert: *U185 | Layer: A-Door
+Insert: *U186 | Layer: A-Door
+Insert: *U187 | Layer: A-Wall
+Insert: *U188 | Layer: A-Wall
+Insert: *U190 | Layer: A-Glaz
+Insert: *U191 | Layer: A-Door
+Insert: *U192 | Layer: A-Wall
+Insert: *U263 | Layer: A-Glaz
+Insert: A$C06e9a403 | Layer: 0
+Insert: *U308 | Layer: 0
+Insert: *U373 | Layer: 0
+Insert: *U375 | Layer: 0
+Insert: *U377 | Layer: 0
+Insert: *U379 | Layer: 0
+Insert: *U381 | Layer: 0
+Insert: *U421 | Layer: FUR
+Insert: *U421 | Layer: FUR
+Insert: *U421 | Layer: FUR
+Insert: *U421 | Layer: FUR
+Insert: *U424 | Layer: I-Furniture
+Insert: A$C01a9952a2 | Layer: FUR
+Insert: *U426 | Layer: I-Furniture
+Insert: *U421 | Layer: FUR
+Insert: A$C01a9952a2 (2) | Layer: FUR
+Insert: *U454 | Layer: 0
+Insert: *U421 | Layer: FUR
+Insert: TitleBlock.XPXD | Layer: I-Furniture
+Insert: *U421 | Layer: FUR
+Insert: A$C01a9952a2 (2) | Layer: FUR
+Insert: *U519 | Layer: DIM
+Insert: *U524 | Layer: DIM
+Insert: *U527 | Layer: DIM
+Insert: *U530 | Layer: DIM
+Insert: *U533 | Layer: 0
+Insert: *U537 | Layer: 0
+Insert: *U539 | Layer: 0
+Insert: *U541 | Layer: 0
+Insert: TitleBlock.XPXD.165 | Layer: I-Furniture
+Insert: *U421 | Layer: FUR
+Insert: *U421 | Layer: FUR
+Insert: TitleBlock_2 | Layer: 0
+Insert: G_Anno_Title | Layer: A-ANNO-TEXT
+Insert: TitleBlock_2 | Layer: 0
+Insert: G_Anno_Title | Layer: A-ANNO-TEXT
+Insert: TitleBlock_2 | Layer: 0
+Insert: G_Anno_Title | Layer: A-ANNO-TEXT
+Insert: G_Anno_Title | Layer: A-ANNO-TEXT
+Insert: TitleBlock_2 | Layer: 0
+Insert: G_Anno_Title | Layer: A-ANNO-TEXT
+Insert: G_Anno_Title | Layer: A-ANNO-TEXT
+Insert: TitleBlock_2 | Layer: 0
+Insert: G_Anno_Title | Layer: A-ANNO-TEXT
+Insert: TitleBlock_2 | Layer: 0
+Insert: G_Anno_Title | Layer: A-ANNO-TEXT
+Insert: G_Anno_Title | Layer: A-ANNO-TEXT
+Insert: TitleBlock_2 | Layer: 0
+Insert: G_Anno_Title | Layer: A-ANNO-TEXT
+Insert: TitleBlock_2 | Layer: 0
+Insert: G_Anno_Title | Layer: A-ANNO-TEXT
+Insert: G_Anno_Title | Layer: A-ANNO-TEXT
+Insert: TitleBlock_2 | Layer: 0
+Insert: G_Anno_Title | Layer: A-ANNO-TEXT
+Insert: TitleBlock_2 | Layer: 0
+Insert: G_Anno_Title | Layer: A-ANNO-TEXT

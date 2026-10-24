@@ -1,0 +1,54 @@
+=== BẮT ĐẦU NÂNG CẤP VÀ LƯU CỐ ĐỊNH REVIT 2025 HÀNG LOẠT ===
+[10:43:41] 
+>>> Xử lý file: CMF2_NHAXUONG_A.rvt <<<
+[10:43:41] [UNLOAD LINK] Đang Unload CMF2_NHAXUONG_A.rvt khỏi host document để mở và ghi đè...
+[10:43:44] [BACKUP] Đã sao lưu bản gốc 2024: CMF2_NHAXUONG_A.rvt.bak_2024
+[10:43:44] [INFO] Format version: 2024, Workshared: False
+[10:43:44] [OPEN] Đang mở CMF2_NHAXUONG_A.rvt (Revit đang nâng cấp sang 2025)...
+[10:45:44] [FAILURE] Severity: Warning, Text: There are identical instances in the same place. This will result in double counting in schedules.
+[10:45:46] [OPEN OK] Đã mở thành công: CMF2_NHAXUONG_A
+[10:45:46] [SAVE] Đang lưu đè file sang Revit 2025: D:\Dropbox\_Documents\_KIEN TRUC 2026\CM Fire Protect\Coolermaster 2 - BIM model\CMF2_NHAXUONG_A.rvt...
+[10:46:15] [SAVE OK] ĐÃ LƯU CỐ ĐỊNH THÀNH CÔNG: CMF2_NHAXUONG_A.rvt (Revit 2025 Native)!
+[10:46:16] [CLOSE] Đã đóng file CMF2_NHAXUONG_A.rvt.
+[10:46:16] [RELOAD LINK] Đang nạp lại CMF2_NHAXUONG_A.rvt vào file tổng...
+[10:46:31] [RELOAD RESULT] LinkLoaded
+[10:46:31] 
+>>> Xử lý file: CMF2_NHAXUONG_S.rvt <<<
+[10:46:31] [UNLOAD LINK] Đang Unload CMF2_NHAXUONG_S.rvt khỏi host document để mở và ghi đè...
+[10:46:33] [BACKUP] Đã sao lưu bản gốc 2024: CMF2_NHAXUONG_S.rvt.bak_2024
+[10:46:33] [INFO] Format version: 2024, Workshared: False
+[10:46:33] [OPEN] Đang mở CMF2_NHAXUONG_S.rvt (Revit đang nâng cấp sang 2025)...
+[10:48:05] [OPEN OK] Đã mở thành công: CMF2_NHAXUONG_S
+[10:48:05] [SAVE] Đang lưu đè file sang Revit 2025: D:\Dropbox\_Documents\_KIEN TRUC 2026\CM Fire Protect\Coolermaster 2 - BIM model\CMF2_NHAXUONG_S.rvt...
+[10:48:18] [SAVE OK] ĐÃ LƯU CỐ ĐỊNH THÀNH CÔNG: CMF2_NHAXUONG_S.rvt (Revit 2025 Native)!
+[10:48:19] [CLOSE] Đã đóng file CMF2_NHAXUONG_S.rvt.
+[10:48:19] [RELOAD LINK] Đang nạp lại CMF2_NHAXUONG_S.rvt vào file tổng...
+[10:48:28] [RELOAD RESULT] LinkLoaded
+[10:48:28] 
+>>> Xử lý file: CMF2_NHAPHUTRO_A.rvt <<<
+[10:48:28] [BACKUP] Đã sao lưu bản gốc 2024: CMF2_NHAPHUTRO_A.rvt.bak_2024
+[10:48:28] [INFO] Format version: 2024, Workshared: False
+[10:48:28] [OPEN] Đang mở CMF2_NHAPHUTRO_A.rvt (Revit đang nâng cấp sang 2025)...
+[10:48:57] [OPEN OK] Đã mở thành công: CMF2_NHAPHUTRO_A
+[10:48:57] [SAVE] Đang lưu đè file sang Revit 2025: D:\Dropbox\_Documents\_KIEN TRUC 2026\CM Fire Protect\Coolermaster 2 - BIM model\CMF2_NHAPHUTRO_A.rvt...
+[10:49:04] [SAVE OK] ĐÃ LƯU CỐ ĐỊNH THÀNH CÔNG: CMF2_NHAPHUTRO_A.rvt (Revit 2025 Native)!
+[10:49:05] [CLOSE] Đã đóng file CMF2_NHAPHUTRO_A.rvt.
+[10:49:05] 
+>>> Xử lý file: CMF2_NHAPHUTRO_S.rvt <<<
+[10:49:05] [UNLOAD LINK] Đang Unload CMF2_NHAPHUTRO_S.rvt khỏi host document để mở và ghi đè...
+[10:49:06] [BACKUP] Đã sao lưu bản gốc 2024: CMF2_NHAPHUTRO_S.rvt.bak_2024
+[10:49:06] [INFO] Format version: 2024, Workshared: False
+[10:49:06] [OPEN] Đang mở CMF2_NHAPHUTRO_S.rvt (Revit đang nâng cấp sang 2025)...
+[10:49:39] [FAILURE] Severity: Warning, Text: Elements have duplicate "Type Mark" values.
+[10:49:39] [FAILURE] Severity: Warning, Text: Elements have duplicate "Type Mark" values.
+[10:49:44] [OPEN OK] Đã mở thành công: CMF2_NHAPHUTRO_S
+[10:49:44] [SAVE] Đang lưu đè file sang Revit 2025: D:\Dropbox\_Documents\_KIEN TRUC 2026\CM Fire Protect\Coolermaster 2 - BIM model\CMF2_NHAPHUTRO_S.rvt...
+[10:49:50] [SAVE OK] ĐÃ LƯU CỐ ĐỊNH THÀNH CÔNG: CMF2_NHAPHUTRO_S.rvt (Revit 2025 Native)!
+[10:49:51] [CLOSE] Đã đóng file CMF2_NHAPHUTRO_S.rvt.
+[10:49:51] [RELOAD LINK] Đang nạp lại CMF2_NHAPHUTRO_S.rvt vào file tổng...
+[10:49:55] [RELOAD RESULT] LinkLoaded
+[10:49:55] 
+[LƯU FILE TỔNG] Đang lưu file tổng hợp để cố định toàn bộ link...
+[10:50:11] [LƯU FILE TỔNG OK] Đã lưu file tổng thành công!
+[10:50:11] 
+=== HOÀN TẤT NÂNG CẤP VÀ LƯU CỐ ĐỊNH ===

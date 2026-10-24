@@ -1,0 +1,385 @@
+﻿{
+    "totalCurves":  76,
+    "curves":  [
+                   {
+                       "id":  2371136,
+                       "type":  "ModelLine",
+                       "lineStyle":  "\u003cSketch\u003e"
+                   },
+                   {
+                       "id":  2371137,
+                       "type":  "ModelLine",
+                       "lineStyle":  "\u003cSketch\u003e"
+                   },
+                   {
+                       "id":  2371138,
+                       "type":  "ModelLine",
+                       "lineStyle":  "\u003cSketch\u003e"
+                   },
+                   {
+                       "id":  2371139,
+                       "type":  "ModelLine",
+                       "lineStyle":  "\u003cSketch\u003e"
+                   },
+                   {
+                       "id":  2371507,
+                       "type":  "ModelLine",
+                       "lineStyle":  "\u003cSketch\u003e"
+                   },
+                   {
+                       "id":  2371508,
+                       "type":  "ModelLine",
+                       "lineStyle":  "\u003cSketch\u003e"
+                   },
+                   {
+                       "id":  2371510,
+                       "type":  "ModelLine",
+                       "lineStyle":  "\u003cSketch\u003e"
+                   },
+                   {
+                       "id":  2371511,
+                       "type":  "ModelLine",
+                       "lineStyle":  "\u003cSketch\u003e"
+                   },
+                   {
+                       "id":  2371512,
+                       "type":  "ModelLine",
+                       "lineStyle":  "\u003cSketch\u003e"
+                   },
+                   {
+                       "id":  2371519,
+                       "type":  "ModelLine",
+                       "lineStyle":  "\u003cSketch\u003e"
+                   },
+                   {
+                       "id":  2371521,
+                       "type":  "ModelLine",
+                       "lineStyle":  "\u003cSketch\u003e"
+                   },
+                   {
+                       "id":  2371522,
+                       "type":  "ModelLine",
+                       "lineStyle":  "\u003cSketch\u003e"
+                   },
+                   {
+                       "id":  2371526,
+                       "type":  "ModelLine",
+                       "lineStyle":  "\u003cSketch\u003e"
+                   },
+                   {
+                       "id":  2371527,
+                       "type":  "ModelLine",
+                       "lineStyle":  "\u003cSketch\u003e"
+                   },
+                   {
+                       "id":  2371528,
+                       "type":  "ModelLine",
+                       "lineStyle":  "\u003cSketch\u003e"
+                   },
+                   {
+                       "id":  2371529,
+                       "type":  "ModelLine",
+                       "lineStyle":  "\u003cSketch\u003e"
+                   },
+                   {
+                       "id":  2371534,
+                       "type":  "ModelLine",
+                       "lineStyle":  "\u003cSketch\u003e"
+                   },
+                   {
+                       "id":  2371535,
+                       "type":  "ModelLine",
+                       "lineStyle":  "\u003cSketch\u003e"
+                   },
+                   {
+                       "id":  2371536,
+                       "type":  "ModelLine",
+                       "lineStyle":  "\u003cSketch\u003e"
+                   },
+                   {
+                       "id":  2371537,
+                       "type":  "ModelLine",
+                       "lineStyle":  "\u003cSketch\u003e"
+                   },
+                   {
+                       "id":  2371540,
+                       "type":  "ModelLine",
+                       "lineStyle":  "Reference Lines"
+                   },
+                   {
+                       "id":  2371541,
+                       "type":  "ModelLine",
+                       "lineStyle":  "Reference Lines"
+                   },
+                   {
+                       "id":  2371551,
+                       "type":  "ModelLine",
+                       "lineStyle":  "\u003cSketch\u003e"
+                   },
+                   {
+                       "id":  2371552,
+                       "type":  "ModelLine",
+                       "lineStyle":  "\u003cSketch\u003e"
+                   },
+                   {
+                       "id":  2371553,
+                       "type":  "ModelLine",
+                       "lineStyle":  "\u003cSketch\u003e"
+                   },
+                   {
+                       "id":  2371554,
+                       "type":  "ModelLine",
+                       "lineStyle":  "\u003cSketch\u003e"
+                   },
+                   {
+                       "id":  2371555,
+                       "type":  "ModelLine",
+                       "lineStyle":  "\u003cSketch\u003e"
+                   },
+                   {
+                       "id":  2371556,
+                       "type":  "ModelLine",
+                       "lineStyle":  "\u003cSketch\u003e"
+                   },
+                   {
+                       "id":  2371557,
+                       "type":  "ModelLine",
+                       "lineStyle":  "\u003cSketch\u003e"
+                   },
+                   {
+                       "id":  2371558,
+                       "type":  "ModelLine",
+                       "lineStyle":  "\u003cSketch\u003e"
+                   },
+                   {
+                       "id":  2371590,
+                       "type":  "SymbolicCurve",
+                       "lineStyle":  "Windows"
+                   },
+                   {
+                       "id":  2371593,
+                       "type":  "SymbolicCurve",
+                       "lineStyle":  "Windows"
+                   },
+                   {
+                       "id":  2371602,
+                       "type":  "ModelLine",
+                       "lineStyle":  "Plan Swing"
+                   },
+                   {
+                       "id":  2371603,
+                       "type":  "ModelLine",
+                       "lineStyle":  "Plan Swing"
+                   },
+                   {
+                       "id":  2371604,
+                       "type":  "ModelLine",
+                       "lineStyle":  "Plan Swing"
+                   },
+                   {
+                       "id":  2371605,
+                       "type":  "ModelLine",
+                       "lineStyle":  "Plan Swing"
+                   },
+                   {
+                       "id":  2371609,
+                       "type":  "ModelLine",
+                       "lineStyle":  "Plan Swing"
+                   },
+                   {
+                       "id":  2371610,
+                       "type":  "ModelLine",
+                       "lineStyle":  "Plan Swing"
+                   },
+                   {
+                       "id":  2371611,
+                       "type":  "ModelLine",
+                       "lineStyle":  "Plan Swing"
+                   },
+                   {
+                       "id":  2371612,
+                       "type":  "ModelLine",
+                       "lineStyle":  "Plan Swing"
+                   },
+                   {
+                       "id":  2371621,
+                       "type":  "ModelLine",
+                       "lineStyle":  "\u003cSketch\u003e"
+                   },
+                   {
+                       "id":  2371622,
+                       "type":  "ModelLine",
+                       "lineStyle":  "\u003cSketch\u003e"
+                   },
+                   {
+                       "id":  2371623,
+                       "type":  "ModelLine",
+                       "lineStyle":  "\u003cSketch\u003e"
+                   },
+                   {
+                       "id":  2371624,
+                       "type":  "ModelLine",
+                       "lineStyle":  "\u003cSketch\u003e"
+                   },
+                   {
+                       "id":  2371627,
+                       "type":  "ModelLine",
+                       "lineStyle":  "\u003cSketch\u003e"
+                   },
+                   {
+                       "id":  2371628,
+                       "type":  "ModelLine",
+                       "lineStyle":  "\u003cSketch\u003e"
+                   },
+                   {
+                       "id":  2371629,
+                       "type":  "ModelLine",
+                       "lineStyle":  "\u003cSketch\u003e"
+                   },
+                   {
+                       "id":  2371630,
+                       "type":  "ModelLine",
+                       "lineStyle":  "\u003cSketch\u003e"
+                   },
+                   {
+                       "id":  2371633,
+                       "type":  "ModelLine",
+                       "lineStyle":  "\u003cSketch\u003e"
+                   },
+                   {
+                       "id":  2371634,
+                       "type":  "ModelLine",
+                       "lineStyle":  "\u003cSketch\u003e"
+                   },
+                   {
+                       "id":  2371635,
+                       "type":  "ModelLine",
+                       "lineStyle":  "\u003cSketch\u003e"
+                   },
+                   {
+                       "id":  2371636,
+                       "type":  "ModelLine",
+                       "lineStyle":  "\u003cSketch\u003e"
+                   },
+                   {
+                       "id":  2371637,
+                       "type":  "ModelLine",
+                       "lineStyle":  "\u003cSketch\u003e"
+                   },
+                   {
+                       "id":  2371638,
+                       "type":  "ModelLine",
+                       "lineStyle":  "\u003cSketch\u003e"
+                   },
+                   {
+                       "id":  2371639,
+                       "type":  "ModelLine",
+                       "lineStyle":  "\u003cSketch\u003e"
+                   },
+                   {
+                       "id":  2371640,
+                       "type":  "ModelLine",
+                       "lineStyle":  "\u003cSketch\u003e"
+                   },
+                   {
+                       "id":  2371641,
+                       "type":  "ModelLine",
+                       "lineStyle":  "\u003cSketch\u003e"
+                   },
+                   {
+                       "id":  2371642,
+                       "type":  "ModelLine",
+                       "lineStyle":  "\u003cSketch\u003e"
+                   },
+                   {
+                       "id":  2371643,
+                       "type":  "ModelLine",
+                       "lineStyle":  "\u003cSketch\u003e"
+                   },
+                   {
+                       "id":  2371644,
+                       "type":  "ModelLine",
+                       "lineStyle":  "\u003cSketch\u003e"
+                   },
+                   {
+                       "id":  2371647,
+                       "type":  "ModelLine",
+                       "lineStyle":  "\u003cSketch\u003e"
+                   },
+                   {
+                       "id":  2371648,
+                       "type":  "ModelLine",
+                       "lineStyle":  "\u003cSketch\u003e"
+                   },
+                   {
+                       "id":  2371649,
+                       "type":  "ModelLine",
+                       "lineStyle":  "\u003cSketch\u003e"
+                   },
+                   {
+                       "id":  2371650,
+                       "type":  "ModelLine",
+                       "lineStyle":  "\u003cSketch\u003e"
+                   },
+                   {
+                       "id":  2371658,
+                       "type":  "SymbolicCurve",
+                       "lineStyle":  "Glass"
+                   },
+                   {
+                       "id":  2371659,
+                       "type":  "SymbolicCurve",
+                       "lineStyle":  "Glass"
+                   },
+                   {
+                       "id":  2371660,
+                       "type":  "SymbolicCurve",
+                       "lineStyle":  "Glass"
+                   },
+                   {
+                       "id":  2371661,
+                       "type":  "SymbolicCurve",
+                       "lineStyle":  "Glass"
+                   },
+                   {
+                       "id":  2371666,
+                       "type":  "SymbolicCurve",
+                       "lineStyle":  "Glass"
+                   },
+                   {
+                       "id":  2371667,
+                       "type":  "SymbolicCurve",
+                       "lineStyle":  "Glass"
+                   },
+                   {
+                       "id":  2371668,
+                       "type":  "SymbolicCurve",
+                       "lineStyle":  "Glass"
+                   },
+                   {
+                       "id":  2371669,
+                       "type":  "SymbolicCurve",
+                       "lineStyle":  "Glass"
+                   },
+                   {
+                       "id":  2371676,
+                       "type":  "SymbolicCurve",
+                       "lineStyle":  "\u003cInvisible lines\u003e"
+                   },
+                   {
+                       "id":  2371677,
+                       "type":  "SymbolicCurve",
+                       "lineStyle":  "\u003cInvisible lines\u003e"
+                   },
+                   {
+                       "id":  2371678,
+                       "type":  "SymbolicCurve",
+                       "lineStyle":  "\u003cInvisible lines\u003e"
+                   },
+                   {
+                       "id":  2371679,
+                       "type":  "SymbolicCurve",
+                       "lineStyle":  "\u003cInvisible lines\u003e"
+                   }
+               ]
+}
