@@ -341,6 +341,10 @@ def perform_action(action_name, params):
         out_path = params.get("path")
         return export_selection_to_fbx(out_path)
 
+    elif action in ("export_rectangles_fbx", "export_rect_fbx"):
+        out_dir = params.get("dir", DEFAULT_FBX_DIR)
+        return export_rectangles_batch(output_dir=out_dir)
+
     elif action == "create_toolbar":
         tb = create_ai_toolbar()
         return {"success": tb is not None}
@@ -350,7 +354,7 @@ def perform_action(action_name, params):
 DEFAULT_FBX_DIR = r"D:\Dropbox\3DLib\mesh\FBX"
 
 def get_default_fbx_path():
-    """Returns the default FBX export path: D:\Dropbox\3DLib\mesh\FBX\{maxfilename}.fbx"""
+    r"""Returns the default FBX export path: D:\Dropbox\3DLib\mesh\FBX\{maxfilename}.fbx"""
     max_file = str(rt.maxFileName).strip() if rt else ""
     if max_file:
         base_name = os.path.splitext(max_file)[0]
@@ -362,9 +366,182 @@ def get_default_fbx_path():
     os.makedirs(DEFAULT_FBX_DIR, exist_ok=True)
     return os.path.join(DEFAULT_FBX_DIR, f"{base_name}.fbx")
 
+def export_rectangles_batch(rectangles=None, output_dir=None):
+    """Batch exports objects bounded by each selected (or scene) Rectangle to FBX.
+    For each rectangle:
+      - Filters all objects whose XY bounding box falls within the rectangle.
+      - Translates coordinates so rectangle position is (0, 0) (objects offset accordingly).
+      - Exports to FBX named: {maxfilename}_{rectangle.name}.fbx in D:\\Dropbox\\3DLib\\mesh\\FBX
+      - Restores original coordinates of objects immediately after export.
+    """
+    if not rt:
+        return {"error": "pymxs not loaded"}
+
+    if not output_dir:
+        output_dir = DEFAULT_FBX_DIR
+    os.makedirs(output_dir, exist_ok=True)
+
+    # 1. Determine target rectangles
+    if rectangles is None:
+        sel = list(rt.selection)
+        rect_candidates = [o for o in sel if rt.isKindOf(o, rt.Rectangle) or str(rt.classOf(o)).lower() == 'rectangle']
+        if not rect_candidates:
+            # If nothing in selection is a rectangle, search all shapes in scene
+            rect_candidates = [o for o in rt.shapes if rt.isKindOf(o, rt.Rectangle) or str(rt.classOf(o)).lower() == 'rectangle']
+        rectangles = rect_candidates
+
+    if not rectangles:
+        return {"error": "Không tìm thấy đối tượng Rectangle nào! Hãy tạo hoặc chọn ít nhất 1 Rectangle trong 3ds Max."}
+
+    max_file = str(rt.maxFileName).strip()
+    base_max_name = os.path.splitext(max_file)[0] if max_file else "Untitled"
+
+    # Configure standard FBX export settings
+    mxs_setup = """
+    (
+        FBXExporterSetParam "ResetExport"
+        FBXExporterSetParam "SelectedOnly" true
+        FBXExporterSetParam "ASCII" false
+        FBXExporterSetParam "EmbedTextures" true
+        FBXExporterSetParam "Cameras" false
+        FBXExporterSetParam "Lights" false
+        FBXExporterSetParam "Animation" false
+        FBXExporterSetParam "Triangulate" false
+        FBXExporterSetParam "ScaleFactor" 1.0
+        FBXExporterSetParam "UpAxis" "Z"
+    )
+    """
+    rt.execute(mxs_setup)
+
+    orig_sel = list(rt.selection)
+    all_rect_set = set(rectangles)
+    results = []
+    tol = 5.0  # 5mm tolerance for bounding box containment
+
+    for r in rectangles:
+        r_name = str(r.name).strip()
+        r_min_x = min(float(r.min.x), float(r.max.x))
+        r_max_x = max(float(r.min.x), float(r.max.x))
+        r_min_y = min(float(r.min.y), float(r.max.y))
+        r_max_y = max(float(r.min.y), float(r.max.y))
+
+        inside_objs = []
+        for o in rt.objects:
+            if o in all_rect_set or rt.isKindOf(o, rt.Targetobject):
+                continue
+            try:
+                o_min_x = min(float(o.min.x), float(o.max.x))
+                o_max_x = max(float(o.min.x), float(o.max.x))
+                o_min_y = min(float(o.min.y), float(o.max.y))
+                o_max_y = max(float(o.min.y), float(o.max.y))
+
+                if (o_min_x >= (r_min_x - tol) and o_max_x <= (r_max_x + tol) and
+                    o_min_y >= (r_min_y - tol) and o_max_y <= (r_max_y + tol)):
+                    inside_objs.append(o)
+            except Exception:
+                pass
+
+        if not inside_objs:
+            msg_skip = f"Rectangle '{r_name}' không chứa vật thể nào bên trong (bỏ qua)."
+            if rt:
+                rt.format(f"[MaxAI] {msg_skip}\\n")
+            results.append({"rectangle": r_name, "count": 0, "status": "skipped", "message": msg_skip})
+            continue
+
+        # Find root objects to avoid double translation on children/groups
+        inside_set = set(inside_objs)
+        root_objs = [o for o in inside_objs if o.parent is None or o.parent not in inside_set]
+
+        # Translation delta to move rectangle pos to (0,0) in X, Y
+        delta = rt.Point3(-float(r.pos.x), -float(r.pos.y), 0.0)
+
+        # Output file name: {maxfilename}_{rectangle.name}.fbx
+        safe_r_name = "".join(c for c in r_name if c.isalnum() or c in (' ', '_', '-')).strip()
+        out_filename = f"{base_max_name}_{safe_r_name}.fbx"
+        out_path = os.path.join(output_dir, out_filename)
+
+        export_ok = False
+        try:
+            # 1. Translate root objects to origin
+            for ro in root_objs:
+                if rt.isValidNode(ro):
+                    rt.move(ro, delta)
+
+            # 2. Select inside objects for export
+            rt.select(inside_objs)
+
+            # 3. Export to FBX
+            ok = rt.exportFile(out_path, rt.Name("noPrompt"), selectedOnly=True, using=rt.FBXEXP)
+            file_exists = os.path.exists(out_path)
+            export_ok = bool(ok) and file_exists
+            size_kb = round(os.path.getsize(out_path) / 1024, 1) if file_exists else 0
+
+            if export_ok:
+                res_info = {
+                    "rectangle": r_name,
+                    "filename": out_filename,
+                    "path": out_path,
+                    "count": len(inside_objs),
+                    "size_kb": size_kb,
+                    "status": "success"
+                }
+                results.append(res_info)
+                if rt:
+                    rt.format(f"[MaxAI] ✅ Đã xuất FBX: {out_filename} ({len(inside_objs)} đối tượng, {size_kb} KB)\\n")
+            else:
+                results.append({
+                    "rectangle": r_name,
+                    "filename": out_filename,
+                    "status": "failed",
+                    "error": "3ds Max exportFile trả về false"
+                })
+        except Exception as ex:
+            results.append({
+                "rectangle": r_name,
+                "status": "error",
+                "error": str(ex)
+            })
+        finally:
+            # 4. ALWAYS restore original positions
+            for ro in root_objs:
+                if rt.isValidNode(ro):
+                    rt.move(ro, -delta)
+
+    # Restore initial selection
+    if orig_sel:
+        rt.select(orig_sel)
+    else:
+        rt.clearSelection()
+
+    success_items = [item for item in results if item.get("status") == "success"]
+    total_exported = len(success_items)
+
+    summary_msg = f"Đã xuất FBX thành công cho {total_exported}/{len(rectangles)} Rectangle vào {output_dir}"
+    if rt:
+        rt.displayTempPrompt(summary_msg, 6000)
+    if _CHATBOT_WINDOW:
+        detail_lines = []
+        for item in results:
+            if item.get("status") == "success":
+                detail_lines.append(f"• 📐 <b>{item['rectangle']}</b> ➔ <code>{item['filename']}</code> ({item['count']} objs, {item['size_kb']} KB)")
+            elif item.get("status") == "skipped":
+                detail_lines.append(f"• ⚠️ <b>{item['rectangle']}</b>: Không có vật thể bên trong")
+            else:
+                detail_lines.append(f"• ❌ <b>{item['rectangle']}</b>: Lỗi xuất")
+        _CHATBOT_WINDOW.append_message("📦 Export FBX Rectangles", f"✅ {summary_msg}:<br/>" + "<br/>".join(detail_lines), color="#98c379")
+
+    return {
+        "success": total_exported > 0,
+        "total_rectangles": len(rectangles),
+        "exported_count": total_exported,
+        "output_dir": output_dir,
+        "results": results
+    }
+
 def export_selection_to_fbx(output_path=None, prompt_dialog=False):
-    """Exports currently selected objects in 3ds Max to an FBX file.
+    r"""Exports currently selected objects in 3ds Max to an FBX file.
     Default destination: D:\Dropbox\3DLib\mesh\FBX\{maxfilename}.fbx
+    If selection consists entirely of Rectangle shapes, delegates to batch rectangle export.
     """
     if not rt:
         return {"error": "pymxs not loaded"}
@@ -372,6 +549,11 @@ def export_selection_to_fbx(output_path=None, prompt_dialog=False):
     count = int(rt.selection.count)
     if count == 0:
         return {"error": "Chưa có đối tượng nào được chọn! Hãy chọn ít nhất 1 đối tượng trong 3ds Max."}
+
+    # TÙY CHỌN BATCH RECTANGLE: Nếu toàn bộ đối tượng chọn là Rectangle -> Xuất FBX theo từng Rectangle
+    sel = list(rt.selection)
+    if len(sel) > 0 and all(rt.isKindOf(o, rt.Rectangle) or str(rt.classOf(o)).lower() == 'rectangle' for o in sel):
+        return export_rectangles_batch(rectangles=sel, output_dir=DEFAULT_FBX_DIR)
 
     if not output_path:
         default_file = get_default_fbx_path()
@@ -493,8 +675,12 @@ def create_ai_toolbar(main_wnd=None):
         return export_selection_to_fbx(prompt_dialog=is_shift)
 
     act_fbx = tb.addAction("📦 Export FBX ")
-    act_fbx.setToolTip("Xuất FBX vào D:\\Dropbox\\3DLib\\mesh\\FBX\\{maxfilename}.fbx (Giữ Shift để chọn nơi lưu khác)")
+    act_fbx.setToolTip("Xuất FBX vào D:\\Dropbox\\3DLib\\mesh\\FBX\\{maxfilename}.fbx (Tự động batch nếu chọn Rectangle; Giữ Shift để đổi nơi lưu)")
     act_fbx.triggered.connect(lambda: run_on_main_thread(_on_export_click))
+
+    act_rect_fbx = tb.addAction("📐 FBX Rectangles ")
+    act_rect_fbx.setToolTip("Xuất FBX theo từng Rectangle: lọc các vật thể lọt lòng XY, đưa về gốc (0,0) -> D:\\Dropbox\\3DLib\\mesh\\FBX\\{maxfilename}_{rect}.fbx")
+    act_rect_fbx.triggered.connect(lambda: run_on_main_thread(export_rectangles_batch))
 
     act_copilot = tb.addAction("🤖 AI Copilot ")
     act_copilot.setToolTip("Hiện / Ẩn panel AI Copilot ở lề phải")
@@ -623,6 +809,20 @@ def handle_chat_prompt(prompt):
         except Exception as e:
             return {"reply": f"❌ Không thể mở thư mục: {e}", "data": {}}
 
+    # Rectangle Batch Export
+    if any(k in p_lower for k in ["rectangle", "hcn", "hình chữ nhật", "batch fbx"]) and any(k in p_lower for k in ["xuất", "xuat", "lưu", "save", "export", "chạy"]):
+        res = export_rectangles_batch()
+        if res.get("success"):
+            return {
+                "reply": f"✅ Đã xuất FBX thành công cho {res.get('exported_count')}/{res.get('total_rectangles')} Rectangle vào `{res.get('output_dir')}`!",
+                "data": res
+            }
+        else:
+            return {
+                "reply": f"⚠️ {res.get('error', 'Không tìm thấy Rectangle hoặc lỗi xuất file')}",
+                "data": res
+            }
+
     # 1. Toolbar & Export FBX
     if "fbx" in p_lower or any(k in p_lower for k in ["toolbar", "thanh công cụ", "3dlib", "mesh/fbx"]):
         # Always ensure the AI toolbar is created/visible on top
@@ -731,7 +931,7 @@ if QtWidgets:
 
             # Quick Action: Prominent Export FBX Button
             btn_fbx = QtWidgets.QPushButton("📦 Xuất File FBX  ")
-            btn_fbx.setToolTip("Xuất selection vào D:\\Dropbox\\3DLib\\mesh\\FBX\\{maxfilename}.fbx (Giữ Shift để đổi nơi lưu)")
+            btn_fbx.setToolTip("Xuất selection vào D:\\Dropbox\\3DLib\\mesh\\FBX\\{maxfilename}.fbx (Tự động batch nếu chọn Rectangle; Giữ Shift để đổi nơi lưu)")
             btn_fbx.setFixedHeight(26)
             btn_fbx.setStyleSheet("""
                 QPushButton {
@@ -750,6 +950,27 @@ if QtWidgets:
             """)
             btn_fbx.clicked.connect(self.on_quick_export_fbx)
             layout.addWidget(btn_fbx)
+
+            btn_fbx_rect = QtWidgets.QPushButton("📐 Xuất FBX theo Rectangle  ")
+            btn_fbx_rect.setToolTip("Lọc vật thể lọt trong bbox XY của từng Rectangle, đưa về gốc (0,0) -> D:\\Dropbox\\3DLib\\mesh\\FBX\\{maxfilename}_{rect}.fbx")
+            btn_fbx_rect.setFixedHeight(26)
+            btn_fbx_rect.setStyleSheet("""
+                QPushButton {
+                    background-color: #21252b;
+                    color: #61afef;
+                    font-weight: bold;
+                    border: 1px solid #61afef;
+                    border-radius: 4px;
+                    font-size: 11px;
+                    padding: 2px;
+                }
+                QPushButton:hover {
+                    background-color: #61afef;
+                    color: #1e2227;
+                }
+            """)
+            btn_fbx_rect.clicked.connect(self.on_quick_export_rect_fbx)
+            layout.addWidget(btn_fbx_rect)
 
             # Secondary Quick Actions Row
             row2_layout = QtWidgets.QHBoxLayout()
@@ -875,11 +1096,22 @@ if QtWidgets:
             self.append_message("👤 Bạn", "📦 [Nút Nhanh] Xuất FBX cho Selection", color="#98c379")
             res = export_selection_to_fbx(prompt_dialog=is_shift)
             if res.get("success"):
-                self.append_message("🤖 AI", f"✅ Đã xuất thành công FBX: {res.get('filename')} ({res.get('size_kb')} KB, {res.get('selected_count')} đối tượng)!\n• Đường dẫn: {res.get('path')}")
+                if res.get("exported_count"):
+                    self.append_message("🤖 AI", f"✅ Đã xuất FBX thành công cho {res.get('exported_count')}/{res.get('total_rectangles')} Rectangle vào `{res.get('output_dir')}`!")
+                else:
+                    self.append_message("🤖 AI", f"✅ Đã xuất thành công FBX: {res.get('filename')} ({res.get('size_kb')} KB, {res.get('selected_count')} đối tượng)!\n• Đường dẫn: {res.get('path')}")
             elif res.get("cancelled"):
                 self.append_message("🤖 AI", "ℹ️ Đã hủy xuất file.")
             else:
                 self.append_message("🤖 AI", f"❌ {res.get('error', 'Lỗi không xác định')}", color="#e06c75")
+
+        def on_quick_export_rect_fbx(self):
+            self.append_message("👤 Bạn", "📐 [Nút Nhanh] Xuất FBX theo từng Rectangle lọt lòng về gốc (0,0)", color="#61afef")
+            res = export_rectangles_batch()
+            if res.get("success"):
+                self.append_message("🤖 AI", f"✅ Đã xuất FBX thành công cho {res.get('exported_count')}/{res.get('total_rectangles')} Rectangle vào `{res.get('output_dir')}`!")
+            else:
+                self.append_message("🤖 AI", f"❌ {res.get('error', 'Không tìm thấy Rectangle hoặc lỗi xuất file')}", color="#e06c75")
 
         def on_quick_inspect(self):
             self.append_message("👤 Bạn", "🔍 [Nút Nhanh] Kiểm tra scene", color="#61afef")
