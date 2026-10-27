@@ -62,7 +62,16 @@ import urllib.error
 
 
 
-from flask import Flask, render_template_string, request, jsonify, send_from_directory, make_response, send_file
+from flask import Flask, render_template_string, request, jsonify, send_from_directory, make_response, send_file, redirect
+import mimetypes
+
+mimetypes.init()
+mimetypes.add_type('application/javascript', '.js')
+mimetypes.add_type('application/javascript', '.mjs')
+mimetypes.add_type('text/css', '.css')
+mimetypes.add_type('application/wasm', '.wasm')
+mimetypes.add_type('application/json', '.json')
+
 
 
 
@@ -135,6 +144,19 @@ from scripts.select_by_grid import select_elements_by_grid
 
 
 app = Flask(__name__)
+
+@app.after_request
+def ensure_correct_mime_types(response):
+    req_path = request.path.lower()
+    if req_path.endswith(('.js', '.mjs')):
+        response.headers['Content-Type'] = 'application/javascript; charset=utf-8'
+    elif req_path.endswith('.css'):
+        response.headers['Content-Type'] = 'text/css; charset=utf-8'
+    elif req_path.endswith('.wasm'):
+        response.headers['Content-Type'] = 'application/wasm'
+    elif req_path.endswith('.json'):
+        response.headers['Content-Type'] = 'application/json; charset=utf-8'
+    return response
 
 
 
@@ -343,18 +365,22 @@ HTML_TEMPLATE = """
 
 
       <h1 class="text-base font-bold tracking-tight text-slate-900 flex items-center gap-2">
-
-
-
         <span class="w-2.5 h-2.5 rounded-full bg-indigo-600"></span>
-
-
-
         <span>RevitAI Studio</span>
-
-
-
       </h1>
+
+      <!-- Direct 3D WebGL Dev Server Quick Links -->
+      <div class="hidden sm:flex items-center gap-2 ml-2">
+        <a href="http://localhost:5173/" target="_blank" class="px-2.5 py-1 rounded-xl bg-gradient-to-r from-teal-600 to-cyan-600 hover:from-teal-500 hover:to-cyan-500 text-white font-bold text-xs flex items-center gap-1.5 shadow-sm transition active:scale-95" title="Mở Dev Server Ocean Beach Thái Đăng (Port 5173)">
+          <span>🌊</span> Ocean Beach :5173
+        </a>
+        <a href="http://localhost:8080/" target="_blank" class="px-2.5 py-1 rounded-xl bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 hover:from-indigo-500 hover:to-pink-500 text-white font-bold text-xs flex items-center gap-1.5 shadow-sm transition active:scale-95" title="Mở Domenicobrz WebGL Suite :8080 (37 Projects Render Đỉnh Cao)">
+          <span>💎</span> Domenicobrz WebGL :8080
+        </a>
+        <a href="http://localhost:3000/" target="_blank" class="px-2.5 py-1 rounded-xl bg-gradient-to-r from-amber-600 via-orange-600 to-red-600 hover:from-amber-500 hover:to-red-500 text-white font-bold text-xs flex items-center gap-1.5 shadow-sm transition active:scale-95" title="Mở Aardwolf Vacuum Lifter PBR Studio :3000 (Cornell Box & PBR Materials)">
+          <span>🪝</span> Aardwolf PBR :3000
+        </a>
+      </div>
 
 
 
@@ -1076,6 +1102,33 @@ HTML_TEMPLATE = """
                   <span>14. MEP AI Studio 3D</span>
                 </div>
                 <div class="tab-subtitle text-[11px] text-slate-500 truncate mt-0.5">Điện, Nước, HVAC &bull; BIM 3D & BOQ</div>
+              </button>
+
+              <!-- Item 15: Domenicobrz WebGL Suite 3D -->
+              <button onclick="switchTab('tab-threejs-gallery')" id="btn-tab-threejs-gallery" title="15. Domenicobrz WebGL Suite: 37 Project render đỉnh cao (Path Tracing, SSR, CarShow, Glass Refraction, Caustics)" class="tab-btn w-full text-left p-2.5 rounded-xl bg-slate-50 hover:bg-slate-100 text-slate-800 border border-slate-200 flex flex-col justify-center transition group cursor-pointer hover:shadow-xs">
+                <div class="font-bold text-xs truncate flex items-center gap-1.5">
+                  <span class="w-2 h-2 rounded-full bg-purple-500 shrink-0"></span>
+                  <span>15. Domenicobrz WebGL Hub</span>
+                </div>
+                <div class="tab-subtitle text-[11px] text-slate-500 truncate mt-0.5">Path Tracing, SSR, CarShow &bull; 37 Masterpieces</div>
+              </button>
+
+              <!-- Item 17: Aardwolf Vacuum 3D Studio -->
+              <button onclick="switchTab('tab-aardwolf-studio')" id="btn-tab-aardwolf-studio" title="17. Aardwolf Vacuum 3D Studio: Cornell Box Path-Tracing, Thư viện Vật liệu PBR (Vàng, Nhôm, Đồng, Thép, Chrome, Kính, Nhựa, Cao su)" class="tab-btn w-full text-left p-2.5 rounded-xl bg-slate-50 hover:bg-slate-100 text-slate-800 border border-slate-200 flex flex-col justify-center transition group cursor-pointer hover:shadow-xs">
+                <div class="font-bold text-xs truncate flex items-center gap-1.5">
+                  <span class="w-2 h-2 rounded-full bg-amber-500 shrink-0"></span>
+                  <span>17. Aardwolf Vacuum 3D Studio</span>
+                </div>
+                <div class="tab-subtitle text-[11px] text-slate-500 truncate mt-0.5">Cornell Box &bull; PBR Material Library</div>
+              </button>
+
+              <!-- Item 16: Ocean Beach 3D Studio -->
+              <button onclick="switchTab('tab-ocean-beach')" id="btn-tab-ocean-beach" title="16. Ocean Beach 3D Studio: Sóng biển Gerstner, bọt biển xô bờ, tán xạ quang học & mô phỏng vật lý trôi nổi" class="tab-btn w-full text-left p-2.5 rounded-xl bg-slate-50 hover:bg-slate-100 text-slate-800 border border-slate-200 flex flex-col justify-center transition group cursor-pointer hover:shadow-xs">
+                <div class="font-bold text-xs truncate flex items-center gap-1.5">
+                  <span class="w-2 h-2 rounded-full bg-teal-500 shrink-0"></span>
+                  <span>16. Ocean Beach 3D Studio</span>
+                </div>
+                <div class="tab-subtitle text-[11px] text-slate-500 truncate mt-0.5">Sóng Biển Gerstner, Caustics &bull; Thái Đăng Shader</div>
               </button>
 
 
@@ -14231,6 +14284,178 @@ Sẵn sàng thông dịch SketchUp Ruby sang Wavefront 3D OBJ.
         </div>
 
 
+
+
+        <!-- ==================================================================== -->
+        <!-- TAB 15: KHO VÍ DỤ THREE.JS 3D CHUẨN (OFFICIAL THREE.JS 3D GALLERY)   -->
+        <!-- ==================================================================== -->
+        <div id="tab-threejs-gallery" class="tab-content hidden bg-white border border-slate-200 rounded-2xl p-5 sm:p-6 shadow-sm space-y-4">
+          <!-- Main Header with Live Status & Quick Action Controls -->
+          <div class="border-b border-slate-100 pb-3 flex flex-wrap items-center justify-between gap-3">
+            <div>
+              <div class="flex items-center gap-2">
+                <span class="p-1.5 rounded-xl bg-purple-50 text-purple-700 border border-purple-100">
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 10l-2 1m0 0l-2-1m2 1v2.5M20 7l-2 1m2-1l-2-1m2 1v2.5M14 4l-2-1-2 1M4 7l2-1M4 7l2 1M4 7v2.5M12 21l-2-1m2 1l2-1m-2 1v-2.5M6 18l-2-1v-2.5M18 18l2-1v-2.5"/></svg>
+                </span>
+                <h2 class="text-base font-bold text-slate-800">15. Domenicobrz WebGL Masterpieces Suite</h2>
+                <span class="text-[11px] px-2 py-0.5 rounded-full bg-purple-100 text-purple-800 font-semibold border border-purple-200">37 Projects Đỉnh Cao</span>
+              </div>
+              <p class="text-xs text-slate-500 mt-1">Tích hợp trực tiếp từ D:/Dropbox/_Documents/Threejs: Path Tracing, Screen Space Reflections (SSR), CarShow, Glass Refraction & Caustics</p>
+            </div>
+            <div class="flex items-center gap-2 flex-wrap">
+              <a href="http://localhost:8080/" target="_blank" class="px-3 py-1.5 text-xs font-bold rounded-xl bg-gradient-to-r from-purple-600 via-indigo-600 to-pink-600 hover:from-purple-500 hover:to-pink-500 text-white flex items-center gap-1.5 shadow-sm transition cursor-pointer" title="Mở tab riêng Domenicobrz WebGL Hub :8080">
+                <span>💎</span> Dev Hub (:8080)
+              </a>
+              <button onclick="window.open('/domenicobrz/', '_blank')" class="px-3 py-1.5 text-xs font-bold rounded-xl bg-slate-800 hover:bg-slate-700 text-white shadow-sm flex items-center gap-1.5 transition cursor-pointer">
+                <span>↗️</span> Tab Mới (Nội Bộ)
+              </button>
+              <button onclick="openDomenicobrzSourceFolder()" class="px-3 py-1.5 text-xs font-semibold rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 border border-slate-200 flex items-center gap-1.5 transition cursor-pointer" title="Mở thư mục D:/Dropbox/_Documents/Threejs">
+                <span>📂</span> Mã Nguồn Threejs
+              </button>
+            </div>
+          </div>
+
+          <!-- Quick Navigation Presets -->
+          <div class="p-3 rounded-xl bg-slate-900 border border-slate-800 flex flex-wrap items-center justify-between gap-2 text-xs">
+            <div class="flex items-center gap-1.5 flex-wrap">
+              <span class="text-slate-400 font-semibold mr-1 text-[11px]">Dự Án Render:</span>
+              <button onclick="loadThreejsUrl('/domenicobrz/', '💎 Domenicobrz WebGL Hub (Tích hợp nội bộ :5000)')" class="px-2.5 py-1 rounded-lg bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-500 hover:to-indigo-500 text-white font-bold text-[11px] shadow-sm transition flex items-center gap-1 cursor-pointer">
+                💎 Domenicobrz Hub (:5000)
+              </button>
+              <button onclick="loadThreejsUrl('/domenicobrz/CarShow/build/index.html', '🚗 CarShow (Showroom Siêu Xe 3D)')" class="px-2.5 py-1 rounded-lg bg-amber-600 hover:bg-amber-500 text-white font-medium text-[11px] transition flex items-center gap-1 cursor-pointer">
+                🚗 CarShow
+              </button>
+              <button onclick="loadThreejsUrl('/domenicobrz/SS-refraction-through-depth-peeling-in-threejs/index.html', '🔮 Glass Refraction (Khúc Xạ Thủy Tinh Depth Peeling)')" class="px-2.5 py-1 rounded-lg bg-sky-700 hover:bg-sky-600 text-white font-medium text-[11px] transition flex items-center gap-1 cursor-pointer">
+                🔮 Khúc Xạ Thủy Tinh
+              </button>
+              <button onclick="loadThreejsUrl('/domenicobrz/WebGL-dispersion-caustics/dist/index.html', '✨ Dispersion Caustics (Tán Sắc Lăng Kính & Tụ Quang)')" class="px-2.5 py-1 rounded-lg bg-indigo-700 hover:bg-indigo-600 text-white font-medium text-[11px] transition flex items-center gap-1 cursor-pointer">
+                ✨ Tụ Quang Caustics
+              </button>
+              <button onclick="loadThreejsUrl('/domenicobrz/SSR-TAA-in-threejs-/index.html', '⚡ SSR & TAA (Phản Xạ Mặt Phẳng Thời Gian Thực)')" class="px-2.5 py-1 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 font-medium text-[11px] transition flex items-center gap-1 cursor-pointer">
+                ⚡ Phản Xạ SSR
+              </button>
+              <button onclick="loadThreejsUrl('http://localhost:8080/', '💎 Dev Server Domenicobrz (:8080)')" class="px-2.5 py-1 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 font-medium text-[11px] transition flex items-center gap-1 cursor-pointer">
+                💎 Dev Port :8080
+              </button>
+            </div>
+            <div>
+              <button onclick="loadThreejsDemo('webgl_water.html', '🌊 Sóng Nước Three.js Master')" class="px-2.5 py-1 rounded-lg bg-cyan-700 hover:bg-cyan-600 text-white font-medium text-[11px] transition flex items-center gap-1 cursor-pointer">
+                🌊 Threejs Water
+              </button>
+            </div>
+          </div>
+
+          <!-- Status Bar -->
+          <div id="threejsLiveStatus" class="p-2.5 rounded-xl bg-slate-100 text-slate-700 text-xs font-mono border border-slate-200 flex items-center justify-between">
+            <span id="threejsCurrentDemoLabel">💡 Đang hiển thị: <strong class="text-purple-700">Domenicobrz WebGL Hub (/domenicobrz/)</strong></span>
+            <span class="text-slate-400 text-[11px]">Đường dẫn: D:/Dropbox/_Documents/Threejs</span>
+          </div>
+
+          <!-- Iframe Container -->
+          <div class="w-full h-[700px] sm:h-[780px] rounded-2xl overflow-hidden border border-slate-800 shadow-xl bg-slate-950 relative">
+            <iframe id="threejsGalleryIframe" src="/domenicobrz/" class="w-full h-full border-0" allow="fullscreen; xr-spatial-tracking; accelerometer; gyroscope"></iframe>
+          </div>
+        </div>
+
+        <!-- ==================================================================== -->
+        <!-- TAB 16: OCEAN BEACH 3D STUDIO (THÁI ĐĂNG WATER SHADER)              -->
+        <!-- ==================================================================== -->
+        <div id="tab-ocean-beach" class="tab-content hidden bg-white border border-slate-200 rounded-2xl p-5 sm:p-6 shadow-sm space-y-4">
+          <!-- Main Header -->
+          <div class="border-b border-slate-100 pb-3 flex flex-wrap items-center justify-between gap-3">
+            <div>
+              <div class="flex items-center gap-2">
+                <span class="p-1.5 rounded-xl bg-teal-50 text-teal-700 border border-teal-100">
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+                </span>
+                <h2 class="text-base font-bold text-slate-800">16. Ocean Beach 3D Studio • Sóng Biển & Bọt Nước Siêu Thực</h2>
+                <span class="text-[11px] px-2 py-0.5 rounded-full bg-teal-100 text-teal-800 font-semibold border border-teal-200">Gerstner Waves & SSS</span>
+              </div>
+              <p class="text-xs text-slate-500 mt-1">Dự án render nước biển thời gian thực (Three.js WebGL): Sóng biển Gerstner 26 tầng, bọt xô bờ, khúc xạ Beer-Lambert, tán xạ ánh sáng và tương tác thả vật nổi</p>
+            </div>
+            <div class="flex items-center gap-2 flex-wrap">
+              <a href="http://localhost:5173/" target="_blank" class="px-3 py-1.5 text-xs font-bold rounded-xl bg-gradient-to-r from-teal-600 to-cyan-600 hover:from-teal-500 hover:to-cyan-500 text-white flex items-center gap-1.5 shadow-sm transition cursor-pointer" title="Mở Dev Server Vite :5173">
+                <span>⚡</span> Dev Server (:5173)
+              </a>
+              <button onclick="window.open('/ocean-beach/', '_blank')" class="px-3 py-1.5 text-xs font-bold rounded-xl bg-slate-800 hover:bg-slate-700 text-white shadow-sm flex items-center gap-1.5 transition cursor-pointer">
+                <span>↗️</span> Toàn Màn Hình Tab Mới
+              </button>
+              <button onclick="openOceanBeachSourceFolder()" class="px-3 py-1.5 text-xs font-semibold rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 border border-slate-200 flex items-center gap-1.5 transition cursor-pointer" title="Mở thư mục WaterThreeJS">
+                <span>📂</span> Mở Mã Nguồn
+              </button>
+            </div>
+          </div>
+
+          <!-- Feature & Hint Bar -->
+          <div class="p-3 rounded-xl bg-slate-900 border border-slate-800 flex flex-wrap items-center justify-between gap-2.5 text-xs">
+            <div class="flex items-center gap-2 flex-wrap text-slate-300">
+              <span class="text-teal-400 font-semibold">💡 Thao tác:</span>
+              <span>• <strong>Xoay/Cuộn</strong> chuột để bay lượn ngắm cảnh hoặc lặn xuống đáy biển</span>
+              <span>• <strong>Double-click</strong> lên mặt nước để thả khối hộp dập dềnh (Buoyancy)</span>
+              <span>• <strong>Kéo chuột</strong> để dời vật thể</span>
+            </div>
+            <div class="flex items-center gap-1.5">
+              <button onclick="document.getElementById('oceanBeachIframe').src = '/ocean-beach/'" class="px-2.5 py-1 rounded-lg bg-teal-700 hover:bg-teal-600 text-white font-medium text-[11px] transition cursor-pointer">
+                🔄 Nạp Lại Bản Nội Bộ
+              </button>
+              <button onclick="document.getElementById('oceanBeachIframe').src = 'http://localhost:5173/'" class="px-2.5 py-1 rounded-lg bg-cyan-700 hover:bg-cyan-600 text-white font-medium text-[11px] transition cursor-pointer">
+                ⚡ Nạp Bản Dev (:5173)
+              </button>
+            </div>
+
+        <!-- TAB 17: AARDWOLF VACUUM 3D STUDIO (CORNELL BOX & PBR MATERIALS) -->
+        <div id="tab-aardwolf-studio" class="tab-content hidden bg-white border border-slate-200 rounded-2xl p-5 sm:p-6 shadow-sm space-y-4">
+          <!-- Main Header -->
+          <div class="border-b border-slate-100 pb-3 flex flex-wrap items-center justify-between gap-3">
+            <div>
+              <div class="flex items-center gap-2">
+                <span class="p-1.5 rounded-xl bg-amber-50 text-amber-700 border border-amber-100">
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/></svg>
+                </span>
+                <h2 class="text-base font-bold text-slate-800">17. Aardwolf Vacuum Lifter 3D Studio &bull; PBR Material Customizer</h2>
+                <span class="text-[11px] px-2 py-0.5 rounded-full bg-amber-100 text-amber-800 font-semibold border border-amber-200">Cornell Path-Tracing & PBR Libraries</span>
+              </div>
+              <p class="text-xs text-slate-500 mt-1">Môi trường ánh sáng Cornell Box chuẩn theo demo Realtime Path Tracing. Tùy chọn trực tiếp vật liệu PBR (Vàng 24K, Nhôm, Đồng, Thép, Chrome, Kính hấp thụ, Nhựa bóng, Cao su) cho từng bộ phận máy.</p>
+            </div>
+            <div class="flex items-center gap-2 flex-wrap">
+              <a href="http://localhost:3000/" target="_blank" class="px-3 py-1.5 text-xs font-bold rounded-xl bg-gradient-to-r from-amber-600 via-orange-600 to-red-600 hover:from-amber-500 hover:to-red-500 text-white flex items-center gap-1.5 shadow-sm transition cursor-pointer" title="Mở Dev Server Vite :3000">
+                <span>🚀</span> Dev Server (:3000)
+              </a>
+              <button onclick="document.getElementById('aardwolfIframe').src = '/aardwolf/'" class="px-3 py-1.5 text-xs font-semibold rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 flex items-center gap-1.5 border border-slate-200 transition cursor-pointer">
+                <span>🔄</span> Nạp Nội Bộ
+              </button>
+              <button onclick="document.getElementById('aardwolfIframe').src = 'http://localhost:3000/'" class="px-3 py-1.5 text-xs font-semibold rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 flex items-center gap-1.5 border border-slate-200 transition cursor-pointer">
+                <span>⚡</span> Nạp Dev (:3000)
+              </button>
+              <button onclick="window.open('/aardwolf/', '_blank')" class="px-3 py-1.5 text-xs font-bold rounded-xl bg-slate-800 hover:bg-slate-700 text-white shadow-sm flex items-center gap-1.5 transition cursor-pointer">
+                <span>↗️</span> Toàn Màn Hình
+              </button>
+            </div>
+          </div>
+
+          <!-- Feature & Hint Bar -->
+          <div class="p-3 rounded-xl bg-slate-900 border border-slate-800 flex flex-wrap items-center justify-between gap-2.5 text-xs">
+            <div class="flex items-center gap-2 flex-wrap text-slate-300">
+              <span class="text-amber-400 font-semibold">✨ Chức năng:</span>
+              <span>• <strong>Cornell Path-Tracer</strong>: Bố cục ánh sáng đỏ-xanh tán xạ gián tiếp chuẩn Chrome GPU demo</span>
+              <span>• <strong>PBR Material Studio</strong>: Dropdown chọn vật liệu kim loại, kính, nhựa, cao su cho từng bộ phận</span>
+              <span>• <strong>Preset 1-Click</strong>: Vàng 24K Luxury, Chrome Siêu Bóng, Kính Hấp Thụ & Tán Sắc, Titan</span>
+            </div>
+          </div>
+
+          <!-- Iframe Container -->
+          <div class="w-full h-[720px] sm:h-[800px] rounded-2xl overflow-hidden border border-slate-800 shadow-xl bg-slate-950 relative">
+            <iframe id="aardwolfIframe" src="http://localhost:3000/" class="w-full h-full border-0" allow="fullscreen; xr-spatial-tracking; accelerometer; gyroscope"></iframe>
+          </div>
+        </div>
+          </div>
+
+          <!-- Iframe Container -->
+          <div class="w-full h-[720px] sm:h-[800px] rounded-2xl overflow-hidden border border-slate-800 shadow-xl bg-slate-950 relative">
+            <iframe id="oceanBeachIframe" src="/ocean-beach/" class="w-full h-full border-0" allow="fullscreen; xr-spatial-tracking; accelerometer; gyroscope"></iframe>
+          </div>
+        </div>
+
 </section>
 
 
@@ -15067,7 +15292,82 @@ Sẵn sàng thông dịch SketchUp Ruby sang Wavefront 3D OBJ.
 
 
 
-    // Logger
+        // Three.js Gallery Helpers
+    function loadThreejsUrl(url, label) {
+      const iframe = document.getElementById('threejsGalleryIframe');
+      const labelEl = document.getElementById('threejsCurrentDemoLabel');
+      if (iframe) {
+        iframe.src = url;
+      }
+      if (labelEl && label) {
+        labelEl.innerHTML = `💡 Đang hiển thị: <strong class="text-teal-600">${label}</strong>`;
+      }
+    }
+
+        async function openDomenicobrzSourceFolder() {
+      try {
+        await fetch('/api/domenicobrz/open-folder', { method: 'POST' });
+      } catch (e) {
+        console.error('Error opening folder:', e);
+      }
+    }
+async function openOceanBeachSourceFolder() {
+      try {
+        await fetch('/api/ocean-beach/open-folder', { method: 'POST' });
+      } catch (e) {
+        console.error('Error opening folder:', e);
+      }
+    }
+
+    function loadOceanBeachDemo() {
+      const iframe = document.getElementById('threejsGalleryIframe');
+      const labelEl = document.getElementById('threejsCurrentDemoLabel');
+      if (iframe) {
+        iframe.src = '/ocean-beach/';
+      }
+      if (labelEl) {
+        labelEl.innerHTML = `💡 Đang hiển thị: <strong class="text-teal-600">🌊 Ocean Beach Shader (Mô phỏng sóng biển, bọt nước, caustics siêu thực)</strong>`;
+      }
+    }
+
+    function reloadAardwolfIframe() {
+      const ifr = document.getElementById('aardwolf-iframe');
+      if (ifr) ifr.src = ifr.src;
+    }
+    function openAardwolfNewTab() {
+      window.open('/aardwolf/', '_blank');
+    }
+
+    function openOceanBeachNewTab() {
+      window.open('/ocean-beach/', '_blank');
+    }
+
+    function loadThreejsDemo(file, label) {
+      const iframe = document.getElementById('threejsGalleryIframe');
+      const labelEl = document.getElementById('threejsCurrentDemoLabel');
+      if (iframe) {
+        iframe.src = '/threejs-master/examples/' + file;
+      }
+      if (labelEl && label) {
+        labelEl.innerHTML = `💡 Đang hiển thị: <strong class="text-cyan-700">${label}</strong>`;
+      }
+    }
+
+    function openThreejsGalleryInNewTab() {
+      const iframe = document.getElementById('threejsGalleryIframe');
+      const currentSrc = (iframe && iframe.src) ? iframe.src : '/threejs-master/examples/index.html';
+      window.open(currentSrc, '_blank');
+    }
+
+    async function openThreejsSourceFolder() {
+      try {
+        await fetch('/api/threejs/open-folder', { method: 'POST' });
+      } catch (e) {
+        console.error('Error opening folder:', e);
+      }
+    }
+
+// Logger
 
 
 
@@ -28954,6 +29254,148 @@ def api_mep_open_folder():
         import subprocess
         subprocess.Popen(f'explorer "{target}"')
         return jsonify({"success": True, "folder": target})
+    except Exception as ex:
+        return jsonify({"success": False, "error": str(ex)})
+
+
+# ==============================================================================
+# THREE.JS MASTER GALLERY & EXAMPLES HUB
+# ==============================================================================
+THREEJS_MASTER_DIR = os.path.normpath(r"D:\Dropbox\VS Projects\libs\three.js-master\three.js-master")
+
+@app.route('/threejs-master/<path:filename>')
+def serve_threejs_master(filename):
+    return send_from_directory(THREEJS_MASTER_DIR, filename)
+
+@app.route('/threejs-gallery')
+@app.route('/threejs-gallery/')
+def serve_threejs_gallery_redirect():
+    return redirect('/threejs-master/examples/index.html')
+
+@app.route('/api/threejs/open-folder', methods=['POST'])
+def api_threejs_open_folder():
+    try:
+        import subprocess
+        subprocess.Popen(f'explorer "{THREEJS_MASTER_DIR}"')
+        return jsonify({"success": True, "folder": THREEJS_MASTER_DIR})
+    except Exception as ex:
+        return jsonify({"success": False, "error": str(ex)})
+
+# ==============================================================================
+# OCEAN BEACH WATER 3D (THAI DANG SHADER / WATER THREE JS)
+# ==============================================================================
+WATER_THREEJS_DIR = os.path.normpath(r"D:\Dropbox\VS Projects\WaterThreeJS\dist")
+
+@app.route('/ocean-beach')
+def serve_ocean_beach_redirect():
+    return redirect('/ocean-beach/')
+
+@app.route('/ocean-beach/')
+def serve_ocean_beach_index():
+    return send_from_directory(WATER_THREEJS_DIR, 'index.html')
+
+@app.route('/ocean-beach/<path:filename>')
+def serve_ocean_beach_static(filename):
+    mimetype = None
+    fn_lower = filename.lower()
+    if fn_lower.endswith(('.js', '.mjs')):
+        mimetype = 'application/javascript'
+    elif fn_lower.endswith('.css'):
+        mimetype = 'text/css'
+    elif fn_lower.endswith('.wasm'):
+        mimetype = 'application/wasm'
+    elif fn_lower.endswith('.json'):
+        mimetype = 'application/json'
+    resp = make_response(send_from_directory(WATER_THREEJS_DIR, filename, mimetype=mimetype))
+    resp.headers['Access-Control-Allow-Origin'] = '*'
+    if mimetype:
+        resp.headers['Content-Type'] = f"{mimetype}; charset=utf-8" if mimetype.startswith(('application/javascript', 'text/')) else mimetype
+    return resp
+
+@app.route('/assets/<path:filename>')
+def serve_assets_fallback(filename):
+    mimetype = None
+    fn_lower = filename.lower()
+    if fn_lower.endswith(('.js', '.mjs')):
+        mimetype = 'application/javascript'
+    elif fn_lower.endswith('.css'):
+        mimetype = 'text/css'
+    elif fn_lower.endswith('.wasm'):
+        mimetype = 'application/wasm'
+    elif fn_lower.endswith('.json'):
+        mimetype = 'application/json'
+    resp = make_response(send_from_directory(os.path.join(WATER_THREEJS_DIR, 'assets'), filename, mimetype=mimetype))
+    resp.headers['Access-Control-Allow-Origin'] = '*'
+    if mimetype:
+        resp.headers['Content-Type'] = f"{mimetype}; charset=utf-8" if mimetype.startswith(('application/javascript', 'text/')) else mimetype
+    return resp
+
+@app.route('/api/ocean-beach/open-folder', methods=['POST'])
+def api_ocean_beach_open_folder():
+    try:
+        import subprocess
+        source_dir = os.path.normpath(r"D:\Dropbox\VS Projects\WaterThreeJS")
+        subprocess.Popen(f'explorer "{source_dir}"')
+        return jsonify({"success": True, "folder": source_dir})
+    except Exception as ex:
+        return jsonify({"success": False, "error": str(ex)})
+
+# ==============================================================================
+# ==============================================================================
+# ==============================================================================
+# AARDWOLF VACUUM LIFTER 3D STUDIO (PBR MATERIALS & CORNELL PATH TRACING)
+# ==============================================================================
+AARDWOLF_DIR = os.path.normpath(r"D:/Dropbox/_Documents/_Vlance_2026/Aardwolf/dist")
+
+@app.route('/aardwolf')
+def serve_aardwolf_redirect():
+    return redirect('/aardwolf/')
+
+@app.route('/aardwolf/')
+def serve_aardwolf_index():
+    return send_from_directory(AARDWOLF_DIR, 'index.html')
+
+@app.route('/aardwolf/<path:filename>')
+def serve_aardwolf_static(filename):
+    resp = make_response(send_from_directory(AARDWOLF_DIR, filename))
+    resp.headers['Access-Control-Allow-Origin'] = '*'
+    return resp
+
+@app.route('/api/aardwolf/open-folder', methods=['POST'])
+def api_aardwolf_open_folder():
+    try:
+        import subprocess
+        source_dir = os.path.normpath(r"D:/Dropbox/_Documents/_Vlance_2026/Aardwolf")
+        subprocess.Popen(f'explorer "{source_dir}"')
+        return jsonify({"success": True, "folder": source_dir})
+    except Exception as ex:
+        return jsonify({"success": False, "error": str(ex)})
+
+# DOMENICOBRZ WEBGL SUITE NATIVE ROUTES (D:/Dropbox/_Documents/Threejs)
+# ==============================================================================
+DOMENICOBRZ_DIR = os.path.normpath(r"D:/Dropbox/_Documents/Threejs")
+
+@app.route('/domenicobrz')
+@app.route('/domenicobrz/')
+def serve_domenicobrz_index():
+    return redirect('/domenicobrz/Domenicobrz/dist/index.html')
+
+@app.route('/domenicobrz/<path:filename>')
+def serve_domenicobrz_static(filename):
+    resp = make_response(send_from_directory(DOMENICOBRZ_DIR, filename))
+    resp.headers['Access-Control-Allow-Origin'] = '*'
+    resp.headers['Cross-Origin-Resource-Policy'] = 'cross-origin'
+    if filename.startswith('Lumen-2D'):
+        resp.headers['Cross-Origin-Opener-Policy'] = 'same-origin'
+        resp.headers['Cross-Origin-Embedder-Policy'] = 'require-corp'
+    return resp
+
+@app.route('/api/domenicobrz/open-folder', methods=['POST'])
+def api_domenicobrz_open_folder():
+    try:
+        import subprocess
+        subprocess.Popen(f'explorer "{DOMENICOBRZ_DIR}"')
+        return jsonify({"success": True, "folder": DOMENICOBRZ_DIR})
     except Exception as ex:
         return jsonify({"success": False, "error": str(ex)})
 
