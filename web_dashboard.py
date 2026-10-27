@@ -1803,8 +1803,6 @@ HTML_TEMPLATE = """
         </button>
 
         <div id="leftPanelExpandBar" class="hidden"></div>
-          <span class="text-[11px] text-slate-400 hidden md:inline">Không gian làm việc mở rộng tối đa (9 Cột)</span>
-        </div>
 
 
 
@@ -14402,8 +14400,17 @@ Sẵn sàng thông dịch SketchUp Ruby sang Wavefront 3D OBJ.
                 ⚡ Nạp Bản Dev (:5173)
               </button>
             </div>
+          </div>
 
-        <!-- TAB 17: AARDWOLF VACUUM 3D STUDIO (CORNELL BOX & PBR MATERIALS) -->
+          <!-- Iframe Container -->
+          <div class="w-full h-[720px] sm:h-[800px] rounded-2xl overflow-hidden border border-slate-800 shadow-xl bg-slate-950 relative">
+            <iframe id="oceanBeachIframe" src="/ocean-beach/" class="w-full h-full border-0" allow="fullscreen; xr-spatial-tracking; accelerometer; gyroscope"></iframe>
+          </div>
+        </div>
+
+        <!-- ==================================================================== -->
+        <!-- TAB 17: AARDWOLF VACUUM 3D STUDIO (CORNELL BOX & PBR MATERIALS)     -->
+        <!-- ==================================================================== -->
         <div id="tab-aardwolf-studio" class="tab-content hidden bg-white border border-slate-200 rounded-2xl p-5 sm:p-6 shadow-sm space-y-4">
           <!-- Main Header -->
           <div class="border-b border-slate-100 pb-3 flex flex-wrap items-center justify-between gap-3">
@@ -14446,13 +14453,6 @@ Sẵn sàng thông dịch SketchUp Ruby sang Wavefront 3D OBJ.
           <!-- Iframe Container -->
           <div class="w-full h-[720px] sm:h-[800px] rounded-2xl overflow-hidden border border-slate-800 shadow-xl bg-slate-950 relative">
             <iframe id="aardwolfIframe" src="http://localhost:3000/" class="w-full h-full border-0" allow="fullscreen; xr-spatial-tracking; accelerometer; gyroscope"></iframe>
-          </div>
-        </div>
-          </div>
-
-          <!-- Iframe Container -->
-          <div class="w-full h-[720px] sm:h-[800px] rounded-2xl overflow-hidden border border-slate-800 shadow-xl bg-slate-950 relative">
-            <iframe id="oceanBeachIframe" src="/ocean-beach/" class="w-full h-full border-0" allow="fullscreen; xr-spatial-tracking; accelerometer; gyroscope"></iframe>
           </div>
         </div>
 
@@ -26236,9 +26236,9 @@ async function openOceanBeachSourceFolder() {
 
 
 
+      </div>
+
     </div>
-
-
 
   </div>
 
