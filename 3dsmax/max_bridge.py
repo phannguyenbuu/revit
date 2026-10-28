@@ -345,6 +345,12 @@ def perform_action(action_name, params):
         out_dir = params.get("dir", DEFAULT_FBX_DIR)
         return export_rectangles_batch(output_dir=out_dir)
 
+    elif action in ("native_export", "max_export"):
+        return native_max_export()
+
+    elif action in ("native_import", "max_import"):
+        return native_max_import()
+
     elif action == "create_toolbar":
         tb = create_ai_toolbar()
         return {"success": tb is not None}
@@ -352,6 +358,32 @@ def perform_action(action_name, params):
     return {"error": f"Unknown action: {action_name}"}
 
 DEFAULT_FBX_DIR = r"D:\Dropbox\3DLib\mesh\FBX"
+
+def native_max_export():
+    """Triggers native 3ds Max File Export command dialog."""
+    if rt:
+        try:
+            rt.execute("max file export")
+            return {"success": True, "message": "Đã gọi hộp thoại File Export của 3ds Max."}
+        except Exception as e:
+            err = str(e)
+            if _CHATBOT_WINDOW:
+                _CHATBOT_WINDOW.append_message("🤖 AI", f"❌ Lỗi mở Export: {err}", color="#e06c75")
+            return {"error": err}
+    return {"error": "pymxs not loaded"}
+
+def native_max_import():
+    """Triggers native 3ds Max File Import command dialog."""
+    if rt:
+        try:
+            rt.execute("max file import")
+            return {"success": True, "message": "Đã gọi hộp thoại File Import của 3ds Max."}
+        except Exception as e:
+            err = str(e)
+            if _CHATBOT_WINDOW:
+                _CHATBOT_WINDOW.append_message("🤖 AI", f"❌ Lỗi mở Import: {err}", color="#e06c75")
+            return {"error": err}
+    return {"error": "pymxs not loaded"}
 
 def get_default_fbx_path():
     r"""Returns the default FBX export path: D:\Dropbox\3DLib\mesh\FBX\{maxfilename}.fbx"""
@@ -674,6 +706,14 @@ def create_ai_toolbar(main_wnd=None):
                 is_shift = bool(app.keyboardModifiers() & QtCore.Qt.ShiftModifier)
         return export_selection_to_fbx(prompt_dialog=is_shift)
 
+    act_native_export = tb.addAction("📤 Export ")
+    act_native_export.setToolTip("Lệnh Export gốc của 3ds Max (File -> Export)")
+    act_native_export.triggered.connect(lambda: run_on_main_thread(native_max_export))
+
+    act_native_import = tb.addAction("📥 Import ")
+    act_native_import.setToolTip("Lệnh Import gốc của 3ds Max (File -> Import)")
+    act_native_import.triggered.connect(lambda: run_on_main_thread(native_max_import))
+
     act_fbx = tb.addAction("📦 Export FBX ")
     act_fbx.setToolTip("Xuất FBX vào D:\\Dropbox\\3DLib\\mesh\\FBX\\{maxfilename}.fbx (Tự động batch nếu chọn Rectangle; Giữ Shift để đổi nơi lưu)")
     act_fbx.triggered.connect(lambda: run_on_main_thread(_on_export_click))
@@ -929,6 +969,55 @@ if QtWidgets:
             """)
             layout.addWidget(self.chat_display, stretch=1)
 
+            # Native 3ds Max File Actions (Export & Import) Row - Nằm chung 1 hàng ngang
+            row_native_layout = QtWidgets.QHBoxLayout()
+            row_native_layout.setSpacing(4)
+            row_native_layout.setContentsMargins(0, 0, 0, 0)
+
+            btn_export = QtWidgets.QPushButton("📤 Export")
+            btn_export.setToolTip("Lệnh Export gốc của 3ds Max (File -> Export)")
+            btn_export.setFixedHeight(26)
+            btn_export.setStyleSheet("""
+                QPushButton {
+                    background-color: #21252b;
+                    color: #e5c07b;
+                    font-weight: bold;
+                    border: 1px solid #e5c07b;
+                    border-radius: 4px;
+                    font-size: 11px;
+                    padding: 2px;
+                }
+                QPushButton:hover {
+                    background-color: #e5c07b;
+                    color: #1e2227;
+                }
+            """)
+            btn_export.clicked.connect(self.on_quick_native_export)
+
+            btn_import = QtWidgets.QPushButton("📥 Import")
+            btn_import.setToolTip("Lệnh Import gốc của 3ds Max (File -> Import)")
+            btn_import.setFixedHeight(26)
+            btn_import.setStyleSheet("""
+                QPushButton {
+                    background-color: #21252b;
+                    color: #d19a66;
+                    font-weight: bold;
+                    border: 1px solid #d19a66;
+                    border-radius: 4px;
+                    font-size: 11px;
+                    padding: 2px;
+                }
+                QPushButton:hover {
+                    background-color: #d19a66;
+                    color: #1e2227;
+                }
+            """)
+            btn_import.clicked.connect(self.on_quick_native_import)
+
+            row_native_layout.addWidget(btn_export)
+            row_native_layout.addWidget(btn_import)
+            layout.addLayout(row_native_layout)
+
             # Quick Action: Prominent Export FBX Button
             btn_fbx = QtWidgets.QPushButton("📦 Xuất File FBX  ")
             btn_fbx.setToolTip("Xuất selection vào D:\\Dropbox\\3DLib\\mesh\\FBX\\{maxfilename}.fbx (Tự động batch nếu chọn Rectangle; Giữ Shift để đổi nơi lưu)")
@@ -1086,6 +1175,18 @@ if QtWidgets:
             
             res = handle_chat_prompt(text)
             self.append_message("🤖 AI", res.get("reply", str(res)))
+
+        def on_quick_native_export(self):
+            self.append_message("👤 Bạn", "📤 [Lệnh 3ds Max] Mở hộp thoại File Export", color="#e5c07b")
+            res = native_max_export()
+            if res.get("error"):
+                self.append_message("🤖 AI", f"❌ {res.get('error')}", color="#e06c75")
+
+        def on_quick_native_import(self):
+            self.append_message("👤 Bạn", "📥 [Lệnh 3ds Max] Mở hộp thoại File Import", color="#d19a66")
+            res = native_max_import()
+            if res.get("error"):
+                self.append_message("🤖 AI", f"❌ {res.get('error')}", color="#e06c75")
 
         def on_quick_export_fbx(self):
             is_shift = False

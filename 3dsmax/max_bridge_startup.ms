@@ -94,11 +94,23 @@ utility AICopilotUtility "AI Copilot"
     group "AI Copilot Studio"
     (
         label lbl_port "Bridge: Port 8096" align:#center
+        button btn_export "📤 Export" width:68 height:26 across:2 tooltip:"Lệnh File -> Export gốc của 3ds Max"
+        button btn_import "📥 Import" width:68 height:26 tooltip:"Lệnh File -> Import gốc của 3ds Max"
         button btn_fbx "📦 Xuất FBX Selection" width:140 height:28 tooltip:"Xuất các đối tượng đang chọn ra file FBX (Tự động batch nếu chọn Rectangle)"
         button btn_fbx_rect "📐 Xuất FBX Rectangles" width:140 height:28 tooltip:"Lọc vật thể lọt trong bbox XY từng Rectangle, đưa về (0,0) xuất FBX"
         button btn_toolbar "🛠️ Hiện Toolbar" width:140 height:24 tooltip:"Ghim thanh công cụ AI Tools lên trên cùng"
         button btn_toggle "Hiện/Ẩn Dock Lề Phải" width:140 height:26 tooltip:"Bật hoặc tắt panel AI Copilot ở lề phải"
         button btn_reload "Nạp Lại Giao Diện" width:140 height:24 tooltip:"Làm mới panel AI Copilot"
+    )
+
+    on btn_export pressed do
+    (
+        max file export
+    )
+
+    on btn_import pressed do
+    (
+        max file import
     )
 
     on btn_fbx pressed do
