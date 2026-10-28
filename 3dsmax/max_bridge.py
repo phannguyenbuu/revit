@@ -969,12 +969,13 @@ if QtWidgets:
             """)
             layout.addWidget(self.chat_display, stretch=1)
 
-            # Native 3ds Max File Actions (Export & Import) Row - Nằm chung 1 hàng ngang
-            row_native_layout = QtWidgets.QHBoxLayout()
-            row_native_layout.setSpacing(4)
-            row_native_layout.setContentsMargins(0, 0, 0, 0)
+            # 4 Nút Thao Tác File & Xuất (Export, Import, Xuất FBX, Rect FBX) - Nằm chung 1 hàng ngang
+            row_export_layout = QtWidgets.QHBoxLayout()
+            row_export_layout.setSpacing(3)
+            row_export_layout.setContentsMargins(0, 0, 0, 0)
 
-            btn_export = QtWidgets.QPushButton("📤 Export")
+            # 1. Native Export Button
+            btn_export = QtWidgets.QPushButton("📤 Export ")
             btn_export.setToolTip("Lệnh Export gốc của 3ds Max (File -> Export)")
             btn_export.setFixedHeight(26)
             btn_export.setStyleSheet("""
@@ -984,8 +985,8 @@ if QtWidgets:
                     font-weight: bold;
                     border: 1px solid #e5c07b;
                     border-radius: 4px;
-                    font-size: 11px;
-                    padding: 2px;
+                    font-size: 10px;
+                    padding: 2px 1px;
                 }
                 QPushButton:hover {
                     background-color: #e5c07b;
@@ -994,7 +995,8 @@ if QtWidgets:
             """)
             btn_export.clicked.connect(self.on_quick_native_export)
 
-            btn_import = QtWidgets.QPushButton("📥 Import")
+            # 2. Native Import Button
+            btn_import = QtWidgets.QPushButton("📥 Import ")
             btn_import.setToolTip("Lệnh Import gốc của 3ds Max (File -> Import)")
             btn_import.setFixedHeight(26)
             btn_import.setStyleSheet("""
@@ -1004,8 +1006,8 @@ if QtWidgets:
                     font-weight: bold;
                     border: 1px solid #d19a66;
                     border-radius: 4px;
-                    font-size: 11px;
-                    padding: 2px;
+                    font-size: 10px;
+                    padding: 2px 1px;
                 }
                 QPushButton:hover {
                     background-color: #d19a66;
@@ -1014,12 +1016,8 @@ if QtWidgets:
             """)
             btn_import.clicked.connect(self.on_quick_native_import)
 
-            row_native_layout.addWidget(btn_export)
-            row_native_layout.addWidget(btn_import)
-            layout.addLayout(row_native_layout)
-
-            # Quick Action: Prominent Export FBX Button
-            btn_fbx = QtWidgets.QPushButton("📦 Xuất File FBX  ")
+            # 3. Export FBX Selection Button
+            btn_fbx = QtWidgets.QPushButton("📦 Xuất FBX ")
             btn_fbx.setToolTip("Xuất selection vào D:\\Dropbox\\3DLib\\mesh\\FBX\\{maxfilename}.fbx (Tự động batch nếu chọn Rectangle; Giữ Shift để đổi nơi lưu)")
             btn_fbx.setFixedHeight(26)
             btn_fbx.setStyleSheet("""
@@ -1029,8 +1027,8 @@ if QtWidgets:
                     font-weight: bold;
                     border: 1px solid #98c379;
                     border-radius: 4px;
-                    font-size: 11px;
-                    padding: 2px;
+                    font-size: 10px;
+                    padding: 2px 1px;
                 }
                 QPushButton:hover {
                     background-color: #98c379;
@@ -1038,9 +1036,9 @@ if QtWidgets:
                 }
             """)
             btn_fbx.clicked.connect(self.on_quick_export_fbx)
-            layout.addWidget(btn_fbx)
 
-            btn_fbx_rect = QtWidgets.QPushButton("📐 Xuất FBX theo Rectangle  ")
+            # 4. Export FBX by Rectangle Button
+            btn_fbx_rect = QtWidgets.QPushButton("📐 Rect FBX ")
             btn_fbx_rect.setToolTip("Lọc vật thể lọt trong bbox XY của từng Rectangle, đưa về gốc (0,0) -> D:\\Dropbox\\3DLib\\mesh\\FBX\\{maxfilename}_{rect}.fbx")
             btn_fbx_rect.setFixedHeight(26)
             btn_fbx_rect.setStyleSheet("""
@@ -1050,8 +1048,8 @@ if QtWidgets:
                     font-weight: bold;
                     border: 1px solid #61afef;
                     border-radius: 4px;
-                    font-size: 11px;
-                    padding: 2px;
+                    font-size: 10px;
+                    padding: 2px 1px;
                 }
                 QPushButton:hover {
                     background-color: #61afef;
@@ -1059,7 +1057,12 @@ if QtWidgets:
                 }
             """)
             btn_fbx_rect.clicked.connect(self.on_quick_export_rect_fbx)
-            layout.addWidget(btn_fbx_rect)
+
+            row_export_layout.addWidget(btn_export)
+            row_export_layout.addWidget(btn_import)
+            row_export_layout.addWidget(btn_fbx)
+            row_export_layout.addWidget(btn_fbx_rect)
+            layout.addLayout(row_export_layout)
 
             # Secondary Quick Actions Row
             row2_layout = QtWidgets.QHBoxLayout()
