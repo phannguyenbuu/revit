@@ -13,6 +13,7 @@ import time
 import queue
 import threading
 import traceback
+import re
 from http.server import HTTPServer, BaseHTTPRequestHandler
 from socketserver import ThreadingMixIn
 
@@ -42,8 +43,12 @@ _CHATBOT_WINDOW = None
 _TASK_QUEUE = queue.Queue()
 _DISPATCHER_TIMER = None
 _DEFAULT_PORT = 8096
+_PROMPT_WORKERS = set()
 
 REPO_DIR = os.path.dirname(os.path.abspath(__file__))
+if REPO_DIR not in sys.path:
+    sys.path.insert(0, REPO_DIR)
+import prompt_normalizer
 PORT_FILE_REPO = os.path.join(REPO_DIR, "bridge_port.txt")
 PORT_FILE_TEMP = os.path.join(os.environ.get("TEMP", os.path.expanduser("~")), "max_bridge_port.txt")
 
@@ -337,6 +342,20 @@ def perform_action(action_name, params):
         res = rt.execute(mxs)
         return {"success": True, "result": str(res)}
 
+    elif action in ("fit_cylinder", "create_fitted_cylinder"):
+        return create_fitted_cylinder(params.get("axis", "Z"), params.get("sides", 32),
+                                      params.get("delete_source", True), params.get("remove_caps", False))
+
+    elif action in ("fit_half_cylinder", "create_fitted_half_cylinder"):
+        return create_fitted_half_cylinder(params.get("axis", "Z"), params.get("sides", 32),
+                                           params.get("delete_source", True), params.get("remove_caps", False))
+
+    elif action in ("box_from_bbox", "fit_box", "create_bbox_box"):
+        return create_bbox_box(params.get("delete_source", True), params.get("remove_caps", False))
+
+    elif action in ("remove_caps", "remove_end_caps"):
+        return remove_selected_caps(params.get("axis"), params.get("caps", "both"))
+
     elif action == "export_fbx":
         out_path = params.get("path")
         return export_selection_to_fbx(out_path)
@@ -358,6 +377,235 @@ def perform_action(action_name, params):
     return {"error": f"Unknown action: {action_name}"}
 
 DEFAULT_FBX_DIR = r"D:\Dropbox\3DLib\mesh\FBX"
+
+def create_fitted_cylinder(axis="Z", sides=32, delete_source=True, remove_caps=False):
+    """Replace one selected mesh with a world-axis cylinder; one undo restores it."""
+    return create_fitted_primitive("cylinder", axis, sides, delete_source, remove_caps)
+
+
+def create_fitted_half_cylinder(axis="Z", sides=32, delete_source=True, remove_caps=False):
+    """Fit a half cylinder whose flat side is at the lower transverse bbox edge."""
+    return create_fitted_primitive("half_cylinder", axis, sides, delete_source, remove_caps)
+
+
+def create_bbox_box(delete_source=True, remove_caps=False):
+    """Replace one selected node with its world-aligned bounding box."""
+    return create_fitted_primitive("box", delete_source=delete_source, remove_caps=remove_caps)
+
+
+def create_fitted_primitive(shape, axis="Z", sides=32, delete_source=True, remove_caps=False):
+    """Create before deleting the source, preserving material and undo as one step."""
+    if shape not in ("box", "cylinder", "half_cylinder"):
+        return {"success": False, "error": "Loại khối không hợp lệ."}
+    axis = str(axis).strip().upper()
+    if axis not in ("X", "Y", "Z"):
+        return {"success": False, "error": "Trục phải là X, Y hoặc Z."}
+    try:
+        sides = int(sides)
+        if not 12 <= sides <= 512:
+            raise ValueError()
+    except (ValueError, TypeError, OverflowError):
+        return {"success": False, "error": "Số cạnh phải từ 12 đến 512."}
+    if not isinstance(delete_source, bool):
+        return {"success": False, "error": "delete_source phải là true hoặc false."}
+    try:
+        caps_mode = _caps_mode(remove_caps)
+    except ValueError as ex:
+        return {"success": False, "error": str(ex)}
+    if rt is None:
+        return {"success": False, "error": "pymxs not loaded"}
+    # Right-handed frame: local cylinder X/Y are u/v, local Z is the requested axis.
+    # Half-cylinder curvature points +Z for axis X, +X for Y, and +Y for Z.
+    index, u, v, frame = {
+        "X": (1, 2, 3, "matrix3 [0,1,0] [0,0,1] [1,0,0] base"),
+        "Y": (2, 3, 1, "matrix3 [0,0,1] [1,0,0] [0,1,0] base"),
+        "Z": (3, 1, 2, "matrix3 [1,0,0] [0,1,0] [0,0,1] base"),
+    }[axis]
+    if shape == "half_cylinder" and sides % 2:
+        sides += 1
+    geometry = """
+        local h = size[3]
+        local radiusFit = 0.0
+        local base = [center.x, center.y, bb[1].z]
+    """ if shape == "box" else """
+        local h = size[%(index)d]
+        %(half_center)s
+        local msh = snapshotAsMesh src
+        local radiusFit = 0.0
+        for i=1 to msh.numverts do
+        (
+            -- snapshotAsMesh returns vertices in world coordinates.
+            local p = getVert msh i
+            local d = sqrt ((p[%(u)d]-center[%(u)d])^2 + (p[%(v)d]-center[%(v)d])^2)
+            radiusFit = amax radiusFit d
+        )
+        if radiusFit <= 0 then throw "Khối không có kích thước mesh hợp lệ."
+        -- Circumscribe the finite-sided polygon so its faces enclose the mesh.
+        radiusFit = radiusFit / (cos (180.0 / %(sides)d))
+        local base = copy center
+        base[%(index)d] = bb[1][%(index)d]
+    """ % dict(index=index, u=u, v=v, sides=sides,
+               half_center=("center[%d] = bb[1][%d]" % (v, v)
+                            if shape == "half_cylinder" else ""))
+    creation = ("c = box width:size.x length:size.y height:size.z pos:base"
+                if shape == "box" else
+                "c = cylinder radius:radiusFit height:h sides:%d heightsegs:1 capsegs:1 %s\n"
+                "                c.transform = (%s)" %
+                (sides, "slice:on sliceFrom:180 sliceTo:360" if shape == "half_cylinder" else "", frame))
+    code = """
+    (
+        if selection.count != 1 then throw "Hãy chọn đúng một khối để tạo khối fit."
+        local src = selection[1]
+        local sourceName = src.name
+        local bb = nodeGetBoundingBox src (matrix3 1)
+        local size = bb[2] - bb[1]
+        if size.x <= 0 or size.y <= 0 or size.z <= 0 then throw "Khối phải có kích thước dương trên cả ba trục."
+        local center = (bb[1] + bb[2]) / 2.0
+        %(geometry)s
+        local c
+        local removedCaps = 0
+        undo "Replace with fitted %(shape)s %(axis)s" on
+        (
+            try
+            (
+                %(creation)s
+                c.name = uniqueName (sourceName + "_%(shape)sFit_%(axis)s")
+                c.material = src.material
+                c.wirecolor = src.wirecolor
+                convertToPoly c
+                setUserProp c "AI_FitAxis" "%(axis)s"
+                setUserProp c "AI_FitShape" "%(shape)s"
+                %(cap_removal)s
+                select c
+                if %(delete_source)s do delete src
+            )
+            catch
+            (
+                if isValidNode c do delete c
+                if isValidNode src do select src
+                throw()
+            )
+            redrawViews()
+        )
+        #(c.name, sourceName, radiusFit, h, size.x, size.y, size.z, removedCaps)
+    )
+    """ % dict(geometry=geometry, creation=creation, shape=shape, axis=axis,
+               delete_source="true" if delete_source else "false",
+               cap_removal=(_cap_faces_maxscript("c", 3, True, caps_mode) +
+                            '\nif capFaces.numberSet == 0 then throw "Không tìm thấy mặt nắp."\n'
+                            'removedCaps = capFaces.numberSet\npolyop.deleteFaces c capFaces delIsoVerts:true'
+                            if caps_mode != "none" else ""))
+    try:
+        result = rt.execute(code)
+        return {"success": True, "name": str(result[0]), "source": str(result[1]),
+                "shape": shape, "axis": axis, "radius": float(result[2]), "height": float(result[3]),
+                "source_bbox_size": [float(result[4]), float(result[5]), float(result[6])],
+                "sides": sides, "deleted_source": delete_source, "class": "Editable_Poly",
+                "removed_cap_faces": int(result[7]), "caps_removed": caps_mode}
+    except Exception as ex:
+        return {"success": False, "error": str(ex)}
+
+
+def _caps_mode(value):
+    if value is True:
+        return "both"
+    if value is False:
+        return "none"
+    if isinstance(value, str) and value in ("none", "top", "bottom", "both"):
+        return value
+    raise ValueError("remove_caps phải là true, false, top, bottom hoặc both.")
+
+
+def _cap_faces_maxscript(node, axis_index, local_space=False, mode="both"):
+    """Find only polygons entirely on the two extreme planes, never side faces."""
+    point = "(polyop.getVert %s.baseObject vertexId)" % node
+    if not local_space:
+        point += " * %s.objectTransform" % node
+    return """
+        local capPoints = #()
+        for vertexId=1 to (polyop.getNumVerts %(node)s) do append capPoints (%(point)s)
+        local capFaces = #{}
+        if capPoints.count > 0 do
+        (
+            local capMin = capPoints[1][%(axis)d]
+            local capMax = capMin
+            for p in capPoints do
+            (
+                capMin = amin capMin p[%(axis)d]
+                capMax = amax capMax p[%(axis)d]
+            )
+            local capTolerance = amax 0.000001 ((capMax-capMin) * 0.000001)
+            if (capMax-capMin) > (2*capTolerance) do
+            (
+                for faceId=1 to (polyop.getNumFaces %(node)s) do
+                (
+                    local atBottom = true
+                    local atTop = true
+                    local faceVerts = polyop.getFaceVerts %(node)s faceId
+                    for vertexId in faceVerts do
+                    (
+                        local coord = capPoints[vertexId][%(axis)d]
+                        if abs(coord-capMin) > capTolerance do atBottom = false
+                        if abs(coord-capMax) > capTolerance do atTop = false
+                    )
+                    if faceVerts.count >= 3 and (%(cap_condition)s) do capFaces[faceId] = true
+                )
+            )
+        )
+    """ % dict(node=node, point=point, axis=axis_index,
+               cap_condition={"top": "atTop", "bottom": "atBottom", "both": "atBottom or atTop", "none": "false"}[mode])
+
+
+def remove_selected_caps(axis=None, caps="both"):
+    """Remove end polygons from one selection; generated shapes use local Z."""
+    if rt is None:
+        return {"success": False, "error": "pymxs not loaded"}
+    explicit_axis = axis is not None
+    axis = str(axis).strip().upper() if explicit_axis else "Z"
+    if axis not in ("X", "Y", "Z"):
+        return {"success": False, "error": "Trục phải là X, Y hoặc Z."}
+    try:
+        caps = _caps_mode(caps)
+    except ValueError as ex:
+        return {"success": False, "error": str(ex)}
+    code = """
+    (
+        if selection.count != 1 then throw "Hãy chọn đúng một khối để bỏ nắp."
+        local c = selection[1]
+        if not (canConvertTo c Editable_Poly) then throw "Khối không thể chuyển sang Editable Poly."
+        local useLocal = %(use_local)s and ((getUserProp c "AI_FitShape") != undefined or (classof c == Cylinder) or (classof c == Box))
+        local reportedAxis = "%(axis)s"
+        if useLocal and (getUserProp c "AI_FitAxis") != undefined do reportedAxis = getUserProp c "AI_FitAxis"
+        local removedCaps = 0
+        undo "Remove top and bottom caps" on
+        (
+            convertToPoly c
+            if useLocal then
+            (
+                %(local_faces)s
+                removedCaps = capFaces.numberSet
+                if removedCaps > 0 do polyop.deleteFaces c capFaces delIsoVerts:true
+            )
+            else
+            (
+                %(world_faces)s
+                removedCaps = capFaces.numberSet
+                if removedCaps > 0 do polyop.deleteFaces c capFaces delIsoVerts:true
+            )
+            select c
+            redrawViews()
+        )
+        #(c.name, removedCaps, reportedAxis)
+    )
+    """ % dict(axis=axis, use_local="false" if explicit_axis else "true",
+               local_faces=_cap_faces_maxscript("c", 3, True, caps),
+               world_faces=_cap_faces_maxscript("c", {"X": 1, "Y": 2, "Z": 3}[axis], mode=caps))
+    try:
+        result = rt.execute(code)
+        return {"success": True, "name": str(result[0]), "removed_cap_faces": int(result[1]),
+                "axis": str(result[2]), "class": "Editable_Poly", "caps_removed": caps}
+    except Exception as ex:
+        return {"success": False, "error": str(ex)}
 
 def native_max_export():
     """Triggers native 3ds Max File Export command dialog."""
@@ -799,8 +1047,10 @@ class MaxBridgeRequestHandler(BaseHTTPRequestHandler):
 
         elif path == "/api/chat":
             prompt = body.get("prompt", "")
-            # Process prompt through chatbot logic
-            res = run_on_main_thread(handle_chat_prompt, prompt)
+            # Normalize on the HTTP worker; only scene operations enter Max's main thread.
+            selection_handles = run_on_main_thread(get_selection_handles)
+            normalized = prompt_normalizer.normalize_prompt(prompt)
+            res = run_on_main_thread(handle_chat_prompt, prompt, normalized, selection_handles)
             self._send_json(res)
 
         elif path == "/mcp":
@@ -837,9 +1087,44 @@ class MaxBridgeRequestHandler(BaseHTTPRequestHandler):
         else:
             self._send_json({"error": f"Unknown endpoint: {self.path}"}, 404)
 
-def handle_chat_prompt(prompt):
+def get_selection_handles():
+    return tuple(int(rt.getHandleByAnim(node)) for node in rt.selection) if rt else ()
+
+
+def handle_chat_prompt(prompt, normalized=None, expected_selection=None):
     """Interprets high-level chat prompts and executes actions or returns guidance."""
     p_lower = prompt.lower()
+    normalized = normalized if normalized is not None else prompt_normalizer.parse_prompt(prompt)
+    if normalized.get("error"):
+        return {"reply": normalized["error"], "data": {}}
+    command = normalized.get("command")
+    if command:
+        if expected_selection is not None and get_selection_handles() != expected_selection:
+            return {"reply": "Selection đã thay đổi trong lúc chuẩn hoá; hãy chọn khối và gửi lại lệnh.", "data": {}}
+        # Only dispatch validated structured actions; model output is never evaluated as code.
+        if command.get("action") not in ("fit_cylinder", "fit_half_cylinder", "box_from_bbox", "remove_caps"):
+            return {"reply": "Lệnh chuẩn hoá không hợp lệ.", "data": {}}
+        params = command["params"]
+        res = perform_action(command["action"], params)
+        caps_label = {"top": "nắp trên", "bottom": "nắp dưới", "both": "nắp trên và dưới", "none": ""}
+        normalizer_info = {"source": normalized.get("source"), "command": command}
+        if not res.get("success"):
+            return {"reply": f"⚠️ {res.get('error')}", "data": res, "normalization": normalizer_info}
+        if command["action"] == "remove_caps":
+            reply = (f"✅ Đã xoá {res['removed_cap_faces']} polygon {caps_label[res['caps_removed']]} của {res['name']}. Ctrl+Z để hoàn tác."
+                     if res['removed_cap_faces'] else "Không tìm thấy mặt nắp cần xoá; các mặt bên được giữ nguyên.")
+            return {"reply": reply, "data": res, "normalization": normalizer_info}
+        axis = params.get("axis", "Z")
+        details = ("kích thước bbox " + " × ".join(f"{v:.4f}" for v in res['source_bbox_size'])
+                   if res.get("shape") == "box" else
+                   f"trục {axis}, bán kính {res.get('radius', 0):.4f}, chiều cao {res.get('height', 0):.4f}")
+        source_msg = "Đã xoá khối gốc." if params.get("delete_source", True) else "Đã giữ khối gốc."
+        caps_msg = f" Đã bỏ {caps_label[res['caps_removed']]}." if res.get("removed_cap_faces") else ""
+        reply = (f"✅ Đã tạo {res['name']} (Editable Poly): {details} (đơn vị scene). {source_msg}{caps_msg} Ctrl+Z để hoàn tác."
+                 if res.get("success") else f"⚠️ {res.get('error')}")
+        if normalized.get("warning"):
+            reply += "\nℹ️ " + normalized["warning"]
+        return {"reply": reply, "data": res, "normalization": normalizer_info}
     
     # 0. Open FBX Folder
     if any(k in p_lower for k in ["mở thư mục", "open folder", "open fbx", "mở fbx"]):
@@ -941,6 +1226,79 @@ def handle_chat_prompt(prompt):
 # ==============================================================================
 
 if QtWidgets:
+    class LocalQwenStartWorker(QtCore.QThread):
+        ready = QtCore.Signal(object)
+
+        def run(self):
+            self.ready.emit(prompt_normalizer.start_local_qwen())
+
+
+    class LocalQwenStatusWorker(QtCore.QThread):
+        ready = QtCore.Signal(str)
+
+        def run(self):
+            self.ready.emit(prompt_normalizer.local_status())
+
+
+    class PromptNormalizationWorker(QtCore.QThread):
+        ready = QtCore.Signal(str, object)
+
+        def __init__(self, prompt):
+            super().__init__()
+            self.prompt = prompt
+
+        def run(self):
+            try:
+                result = prompt_normalizer.normalize_prompt(self.prompt)
+            except Exception as ex:
+                result = {"command": None, "error": "Không thể xử lý lệnh: " + str(ex)}
+            self.ready.emit(self.prompt, result)
+
+
+    class PromptHistory(QtCore.QObject):
+        """Recall submitted prompts without executing them or losing the draft."""
+        def __init__(self, line_edit):
+            super().__init__(line_edit)
+            self.line_edit = line_edit
+            self.commands = []
+            self.position = 0
+            self.draft = ""
+            line_edit.installEventFilter(self)
+
+        def remember(self, text):
+            text = text.strip()
+            if text and (not self.commands or self.commands[-1] != text):
+                self.commands.append(text)
+                self.commands = self.commands[-200:]
+            self.position = len(self.commands)
+            self.draft = ""
+
+        def eventFilter(self, watched, event):
+            if (watched is self.line_edit and
+                    event.type() in (QtCore.QEvent.KeyPress, QtCore.QEvent.ShortcutOverride) and
+                    event.modifiers() == QtCore.Qt.NoModifier and
+                    event.key() in (QtCore.Qt.Key_Up, QtCore.Qt.Key_Down)):
+                event.accept()
+                if event.type() == QtCore.QEvent.ShortcutOverride:
+                    return True
+                if not self.commands:
+                    return True
+                if event.key() == QtCore.Qt.Key_Up:
+                    if self.position == len(self.commands):
+                        self.draft = self.line_edit.text()
+                    self.position = max(0, self.position - 1)
+                else:
+                    if self.position == len(self.commands):
+                        return True
+                    self.position = min(len(self.commands), self.position + 1)
+                text = (self.draft if self.position == len(self.commands)
+                        else self.commands[self.position])
+                self.line_edit.setText(text)
+                self.line_edit.setCursorPosition(len(text))
+                return True
+            return super().eventFilter(watched, event)
+
+
     class MaxChatbotPanel(QtWidgets.QWidget):
         """Inner UI widget for AI Copilot chat, logs, and prompt execution."""
         def __init__(self, parent=None, port=8096):
@@ -1066,6 +1424,7 @@ if QtWidgets:
 
             # Secondary Quick Actions Row
             row2_layout = QtWidgets.QHBoxLayout()
+            self.quick_actions_layout = row2_layout
             row2_layout.setSpacing(4)
             row2_layout.setContentsMargins(0, 0, 0, 0)
 
@@ -1116,6 +1475,8 @@ if QtWidgets:
             input_layout.setSpacing(4)
 
             self.prompt_input = QtWidgets.QLineEdit()
+            self.prompt_history = PromptHistory(self.prompt_input)
+            self.prompt_input.setToolTip("↑ Lệnh trước · ↓ Lệnh sau · Enter để chạy")
             self.prompt_input.setPlaceholderText("Nhập lệnh MAXScript hoặc prompt...")
             self.prompt_input.setFixedHeight(28)
             self.prompt_input.setStyleSheet("""
@@ -1153,6 +1514,9 @@ if QtWidgets:
             input_layout.addWidget(self.send_btn)
 
             layout.addLayout(input_layout)
+            self._ensure_prompt_status()
+            self._ensure_qwen_status()
+            self._ensure_qwen_button()
 
             # Initial Welcome Message
             self.append_message("🤖 AI", f"Bridge online (Port {self.port}) — Đã gắn vào lề phải (Right Panel)")
@@ -1169,15 +1533,163 @@ if QtWidgets:
             sb = self.chat_display.verticalScrollBar()
             sb.setValue(sb.maximum())
 
+        def _ensure_qwen_button(self):
+            if not hasattr(self, 'qwen_start_btn'):
+                self.qwen_start_btn = QtWidgets.QPushButton('▶ Chạy Qwen')
+                self.qwen_start_btn.setFixedHeight(24)
+                self.qwen_start_btn.setToolTip('Khởi động Ollama và nạp Qwen3.5 4B trên máy này')
+                self.qwen_start_btn.setStyleSheet('QPushButton {color: #98c379; background: #282c34; border: 1px solid #3e4451; border-radius: 4px; font-size: 10px; padding: 2px;}')
+                self.qwen_start_btn.clicked.connect(self.on_start_qwen)
+            if not hasattr(self, 'quick_actions_layout'):
+                # Locate the existing row when updating a live panel.
+                for i in range(self.layout().count()):
+                    row = self.layout().itemAt(i).layout()
+                    if row and any(row.itemAt(j).widget() and isinstance(row.itemAt(j).widget(), QtWidgets.QPushButton)
+                                   and 'Toolbar' in row.itemAt(j).widget().text() for j in range(row.count())):
+                        self.quick_actions_layout = row
+                        break
+            self.layout().removeWidget(self.qwen_start_btn)
+            if self.quick_actions_layout.indexOf(self.qwen_start_btn) < 0:
+                self.quick_actions_layout.addWidget(self.qwen_start_btn)
+            for i in range(self.quick_actions_layout.count()):
+                self.quick_actions_layout.setStretch(i, 1)
+
+        def on_start_qwen(self):
+            if getattr(self, '_qwen_starting', False):
+                return
+            self._qwen_starting = True
+            self.qwen_start_btn.setEnabled(False)
+            self.qwen_start_btn.setText('⏳ Đang nạp Qwen...')
+            worker = LocalQwenStartWorker()
+            _PROMPT_WORKERS.add(worker)
+            worker.ready.connect(self.on_qwen_started)
+            worker.finished.connect(lambda: _PROMPT_WORKERS.discard(worker))
+            worker.finished.connect(worker.deleteLater)
+            worker.start()
+
+        def on_qwen_started(self, result):
+            self._qwen_starting = False
+            self.qwen_start_btn.setEnabled(True)
+            self.qwen_start_btn.setText('▶ Chạy Qwen')
+            self.append_message('🤖 AI', ('✅ ' if result.get('success') else '⚠️ ') + result['message'])
+            self._refresh_qwen_status()
+
+        def _ensure_qwen_status(self):
+            if hasattr(self, '_qwen_status_timer'):
+                return
+            self._qwen_placeholder = '⏳ Qwen local: đang kiểm tra...'
+            self.prompt_input.setPlaceholderText(self._qwen_placeholder)
+            self._qwen_status_timer = QtCore.QTimer(self)
+            self._qwen_status_timer.setInterval(5000)
+            self._qwen_status_timer.timeout.connect(self._refresh_qwen_status)
+            self._qwen_status_timer.start()
+            self._refresh_qwen_status()
+
+        def _refresh_qwen_status(self):
+            worker = getattr(self, '_qwen_status_worker', None)
+            if worker is not None:
+                return
+            worker = LocalQwenStatusWorker()
+            self._qwen_status_worker = worker
+            _PROMPT_WORKERS.add(worker)
+            worker.ready.connect(self._receive_qwen_status)
+            worker.finished.connect(lambda: _PROMPT_WORKERS.discard(worker))
+            worker.finished.connect(worker.deleteLater)
+            worker.start()
+
+        def _receive_qwen_status(self, text):
+            self._qwen_placeholder = text
+            self._qwen_status_worker = None
+            if not getattr(self, '_prompt_pending', False):
+                self.prompt_input.setPlaceholderText(text)
+
+        def _ensure_prompt_status(self):
+            if hasattr(self, '_prompt_status_widget'):
+                return
+            self._prompt_status_widget = QtWidgets.QWidget(self)
+            status_layout = QtWidgets.QVBoxLayout(self._prompt_status_widget)
+            status_layout.setContentsMargins(0, 0, 0, 0)
+            status_layout.setSpacing(2)
+            self._prompt_status_label = QtWidgets.QLabel()
+            self._prompt_status_label.setWordWrap(True)
+            self._prompt_status_label.setStyleSheet('color: #e5c07b; font-size: 11px;')
+            status_layout.addWidget(self._prompt_status_label)
+            progress = QtWidgets.QProgressBar()
+            progress.setRange(0, 0)
+            progress.setTextVisible(False)
+            progress.setFixedHeight(4)
+            progress.setStyleSheet('QProgressBar {border: 0; background: #282c34;} '
+                                  'QProgressBar::chunk {background: #61afef;}')
+            status_layout.addWidget(progress)
+            self.layout().insertWidget(self.layout().count() - 1, self._prompt_status_widget)
+            self._prompt_status_widget.hide()
+            self._prompt_status_timer = QtCore.QTimer(self)
+            self._prompt_status_timer.setInterval(250)
+            self._prompt_status_timer.timeout.connect(self._tick_prompt_status)
+            self._prompt_status_stage = None
+
+        def _tick_prompt_status(self):
+            if not self._prompt_status_stage:
+                return
+            elapsed = int(time.monotonic() - self._prompt_status_started)
+            phase = ('Đang chuẩn hoá lệnh' if self._prompt_status_stage == 'normalizing'
+                     else 'Đang thực hiện trong Max')
+            dots = '.' * (1 + int((time.monotonic() - self._prompt_status_started) * 2) % 3)
+            slow = ' · Đang chờ AI' if elapsed >= 8 and self._prompt_status_stage == 'normalizing' else ''
+            self._prompt_status_label.setText(f'⏳ {phase}{dots} {elapsed}s{slow}')
+
+        def _set_prompt_status(self, stage):
+            self._ensure_prompt_status()
+            if stage:
+                if not self._prompt_status_stage:
+                    self._prompt_status_started = time.monotonic()
+                self._prompt_status_stage = stage
+                self.send_btn.setEnabled(False)
+                self.send_btn.setText('Chờ')
+                self.prompt_input.setPlaceholderText('Đang xử lý… Có thể soạn lệnh tiếp theo')
+                self._tick_prompt_status()
+                self._prompt_status_widget.show()
+                self._prompt_status_timer.start()
+                self._prompt_status_widget.repaint()
+            else:
+                self._prompt_status_stage = None
+                self._prompt_status_timer.stop()
+                self._prompt_status_widget.hide()
+                self.send_btn.setEnabled(True)
+                self.send_btn.setText('Gửi')
+                self.prompt_input.setPlaceholderText(getattr(self, '_qwen_placeholder', '⏳ Qwen local: đang kiểm tra...'))
+                self._refresh_qwen_status()
+
         def on_send_prompt(self):
+            if getattr(self, "_prompt_pending", False):
+                return
             text = self.prompt_input.text().strip()
             if not text:
                 return
+            self.prompt_history.remember(text)
             self.prompt_input.clear()
+            self.prompt_input.setFocus()
             self.append_message("👤 Bạn", text, color="#e5c07b")
-            
-            res = handle_chat_prompt(text)
-            self.append_message("🤖 AI", res.get("reply", str(res)))
+            self._prompt_pending = True
+            self._prompt_selection = get_selection_handles()
+            self._set_prompt_status('normalizing')
+            worker = PromptNormalizationWorker(text)
+            _PROMPT_WORKERS.add(worker)
+            worker.ready.connect(self.on_prompt_normalized)
+            worker.finished.connect(lambda: _PROMPT_WORKERS.discard(worker))
+            worker.finished.connect(worker.deleteLater)
+            worker.start()
+
+        def on_prompt_normalized(self, text, normalized):
+            self._set_prompt_status('executing')
+            try:
+                res = handle_chat_prompt(text, normalized, self._prompt_selection)
+                self.append_message("🤖 AI", res.get("reply", str(res)))
+            except Exception as ex:
+                self.append_message("🤖 AI", "⚠️ Không thể thực hiện lệnh: " + str(ex))
+            finally:
+                self._prompt_pending = False
+                self._set_prompt_status(None)
 
         def on_quick_native_export(self):
             self.append_message("👤 Bạn", "📤 [Lệnh 3ds Max] Mở hộp thoại File Export", color="#e5c07b")
